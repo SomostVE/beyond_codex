@@ -1,5 +1,6 @@
 {
   "name": "beyond-codex",
+  "description": "Structured Shadowverse: Worlds Beyond card data for Beyond Decks",
   "private": true,
   "type": "module",
   "scripts": {
