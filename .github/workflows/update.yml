@@ -48,14 +48,14 @@ jobs:
 
       - name: Commit snapshot changes
         run: |
-          if git diff --quiet -- api/v1; then
+          git add -A api/v1
+          if git diff --cached --quiet -- api/v1; then
             echo "Beyond Codex is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add api/v1
           git commit -m "chore: update Beyond Codex card data"
           TARGET_BRANCH="${GITHUB_HEAD_REF:-main}"
           git push origin "HEAD:${TARGET_BRANCH}"
