@@ -28,7 +28,7 @@ Raw GitHub base URL:
 
 GitHub Actions refreshes the dataset every Monday at 04:20 UTC. A manual `workflow_dispatch` is also available for releases or emergency refreshes.
 
-The first Codex refresh seeds its comparison baseline from the last embedded Beyond Decks snapshot, so migration does not discard the existing card database history.
+The first Codex refresh seeds its comparison baseline from the last embedded Beyond Decks snapshot, so migration does not discard the existing card database history. See `MIGRATION.md` for the initialization boundary.
 
 ## Ownership boundary
 
