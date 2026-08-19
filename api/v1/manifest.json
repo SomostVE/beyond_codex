@@ -1,0 +1,26 @@
+{
+  "project": "Beyond Codex",
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-19T14:01:38.000Z",
+  "source": "https://shadowverse-wb.com/web/CardList/cardList",
+  "counts": {
+    "cards": 826,
+    "deckSelectable": 735,
+    "tokensOrGenerated": 91
+  },
+  "endpoints": {
+    "cards": "cards.json",
+    "metadata": "metadata.json",
+    "changelog": "changelog.json",
+    "classes": {
+      "Neutral": "classes/neutral.json",
+      "Forestcraft": "classes/forestcraft.json",
+      "Swordcraft": "classes/swordcraft.json",
+      "Runecraft": "classes/runecraft.json",
+      "Dragoncraft": "classes/dragoncraft.json",
+      "Abysscraft": "classes/abysscraft.json",
+      "Havencraft": "classes/havencraft.json",
+      "Portalcraft": "classes/portalcraft.json"
+    }
+  }
+}

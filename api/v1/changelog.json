@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-19T14:01:38.000Z",
+  "previousGeneratedAt": "2026-08-17T05:00:58.090Z",
+  "baselineAvailable": true,
+  "counts": {
+    "added": 0,
+    "modified": 7,
+    "removed": 0
+  },
+  "added": [],
+  "modified": [
+    {
+      "id": 10404110,
+      "name": "Sandalphon, Primarch Successor",
+      "class": "Neutral",
+      "set": "Skybound Dragons",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Fanfare",
+            "Invoke",
+            "Super Skybound Art",
+            "d"
+          ],
+          "after": [
+            "d",
+            "Fanfare",
+            "Invoke",
+            "Super Skybound Art"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10213310,
+      "name": "Garden's Allure",
+      "class": "Forestcraft",
+      "set": "Infinity Evolved",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Fuse",
+            "d"
+          ],
+          "after": [
+            "d",
+            "Fuse"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10624120,
+      "name": "Yidmetra, Eld Sword",
+      "class": "Swordcraft",
+      "set": "Apocalypse Pact",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Depths of the Eld Sword",
+            "Enhance",
+            "Evolve",
+            "Fanfare",
+            "d"
+          ],
+          "after": [
+            "d",
+            "Depths of the Eld Sword",
+            "Enhance",
+            "Evolve",
+            "Fanfare"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10323310,
+      "name": "Returning Slash",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Fuse",
+            "Gilded Blade",
+            "d"
+          ],
+          "after": [
+            "d",
+            "Fuse",
+            "Gilded Blade"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10324110,
+      "name": "Sinciro, Heir to Usurpation",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Fanfare",
+            "Fuse",
+            "Super-Evolve",
+            "d"
+          ],
+          "after": [
+            "d",
+            "Fanfare",
+            "Fuse",
+            "Super-Evolve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10354110,
+      "name": "Sham-Nacha, Heir to Entwining",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Fanfare",
+            "Mode",
+            "Super-Evolve",
+            "s"
+          ],
+          "after": [
+            "Fanfare",
+            "Mode",
+            "s",
+            "Super-Evolve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90073110,
+      "name": "Ominous Artifact α",
+      "class": "Portalcraft",
+      "set": "90000",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Fuse",
+            "Masterwork Artifact Ω",
+            "Ominous Artifact β",
+            "Ominous Artifact γ",
+            "d"
+          ],
+          "after": [
+            "d",
+            "Fuse",
+            "Masterwork Artifact Ω",
+            "Ominous Artifact β",
+            "Ominous Artifact γ"
+          ]
+        }
+      ]
+    }
+  ],
+  "removed": []
+}
