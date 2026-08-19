@@ -1,0 +1,9 @@
+{
+  "name": "beyond-codex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-cards.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}

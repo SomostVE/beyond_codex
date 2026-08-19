@@ -1,0 +1,51 @@
+name: Update Beyond Codex
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 4 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "package.json"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: beyond-codex-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Refresh official card data
+        run: npm run update
+
+      - name: Validate API snapshot
+        run: npm run validate
+
+      - name: Commit snapshot changes
+        run: |
+          if git diff --quiet -- api/v1; then
+            echo "Beyond Codex is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/v1
+          git commit -m "chore: update Beyond Codex card data"
+          git push
