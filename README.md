@@ -38,7 +38,7 @@ Keyword extraction also normalizes fragmented official markup such as `Invoke` +
 
 Pull requests run acquisition and validation but never commit generated API files. Snapshot commits are only produced by trusted branch runs such as `main`, the weekly schedule or a manual dispatch.
 
-The first Codex refresh seeds its comparison baseline from the last embedded Beyond Decks snapshot, so migration does not discard the existing card database history. See `MIGRATION.md` for the initialization boundary.
+The initial migration from Beyond Decks is complete. Current and future refreshes use the locally versioned Beyond Codex snapshot as their comparison baseline. If Codex is ever initialized without an existing snapshot, its first refresh is accepted without a comparative changelog and becomes the baseline for subsequent updates. `MIGRATION.md` is retained only as historical migration documentation.
 
 ## Ownership boundary
 
