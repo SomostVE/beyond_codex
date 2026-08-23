@@ -794,7 +794,7 @@
     ],
     "keywords": [
       "Fanfare",
-      "Modes",
+      "Mode",
       "Super-Evolve"
     ],
     "text": "Fanfare: Reduce your faith's value by 10 to give it \"Increase the number of Modes you can select by 1.\"\n\nSuper-Evolve: Select an enemy follower on the field, destroy it, and add a copy of it to your hand.",
@@ -827,7 +827,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10451110,
@@ -2083,7 +2083,7 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "Modes"
+      "Mode"
     ],
     "text": "Select 2 Modes to activate.\n1. Recover 1 play point.\n2. Draw a follower.\n3. Draw a 3-cost spell.\n4. Deal 4 damage to a random enemy follower.",
     "rawSkillText": "Select 2 <b><color=Keyword>Mode</color><color=Keyword>s</color></b> to activate.\n<ridx=0>1. Recover 1 play point.</ridx>\n<ridx=1>2. Draw a follower.</ridx>\n<ridx=2>3. Draw a 3-cost spell.</ridx>\n<ridx=3>4. Deal 4 damage to a random enemy follower.</ridx>",
@@ -2099,7 +2099,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10651310,
@@ -2217,7 +2217,7 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "Modes"
+      "Mode"
     ],
     "text": "Select 2 Modes to activate.\n1. Deal 1 damage to the enemy leader.\n2. Restore 2 defense to your leader.\n3. Deal 3 damage to a random enemy follower.\n4. Gain 4 shadows.",
     "rawSkillText": "Select 2 <b><color=Keyword>Mode</color><color=Keyword>s</color></b> to activate.\n<ridx=0>1. Deal 1 damage to the enemy leader.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>\n<ridx=2>3. Deal 3 damage to a random enemy follower.</ridx>\n<ridx=3>4. Gain 4 shadows.</ridx>",
@@ -2233,7 +2233,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10152210,

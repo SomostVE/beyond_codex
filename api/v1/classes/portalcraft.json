@@ -3755,7 +3755,6 @@
     ],
     "keywords": [
       "Fuse",
-      "Fused",
       "Masterwork Artifact Ω",
       "Ominous Artifact β",
       "Ominous Artifact γ"
@@ -3790,7 +3789,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90073120,
