@@ -14,7 +14,6 @@ const MANIFEST_PATH = path.join(API_DIR, "manifest.json");
 
 const SOURCE_API = "https://shadowverse-wb.com/web/CardList/cardList";
 const IMAGE_BASE = "https://shadowverse-wb.com/uploads/card_image/eng/card/";
-const LEGACY_BASE = "https://raw.githubusercontent.com/SomostVE/beyond_decks/main/data/official/";
 const SCHEMA_VERSION = 1;
 const MIN_CARD_COUNT = 100;
 const MAX_TOTAL_DROP_RATIO = 0.05;
@@ -163,19 +162,11 @@ async function loadPreviousSnapshot() {
     return { cards: localCards, metadata: localMeta ?? {} };
   }
 
-  console.log("No Codex baseline yet; importing the last embedded Beyond Decks snapshot...");
-  try {
-    const [cards, metadata] = await Promise.all([
-      fetchJson(`${LEGACY_BASE}cards.json`),
-      fetchJson(`${LEGACY_BASE}metadata.json`).catch(() => ({}))
-    ]);
-    if (!Array.isArray(cards) || !cards.length) throw new Error("Legacy cards.json was empty");
-    console.log(`Imported legacy baseline: ${cards.length} cards`);
-    return { cards, metadata };
-  } catch (error) {
-    console.warn(`Legacy baseline unavailable: ${error.message}`);
-    return { cards: [], metadata: {} };
-  }
+  // Migration from Beyond Decks is complete. A genuinely new Codex repository can
+  // perform its first refresh without a comparison baseline; subsequent refreshes
+  // use the locally versioned Codex snapshot exclusively.
+  console.warn("No Beyond Codex baseline found; first refresh will not produce a comparative changelog.");
+  return { cards: [], metadata: {} };
 }
 
 function stable(value) {
