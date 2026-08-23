@@ -34,7 +34,7 @@ GitHub Actions refreshes the dataset every Monday at 04:20 UTC. A manual `workfl
 
 Every refresh is normalized and validated before publication. The updater rejects suspiciously incomplete snapshots, including abnormal total-card shrinkage, large per-class drops and excessive removals. This prevents a partial response from the official service from replacing a healthy Codex snapshot.
 
-Keyword extraction also normalizes fragmented official markup such as `Invoke` + `d` into the intended `Invoked` token instead of exposing markup fragments as standalone keywords.
+Keyword extraction also normalizes fragmented official markup such as `Invoke` + `d`: the grammatical suffix is discarded and the API exposes the canonical mechanic name `Invoke`, rather than publishing `d` or an inflected duplicate such as `Invoked`.
 
 Pull requests run acquisition and validation but never commit generated API files. Snapshot commits are only produced by trusted branch runs such as `main`, the weekly schedule or a manual dispatch.
 
