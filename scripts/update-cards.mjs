@@ -82,12 +82,12 @@ function extractKeywords(skillText) {
     const start = Number(match.index ?? -1);
     const end = start + match[0].length;
 
-    // The official payload can split an inflected keyword across adjacent tags,
-    // e.g. <color=Keyword>Invoke</color><color=Keyword>d</color>.
-    // Join only a short lowercase suffix with the immediately preceding token.
-    if (tokens.length && start === previousEnd && /^[a-z]{1,3}$/.test(value)) {
-      tokens[tokens.length - 1] += value;
-    } else if (value && !value.startsWith("Quest:") && !value.includes("Deck")) {
+    // The official payload can split a grammatical suffix into its own keyword tag,
+    // e.g. <color=Keyword>Invoke</color><color=Keyword>d</color>. The API contract
+    // exposes the canonical mechanic name (Invoke), so discard only an immediately
+    // adjacent short lowercase suffix instead of publishing "d" or "Invoked".
+    const isAdjacentSuffix = tokens.length && start === previousEnd && /^[a-z]{1,3}$/.test(value);
+    if (!isAdjacentSuffix && value && !value.startsWith("Quest:") && !value.includes("Deck")) {
       tokens.push(value);
     }
 
