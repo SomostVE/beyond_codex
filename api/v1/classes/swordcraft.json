@@ -1076,9 +1076,8 @@
       "Encroacher"
     ],
     "keywords": [
-      "d",
       "Depths of the Eld Sword",
-      "Enhance",
+      "Enhanced",
       "Evolve",
       "Fanfare"
     ],
@@ -1425,8 +1424,8 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "d",
       "Fuse",
+      "Fused",
       "Gilded Blade"
     ],
     "text": "Fuse: Loot cards\n\nDeal 2 damage to a random enemy follower. Add a Gilded Blade to your hand. If you've Fused to this card, draw a card.",
@@ -3742,9 +3741,9 @@
     "defense": 6,
     "traits": [],
     "keywords": [
-      "d",
       "Fanfare",
       "Fuse",
+      "Fused",
       "Super-Evolve"
     ],
     "text": "Fuse: Loot cards\n\nFanfare: Deal X damage to all enemies. X is the number of differently named cards Fused to this card.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",

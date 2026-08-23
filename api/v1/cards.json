@@ -2189,9 +2189,9 @@
     "defense": 6,
     "traits": [],
     "keywords": [
-      "d",
       "Fanfare",
       "Invoke",
+      "Invoked",
       "Super Skybound Art"
     ],
     "text": "Activates in deck. At the start of your turn, if allied followers have evolved at least 6 times this match, Invoke this card.\n\nWhen this card is Invoked, gain Crest: Sandalphon, Primarch Successor and return this card to hand.\nFanfare: Super Skybound Art - Do this 5 times: \"Deal 2 damage to a random enemy.\"",
@@ -4209,8 +4209,8 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "d",
-      "Fuse"
+      "Fuse",
+      "Fused"
     ],
     "text": "Fuse: Forestcraft cards\n\nDraw a card. If you've Fused to this card, draw 2 instead.",
     "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Forestcraft cards\n<hr>Draw a card. If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, draw 2 instead.",
@@ -8021,9 +8021,8 @@
       "Encroacher"
     ],
     "keywords": [
-      "d",
       "Depths of the Eld Sword",
-      "Enhance",
+      "Enhanced",
       "Evolve",
       "Fanfare"
     ],
@@ -8370,8 +8369,8 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "d",
       "Fuse",
+      "Fused",
       "Gilded Blade"
     ],
     "text": "Fuse: Loot cards\n\nDeal 2 damage to a random enemy follower. Add a Gilded Blade to your hand. If you've Fused to this card, draw a card.",
@@ -10687,9 +10686,9 @@
     "defense": 6,
     "traits": [],
     "keywords": [
-      "d",
       "Fanfare",
       "Fuse",
+      "Fused",
       "Super-Evolve"
     ],
     "text": "Fuse: Loot cards\n\nFanfare: Deal X damage to all enemies. X is the number of differently named cards Fused to this card.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
@@ -21091,8 +21090,7 @@
     ],
     "keywords": [
       "Fanfare",
-      "Mode",
-      "s",
+      "Modes",
       "Super-Evolve"
     ],
     "text": "Fanfare: Reduce your faith's value by 10 to give it \"Increase the number of Modes you can select by 1.\"\n\nSuper-Evolve: Select an enemy follower on the field, destroy it, and add a copy of it to your hand.",
@@ -22381,8 +22379,7 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "Mode",
-      "s"
+      "Modes"
     ],
     "text": "Select 2 Modes to activate.\n1. Recover 1 play point.\n2. Draw a follower.\n3. Draw a 3-cost spell.\n4. Deal 4 damage to a random enemy follower.",
     "rawSkillText": "Select 2 <b><color=Keyword>Mode</color><color=Keyword>s</color></b> to activate.\n<ridx=0>1. Recover 1 play point.</ridx>\n<ridx=1>2. Draw a follower.</ridx>\n<ridx=2>3. Draw a 3-cost spell.</ridx>\n<ridx=3>4. Deal 4 damage to a random enemy follower.</ridx>",
@@ -22398,7 +22395,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10651310,
@@ -22516,8 +22513,7 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "Mode",
-      "s"
+      "Modes"
     ],
     "text": "Select 2 Modes to activate.\n1. Deal 1 damage to the enemy leader.\n2. Restore 2 defense to your leader.\n3. Deal 3 damage to a random enemy follower.\n4. Gain 4 shadows.",
     "rawSkillText": "Select 2 <b><color=Keyword>Mode</color><color=Keyword>s</color></b> to activate.\n<ridx=0>1. Deal 1 damage to the enemy leader.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>\n<ridx=2>3. Deal 3 damage to a random enemy follower.</ridx>\n<ridx=3>4. Gain 4 shadows.</ridx>",
@@ -22533,7 +22529,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10152210,
@@ -32598,8 +32594,8 @@
       "Artifact"
     ],
     "keywords": [
-      "d",
       "Fuse",
+      "Fused",
       "Masterwork Artifact Ω",
       "Ominous Artifact β",
       "Ominous Artifact γ"

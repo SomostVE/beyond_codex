@@ -2189,9 +2189,9 @@
     "defense": 6,
     "traits": [],
     "keywords": [
-      "d",
       "Fanfare",
       "Invoke",
+      "Invoked",
       "Super Skybound Art"
     ],
     "text": "Activates in deck. At the start of your turn, if allied followers have evolved at least 6 times this match, Invoke this card.\n\nWhen this card is Invoked, gain Crest: Sandalphon, Primarch Successor and return this card to hand.\nFanfare: Super Skybound Art - Do this 5 times: \"Deal 2 damage to a random enemy.\"",

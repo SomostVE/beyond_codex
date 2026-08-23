@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T14:01:38.000Z",
-  "previousGeneratedAt": "2026-08-17T05:00:58.090Z",
+  "generatedAt": "2026-08-23T20:19:56.312Z",
+  "previousGeneratedAt": "2026-08-19T14:01:38.000Z",
   "baselineAvailable": true,
   "counts": {
     "added": 0,
-    "modified": 7,
+    "modified": 9,
     "removed": 0
   },
   "added": [],
@@ -20,15 +20,15 @@
         {
           "field": "keywords",
           "before": [
-            "Fanfare",
-            "Invoke",
-            "Super Skybound Art",
-            "d"
-          ],
-          "after": [
             "d",
             "Fanfare",
             "Invoke",
+            "Super Skybound Art"
+          ],
+          "after": [
+            "Fanfare",
+            "Invoke",
+            "Invoked",
             "Super Skybound Art"
           ]
         }
@@ -44,12 +44,12 @@
         {
           "field": "keywords",
           "before": [
-            "Fuse",
-            "d"
-          ],
-          "after": [
             "d",
             "Fuse"
+          ],
+          "after": [
+            "Fuse",
+            "Fused"
           ]
         }
       ]
@@ -64,16 +64,15 @@
         {
           "field": "keywords",
           "before": [
-            "Depths of the Eld Sword",
-            "Enhance",
-            "Evolve",
-            "Fanfare",
-            "d"
-          ],
-          "after": [
             "d",
             "Depths of the Eld Sword",
             "Enhance",
+            "Evolve",
+            "Fanfare"
+          ],
+          "after": [
+            "Depths of the Eld Sword",
+            "Enhanced",
             "Evolve",
             "Fanfare"
           ]
@@ -90,13 +89,13 @@
         {
           "field": "keywords",
           "before": [
-            "Fuse",
-            "Gilded Blade",
-            "d"
-          ],
-          "after": [
             "d",
             "Fuse",
+            "Gilded Blade"
+          ],
+          "after": [
+            "Fuse",
+            "Fused",
             "Gilded Blade"
           ]
         }
@@ -112,15 +111,15 @@
         {
           "field": "keywords",
           "before": [
-            "Fanfare",
-            "Fuse",
-            "Super-Evolve",
-            "d"
-          ],
-          "after": [
             "d",
             "Fanfare",
             "Fuse",
+            "Super-Evolve"
+          ],
+          "after": [
+            "Fanfare",
+            "Fuse",
+            "Fused",
             "Super-Evolve"
           ]
         }
@@ -138,14 +137,51 @@
           "before": [
             "Fanfare",
             "Mode",
-            "Super-Evolve",
-            "s"
+            "s",
+            "Super-Evolve"
           ],
           "after": [
             "Fanfare",
-            "Mode",
-            "s",
+            "Modes",
             "Super-Evolve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10353310,
+      "name": "Screaming and Loathing",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Mode",
+            "s"
+          ],
+          "after": [
+            "Modes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10852310,
+      "name": "Bittersweet Departures",
+      "class": "Abysscraft",
+      "set": "Chronicle of Destiny",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "keywords",
+          "before": [
+            "Mode",
+            "s"
+          ],
+          "after": [
+            "Modes"
           ]
         }
       ]
@@ -160,15 +196,15 @@
         {
           "field": "keywords",
           "before": [
+            "d",
             "Fuse",
             "Masterwork Artifact Ω",
             "Ominous Artifact β",
-            "Ominous Artifact γ",
-            "d"
+            "Ominous Artifact γ"
           ],
           "after": [
-            "d",
             "Fuse",
+            "Fused",
             "Masterwork Artifact Ω",
             "Ominous Artifact β",
             "Ominous Artifact γ"

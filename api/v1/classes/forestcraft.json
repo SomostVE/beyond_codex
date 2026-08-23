@@ -1413,8 +1413,8 @@
     "defense": 0,
     "traits": [],
     "keywords": [
-      "d",
-      "Fuse"
+      "Fuse",
+      "Fused"
     ],
     "text": "Fuse: Forestcraft cards\n\nDraw a card. If you've Fused to this card, draw 2 instead.",
     "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Forestcraft cards\n<hr>Draw a card. If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, draw 2 instead.",
