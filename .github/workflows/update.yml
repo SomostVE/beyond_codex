@@ -47,6 +47,7 @@ jobs:
         run: npm run validate
 
       - name: Commit snapshot changes
+        if: github.event_name != 'pull_request'
         run: |
           git add -A api/v1
           if git diff --cached --quiet -- api/v1; then

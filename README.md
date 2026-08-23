@@ -24,9 +24,19 @@ Raw GitHub base URL:
 
 `https://raw.githubusercontent.com/SomostVE/beyond_codex/main/api/v1/`
 
+GitHub Pages base URL:
+
+`https://somostve.github.io/beyond_codex/api/v1/`
+
 ## Updates
 
 GitHub Actions refreshes the dataset every Monday at 04:20 UTC. A manual `workflow_dispatch` is also available for releases or emergency refreshes.
+
+Every refresh is normalized and validated before publication. The updater rejects suspiciously incomplete snapshots, including abnormal total-card shrinkage, large per-class drops and excessive removals. This prevents a partial response from the official service from replacing a healthy Codex snapshot.
+
+Keyword extraction also normalizes fragmented official markup such as `Invoke` + `d` into the intended `Invoked` token instead of exposing markup fragments as standalone keywords.
+
+Pull requests run acquisition and validation but never commit generated API files. Snapshot commits are only produced by trusted branch runs such as `main`, the weekly schedule or a manual dispatch.
 
 The first Codex refresh seeds its comparison baseline from the last embedded Beyond Decks snapshot, so migration does not discard the existing card database history. See `MIGRATION.md` for the initialization boundary.
 
@@ -41,6 +51,7 @@ The first Codex refresh seeds its comparison baseline from the last embedded Bey
 - evolved/style data
 - sets, traits and keyword dictionaries
 - weekly card-data changelog
+- snapshot completeness and schema validation
 
 **Beyond Decks owns:**
 

@@ -16,6 +16,10 @@ const SOURCE_API = "https://shadowverse-wb.com/web/CardList/cardList";
 const IMAGE_BASE = "https://shadowverse-wb.com/uploads/card_image/eng/card/";
 const LEGACY_BASE = "https://raw.githubusercontent.com/SomostVE/beyond_decks/main/data/official/";
 const SCHEMA_VERSION = 1;
+const MIN_CARD_COUNT = 100;
+const MAX_TOTAL_DROP_RATIO = 0.05;
+const MAX_CLASS_DROP_RATIO = 0.25;
+const MAX_REMOVAL_RATIO = 0.02;
 
 const CLASS_NAMES = {
   0: "Neutral",
@@ -68,15 +72,30 @@ function cleanSkillText(value) {
 
 function extractKeywords(skillText) {
   const raw = String(skillText ?? "");
-  const found = new Set();
-  for (const match of raw.matchAll(/<color=Keyword>(.*?)<\/color>/g)) {
+  const tokens = [];
+  let previousEnd = -1;
+
+  for (const match of raw.matchAll(/<color=Keyword>(.*?)<\/color>/gi)) {
     const value = String(match[1] ?? "")
       .replace(/<[^>]+>/g, "")
       .replace(/_\d+$/g, "")
       .trim();
-    if (value && !value.startsWith("Quest:") && !value.includes("Deck")) found.add(value);
+    const start = Number(match.index ?? -1);
+    const end = start + match[0].length;
+
+    // The official payload can split an inflected keyword across adjacent tags,
+    // e.g. <color=Keyword>Invoke</color><color=Keyword>d</color>.
+    // Join only a short lowercase suffix with the immediately preceding token.
+    if (tokens.length && start === previousEnd && /^[a-z]{1,3}$/.test(value)) {
+      tokens[tokens.length - 1] += value;
+    } else if (value && !value.startsWith("Quest:") && !value.includes("Deck")) {
+      tokens.push(value);
+    }
+
+    previousEnd = end;
   }
-  return [...found].sort((a, b) => a.localeCompare(b));
+
+  return [...new Set(tokens)].sort((a, b) => a.localeCompare(b));
 }
 
 function normalizeCard(id, detail, relations, dictionaries) {
@@ -196,6 +215,36 @@ async function writeJson(file, value) {
   await fs.writeFile(file, `${JSON.stringify(value, null, 2)}\n`);
 }
 
+function countByClass(cards) {
+  const counts = new Map(Object.values(CLASS_NAMES).map(className => [className, 0]));
+  for (const card of cards) counts.set(card.class, (counts.get(card.class) ?? 0) + 1);
+  return counts;
+}
+
+function assertSnapshotLooksComplete(previousCards, cards) {
+  if (cards.length < MIN_CARD_COUNT) {
+    throw new Error(`Suspiciously small official card database: ${cards.length}`);
+  }
+  if (!previousCards.length) return;
+
+  const minimumTotal = Math.floor(previousCards.length * (1 - MAX_TOTAL_DROP_RATIO));
+  if (cards.length < minimumTotal) {
+    throw new Error(`Refusing suspicious snapshot shrink: ${previousCards.length} -> ${cards.length} cards`);
+  }
+
+  const previousByClass = countByClass(previousCards);
+  const currentByClass = countByClass(cards);
+  for (const className of Object.values(CLASS_NAMES)) {
+    const before = previousByClass.get(className) ?? 0;
+    const after = currentByClass.get(className) ?? 0;
+    if (!before) continue;
+    const minimumClassCount = Math.floor(before * (1 - MAX_CLASS_DROP_RATIO));
+    if (after < minimumClassCount) {
+      throw new Error(`Refusing suspicious ${className} shrink: ${before} -> ${after} cards`);
+    }
+  }
+}
+
 async function main() {
   const previous = await loadPreviousSnapshot();
   const previousCards = previous.cards;
@@ -231,7 +280,7 @@ async function main() {
     .filter(card => card.name)
     .sort(compareGameCardOrderAllClasses);
 
-  if (cards.length < 100) throw new Error(`Suspiciously small official card database: ${cards.length}`);
+  assertSnapshotLooksComplete(previousCards, cards);
 
   const currentMap = new Map(cards.map(card => [card.id, card]));
   const hasBaseline = previousMap.size > 0;
@@ -251,6 +300,11 @@ async function main() {
   if (hasBaseline) {
     for (const old of previousCards) {
       if (!currentMap.has(Number(old.id))) removed.push(summary(old));
+    }
+
+    const removalLimit = Math.max(10, Math.ceil(previousCards.length * MAX_REMOVAL_RATIO));
+    if (removed.length > removalLimit) {
+      throw new Error(`Refusing snapshot with ${removed.length} removed cards (safety limit ${removalLimit})`);
     }
   }
 
