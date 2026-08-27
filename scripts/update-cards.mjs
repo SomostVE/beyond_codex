@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { compareGameCardOrderAllClasses } from "./card-sort.mjs";
+import { mergeAppendOnlyCards, mergeAppendOnlyDictionary } from "./append-only-merge.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -16,9 +17,6 @@ const SOURCE_API = "https://shadowverse-wb.com/web/CardList/cardList";
 const IMAGE_BASE = "https://shadowverse-wb.com/uploads/card_image/eng/card/";
 const SCHEMA_VERSION = 1;
 const MIN_CARD_COUNT = 100;
-const MAX_TOTAL_DROP_RATIO = 0.05;
-const MAX_CLASS_DROP_RATIO = 0.25;
-const MAX_REMOVAL_RATIO = 0.02;
 
 const CLASS_NAMES = {
   0: "Neutral",
@@ -82,10 +80,6 @@ function extractKeywords(skillText) {
     const start = Number(match.index ?? -1);
     const end = start + match[0].length;
 
-    // The official payload can split a grammatical suffix into its own keyword tag,
-    // e.g. <color=Keyword>Invoke</color><color=Keyword>d</color>. The API contract
-    // exposes the canonical mechanic name (Invoke), so discard only an immediately
-    // adjacent short lowercase suffix instead of publishing "d" or "Invoked".
     const isAdjacentSuffix = tokens.length && start === previousEnd && /^[a-z]{1,3}$/.test(value);
     if (!isAdjacentSuffix && value && !value.startsWith("Quest:") && !value.includes("Deck")) {
       tokens.push(value);
@@ -162,9 +156,6 @@ async function loadPreviousSnapshot() {
     return { cards: localCards, metadata: localMeta ?? {} };
   }
 
-  // Migration from Beyond Decks is complete. A genuinely new Codex repository can
-  // perform its first refresh without a comparison baseline; subsequent refreshes
-  // use the locally versioned Codex snapshot exclusively.
   console.warn("No Beyond Codex baseline found; first refresh will not produce a comparative changelog.");
   return { cards: [], metadata: {} };
 }
@@ -206,33 +197,9 @@ async function writeJson(file, value) {
   await fs.writeFile(file, `${JSON.stringify(value, null, 2)}\n`);
 }
 
-function countByClass(cards) {
-  const counts = new Map(Object.values(CLASS_NAMES).map(className => [className, 0]));
-  for (const card of cards) counts.set(card.class, (counts.get(card.class) ?? 0) + 1);
-  return counts;
-}
-
-function assertSnapshotLooksComplete(previousCards, cards) {
+function assertSourceSnapshotUsable(cards) {
   if (cards.length < MIN_CARD_COUNT) {
     throw new Error(`Suspiciously small official card database: ${cards.length}`);
-  }
-  if (!previousCards.length) return;
-
-  const minimumTotal = Math.floor(previousCards.length * (1 - MAX_TOTAL_DROP_RATIO));
-  if (cards.length < minimumTotal) {
-    throw new Error(`Refusing suspicious snapshot shrink: ${previousCards.length} -> ${cards.length} cards`);
-  }
-
-  const previousByClass = countByClass(previousCards);
-  const currentByClass = countByClass(cards);
-  for (const className of Object.values(CLASS_NAMES)) {
-    const before = previousByClass.get(className) ?? 0;
-    const after = currentByClass.get(className) ?? 0;
-    if (!before) continue;
-    const minimumClassCount = Math.floor(before * (1 - MAX_CLASS_DROP_RATIO));
-    if (after < minimumClassCount) {
-      throw new Error(`Refusing suspicious ${className} shrink: ${before} -> ${after} cards`);
-    }
   }
 }
 
@@ -244,7 +211,12 @@ async function main() {
 
   const allDetails = {};
   const allRelations = {};
-  const dictionaries = { tribeNames: {}, setNames: {}, skillNames: {}, skillReplaceTextNames: {} };
+  const dictionaries = {
+    tribeNames: { ...(previousMeta.traits ?? {}) },
+    setNames: { ...(previousMeta.sets ?? {}) },
+    skillNames: { ...(previousMeta.keywords ?? {}) },
+    skillReplaceTextNames: { ...(previousMeta.skillReplaceTextNames ?? {}) }
+  };
   let offset = 0;
   let emptyPages = 0;
 
@@ -255,10 +227,10 @@ async function main() {
     const details = data.card_details ?? {};
     Object.assign(allDetails, details);
     Object.assign(allRelations, data.cards ?? {});
-    Object.assign(dictionaries.tribeNames, data.tribe_names ?? {});
-    Object.assign(dictionaries.setNames, data.card_set_names ?? {});
-    Object.assign(dictionaries.skillNames, data.skill_names ?? {});
-    Object.assign(dictionaries.skillReplaceTextNames, data.skill_replace_text_names ?? {});
+    dictionaries.tribeNames = mergeAppendOnlyDictionary(dictionaries.tribeNames, data.tribe_names ?? {});
+    dictionaries.setNames = mergeAppendOnlyDictionary(dictionaries.setNames, data.card_set_names ?? {});
+    dictionaries.skillNames = mergeAppendOnlyDictionary(dictionaries.skillNames, data.skill_names ?? {});
+    dictionaries.skillReplaceTextNames = mergeAppendOnlyDictionary(dictionaries.skillReplaceTextNames, data.skill_replace_text_names ?? {});
 
     const count = Object.keys(details).length;
     emptyPages = count === 0 ? emptyPages + 1 : 0;
@@ -266,21 +238,19 @@ async function main() {
     if (offset > 3000) throw new Error("Pagination exceeded safety limit (3000)");
   }
 
-  const cards = Object.entries(allDetails)
+  const sourceCards = Object.entries(allDetails)
     .map(([id, detail]) => normalizeCard(id, detail, allRelations[id], dictionaries))
     .filter(card => card.name)
     .sort(compareGameCardOrderAllClasses);
 
-  assertSnapshotLooksComplete(previousCards, cards);
+  assertSourceSnapshotUsable(sourceCards);
 
-  const currentMap = new Map(cards.map(card => [card.id, card]));
   const hasBaseline = previousMap.size > 0;
   const added = [];
   const modified = [];
-  const removed = [];
 
-  for (const card of cards) {
-    const old = previousMap.get(card.id);
+  for (const card of sourceCards) {
+    const old = previousMap.get(Number(card.id));
     const changes = old ? compareCard(old, card) : [];
     card.newlyAdded = Boolean(hasBaseline && !old);
     card.modifiedInLatestUpdate = Boolean(hasBaseline && old && changes.length);
@@ -288,16 +258,14 @@ async function main() {
     if (card.modifiedInLatestUpdate) modified.push({ ...summary(card), changes });
   }
 
-  if (hasBaseline) {
-    for (const old of previousCards) {
-      if (!currentMap.has(Number(old.id))) removed.push(summary(old));
-    }
-
-    const removalLimit = Math.max(10, Math.ceil(previousCards.length * MAX_REMOVAL_RATIO));
-    if (removed.length > removalLimit) {
-      throw new Error(`Refusing snapshot with ${removed.length} removed cards (safety limit ${removalLimit})`);
-    }
-  }
+  const merged = mergeAppendOnlyCards(previousCards, sourceCards);
+  const sourceIds = new Set(sourceCards.map(card => Number(card.id)));
+  const retainedMissingFromSource = merged.retainedMissingFromSource.map(summary);
+  const cards = merged.cards
+    .map(card => sourceIds.has(Number(card.id))
+      ? card
+      : { ...card, newlyAdded: false, modifiedInLatestUpdate: false })
+    .sort(compareGameCardOrderAllClasses);
 
   const generatedAt = new Date().toISOString();
   const changelog = {
@@ -305,10 +273,17 @@ async function main() {
     generatedAt,
     previousGeneratedAt: previousMeta.generatedAt ?? null,
     baselineAvailable: hasBaseline,
-    counts: { added: added.length, modified: modified.length, removed: removed.length },
+    policy: "append-or-replace-never-delete",
+    counts: {
+      added: added.length,
+      modified: modified.length,
+      removed: 0,
+      retainedMissingFromSource: retainedMissingFromSource.length
+    },
     added,
     modified,
-    removed
+    removed: [],
+    retainedMissingFromSource
   };
 
   const deckSelectableCount = cards.filter(card => !card.token && card.setId !== 90000 && Number(card.maxCopies ?? 3) > 0).length;
@@ -318,6 +293,7 @@ async function main() {
     source: SOURCE_API,
     imageBase: IMAGE_BASE,
     count: cards.length,
+    sourceCount: sourceCards.length,
     deckSelectableCount,
     classes: Object.values(CLASS_NAMES),
     sets: dictionaries.setNames,
@@ -341,6 +317,8 @@ async function main() {
     source: SOURCE_API,
     counts: {
       cards: cards.length,
+      sourceCards: sourceCards.length,
+      retainedMissingFromSource: retainedMissingFromSource.length,
       deckSelectable: deckSelectableCount,
       tokensOrGenerated: cards.length - deckSelectableCount
     },
@@ -359,7 +337,10 @@ async function main() {
     writeJson(MANIFEST_PATH, manifest)
   ]);
 
-  console.log(`Beyond Codex updated: ${cards.length} cards · +${added.length} new · ~${modified.length} modified · -${removed.length} removed`);
+  console.log(
+    `Beyond Codex updated: ${cards.length} cards · source ${sourceCards.length} · +${added.length} new · ~${modified.length} modified · ` +
+    `${retainedMissingFromSource.length} retained from previous snapshots · 0 removed`
+  );
 }
 
 main().catch(error => {
