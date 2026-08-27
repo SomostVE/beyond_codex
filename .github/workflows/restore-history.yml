@@ -25,6 +25,9 @@ jobs:
       - name: Clone Beyond Decks history
         run: git clone --no-tags https://github.com/SomostVE/beyond_decks.git /tmp/beyond_decks
 
+      - name: Audit historical set membership
+        run: node scripts/audit-historical-set-membership.mjs /tmp/beyond_decks
+
       - name: Restore historical cards missing from Codex
         run: node scripts/restore-historical-cards.mjs /tmp/beyond_decks
 
