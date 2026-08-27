@@ -40,6 +40,9 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Verify append-only merge policy
+        run: npm run check:append-only
+
       - name: Refresh official card data
         run: npm run update
 
