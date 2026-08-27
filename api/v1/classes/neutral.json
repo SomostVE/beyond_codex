@@ -546,7 +546,7 @@
     "text": "Activates in hand. When an enemy follower super-evolves, give this follower Bane.\n\nWard",
     "rawSkillText": "Activates in hand. When an enemy follower super-evolves, give this follower <b><color=Keyword>Bane</color></b>.\n<hr><b><color=Keyword>Ward</color></b>",
     "flavourText": "It is a familiar tale, one oft told. When the world cries out, yearning for succor, a beacon of hope will emerge. He'll declare the impossible possible and call the world to action. Though few will heed his call, his vows will hold firm.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -564,7 +564,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10401120,
@@ -883,6 +883,36 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10901310,
+    "baseCardId": 10901310,
+    "name": "Initiation of Rebirth",
+    "class": "Neutral",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Add a copy of a random allied follower destroyed this match with the highest base cost to your deck without revealing it. Draw a card.",
+    "rawSkillText": "Add a copy of a random allied follower destroyed this match with the highest base cost to your deck without revealing it. Draw a card.",
+    "flavourText": "Zerael served as the blueprint for the ideal society. When he was defiled, the souls of the enforcers were torn asunder. Those fragmented souls then formed the wedge for a new cycle of rebirth.\n—<i>Legacy of Azvaldt</i>",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/91269d9173bf4b3bb8f5d50e337e7dab.png",
+    "imageHash": "91269d9173bf4b3bb8f5d50e337e7dab",
+    "bannerImageHash": "a37784ac679c4e54acb842d06ce582a8",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10001210,
     "baseCardId": 10001210,
     "name": "Detective's Lens",
@@ -1102,7 +1132,7 @@
     "text": "Activates in hand. When an enemy follower super-evolves, give this follower Storm.\n\nRush",
     "rawSkillText": "Activates in hand. When an enemy follower super-evolves, give this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Rush</color></b>",
     "flavourText": "It is a commonplace tale, one familiar to most. From humble beginnings came a courageous, faithful child—a girl who was powerful yet personable, beloved by all. When she sensed the brewing chaos, she set off in secrecy.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1120,7 +1150,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10304120,
@@ -1144,7 +1174,7 @@
     "text": "Fanfare: Select another follower on the field and give it +2/-2. If both players have 10 max play points, add a Sweetness of Voracity to your hand.\n\nDrain\n\nEvolve: Select a follower on the field and give it +2/-2.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select another follower on the field and give it +2/-2. If both players have 10 max play points, add a <b><i><color=Keyword>Sweetness of Voracity</color></i></b> to your hand.\n<hr><b><color=Keyword>Drain</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select a follower on the field and give it +2/-2.</ev>",
     "flavourText": "Look at this pitiable world: craving, starving, desperately pleading. Ah, it would be such a delicious sight to see it grovel before me, covered in filth and mud. So, shall we continue to put this world to trial?",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1170,7 +1200,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10402110,
@@ -1457,7 +1487,7 @@
     "text": "Fanfare: Banish all duplicates from your deck.\n\nEngage (1): Draw a card.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Banish all duplicates from your deck.\n<hr><b><color=Keyword>Engage</color> (1)</b>: Draw a card.",
     "flavourText": "A prophetic stone tablet is bestowed unto the world. Chaos and uncertainty are mere heralds to predetermined harmony. All who dwell on this earth must play their part. The end awaits.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1468,7 +1498,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10602210,
@@ -1565,7 +1595,7 @@
     "text": "Fanfare: Select another follower on the field and give it +4/-4.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select another follower on the field and give it +4/-4.",
     "flavourText": "So, the Trial of Craving has been overcome. Now, the Trial of Voracity is at hand. The tenth Omen wields the power of ravenous craving.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1583,7 +1613,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10304110,
@@ -1606,7 +1636,7 @@
     "text": "Fanfare: Add a Great Testimony to your hand.\n\nEvolve: Gain Crest: Mjerrabaine, Great Manifest.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Great Testimony</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Mjerrabaine, Great Manifest</i></b>.</ev>",
     "flavourText": "Omnipresent divinity is found in all beings. Convene the masses and influence their will, so that you and your brethren may become gods. Let the trials of the world continue thusly.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1626,7 +1656,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10403110,
@@ -1796,7 +1826,7 @@
     "text": "Draw 3 cards. If there are no duplicates in your deck, recover 3 play points.",
     "rawSkillText": "Draw 3 cards. If there are no duplicates in your deck, recover 3 play points.",
     "flavourText": "So, the Trial of One has been overcome. Now, the Trial of Greatness is at hand. The first Omen wields the power of solitary eminence.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1812,7 +1842,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10701310,
@@ -2033,6 +2063,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10903110,
+    "baseCardId": 10903110,
+    "name": "Warden of Selflessness",
+    "class": "Neutral",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "Jailor of Antiquity"
+    ],
+    "text": "Fanfare: Add a Jailor of Antiquity to your hand. Deal X damage to 2 random enemy followers. X is the number of Neutral cards in your hand.\n\nEvolve: Recover 1 play point.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Jailor of Antiquity</color></i></b> to your hand. Deal X damage to 2 random enemy followers. X is the number of Neutral cards in your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Recover 1 play point.</ev>",
+    "flavourText": "Hundreds of executioners. Thousands of prison guards. Millions of magical barriers. Unfazed by it all, the escaped convict raced up the strata, and the chaos in his wake emboldened the others.\n—<i>Memories of an Azvaldt Guard</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10901110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d5c384d6105c48deb4760ff220e2cc9b.png",
+    "imageHash": "d5c384d6105c48deb4760ff220e2cc9b",
+    "bannerImageHash": "33b5dd1f10ef47cea33c48abd94d7f11",
+    "evolved": {
+      "text": "Fanfare: Add a Jailor of Antiquity to your hand. Deal X damage to 2 random enemy followers. X is the number of Neutral cards in your hand.\n\nEvolve: Recover 1 play point.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Jailor of Antiquity</color></i></b> to your hand. Deal X damage to 2 random enemy followers. X is the number of Neutral cards in your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Recover 1 play point.</ev>",
+      "flavourText": "Under graceful guidance to slay the Regent of Rebirth, the escaped convict Cutthroat trespassed into the utopia where Zerael resides—Stratum IX: Paradise.\n—Surveillance footage from Stratum IX",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e3e8920192594331838890a09307d2cf.png",
+      "imageHash": "e3e8920192594331838890a09307d2cf",
+      "bannerImageHash": "32b0c4934af14afbbce1900fcc7b6f25"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2333,6 +2406,51 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10901110,
+    "baseCardId": 10901110,
+    "name": "Jailor of Antiquity",
+    "class": "Neutral",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 6,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Ward"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and deal it 6 damage. Deal 2 damage to a random unselected enemy follower.\n\nWard",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 6 damage. Deal 2 damage to a random unselected enemy follower.\n<hr><b><color=Keyword>Ward</color></b>",
+    "flavourText": "The first sign of the breakout was a thunderous roar that echoed throughout the first level. The Killshot Enforcer let his guard down for just a moment. In that instant, the convict seized his opportunity and broke through the cage and gate.\n—<i>Memories of an Azvaldt Guard</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a3832000a37f49e98733f1935b938bf0.png",
+    "imageHash": "a3832000a37f49e98733f1935b938bf0",
+    "bannerImageHash": "e56b302f1cb348159fc23c66c1fd8227",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and deal it 6 damage. Deal 2 damage to a random unselected enemy follower.\n\nWard",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 6 damage. Deal 2 damage to a random unselected enemy follower.\n<hr><b><color=Keyword>Ward</color></b>",
+      "flavourText": "The escaped convict aimed not for the exits but for the upper floors. What he sought was not merely his own freedom, but an end to oppression and Azvaldt's rule.\n—<i>Memories of an Azvaldt Guard</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3cc60e3d24454044aacee3f3c6d38ec0.png",
+      "imageHash": "3cc60e3d24454044aacee3f3c6d38ec0",
+      "bannerImageHash": "1c38639de653422695b0788e6a7c0fc4"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "My opponent only has a follower with Aura, such as Lilanthim, Anathema of Edacity, on the field. If I play Jailor of Antiquity, will the second portion of its Fanfare ability still activate and deal 2 damage to the enemy follower with Aura?",
+        "answer": "Yes. The second portion of Jailor of Antiquity's Fanfare ability will activate even if you are unable to select an enemy follower for the first."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90004110,
     "baseCardId": 90004110,
     "name": "Silent Rider",
@@ -2549,6 +2667,45 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10902110,
+    "baseCardId": 10902110,
+    "name": "Blade Angel",
+    "class": "Neutral",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 7,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Fanfare"
+    ],
+    "text": "Fanfare: Select 2 other allied followers on the field and give them +3/+3.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 other allied followers on the field and give them +3/+3.",
+    "flavourText": "The gates of heaven are protected by the holy sword and its purest wielder.\n\"This sword desires to exterminate all evil that would defile this land—and so it bestows the power to vanquish the wicked upon the righteous.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0d93234eb6fd4d70b37a2ac6e85ce937.png",
+    "imageHash": "0d93234eb6fd4d70b37a2ac6e85ce937",
+    "bannerImageHash": "541dbc8e14624a178999eb476ff53b17",
+    "evolved": {
+      "text": "Fanfare: Select 2 other allied followers on the field and give them +3/+3.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 other allied followers on the field and give them +3/+3.",
+      "flavourText": "She slaughtered all equally under the sword's command, without consideration or mercy.\n\"The blade still seeks a host for its righteous power, but I have cut down every being save for myself. What evil remains to be slain?\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/fd15231cbd1f49528f7fe1f18d69f1d1.png",
+      "imageHash": "fd15231cbd1f49528f7fe1f18d69f1d1",
+      "bannerImageHash": "1bfe5cf2d8344f7e8836dfec8f97ce8a"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10504110,
     "baseCardId": 10504110,
     "name": "Getenou, Eightfold Glory",
@@ -2586,6 +2743,43 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10903210,
+    "baseCardId": 10903210,
+    "name": "Azvaldt, Penitentiary of Chaos",
+    "class": "Neutral",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Amulet",
+    "rarity": "Gold",
+    "cost": 8,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Last Words"
+    ],
+    "text": "At the end of your turn, if you've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8 this match, destroy this card.\nLast Words: Summon a copy each of 4 random differently named allied followers destroyed this match. Give all allied followers on the field +3/+3.",
+    "rawSkillText": "At the end of your turn, if you've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8 this match, destroy this card.\n<b><color=Keyword>Last Words</color></b>: Summon a copy each of 4 random differently named allied followers destroyed this match. Give all allied followers on the field +3/+3.",
+    "flavourText": "On that day, the flawless prison Azvaldt fell. Zerael was struck down, and his soul proven destructible. Thus was the curse laid upon his enforcers dispelled—and in its place grew the seeds of a new war.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/fe7133a4fd3e4633b755d297f0348faf.png",
+    "imageHash": "fe7133a4fd3e4633b755d297f0348faf",
+    "bannerImageHash": "2444cd07ec984ae88f4c405e1e0150d9",
+    "evolved": null,
+    "styles": [],
+    "questions": [
+      {
+        "question": "I have an Azvaldt, Penitentiary of Chaos on the field and a Zerael, Sundered Rebirth in my deck. If I end my turn and I've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8, will Azvaldt's ability activate before or after Zerael is invoked?",
+        "answer": "The abilities will activate in the following order:\n\n1. Your Azvaldt will be destroyed by its ability.\n2. Your Zerael will be invoked.\n3. Your Azvaldt's Last Words ability will activate."
+      }
+    ],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2718,6 +2912,52 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10904110,
+    "baseCardId": 10904110,
+    "name": "Zerael, Sundered Rebirth",
+    "class": "Neutral",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 9,
+    "defense": 9,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Intimidate",
+      "Invoke"
+    ],
+    "text": "Activates in deck. At the end of your turn, if you've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8 this match, Invoke this card.\n\nFanfare: Select an enemy follower on the field and deal it 9 damage.\n\nIntimidate",
+    "rawSkillText": "Activates in deck. At the end of your turn, if you've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8 this match, <b><color=Keyword>Invoke</color></b> this card.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 9 damage.\n<hr><b><color=Keyword>Intimidate</color></b>",
+    "flavourText": "Cutthroat... you ignorant sinner. Why do you refuse to repent for your crimes? Perhaps you prefer a world where sin runs rampant over a righteous utopia. Is that why you would attempt to slay me? Your hubris knows no bounds, but it is all meaningless. Your defiled hands cannot kill me.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c95f33422f0f4ef8bd1abee06756bbec.png",
+    "imageHash": "c95f33422f0f4ef8bd1abee06756bbec",
+    "bannerImageHash": "daaf7b2fcacf4a3ab7ed68890de66a4d",
+    "evolved": {
+      "text": "Activates in deck. At the end of your turn, if you've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8 this match, Invoke this card.\n\nFanfare: Select an enemy follower on the field and deal it 9 damage.\n\nIntimidate",
+      "rawSkillText": "Activates in deck. At the end of your turn, if you've played cards with base costs of 1, 2, 3, 4, 5, 6, 7, and 8 this match, <b><color=Keyword>Invoke</color></b> this card.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 9 damage.\n<hr><b><color=Keyword>Intimidate</color></b>",
+      "flavourText": "Zerael attempted to initiate rebirth, but his voice faded into the void. The brief opening that emerged was severed by Soulforge's gleam. And so, by the hand of a convict, Zerael was destroyed.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4fed813ed6c34dd39436cd6361c50d62.png",
+      "imageHash": "4fed813ed6c34dd39436cd6361c50d62",
+      "bannerImageHash": "96e6264603e24739b1d4b06311c03e28"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "If I play an accelerated Jailor of Antiquity, what will its base cost be?",
+        "answer": "Its base cost will be 1."
+      }
+    ],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

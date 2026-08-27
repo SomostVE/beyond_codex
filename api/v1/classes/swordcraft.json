@@ -600,7 +600,7 @@
     "text": "Engage: Destroy this card. Select a Mode to activate.\n1. Add a Gilded Blade and Gilded Necklace to your hand.\n2. Add a Gilded Goblet and Gilded Boots to your hand.",
     "rawSkillText": "<b><color=Keyword>Engage</color></b>: Destroy this card. Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Add a <b><i><color=Keyword>Gilded Blade</color></i></b> and <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand.</ridx>\n<ridx=1>2. Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> and <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.</ridx>",
     "flavourText": "Income/Expenses: 0 riqals - Bankruptcy of employer and creditor during the Trial of Usurpation\nDebt: 0 riqals - See above\nNote: Seems like usurpation outperforms honest work.\n—Ledger, 15th of Aquarius, Year 811",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -616,6 +616,39 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 90021210,
+    "baseCardId": 90021210,
+    "name": "Dread Pirate's Flag",
+    "class": "Swordcraft",
+    "setId": 90000,
+    "set": "90000",
+    "type": "Amulet",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Countdown",
+      "Last Words"
+    ],
+    "text": "Countdown (7)\nWhenever you play a spell, advance this amulet's count by 1.\nLast Words: Deal 2 damage to the enemy leader.",
+    "rawSkillText": "<b><color=Keyword>Countdown</color> (7)</b>\nWhenever you play a spell, advance this amulet's count by 1.\n<b><color=Keyword>Last Words</color></b>: Deal 2 damage to the enemy leader.",
+    "flavourText": "Though the man who flew a pirate flag and his daughter who plundered it from him sail different routes, their aspirations are one and the same—to bring freedom to all.",
+    "rotation": false,
+    "token": true,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3ababb8027c84f3aa4f48e73466a4baa.png",
+    "imageHash": "3ababb8027c84f3aa4f48e73466a4baa",
+    "bannerImageHash": "9b53191be6b94e0a830f5f62585cf725",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -906,7 +939,7 @@
     "text": "Fanfare: Add a Gilded Boots to your hand.\n\nLast Words: Add a Gilded Goblet to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.\n<hr><b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> to your hand.",
     "flavourText": "Income: 150,000 riqals - Salary (including tips)\nExpenses: 130,000 riqals - Debt repayment, a white carnation, a ring\nDebt: 29,900,000 riqals\n—Ledger, 15th of Taurus, Year 805",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -927,7 +960,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10322110,
@@ -951,7 +984,7 @@
     "text": "Fanfare: Add a Gilded Necklace to your hand.\n\nLast Words: Add a Gilded Blade to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand.\n<hr><b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Gilded Blade</color></i></b> to your hand.",
     "flavourText": "Income: 500,000 riqals - Salary, sale of accessory, \"services\"\nExpenses: 490,000 riqals - Debt repayment\nDebt: 25,090,000 riqals\n—Ledger, 15th of Capricorn, Year 811",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -972,7 +1005,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10421110,
@@ -1196,6 +1229,51 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10921110,
+    "baseCardId": 10921110,
+    "name": "Open-Sea Scout",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Dread Pirate's Flag",
+      "Evolve",
+      "Fanfare",
+      "Gilded Boots"
+    ],
+    "text": "Fanfare: Summon a Dread Pirate's Flag.\n\nEvolve: Add a Gilded Boots to your hand.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.</ev>",
+    "flavourText": "By chance and good fortune, I broke off my iron collar and became a free man. But when I saw others in restraints during my carefree travels, my blood boiled for their sakes, and I took action against their captors.\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021210,
+      90021330
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9d0e50471c1a4f17a9287aedf8672c0f.png",
+    "imageHash": "9d0e50471c1a4f17a9287aedf8672c0f",
+    "bannerImageHash": "4378902e14ee43de881adc6f87d071c0",
+    "evolved": {
+      "text": "Fanfare: Summon a Dread Pirate's Flag.\n\nEvolve: Add a Gilded Boots to your hand.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.</ev>",
+      "flavourText": "What officials? What nobles? They are nothing but villains who steal freedom from innocent people. In liberating others, I became wanted as a pirate. And though my ship grows smaller with each free man that joins me, I don't regret a thing.\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e2707bf1cae24690b99f20244b0141ad.png",
+      "imageHash": "e2707bf1cae24690b99f20244b0141ad",
+      "bannerImageHash": "dfb0baade0784f3399806a8b9dcc52e7"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90022110,
     "baseCardId": 90022110,
     "name": "Wretch",
@@ -1397,7 +1475,7 @@
     "text": "Select an allied follower on the field and give it Ward. Deal 4 damage to a random enemy follower.",
     "rawSkillText": "Select an allied follower on the field and give it <b><color=Keyword>Ward</color></b>. Deal 4 damage to a random enemy follower.",
     "flavourText": "On the battlefield, defense can become offense with a single act.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1408,7 +1486,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10323310,
@@ -1430,7 +1508,7 @@
     "text": "Fuse: Loot cards\n\nDeal 2 damage to a random enemy follower. Add a Gilded Blade to your hand. If you've Fused to this card, draw a card.",
     "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Loot cards\n<hr>Deal 2 damage to a random enemy follower. Add a <b><i><color=Keyword>Gilded Blade</color></i></b> to your hand. If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, draw a card.",
     "flavourText": "So, the Trial of Usurpation has been overcome. Now, the Trial of Hollowness is at hand. The eighth Omen wields the power of empty usurpation.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1443,7 +1521,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10521310,
@@ -1540,6 +1618,42 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10921310,
+    "baseCardId": 10921310,
+    "name": "Phalanx",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Steelclad Knight",
+      "Ward"
+    ],
+    "text": "Summon a Steelclad Knight and give it Ward.\nEnhance (6): Summon 5 instead.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Steelclad Knight</color></i></b> and give it <b><color=Keyword>Ward</color></b>.\n<b><color=Keyword>Enhance</color> (6)</b>: Summon 5 instead.",
+    "flavourText": "Different names. Different backgrounds. Different ways of thinking. And yet, they march as one.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1a1d85b2ac6d48aab57dbf7329f041da.png",
+    "imageHash": "1a1d85b2ac6d48aab57dbf7329f041da",
+    "bannerImageHash": "5d4aae2a6ee4455ba5af35a6ae4af566",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1909,7 +2023,7 @@
     "text": "Fanfare: Gain Crest: Octrice, Hollowness Manifest.\n\nEvolve: Add a Gilded Blade and Gilded Necklace to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Gain <b><i>Crest: Octrice, Hollowness Manifest</i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Blade</color></i></b> and <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand.</ev>",
     "flavourText": "Return what was usurped to this empty world. The fear that replaces your pleasure will guide you to greater heights. Remember your starvation and revive your thirst, lest you taste loss again. So come, let us continue this world's trial.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1936,7 +2050,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10421120,
@@ -2322,6 +2436,51 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10922110,
+    "baseCardId": 10922110,
+    "name": "Whirlpool Gunner",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 3,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Dread Pirate's Flag",
+      "Fanfare",
+      "Gilded Goblet",
+      "Rush"
+    ],
+    "text": "Fanfare: Summon a Dread Pirate's Flag. Add a Gilded Goblet to your hand.\n\nRush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> to your hand.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "A skilled navigator. A seasoned cook. A shrewd negotiator. A cunning tactician. As the ship became more cramped, so too did my world expand. And in that ever-growing world, I met the love of my life, and our daughter was born.\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021210,
+      90021320
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85bab94a6b3b4710820c9a015624a590.png",
+    "imageHash": "85bab94a6b3b4710820c9a015624a590",
+    "bannerImageHash": "136bd73c56044a3da9afa0572528dc11",
+    "evolved": {
+      "text": "Fanfare: Summon a Dread Pirate's Flag. Add a Gilded Goblet to your hand.\n\nRush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> to your hand.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "My freedom granted me true happiness. I knew then that I had to share this gift with my daughter. \n\"Live free, Barbaros. For both of us!\"\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/839e9fda1b0a4b5a80bdc4205b6037bf.png",
+      "imageHash": "839e9fda1b0a4b5a80bdc4205b6037bf",
+      "bannerImageHash": "23b1d55120174cd9b5b3773e1e3b3fc3"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90021130,
     "baseCardId": 90021130,
     "name": "Naht's Henchman",
@@ -2473,6 +2632,40 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10922310,
+    "baseCardId": 10922310,
+    "name": "Severed Ties",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Severed Ties"
+    ],
+    "text": "Select an enemy follower on the field and deal it 5 damage. If this card's cost is 3, add a Severed Ties to your hand and set its cost to 1.",
+    "rawSkillText": "Select an enemy follower on the field and deal it 5 damage. If this card's cost is 3, add a <b><i><color=Keyword>Severed Ties</color></i></b> to your hand and set its cost to 1.",
+    "flavourText": "\"Sorry, Barbaros. This is the end of the road for us. Looks like I robbed you of any life besides freedom.\"\n\"Save it, Mr. Hero. We both know you never planned on giving me a chance.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10922310
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ebb2ec795ee642ef8f859d22d01a5266.png",
+    "imageHash": "ebb2ec795ee642ef8f859d22d01a5266",
+    "bannerImageHash": "b7832a622b7949cd8b917932a50e0f74",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10021120,
     "baseCardId": 10021120,
     "name": "Arms Peddler",
@@ -2617,7 +2810,7 @@
     "text": "Fanfare: Add a Gilded Goblet and Gilded Boots to your hand.\n\nWhenever you play or Fuse a Loot card, deal 3 damage to a random enemy follower.\n\nEvolve: Recover 1 play point.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> and <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.\n<hr>Whenever you play or <b><color=Keyword>Fuse</color></b> a Loot card, deal 3 damage to a random enemy follower.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Recover 1 play point.</ev>",
     "flavourText": "Income: 3 quadrillion riqals - \"Hard work\"\nExpenses: 300 million riqals - Ring activations, \"plan\" expenditures\nAssets: 8 quadrillion riqals\n—Ledger, 3rd of Leo, Year 814",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2638,7 +2831,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10422130,
@@ -3000,6 +3193,46 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10921120,
+    "baseCardId": 10921120,
+    "name": "Kindred Cavalrywoman",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 4,
+    "attack": 5,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Rush",
+      "Ward"
+    ],
+    "text": "Rush\nWard",
+    "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Ward</color></b>",
+    "flavourText": "Willpower alone is not enough to master a horse. Experience means nothing without mutual understanding. \"I can't call myself a cavalry rider until we can move in unison. Until then, we are no more than man and beast,\" the knight sighed, unaware that horrible news would soon reach her ears.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6a2a5d40c3bc40278a42057a77224d6e.png",
+    "imageHash": "6a2a5d40c3bc40278a42057a77224d6e",
+    "bannerImageHash": "a4a12041eac5474691369071c55268c6",
+    "evolved": {
+      "text": "Rush\nWard",
+      "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Ward</color></b>",
+      "flavourText": "The knight cried out, \"I want to save my homeland—become my legs!\"\nThe horse neighed, \"I want to save my comrades—become my blade!\"\nAnd so man and beast became, truly, one mounted warrior.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e32334180fa3498e996758ebe859fe80.png",
+      "imageHash": "e32334180fa3498e996758ebe859fe80",
+      "bannerImageHash": "b09444a5a2ce49dd9e47c8f0bfe50860"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10121310,
     "baseCardId": 10121310,
     "name": "Knightly Rending",
@@ -3071,6 +3304,41 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10923310,
+    "baseCardId": 10923310,
+    "name": "L'Age d'Or",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Dread Pirate's Flag",
+      "Enhance"
+    ],
+    "text": "Summon a Dread Pirate's Flag. Deal 2 damage to all enemy followers.\nEnhance (6): Summon 2 instead. Deal 4 damage instead.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Deal 2 damage to all enemy followers.\n<b><color=Keyword>Enhance</color> (6)</b>: Summon 2 instead. Deal 4 damage instead.",
+    "flavourText": "\"You cling to justice, bonds, and goodwill. But they have become the shackles that bind you! I'll use my freedom to shatter them all!\"\n\"Barbaros, your independence was a gift from me, but now I'm taking it back. I am the plunderer who will strip you of your freedom!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/64f223e4683649acb688c5380a5439c8.png",
+    "imageHash": "64f223e4683649acb688c5380a5439c8",
+    "bannerImageHash": "2e1263fce9de4e54bc2b95ee940649da",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3262,7 +3530,7 @@
     "text": "Fanfare: Summon a random Swordcraft follower that costs 3 or less from your deck.\n\nEvolve: Select another allied follower on the field and give it +2/+2.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a random Swordcraft follower that costs 3 or less from your deck.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select another allied follower on the field and give it +2/+2.</ev>",
     "flavourText": "I mean, the battlefield's an awful place. That's why I gotta be cheerful on the frontlines! I'll hyper-boost our morale, just you wait!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3280,7 +3548,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10524120,
@@ -3469,6 +3737,98 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10922120,
+    "baseCardId": 10922120,
+    "name": "Ferocious Commander",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 5,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Fanfare",
+      "Rush",
+      "Steelclad Knight"
+    ],
+    "text": "Fanfare: Summon 2 copies of Steelclad Knight.\nEnhance (7): Give them and this follower +3/+0 and Rush.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Steelclad Knight</color></i></b>.\n<b><color=Keyword>Enhance</color> (7)</b>: Give them and this follower +3/+0 and <b><color=Keyword>Rush</color></b>.",
+    "flavourText": "\"Wag your tails for peace!\"\nThey pledge their loyalty to preserve harmony, and howl to keep the flames of war at bay.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7a023fd6323449af90b1dac37bc42c64.png",
+    "imageHash": "7a023fd6323449af90b1dac37bc42c64",
+    "bannerImageHash": "dbf0ca7e0cce4dd48aca01cc284a932f",
+    "evolved": {
+      "text": "Fanfare: Summon 2 copies of Steelclad Knight.\nEnhance (7): Give them and this follower +3/+0 and Rush.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Steelclad Knight</color></i></b>.\n<b><color=Keyword>Enhance</color> (7)</b>: Give them and this follower +3/+0 and <b><color=Keyword>Rush</color></b>.",
+      "flavourText": "\"We are the guard dogs of peace!\"\nThey fight not for any powers, but to defend the smiles of those with no fangs of their own.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a14434b9ec6841bfb76fbec1d0beb41a.png",
+      "imageHash": "a14434b9ec6841bfb76fbec1d0beb41a",
+      "bannerImageHash": "7239a56bd5b3459faa02fe542beba27f"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10923110,
+    "baseCardId": 10923110,
+    "name": "Roughwater First Mate",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Dread Pirate's Flag",
+      "Evolve",
+      "Fanfare",
+      "Gilded Blade",
+      "Gilded Necklace",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and deal it 3 damage. Summon a Dread Pirate's Flag.\n\nEvolve: Replicate the effects of this card's Fanfare ability.\nSuper-Evolve: Add a Gilded Blade and Gilded Necklace to your hand and set their costs to 0.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 3 damage. Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Blade</color></i></b> and <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand and set their costs to 0.</sev>",
+    "flavourText": "My daughter grew older, smarter, and more rebellious. But I refused to fetter her. I would never let myself become like the ones who put a collar on me.\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021210,
+      90021310,
+      90021340
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/dfbd279ea20b4840ac821e7f2c0904b5.png",
+    "imageHash": "dfbd279ea20b4840ac821e7f2c0904b5",
+    "bannerImageHash": "5159a65cad154d10ae74b2cc2aa1867b",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and deal it 3 damage. Summon a Dread Pirate's Flag.\n\nEvolve: Replicate the effects of this card's Fanfare ability.\nSuper-Evolve: Add a Gilded Blade and Gilded Necklace to your hand and set their costs to 0.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 3 damage. Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Blade</color></i></b> and <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand and set their costs to 0.</sev>",
+      "flavourText": "Screams, shouts, and voices celebrating freedom could be heard from the flaming ship. I watched her laughing in the mayhem and realized I'd made a mistake.\n\"He told me to be free, didn't he? Well, this is me being free!\"\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 6",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a99c8cad0533499292c67240307adafb.png",
+      "imageHash": "a99c8cad0533499292c67240307adafb",
+      "bannerImageHash": "a13a403352a84ea690855bb4783ad207"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3704,7 +4064,7 @@
     "text": "Last Words: Summon a Comrade of the Swordmaster and remove Last Words from it.",
     "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Comrade of the Swordmaster</color></i></b> and remove <b><color=Keyword>Last Words</color></b> from it.",
     "flavourText": "The usurping spineblade returns to its rightful owner. Its stolen techniques ensnare the samurai, who mastered them once before. But another challenger emerges—one inspired by the samurai's spirit and itching to join the fight.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3724,7 +4084,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10324110,
@@ -3747,7 +4107,7 @@
     "text": "Fuse: Loot cards\n\nFanfare: Deal X damage to all enemies. X is the number of differently named cards Fused to this card.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Loot cards\n<hr><b><color=Keyword>Fanfare</color></b>: Deal X damage to all enemies. X is the number of differently named cards <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
     "flavourText": "Well, well, my condolences to all you chumps. This world was never meant to be fair. You just turned your eyes away from the truth. So if you can't take it, then I will. Soon, everything will belong to me.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3776,7 +4136,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10422110,
@@ -4177,6 +4537,60 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10924110,
+    "baseCardId": 10924110,
+    "name": "Barbaros, Rebellious Convict",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 4,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Dread Pirate's Flag",
+      "Fanfare",
+      "Storm"
+    ],
+    "text": "Fanfare: Summon a Dread Pirate's Flag. Advance the counts of all allied copies of Dread Pirate's Flag on the field by 5.\n\nStorm",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Advance the counts of all allied copies of <b><i><color=Keyword>Dread Pirate's Flag</color></i></b> on the field by 5.\n<hr><b><color=Keyword>Storm</color></b>",
+    "flavourText": "Smile, Mr. Hero. This is what you were waiting for, wasn't it? A showdown of good and evil. The villain who stole your ship, crew and all, is right here. So what do you say—are you ready to go down with the ship?\n\"Guide us through the deep blue, L'Age d'Or!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c9ff4dfb93644f07a497eed21c3cf180.png",
+    "imageHash": "c9ff4dfb93644f07a497eed21c3cf180",
+    "bannerImageHash": "e33184ae266542319f983e8d8ce5d232",
+    "evolved": {
+      "text": "Fanfare: Summon a Dread Pirate's Flag. Advance the counts of all allied copies of Dread Pirate's Flag on the field by 5.\n\nStorm",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Advance the counts of all allied copies of <b><i><color=Keyword>Dread Pirate's Flag</color></i></b> on the field by 5.\n<hr><b><color=Keyword>Storm</color></b>",
+      "flavourText": "You're so bad at this, Mr. Hero. Just cast it all off into the wake. All your good deeds and crew have brought you nothing. How are you supposed to fight evil if you're bound by some sense of morality? Go ahead and hate me. C'mon Dad, live and be free!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ea2ac14d6d7140caa41e705baa19bdde.png",
+      "imageHash": "ea2ac14d6d7140caa41e705baa19bdde",
+      "bannerImageHash": "ea81882109bc46beb5dea8ff93c51cdb"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6e57f9036af745d2b93a5ca44208ecf9.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/8503766ef7674221bce5ab89ea3cf434.png"
+      },
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/99b8ad3514b9498a93dffe9034cb3aa2.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/d26dcf03dd7448e48c848f7e2b5609f5.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10123310,
     "baseCardId": 10123310,
     "name": "Ravening Tentacles",
@@ -4512,6 +4926,48 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10924120,
+    "baseCardId": 10924120,
+    "name": "Beltezore, Valorous Revenant",
+    "class": "Swordcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 10,
+    "attack": 2,
+    "defense": 12,
+    "traits": [],
+    "keywords": [
+      "Aura",
+      "Bane",
+      "Storm",
+      "Ward"
+    ],
+    "text": "Storm\nBane\nWard\nAura\nCan attack 3 times per turn.",
+    "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<b><color=Keyword>Bane</color></b>\n<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Aura</color></b>\nCan attack 3 times per turn.",
+    "flavourText": "Freedom isn't something you get from someone else. I was able to choose my own path. I made the decision to gather a crew, to do good, to have you. But you didn't get that opportunity—I forced freedom upon you. So now, let me right my wrongs.\n\"Slash the deep blue, Golden Wave Blade.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/602d078f4b9a4f7a8f7be6222fd45243.png",
+    "imageHash": "602d078f4b9a4f7a8f7be6222fd45243",
+    "bannerImageHash": "ae9b609e30584e46a37b86603626ce2c",
+    "evolved": {
+      "text": "Storm\nBane\nWard\nAura\nCan attack 3 times per turn.",
+      "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<b><color=Keyword>Bane</color></b>\n<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Aura</color></b>\nCan attack 3 times per turn.",
+      "flavourText": "People are born with more than just malice in their hearts. They are inclined to love and desire happiness. I'm the same. I gave you freedom because I wanted you to be happy. Little did I know that very freedom would shackle you like those villains once shackled me.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/62565df46a3d4728be5be03e4f44cb28.png",
+      "imageHash": "62565df46a3d4728be5be03e4f44cb28",
+      "bannerImageHash": "4eb89ab472564ae2a1d2325568644ba7"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   }
 ]

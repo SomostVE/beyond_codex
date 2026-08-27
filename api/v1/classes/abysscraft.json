@@ -757,7 +757,7 @@
     "text": "Enhance (7): Reanimate (5) and Reanimate (3).",
     "rawSkillText": "<b><color=Keyword>Enhance</color> (7)</b>: <b><color=Keyword>Reanimate</color> (5)</b> and <b><color=Keyword>Reanimate</color> (3)</b>.",
     "flavourText": "A good gravekeeper must always ensure that her guests are having a comfortable and pleasant death! Graves: cleaned! Flowers: placed! Candles... Oh. Um, sir? Excuse me sir, we kindly ask that all grave robbers and necromancers leave the premises! Hello? Sir?",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -775,7 +775,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10354110,
@@ -800,7 +800,7 @@
     "text": "Fanfare: Reduce your faith's value by 10 to give it \"Increase the number of Modes you can select by 1.\"\n\nSuper-Evolve: Select an enemy follower on the field, destroy it, and add a copy of it to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Reduce your faith's value by 10 to give it \"Increase the number of <b><color=Keyword>Mode</color><color=Keyword>s</color></b> you can select by 1.\"\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Select an enemy follower on the field, destroy it, and add a copy of it to your hand.</sev>",
     "flavourText": "Be enveloped in our love, and become our children. Behold the great entwining. Our influence spreads to the four corners of the world. Gather, my children, and be entwined. Our creed is simple: love thine equal, and together we will make our beautiful nest!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -827,7 +827,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10451110,
@@ -1083,6 +1083,88 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10951110,
+    "baseCardId": 10951110,
+    "name": "Ruthless Blitzer",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Fanfare"
+    ],
+    "text": "Fanfare: Deal 2 damage to both leaders.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 2 damage to both leaders.",
+    "flavourText": "I've got a dream—to find the best way to give those brats a future, 'cause anyone should be able to make something of their lives, no matter their roots. Well, haven't been dreaming much now that I'm sick, but it's fine. I've got a disciple.\n—<i>Serpent's Lair: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/12304bc300dd4d3f85fed09c98dc5a2d.png",
+    "imageHash": "12304bc300dd4d3f85fed09c98dc5a2d",
+    "bannerImageHash": "a75f0bddba3d438aa47017c032ccbf30",
+    "evolved": {
+      "text": "Fanfare: Deal 2 damage to both leaders.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 2 damage to both leaders.",
+      "flavourText": "The brat who once fought for himself has learned to fight for his companions. It almost brings a tear to my eye to see how much Garodeth has grown. He'll find a way to realize our dreams without resorting to violence. If anyone can do it, it's him.\n—<i>Serpent's Lair: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/877ccaaf1ebb4297b5d2cccb47553caa.png",
+      "imageHash": "877ccaaf1ebb4297b5d2cccb47553caa",
+      "bannerImageHash": "78ace22cf20746f9aedc2b697873403d"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10951120,
+    "baseCardId": 10951120,
+    "name": "Netherworld Lieutenant",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Last Words",
+      "Netherworld Lieutenant",
+      "Rush"
+    ],
+    "text": "Last Words: Summon a Netherworld Lieutenant, give it +1/+0 and Rush, and remove Last Words from it.",
+    "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Netherworld Lieutenant</color></i></b>, give it +1/+0 and <b><color=Keyword>Rush</color></b>, and remove <b><color=Keyword>Last Words</color></b> from it.",
+    "flavourText": "It's almost ironic. The Reaper's Due—a once in a lifetime ability to extend someone's life—was granted to a frail girl like me. It can deny any death... so who better to use it on than the most adorable little brother in the whole wide world?\n—<i>The Ossuary: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10951120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/998642d8646147bfaea2ac32ed7108f9.png",
+    "imageHash": "998642d8646147bfaea2ac32ed7108f9",
+    "bannerImageHash": "7cab0aef2c00497c8f0686d3d2ade445",
+    "evolved": {
+      "text": "Last Words: Summon a Netherworld Lieutenant, give it +1/+0 and Rush, and remove Last Words from it.",
+      "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Netherworld Lieutenant</color></i></b>, give it +1/+0 and <b><color=Keyword>Rush</color></b>, and remove <b><color=Keyword>Last Words</color></b> from it.",
+      "flavourText": "If I had to go, I'd rather go first. After all, it'd hurt more if I were left behind. I'd be plagued with thoughts of what I could've done or how you're no longer here. And to be honest, I doubt I could live with any more guilt and regret.\n—<i>The Ossuary: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9633337a747649098e1c658f7f75a2b0.png",
+      "imageHash": "9633337a747649098e1c658f7f75a2b0",
+      "bannerImageHash": "e42b8cf5678c4cbe80cd351b92ee097c"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1481,6 +1563,70 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10952310,
+    "baseCardId": 10952310,
+    "name": "Chains of the Past",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Enhance"
+    ],
+    "text": "Do this 1 time: \"Deal 3 damage to a random enemy follower. Deal 1 damage to both leaders.\"\nEnhance (4): Do it 2 times instead.",
+    "rawSkillText": "Do this 1 time: \"Deal 3 damage to a random enemy follower. Deal 1 damage to both leaders.\"\n<b><color=Keyword>Enhance</color> (4)</b>: Do it 2 times instead.",
+    "flavourText": "\"These chains, aren't they your hand-me-downs? I'm not taking your trash.\"\n\"Think of it as a gift from your mentor. Use them properly.\"\n\"Ha. Isn't 'properly' just swinging 'em and wrecking things?\"\n\"...Idiot. They're only meant to wreck what stands in the way of our dreams.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/58e7d844b9814e379340396f8465219a.png",
+    "imageHash": "58e7d844b9814e379340396f8465219a",
+    "bannerImageHash": "7e6a7d45e7b140eda2b929ee44f7cef3",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10953310,
+    "baseCardId": 10953310,
+    "name": "Reaper's Due",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Last Words"
+    ],
+    "text": "Select an allied follower on the field and give it \"Last Words: Summon a copy of this card.\"",
+    "rawSkillText": "Select an allied follower on the field and give it \"<b><color=Keyword>Last Words</color></b>: Summon a copy of this card.\"",
+    "flavourText": "I wanted to spend my life with you. Both of us, together. But I knew that one day, a difficult choice will have to be made between us. So when that day came, my mind was already made—I'll make sure you live, even if it meant using my power... What optimistic, foolish arrogance that was.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5241de94d85b42119619cc7840974e48.png",
+    "imageHash": "5241de94d85b42119619cc7840974e48",
+    "bannerImageHash": "faef8edeeafc4f398b8ebe0f0a624848",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10352210,
     "baseCardId": 10352210,
     "name": "Castle of Entwining",
@@ -1501,7 +1647,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Draw a card.\n2. Give a random allied follower on the field +1/+1.\n\nEngage (1): Destroy this card. Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Draw a card.</ridx>\n<ridx=1>2. Give a random allied follower on the field +1/+1.</ridx>\n<hr><b><color=Keyword>Engage</color> (1)</b>: Destroy this card. Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.",
     "flavourText": "In my cave, I read my book as I sup on dew and insects. I used to be afraid of the invaders—now I can't wait for them to find me. I understand now that we all end up equal, because all lives end the same. But yours might end differently, reader...",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1512,7 +1658,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10051120,
@@ -1789,7 +1935,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Deal 1 damage to all enemy followers.\n2. Give this follower +2/+2.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Deal 1 damage to all enemy followers.</ridx>\n<ridx=1>2. Give this follower +2/+2.</ridx>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
     "flavourText": "The grand designs of the Ten affect us all—even little ol' me. Everyone in my village is dead—killed by the servants of silence and lust. All I have left is this book. I found it in the grip of a man who lived in fear of an otherworldly threat. He won't need it anymore.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1807,7 +1953,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10452120,
@@ -1955,7 +2101,7 @@
       "Rush"
     ],
     "text": "Rush\nLast Words: Add a Ghost to your hand.",
-    "rawSkillText": "<b><color=Keyword>Rush</b></color>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
+    "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
     "flavourText": "As always, the tavern's clientele crowds around the foolhardy adventurer as he tells them his tale.\n\"Haha, I've done it again! I escaped those monsters without a scratch on me! Anyone who wants a peek at the spoils has to buy me a drink. Up-front!\"",
     "rotation": true,
     "token": false,
@@ -1968,7 +2114,7 @@
     "bannerImageHash": "b400a8c16ac94a4f9061f06104955492",
     "evolved": {
       "text": "Rush\nLast Words: Add a Ghost to your hand.",
-      "rawSkillText": "<b><color=Keyword>Rush</b></color>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
+      "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
       "flavourText": "\"So then I tossed aside my decoy and made a mad dash for the exit! Haha, now I can sell this loot and buy myself some new pants!\"\nBut the tavern regulars aren't interested in his hard-earned plunder; the tales of his escapes are the treasures they keep coming here for.",
       "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9e0459b0f02943dca47c2918e92a1304.png",
       "imageHash": "9e0459b0f02943dca47c2918e92a1304",
@@ -1977,7 +2123,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10652110,
@@ -2088,7 +2234,7 @@
     "text": "Select 2 Modes to activate.\n1. Recover 1 play point.\n2. Draw a follower.\n3. Draw a 3-cost spell.\n4. Deal 4 damage to a random enemy follower.",
     "rawSkillText": "Select 2 <b><color=Keyword>Mode</color><color=Keyword>s</color></b> to activate.\n<ridx=0>1. Recover 1 play point.</ridx>\n<ridx=1>2. Draw a follower.</ridx>\n<ridx=2>3. Draw a 3-cost spell.</ridx>\n<ridx=3>4. Deal 4 damage to a random enemy follower.</ridx>",
     "flavourText": "So, the Trials of Silence and Lust were overcome. Now the Trials of Cacophony and Desire are at hand. The third Omen wields the power of cacophonic silence, and the seventh wields lustful desire.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2099,7 +2245,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10651310,
@@ -2516,7 +2662,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Deal 3 damage to a random enemy follower.\n2. Restore 2 defense to your leader.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Deal 3 damage to a random enemy follower.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
     "flavourText": "I escaped into the cave by the skin of my teeth. Each day I read more of my book. I can't move my swollen leg; I think something bit me. If their minions find me now, I'm dead. I hope they keep squabbling with each other, like they did when I fled the village.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2540,7 +2686,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10551120,
@@ -2766,7 +2912,7 @@
     "text": "Deal 2 damage to 2 random enemy followers and the enemy leader.",
     "rawSkillText": "Deal 2 damage to 2 random enemy followers and the enemy leader.",
     "flavourText": "They weren't mindless. They understood completely our pleas for mercy.\n\nEvery desperate word.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2777,6 +2923,42 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 10951310,
+    "baseCardId": 10951310,
+    "name": "Spooky Surprise",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 4,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Ghost",
+      "Rotting Zombie"
+    ],
+    "text": "Summon a Ghost and Rotting Zombie.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Ghost</color></i></b> and <b><i><color=Keyword>Rotting Zombie</color></i></b>.",
+    "flavourText": "\"Zombies are horrifying! How can they move when every part is rotting away?\" screamed the ghost.\n\"Ghosts are terrifying! How can they exist when their bodies aren't even real?\" cried the zombie.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90051130,
+      90051140
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ffabbfd4dacc445da5b565e5f6f77dc8.png",
+    "imageHash": "ffabbfd4dacc445da5b565e5f6f77dc8",
+    "bannerImageHash": "971c45ef868a46c2a99d99486ce96c04",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2980,7 +3162,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Summon a Congregant of Entwining and give it and this follower Rush.\n2. Summon a Congregant of Entwining and give it and this follower Ward.\n3. Give all allied copies of Congregant of Entwining on the field +2/+2.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Summon a <b><i><color=Keyword>Congregant of Entwining</color></i></b> and give it and this follower <b><color=Keyword>Rush</color></b>.</ridx>\n<ridx=1>2. Summon a <b><i><color=Keyword>Congregant of Entwining</color></i></b> and give it and this follower <b><color=Keyword>Ward</color></b>.</ridx>\n<ridx=2>3. Give all allied copies of <b><i><color=Keyword>Congregant of Entwining</color></i></b> on the field +2/+2.</ridx>\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
     "flavourText": "I hear noises from outside. I finish the last page of my book. Their peons find my cave. They recoil from me, as if I'm a monster. Oh well. Time to go.\n\"Be enveloped in my love, and become my children. Behold the great entwining.\"",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3000,7 +3182,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10552120,
@@ -3628,6 +3810,88 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10952110,
+    "baseCardId": 10952110,
+    "name": "Void Colonel",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 6,
+    "attack": 4,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Last Words",
+      "Ward"
+    ],
+    "text": "Ward\nLast Words: Destroy a random enemy follower. Restore 2 defense to your leader.",
+    "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: Destroy a random enemy follower. Restore 2 defense to your leader.",
+    "flavourText": "My little brother turned into a murderous monster. That was my punishment for saving him despite knowing how terrible it'd feel to be one who survived. And, with the remains of the countless lives he took, he extended my life.\n—<i>The Ossuary: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10952110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8f3de91ca560473ea1853f56ffff2063.png",
+    "imageHash": "8f3de91ca560473ea1853f56ffff2063",
+    "bannerImageHash": "52194e53c8ea4eedac7bc44104715510",
+    "evolved": {
+      "text": "Ward\nLast Words: Destroy a random enemy follower. Restore 2 defense to your leader.",
+      "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: Destroy a random enemy follower. Restore 2 defense to your leader.",
+      "flavourText": "With my dear little brother's sacrifice, I will no longer age nor scar. In return, he's now a candle flickering in the wind, a breath away from perishing. Yet despite our flipped positions, the only life he's ever valued remains the same.\n—<i>The Ossuary: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6866a0d3b5894e75a2b7835f2934d264.png",
+      "imageHash": "6866a0d3b5894e75a2b7835f2934d264",
+      "bannerImageHash": "3371c59d20cc4ec9a8e1763d8b4af4ce"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10953110,
+    "baseCardId": 10953110,
+    "name": "Rampaging Commander",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 6,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Deal 3 damage to all enemy followers. Deal 3 damage to both leaders.\n\nSuper-Evolve: Draw 2 cards. Deal 1 damage to both leaders.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 3 damage to all enemy followers. Deal 3 damage to both leaders.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Draw 2 cards. Deal 1 damage to both leaders.</sev>",
+    "flavourText": "The brute strength he wields was taught by me. His mental fortitude was instilled by his companions. But the stubborn defiance he flaunts? That he was born with. Honestly, I thought he'd be smart enough to use all three to forge our future.\n—<i>Serpent's Lair: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/be29cd2f05b148619193157103979ffb.png",
+    "imageHash": "be29cd2f05b148619193157103979ffb",
+    "bannerImageHash": "4452877211ab484493ca807cff8aa903",
+    "evolved": {
+      "text": "Fanfare: Deal 3 damage to all enemy followers. Deal 3 damage to both leaders.\n\nSuper-Evolve: Draw 2 cards. Deal 1 damage to both leaders.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 3 damage to all enemy followers. Deal 3 damage to both leaders.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Draw 2 cards. Deal 1 damage to both leaders.</sev>",
+      "flavourText": "That brat failed to see that violence will never bring about our dreams. If anything, it would set us back. I should've made sure that lesson stuck with him. So, as his mentor, I guess it's my job now to steer him back on to the straight and narrow.\n—<i>Serpent's Lair: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0758b17f612b4dd8b119c3a033146644.png",
+      "imageHash": "0758b17f612b4dd8b119c3a033146644",
+      "bannerImageHash": "e067d9b9b0ba4062b5455949165587c4"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10154120,
     "baseCardId": 10154120,
     "name": "Medusa, Venomfang Royalty",
@@ -3695,7 +3959,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Add a Scream Diffusion to your hand.\n2. Add a Wings of Desire to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Add a <b><i><color=Keyword>Scream Diffusion</color></i></b> to your hand.</ridx>\n<ridx=1>2. Add a <b><i><color=Keyword>Wings of Desire</color></i></b> to your hand.</ridx>",
     "flavourText": "Words are an absolute evil and so meaning must be reaped from them. We will reduce language to mere noise. Only when all guilty ears are cleansed by screams will there be true equality. And in doing so, we shall continue to put the world to trial.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3717,7 +3981,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10454110,
@@ -3915,6 +4179,86 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10952120,
+    "baseCardId": 10952120,
+    "name": "Sparkly Demoness",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 7,
+    "attack": 7,
+    "defense": 7,
+    "traits": [],
+    "keywords": [
+      "Fanfare"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and destroy it. Deal 2 damage to the enemy leader.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it. Deal 2 damage to the enemy leader.",
+    "flavourText": "\"Did y'hear? That demoness took out some bad guys again!\"\n\"Yeah, the special edition on her sold out like hotcakes. Everyone wanted her pics!\"\n\"Did you see how she reassured the victims? I wanna be like her some day!\"\nListening in a corner of the classroom, a gloomy girl smiled.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/206df5914cc04f03862ac45bc5d77b65.png",
+    "imageHash": "206df5914cc04f03862ac45bc5d77b65",
+    "bannerImageHash": "4f93d6a8e29541999c850d0864b02f80",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and destroy it. Deal 2 damage to the enemy leader.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it. Deal 2 damage to the enemy leader.",
+      "flavourText": "The gloomy girl had summoned a demon to grant her desire.\n\"I want to be pretty, powerful, popular, smart, and have the courage to look at other people's eyes when I talk to them!\"\n\"Greedy, but I do appreciate ambition.\"\nAnd every night since, she transforms into the person she always wanted to be.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/afa0da96bd85443d9bbd122322435944.png",
+      "imageHash": "afa0da96bd85443d9bbd122322435944",
+      "bannerImageHash": "93ad4d9fed6d4044bc262dc1caf7cf10"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10954110,
+    "baseCardId": 10954110,
+    "name": "Istyndet vs. Mitilykket",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Reanimate",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Do this 3 times: \"Reanimate (2).\" Deal 2 damage to all enemy followers.\n\nSuper-Evolve: Gain Crest: Istyndet vs. Mitilykket.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 3 times: \"<b><color=Keyword>Reanimate</color> (2)</b>.\" Deal 2 damage to all enemy followers.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Istyndet vs. Mitilykket</i></b>.</sev>",
+    "flavourText": "I wanted you to know, dear sister, the unconditional joys of life. Even the bleakest tragedies cannot deter the pure pursuit of happiness. That is the purpose of my life... entrusted to the one I love most. No crime, no punishment, no death can hinder me.\n\"Laugh and mourn, Deathbringer.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4f148312148d4200903b64b8456ad6d0.png",
+    "imageHash": "4f148312148d4200903b64b8456ad6d0",
+    "bannerImageHash": "c38370d619a94f1d939688a032ecddfa",
+    "evolved": {
+      "text": "Fanfare: Do this 3 times: \"Reanimate (2).\" Deal 2 damage to all enemy followers.\n\nSuper-Evolve: Gain Crest: Istyndet vs. Mitilykket.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 3 times: \"<b><color=Keyword>Reanimate</color> (2)</b>.\" Deal 2 damage to all enemy followers.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Istyndet vs. Mitilykket</i></b>.</sev>",
+      "flavourText": "I know of it, sweet Issy, like a kinship where no one leaves or is left behind. My greatest joy was always just being by your side. So, will you grant your sister just one wish? Die with me, here and now. With you, I'm sure even death will be sweet.\n\"Snuff out his light, Todesstunde.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cfa478431d0c4ec5a99820f9c7f12318.png",
+      "imageHash": "cfa478431d0c4ec5a99820f9c7f12318",
+      "bannerImageHash": "11be964dfb52405d8cbc7d4704a43bf9"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10652310,
     "baseCardId": 10652310,
     "name": "Allure of the Mightiest",
@@ -4106,7 +4450,7 @@
     "text": "Fanfare: Select 2 enemy followers on the field and destroy them. Deal 4 damage to your leader.\n\nStorm",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 enemy followers on the field and destroy them. Deal 4 damage to your leader.\n<hr><b><color=Keyword>Storm</color></b>",
     "flavourText": "Screaming silence and lustful desire attack. For the two demons who beat their respective trials, the twisted game goes on, even as dawn breaks. But another challenger emerges—one who sits at the ephemeral banquet as she seeks to deceive her foes.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4124,7 +4468,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10854110,
@@ -4171,6 +4515,48 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10954120,
+    "baseCardId": 10954120,
+    "name": "Garodeth vs. Zeth",
+    "class": "Abysscraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 8,
+    "attack": 8,
+    "defense": 8,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Mode",
+      "Storm",
+      "Ward"
+    ],
+    "text": "Activates in hand. At the end of your turn, if your leader's defense is 12 or less, reduce the cost of this card by 1.\n\nFanfare: Select a Mode to activate.\n1. Give this follower Storm. Deal 2 damage to your leader.\n2. Give this follower Ward. Deal 8 damage to all enemy followers.",
+    "rawSkillText": "Activates in hand. At the end of your turn, if your leader's defense is 12 or less, reduce the cost of this card by 1.\n<hr><b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Give this follower <b><color=Keyword>Storm</color></b>. Deal 2 damage to your leader.</ridx>\n<ridx=1>2. Give this follower <b><color=Keyword>Ward</color></b>. Deal 8 damage to all enemy followers.</ridx>",
+    "flavourText": "I'll smash everything you put in my way, Zeth. You taught me this, remember? That strength is needed to realize our dreams. Well now I can tear down any nuisance and break anything—even the night! So just stay down and watch, old man.\n\"Take his head, Wyrmbreaker!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/79a2e29e817b402da9dbf832cf510a50.png",
+    "imageHash": "79a2e29e817b402da9dbf832cf510a50",
+    "bannerImageHash": "0660777a47e84ee98b18ebea88d0b1cc",
+    "evolved": {
+      "text": "Activates in hand. At the end of your turn, if your leader's defense is 12 or less, reduce the cost of this card by 1.\n\nFanfare: Select a Mode to activate.\n1. Give this follower Storm. Deal 2 damage to your leader.\n2. Give this follower Ward. Deal 8 damage to all enemy followers.",
+      "rawSkillText": "Activates in hand. At the end of your turn, if your leader's defense is 12 or less, reduce the cost of this card by 1.\n<hr><b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Give this follower <b><color=Keyword>Storm</color></b>. Deal 2 damage to your leader.</ridx>\n<ridx=1>2. Give this follower <b><color=Keyword>Ward</color></b>. Deal 8 damage to all enemy followers.</ridx>",
+      "flavourText": "You're getting in your own way, brat. There's no future in what you're doing. Rampaging like you're throwing a tantrum—it's hard to watch, really. I see that you didn't learn a damn thing from me, Garodeth. Now that dawn you're chasing will never come.\n\"Stop his heart, Dawnfeaster!\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/fc9a12f97dfc406dbc240a3a48fed808.png",
+      "imageHash": "fc9a12f97dfc406dbc240a3a48fed808",
+      "bannerImageHash": "a50ca52efd8a4873b97e7fd14880a99f"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

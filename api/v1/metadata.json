@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T05:04:53.313Z",
+  "generatedAt": "2026-08-27T05:17:49.247Z",
   "source": "https://shadowverse-wb.com/web/CardList/cardList",
   "imageBase": "https://shadowverse-wb.com/uploads/card_image/eng/card/",
-  "count": 826,
-  "deckSelectableCount": 735,
+  "count": 904,
+  "deckSelectableCount": 811,
   "classes": [
     "Neutral",
     "Forestcraft",
@@ -24,7 +24,8 @@
     "10005": "Blossoming Fate",
     "10006": "Apocalypse Pact",
     "10007": "Anathema's Gambit",
-    "10008": "Chronicle of Destiny"
+    "10008": "Chronicle of Destiny",
+    "10009": "Revenants of Azvaldt"
   },
   "traits": {
     "0": "-",
@@ -88,8 +89,8 @@
     "12": "Spellboost"
   },
   "update": {
-    "added": 0,
-    "modified": 0,
+    "added": 78,
+    "modified": 80,
     "removed": 0
   }
 }

@@ -1,14 +1,1723 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T05:04:53.313Z",
-  "previousGeneratedAt": "2026-08-23T21:52:01.541Z",
+  "generatedAt": "2026-08-27T05:17:49.247Z",
+  "previousGeneratedAt": "2026-08-24T05:04:53.313Z",
   "baselineAvailable": true,
   "counts": {
-    "added": 0,
-    "modified": 0,
+    "added": 78,
+    "modified": 80,
     "removed": 0
   },
-  "added": [],
-  "modified": [],
+  "added": [
+    {
+      "id": 10901310,
+      "name": "Initiation of Rebirth",
+      "class": "Neutral",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10903110,
+      "name": "Warden of Selflessness",
+      "class": "Neutral",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10901110,
+      "name": "Jailor of Antiquity",
+      "class": "Neutral",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10902110,
+      "name": "Blade Angel",
+      "class": "Neutral",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10903210,
+      "name": "Azvaldt, Penitentiary of Chaos",
+      "class": "Neutral",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10904110,
+      "name": "Zerael, Sundered Rebirth",
+      "class": "Neutral",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10911110,
+      "name": "Sprouting Initiate",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10912110,
+      "name": "Leafshadow Assassin",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10913110,
+      "name": "Virid Lieutenant",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10912310,
+      "name": "Verdant Ring Kindred",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10912120,
+      "name": "Primate Plotters",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10914110,
+      "name": "Magachiyo, Aromatic Convict",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10911210,
+      "name": "Trap in the Woods",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10913310,
+      "name": "Crimson Incense",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10911120,
+      "name": "Jungle Youth",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10914120,
+      "name": "Hien, Redolent Revenant",
+      "class": "Forestcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 90021210,
+      "name": "Dread Pirate's Flag",
+      "class": "Swordcraft",
+      "set": "90000",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10921110,
+      "name": "Open-Sea Scout",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10921310,
+      "name": "Phalanx",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10922110,
+      "name": "Whirlpool Gunner",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10922310,
+      "name": "Severed Ties",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10921120,
+      "name": "Kindred Cavalrywoman",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10923310,
+      "name": "L'Age d'Or",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10922120,
+      "name": "Ferocious Commander",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10923110,
+      "name": "Roughwater First Mate",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10924110,
+      "name": "Barbaros, Rebellious Convict",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10924120,
+      "name": "Beltezore, Valorous Revenant",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10931310,
+      "name": "Miscalculated Experiment",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10931110,
+      "name": "Obsessed Test Subject",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10932120,
+      "name": "Noble Philosopher",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10932310,
+      "name": "Humane Love",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10932110,
+      "name": "Enamored Researcher",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10933110,
+      "name": "Ecstatic Scholar",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10933310,
+      "name": "Obsidian Raven",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10931120,
+      "name": "Key Spirit",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10934110,
+      "name": "Sephie, Maven Convict",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10934120,
+      "name": "Phylene, Cleansing Revenant",
+      "class": "Runecraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10941110,
+      "name": "Ripper-Clawed Thief",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10941310,
+      "name": "Drake Whelp's Tantrum",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10942110,
+      "name": "High-Spirited Marauder",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10943310,
+      "name": "Artiglio",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10942310,
+      "name": "Parting Jaws",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10941120,
+      "name": "Cave Dragon",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10943110,
+      "name": "Barren-Earth Tyrant",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10944110,
+      "name": "Antemaria, Piercing Convict",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10944120,
+      "name": "Normagdala, Ravening Revenant",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10942120,
+      "name": "Dragonfolk Butler",
+      "class": "Dragoncraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10951110,
+      "name": "Ruthless Blitzer",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10951120,
+      "name": "Netherworld Lieutenant",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10952310,
+      "name": "Chains of the Past",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10953310,
+      "name": "Reaper's Due",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10951310,
+      "name": "Spooky Surprise",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10952110,
+      "name": "Void Colonel",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10953110,
+      "name": "Rampaging Commander",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10952120,
+      "name": "Sparkly Demoness",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10954110,
+      "name": "Istyndet vs. Mitilykket",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10954120,
+      "name": "Garodeth vs. Zeth",
+      "class": "Abysscraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10962310,
+      "name": "Vow of Devotion",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10961110,
+      "name": "Follower of the Tenets",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10961210,
+      "name": "Roaring Basilica",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10962110,
+      "name": "Agent of the Testaments",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10962120,
+      "name": "Miraculous Al-mi'raj",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10961120,
+      "name": "Peryton",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10964110,
+      "name": "Erralde, Signet Convict",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10964120,
+      "name": "Omerio, Winged Revenant",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10963210,
+      "name": "Juratio",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10963110,
+      "name": "Executor of the Vow",
+      "class": "Havencraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10971110,
+      "name": "Bluerust Underling",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10972310,
+      "name": "Disgraceful Banishment",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10974110,
+      "name": "Cutthroat, Fluxblade Convict",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 90074150,
+      "name": "Warden of the Trigger",
+      "class": "Portalcraft",
+      "set": "90000",
+      "rarity": "Legendary"
+    },
+    {
+      "id": 10971120,
+      "name": "Twindrone Engineer",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10972110,
+      "name": "Ironwork Bodyguard",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10973310,
+      "name": "Soulforge",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10973110,
+      "name": "Steelforged Right Hand",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Gold"
+    },
+    {
+      "id": 10972120,
+      "name": "Blade Puppeteer",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Silver"
+    },
+    {
+      "id": 10971310,
+      "name": "Dimensional Selection",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Bronze"
+    },
+    {
+      "id": 10974120,
+      "name": "Aizeden, Killshot Revenant",
+      "class": "Portalcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary"
+    }
+  ],
+  "modified": [
+    {
+      "id": 10302110,
+      "name": "Inspirational One",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10303110,
+      "name": "Dogged One",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10304120,
+      "name": "Gilnelise, Voracity Manifest",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10303210,
+      "name": "Tablet of Tribulations",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10301110,
+      "name": "Apostle of Voracity",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10304110,
+      "name": "Mjerrabaine, Great Manifest",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10301310,
+      "name": "Greatness Ascended",
+      "class": "Neutral",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10313310,
+      "name": "Eradicating Arrow",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10311110,
+      "name": "Devotee of Unkilling",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10311120,
+      "name": "Bearer of the Fairy Blade",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10311310,
+      "name": "Bestial Swipe",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10312210,
+      "name": "Hamlet of Unkilling",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10312120,
+      "name": "Greatwood Warrior",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10314110,
+      "name": "Krulle, Heir to Unkilling",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10312110,
+      "name": "Supplicant of Unkilling",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10314120,
+      "name": "Izudia, Annihilation Manifest",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10313110,
+      "name": "Congregant of Unkilling",
+      "class": "Forestcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10322210,
+      "name": "Lair of Usurpation",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10321110,
+      "name": "Devotee of Usurpation",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10322110,
+      "name": "Supplicant of Usurpation",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10321310,
+      "name": "Shield Bash",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10323310,
+      "name": "Returning Slash",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10324120,
+      "name": "Octrice, Hollowness Manifest",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10323110,
+      "name": "Congregant of Usurpation",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10322120,
+      "name": "Peppy Scout",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10321120,
+      "name": "Comrade of the Swordmaster",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10324110,
+      "name": "Sinciro, Heir to Usurpation",
+      "class": "Swordcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10632310,
+      "name": "Reaved Order",
+      "class": "Runecraft",
+      "set": "Apocalypse Pact",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "text",
+          "before": "Select an allied Crystalspawn on the field and destroy it. Draw 2 Runecraft followers.",
+          "after": "Select an allied Crystalspawn on the field and destroy it. Draw 2 cards."
+        },
+        {
+          "field": "rawSkillText",
+          "before": "Select an allied <b><i><color=Keyword>Crystalspawn</color></i></b> on the field and destroy it. Draw 2 Runecraft followers.",
+          "after": "Select an allied <b><i><color=Keyword>Crystalspawn</color></i></b> on the field and destroy it. Draw 2 cards."
+        }
+      ]
+    },
+    {
+      "id": 10331110,
+      "name": "Devotee of Truth",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10334110,
+      "name": "Velharia, Heir to Truth",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10333310,
+      "name": "Illusory Conjuration",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10333110,
+      "name": "Congregant of Truth",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10332210,
+      "name": "Institute of Truth",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10331120,
+      "name": "Ascetic of Wuxing",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10331310,
+      "name": "Crystal Gazing",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10332310,
+      "name": "Risky Amalgamation",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10332110,
+      "name": "Supplicant of Truth",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10834120,
+      "name": "Ginger, Disastrous Word",
+      "class": "Runecraft",
+      "set": "Chronicle of Destiny",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "styles",
+          "before": [
+            {
+              "name": "Isabelle, Truth-Seeking Mage",
+              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8df8700a375340989eee6182dea247d5.png",
+              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a28047560e9442718bb23c324eed64d7.png"
+            }
+          ],
+          "after": [
+            {
+              "name": "Isabelle, Truth-Seeking Mage",
+              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8df8700a375340989eee6182dea247d5.png",
+              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a28047560e9442718bb23c324eed64d7.png"
+            },
+            {
+              "name": "Ginger, Idyllic Word",
+              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/abedbcb76b9f4fe18c0e96c2795b5815.png",
+              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/90cd5b6655fa4fd08d12d211e7b4b69d.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10334120,
+      "name": "Raio, Elimination Manifest",
+      "class": "Runecraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10343310,
+      "name": "Ferocious Flame",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10341110,
+      "name": "Devotee of Disdain",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10342210,
+      "name": "Nation of Disdain",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10342120,
+      "name": "Ocean Rider",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10341310,
+      "name": "Raging Lightning",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10342110,
+      "name": "Supplicant of Disdain",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10344120,
+      "name": "Galmieux, Ardor Manifest",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10341120,
+      "name": "Snowstorm Dragonewt",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10343110,
+      "name": "Congregant of Disdain",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10344110,
+      "name": "Azurifrit, Heir to Disdain",
+      "class": "Dragoncraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10352120,
+      "name": "Spirited Gravekeeper",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10354110,
+      "name": "Sham-Nacha, Heir to Entwining",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10352210,
+      "name": "Castle of Entwining",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10351110,
+      "name": "Devotee of Entwining",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10651120,
+      "name": "Ghost Dodger",
+      "class": "Abysscraft",
+      "set": "Apocalypse Pact",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rawSkillText",
+          "before": "<b><color=Keyword>Rush</b></color>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
+          "after": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand."
+        },
+        {
+          "field": "evolved",
+          "before": {
+            "text": "Rush\nLast Words: Add a Ghost to your hand.",
+            "rawSkillText": "<b><color=Keyword>Rush</b></color>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
+            "flavourText": "\"So then I tossed aside my decoy and made a mad dash for the exit! Haha, now I can sell this loot and buy myself some new pants!\"\nBut the tavern regulars aren't interested in his hard-earned plunder; the tales of his escapes are the treasures they keep coming here for.",
+            "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9e0459b0f02943dca47c2918e92a1304.png",
+            "imageHash": "9e0459b0f02943dca47c2918e92a1304",
+            "bannerImageHash": "0f52235715c041e999e1b1c564ae9b72"
+          },
+          "after": {
+            "text": "Rush\nLast Words: Add a Ghost to your hand.",
+            "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
+            "flavourText": "\"So then I tossed aside my decoy and made a mad dash for the exit! Haha, now I can sell this loot and buy myself some new pants!\"\nBut the tavern regulars aren't interested in his hard-earned plunder; the tales of his escapes are the treasures they keep coming here for.",
+            "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9e0459b0f02943dca47c2918e92a1304.png",
+            "imageHash": "9e0459b0f02943dca47c2918e92a1304",
+            "bannerImageHash": "0f52235715c041e999e1b1c564ae9b72"
+          }
+        }
+      ]
+    },
+    {
+      "id": 10353310,
+      "name": "Screaming and Loathing",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10352110,
+      "name": "Supplicant of Entwining",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10351310,
+      "name": "March of the Brutes",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10353110,
+      "name": "Congregant of Entwining",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10354120,
+      "name": "Rulenye & Valnareik",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10351120,
+      "name": "Ephemeral Demon Princess",
+      "class": "Abysscraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10361110,
+      "name": "Devotee of Repose",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10361120,
+      "name": "Knight of the Holy Order",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10362110,
+      "name": "Supplicant of Repose",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10362210,
+      "name": "Temple of Repose",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10362220,
+      "name": "Winged Lion Statue",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10364120,
+      "name": "Marwynn, Despair Manifest",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10361310,
+      "name": "Blinding Faith",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10363210,
+      "name": "Shining Disenchantment",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10363110,
+      "name": "Congregant of Repose",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10364110,
+      "name": "Himeka, Heir to Repose",
+      "class": "Havencraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10372110,
+      "name": "Supplicant of Destruction",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10373310,
+      "name": "Devastating Soprano",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10372210,
+      "name": "Wasteland of Destruction",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10374110,
+      "name": "Axia, Heir to Destruction",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10371110,
+      "name": "Devotee of Destruction",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10374120,
+      "name": "Lishenna, Melody Manifest",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10371310,
+      "name": "Wired Assault",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10372120,
+      "name": "Field Scientist",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Silver",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10373110,
+      "name": "Congregant of Destruction",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Gold",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    },
+    {
+      "id": 10371120,
+      "name": "Supersonic Fighter",
+      "class": "Portalcraft",
+      "set": "Heirs of the Omen",
+      "rarity": "Bronze",
+      "changes": [
+        {
+          "field": "rotation",
+          "before": true,
+          "after": false
+        }
+      ]
+    }
+  ],
   "removed": []
 }

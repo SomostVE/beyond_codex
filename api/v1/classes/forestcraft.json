@@ -250,6 +250,47 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10911110,
+    "baseCardId": 10911110,
+    "name": "Sprouting Initiate",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Combo",
+      "Fanfare",
+      "Rush"
+    ],
+    "text": "Fanfare: Combo (3) - Draw a card.\n\nRush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Combo</color> (3)</b> - Draw a card.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "\"Power should not be used to bully others, but to create a canopy of protection. Never forget our code: honor and respect.\"\nThe scolding of my mother stung to a rootless and bossy brat. Now fully grown, I will be sure to honor you, Mother.\n—<i>Den of Winds: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/95136b3f0034475caa0966e45af12664.png",
+    "imageHash": "95136b3f0034475caa0966e45af12664",
+    "bannerImageHash": "0e8a943e20a5485492f5098e9d6c9498",
+    "evolved": {
+      "text": "Fanfare: Combo (3) - Draw a card.\n\nRush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Combo</color> (3)</b> - Draw a card.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "When my father died in a turf war, the Verdant Ring was shaken to its core. That night, my mother held me close, and her arms felt like the roots of a mighty tree.\n\"It'll be all right, Hien. I'll protect you.\"\n—<i>Den of Winds: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6caf8900821941cca5c7d58b86ca4074.png",
+      "imageHash": "6caf8900821941cca5c7d58b86ca4074",
+      "bannerImageHash": "0777950a45ce428282e2d70ea874bd14"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90011110,
     "baseCardId": 90011110,
     "name": "Fairy",
@@ -423,7 +464,7 @@
     "text": "Do this X times: \"Give a random enemy follower on the field -0/-1.\" X is your Combo.",
     "rawSkillText": "Do this X times: \"Give a random enemy follower on the field -0/-1.\" X is your <b><color=Keyword>Combo</color></b>.",
     "flavourText": "So, the Trial of Unkilling has been overcome. Now, the Trial of Annihilation is at hand. The sixth Omen wields the power of unkilling annihilation.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -434,7 +475,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10412310,
@@ -913,7 +954,7 @@
     "text": "Fanfare: Select an enemy follower on the field and give it -0/-1.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and give it -0/-1.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
     "flavourText": "Irritant: S. moricatus needles. Symptoms: Acute inflammation. Onset of burning pain soon after itching. Criterion: 10 needles. Qualifiers: 11. Note: An entrant endured 50 needles.\n—<i>Budding Ritual</i>, Wisteria Season",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -931,7 +972,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10311120,
@@ -950,7 +991,7 @@
     "text": "Whenever an allied Pixie follower enters the field, give this follower +1/+0.",
     "rawSkillText": "Whenever an allied Pixie follower enters the field, give this follower +1/+0.",
     "flavourText": "The unkilling pain returns as the bow of annihilation. Its arrow of extermination seeks the fairy blade which sliced it in twain once before. But another challenger emerges—one who seeks to support the fairy blade and bear the will of the forest.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -968,7 +1009,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10412110,
@@ -1359,6 +1400,92 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10912110,
+    "baseCardId": 10912110,
+    "name": "Leafshadow Assassin",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Combo",
+      "Fairy",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Add a Fairy to your hand. Combo (3) - Give it Bane.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Fairy</color></i></b> to your hand. <b><color=Keyword>Combo</color> (3)</b> - Give it <b><color=Keyword>Bane</color></b>.",
+    "flavourText": "\"Do not expect the same lenience of our predecessors.\"\nUnder Magachiyo, a new and terrifying age of the Verdant Ring began. Any hint of her past gracefulness was gone—it was as if she was grafted onto my father.\n—<i>Den of Winds: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90011110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9604c63a65f240ae8ad79fe801bb339b.png",
+    "imageHash": "9604c63a65f240ae8ad79fe801bb339b",
+    "bannerImageHash": "4058c474fdc94503a72a502d0ba7253d",
+    "evolved": {
+      "text": "Fanfare: Add a Fairy to your hand. Combo (3) - Give it Bane.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Fairy</color></i></b> to your hand. <b><color=Keyword>Combo</color> (3)</b> - Give it <b><color=Keyword>Bane</color></b>.",
+      "flavourText": "She was once a woman who kept to the code and loved growing flowers. Now, through her actions, she showed me how pruning begets growth.\n\"Let this smoke act as a reminder to you fools: The Ring belongs to Magachiyo.\"\n—<i>Den of Winds: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b1a6b0dd468a478a953b0719d49a2504.png",
+      "imageHash": "b1a6b0dd468a478a953b0719d49a2504",
+      "bannerImageHash": "06464cf638df4720b527d0a0d62bf488"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10913110,
+    "baseCardId": 10913110,
+    "name": "Virid Lieutenant",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 2,
+    "attack": 1,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Combo",
+      "Evolve",
+      "Fanfare",
+      "Rush"
+    ],
+    "text": "Fanfare: Combo (3) - Draw 2 cards.\n\nEvolve: Select another allied follower on the field and give it +1/+1 and Rush.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Combo</color> (3)</b> - Draw 2 cards.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select another allied follower on the field and give it +1/+1 and <b><color=Keyword>Rush</color></b>.</ev>",
+    "flavourText": "\"The advisor to the Verdant Ring has withered at my hand.\"\nThe commotion that swept through the forest was even greater than the day my father died. She met all questions with silence, and departed in acceptance of whatever judgment would come.\n—<i>Den of Winds: Memories of an Enforcer</i>, Part 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/65ad384ebbd4448a8257008fa1c33c4e.png",
+    "imageHash": "65ad384ebbd4448a8257008fa1c33c4e",
+    "bannerImageHash": "cf07192a66f346e4ae2d1280ee42d797",
+    "evolved": {
+      "text": "Fanfare: Combo (3) - Draw 2 cards.\n\nEvolve: Select another allied follower on the field and give it +1/+1 and Rush.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Combo</color> (3)</b> - Draw 2 cards.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select another allied follower on the field and give it +1/+1 and <b><color=Keyword>Rush</color></b>.</ev>",
+      "flavourText": "My mother's rebellion resulted in the pruning of dishonorable customs. Plans to invade and settle outside of the forest were cancelled, as was the export of dependent seeds. In the aftermath, the Verdant Ring was reborn.\n—<i>Den of Winds: Memories of an Enforcer</i>, Part 6",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8989b9046b4e435d91491d1c9f78eca5.png",
+      "imageHash": "8989b9046b4e435d91491d1c9f78eca5",
+      "bannerImageHash": "d92e714af2ab4282ab6bcf6983317264"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90011120,
     "baseCardId": 90011120,
     "name": "Springbloom Fairy",
@@ -1450,7 +1577,7 @@
     "text": "Select an enemy follower on the field and deal it 4 damage. Combo (3) - Draw a card.",
     "rawSkillText": "Select an enemy follower on the field and deal it 4 damage. <b><color=Keyword>Combo</color> (3)</b> - Draw a card.",
     "flavourText": "Playing dead in front of a bear that hates your guts is wasting the precious little time you have left to scream.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1461,7 +1588,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10411310,
@@ -1560,6 +1687,44 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10912310,
+    "baseCardId": 10912310,
+    "name": "Verdant Ring Kindred",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Combo",
+      "Deepwood Bounty",
+      "Fairy",
+      "Mode"
+    ],
+    "text": "Select a Mode to activate. Combo (3) - Activate all of them instead.\n1. Deal 4 damage to a random enemy follower.\n2. Add a Deepwood Bounty and Fairy to your hand.",
+    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate. <b><color=Keyword>Combo</color> (3)</b> - Activate all of them instead.\n<ridx=0>1. Deal 4 damage to a random enemy follower.</ridx>\n<ridx=1>2. Add a <b><i><color=Keyword>Deepwood Bounty</color></i></b> and <b><i><color=Keyword>Fairy</color></i></b> to your hand.</ridx>",
+    "flavourText": "\"Honorless fools. Do you think numbers alone can take us?\"\n\"Unleash your incense. The mist will not sway my arrows.\"\n\"I can hardly believe you're the same boy who used to cry over every mistake.\"\n\"I honed my skills so I wouldn't cry anymore. Allow me to show you just how far I've come.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90011310,
+      90011110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6771917415c84acbb8d9b0881eb1bd95.png",
+    "imageHash": "6771917415c84acbb8d9b0881eb1bd95",
+    "bannerImageHash": "b0f29e08c5104fb09583be41f69e5614",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2031,6 +2196,99 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10912120,
+    "baseCardId": 10912120,
+    "name": "Primate Plotters",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Add an exact copy of a random card in your opponent's hand to your hand without revealing it.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add an exact copy of a random card in your opponent's hand to your hand without revealing it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+    "flavourText": "To expedite the development of a new spa resort, the developers made the call to force animals out of their home. Little did they know that this decision would come back to haunt them. For the monkeys had some business of their own in mind—a hostile takeover on opening day.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0b25828b15e747e586a5b3bedde5e7b0.png",
+    "imageHash": "0b25828b15e747e586a5b3bedde5e7b0",
+    "bannerImageHash": "d2abe0032e0245989e901915801498f1",
+    "evolved": {
+      "text": "Fanfare: Add an exact copy of a random card in your opponent's hand to your hand without revealing it.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add an exact copy of a random card in your opponent's hand to your hand without revealing it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+      "flavourText": "On the surface, it seemed like an eye for an eye, but the monkeys had planned this from the start. They had simply pretended to flee so the humans would build them a resort. Man and monkey aren't so different after all, especially in matters of hot springs and personal gain.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/44c93e9cb6fe4bb2875cfc03dc60c28a.png",
+      "imageHash": "44c93e9cb6fe4bb2875cfc03dc60c28a",
+      "bannerImageHash": "70a0be4f979e46d39451a036cf3689ca"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10914110,
+    "baseCardId": 10914110,
+    "name": "Magachiyo, Aromatic Convict",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 3,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Combo",
+      "Fanfare",
+      "Storm",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and deal it 4 damage. Combo (3) - Deal damage to all enemy followers instead.\n\nSuper-Evolve: Give this follower Storm.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 4 damage. <b><color=Keyword>Combo</color> (3)</b> - Deal damage to all enemy followers instead.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give this follower <b><color=Keyword>Storm</color></b>.</sev>",
+    "flavourText": "The longer a tree lives, the more its branches drain away its life. While you may prune the errant branch, you must not lay a hand on the tree itself. That is to say, we who remain can no longer walk under the Sun.\n\"Choke the world, Crimson Incense.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d3f22d4932df48a1b360ecd0fbc140b4.png",
+    "imageHash": "d3f22d4932df48a1b360ecd0fbc140b4",
+    "bannerImageHash": "cf8ecb1f6f674f0a969104fa0b31cc3d",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and deal it 4 damage. Combo (3) - Deal damage to all enemy followers instead.\n\nSuper-Evolve: Give this follower Storm.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 4 damage. <b><color=Keyword>Combo</color> (3)</b> - Deal damage to all enemy followers instead.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give this follower <b><color=Keyword>Storm</color></b>.</sev>",
+      "flavourText": "Forget about righteousness and filial piety. The fact of the matter is I broke the code, and justice must be delivered. It's your duty after all. So come now, take my head, young master Hien. Show your mother just how much you've grown.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1c473fda9bc643e19ef99983d0574f1d.png",
+      "imageHash": "1c473fda9bc643e19ef99983d0574f1d",
+      "bannerImageHash": "9d475fc405b447e591b11595762777f9"
+    },
+    "styles": [
+      {
+        "name": "Magachiyo, Roseate Ring",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cd0a058a382b4da1b3cfa47bb01d8e79.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/392352a5300441999ed64f6ae7ae8eac.png"
+      },
+      {
+        "name": "Magachiyo, Roseate Ring",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ebfe827aadc0495da9158e9c17f029fe.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/cf97831bf93144c9bf472ed81e3aa22e.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90014110,
     "baseCardId": 90014110,
     "name": "Eve, Blade of Crystalia",
@@ -2269,7 +2527,7 @@
     "text": "Fanfare: Select a card in your hand and discard it. Draw 2 cards.\n\nEngage: Destroy this card. Select an enemy follower on the field and give it -0/-2.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a card in your hand and discard it. Draw 2 cards.\n<hr><b><color=Keyword>Engage</color></b>: Destroy this card. Select an enemy follower on the field and give it -0/-2.",
     "flavourText": "I overhear her berating herself quite often. \"How does anyone put up with me?\" \"I'm no good at anything.\" \"Why am I always so useless?\" \"Stop... why can't it stop?\" \"I hate it. I hate myself.\"\n—<i>The Memoir of a Ritual Keeper</i>, 3",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2280,6 +2538,41 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 10911210,
+    "baseCardId": 10911210,
+    "name": "Trap in the Woods",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Amulet",
+    "rarity": "Bronze",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Whenever an enemy follower enters the field, destroy it and this card.",
+    "rawSkillText": "Whenever an enemy follower enters the field, destroy it and this card.",
+    "flavourText": "The humans showed them novel pranks, and the fae repaid the favor with secret spots to hide traps.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/345939fa5f3d4034bfff60a95412b9ed.png",
+    "imageHash": "345939fa5f3d4034bfff60a95412b9ed",
+    "bannerImageHash": "9f593a1b74a44d289047cce3c6d82f19",
+    "evolved": null,
+    "styles": [],
+    "questions": [
+      {
+        "question": "If my opponent summons multiple followers at once, such as with Advent of the Eld Sword, while there's a Trap in the Woods on my field, how many summoned followers will be destroyed?",
+        "answer": "Only the first one will be destroyed."
+      }
+    ],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2481,7 +2774,7 @@
     "text": "Last Words: Add a Deepwood Bounty and Fairy to your hand.",
     "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Deepwood Bounty</color></i></b> and <b><i><color=Keyword>Fairy</color></i></b> to your hand.",
     "flavourText": "What, never seen a human before? \"Only elves live in this forest,\" ya say? Well, I don't blame ya for thinking that, but we too are proud inhabitants of this majestic forest.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2502,7 +2795,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10314110,
@@ -2525,7 +2818,7 @@
     "text": "Fanfare: Give all enemy followers on the field -0/-2.\n\nAmbush\nOnce on each of your turns, when an enemy follower is given - defense on the field, restore 1 defense to your leader.\n\nSuper-Evolve: Give your opponent Crest: Krulle, Heir to Unkilling.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give all enemy followers on the field -0/-2.\n<hr><b><color=Keyword>Ambush</color></b>\nOnce on each of your turns, when an enemy follower is given - defense on the field, restore 1 defense to your leader.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give your opponent <b><i>Crest: Krulle, Heir to Unkilling</i></b>.</sev>",
     "flavourText": "Living is tough, right? Your mind is always clogged with unpleasant thoughts. Your chest is always bursting with unwanted shame. I get it, because I was the same. So, let me help you replace all that suffering with mindless pain.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2543,7 +2836,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10411120,
@@ -2781,6 +3074,38 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10913310,
+    "baseCardId": 10913310,
+    "name": "Crimson Incense",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Combo"
+    ],
+    "text": "Activates in hand. At the end of your turn, Combo (3) - Reduce the cost of this card by 1.\n\nSelect an enemy follower on the field and destroy it. Draw a card.",
+    "rawSkillText": "Activates in hand. At the end of your turn, <b><color=Keyword>Combo</color> (3)</b> - Reduce the cost of this card by 1.\n<hr>Select an enemy follower on the field and destroy it. Draw a card.",
+    "flavourText": "\"What a shot. You truly are your father's son. The Ring will be safe in your hands.\"\nOn our first assignment together, one of my wind arrows dispersed my mother's crimson incense. This misfire left her injured, but she laughed. I always thought she was just trying to make me feel better.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/11e93e2fae2d4aa7a753f82689651ffc.png",
+    "imageHash": "11e93e2fae2d4aa7a753f82689651ffc",
+    "bannerImageHash": "4dffb5502c424e008c773eb7a08670d7",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3337,7 +3662,7 @@
     "text": "Fanfare: Give all enemy followers on the field -0/-3.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give all enemy followers on the field -0/-3.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
     "flavourText": "Irritant: Devil rope putrilage. Symptoms: Waves of sharp abdominal pain. Difficulty breathing. Criterion: Endure two nights. Qualifiers: 3. Note: An entrant endured nine days.\n—<i>Branching Ritual</i>, Bellflower Season",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3355,7 +3680,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10612120,
@@ -3774,6 +4099,45 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10911120,
+    "baseCardId": 10911120,
+    "name": "Jungle Youth",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 7,
+    "attack": 10,
+    "defense": 8,
+    "traits": [],
+    "keywords": [
+      "Intimidate"
+    ],
+    "text": "Intimidate",
+    "rawSkillText": "<b><color=Keyword>Intimidate</color></b>",
+    "flavourText": "Stop right there, poachers! Those better not be weapons I see. Don't worry Rilly, I can handle them. I'll show them the way of the jungle!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/26205a65d8764b5ba7dc04e5210e4654.png",
+    "imageHash": "26205a65d8764b5ba7dc04e5210e4654",
+    "bannerImageHash": "cbb2a947d7e0482080089f358f266741",
+    "evolved": {
+      "text": "Intimidate",
+      "rawSkillText": "<b><color=Keyword>Intimidate</color></b>",
+      "flavourText": "Rilly taught me that hands aren't for punching—they're for grabbin' bananas! So drop those weapons and pick up a bunch instead! C'mon, there's enough for everyone!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ca71e41a9418431590e0f637db402cd0.png",
+      "imageHash": "ca71e41a9418431590e0f637db402cd0",
+      "bannerImageHash": "12e6c151cc7d4a5993e43e019c1bc46d"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10211310,
     "baseCardId": 10211310,
     "name": "Woodwalkers",
@@ -3952,7 +4316,7 @@
     "text": "Fanfare: Select an enemy follower on the field and give it -0/-6.\n\nEvolve: Add an Annihilating Onslaught to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and give it -0/-6.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add an <b><i><color=Keyword>Annihilating Onslaught</color></i></b> to your hand.</ev>",
     "flavourText": "Life, at its core, is but the futile struggles of the fearful. Truly tragic. Utterly pathetic. Life is nothing if not lamentable, so perish before it shatters your fragile hearts. Now, let the trials of the world continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3973,7 +4337,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10614110,
@@ -4127,7 +4491,7 @@
     "text": "When this card enters the field, summon an exact copy of it and give the exact copy -0/-1.\n\nRush\nWard",
     "rawSkillText": "When this card enters the field, summon an exact copy of it and give the exact copy -0/-1.\n<hr><b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Ward</color></b>",
     "flavourText": "Irritant: Bark veil and wyrmsbane powder. Symptoms: Thirst. Seizures. Intense full-body pain. No antidote. Symptoms perpetual. Qualifiers: 1. Note: All hail the new chief.\n—<i>Crowning Ritual</i>, Camellia Season",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4145,6 +4509,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 10914120,
+    "baseCardId": 10914120,
+    "name": "Hien, Redolent Revenant",
+    "class": "Forestcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Hien, Redolent Revenant",
+      "Last Words"
+    ],
+    "text": "Activates in hand. Whenever you play a card, reduce the cost of this card by 1 until the end of the turn.\n\nFanfare: Select an enemy follower on the field and deal it 4 damage.\n\nLast Words: Summon a Hien, Redolent Revenant.",
+    "rawSkillText": "Activates in hand. Whenever you play a card, reduce the cost of this card by 1 until the end of the turn.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 4 damage.\n<hr><b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Hien, Redolent Revenant</color></i></b>.",
+    "flavourText": "It's a pleasure. I hail from the Evergreen Grove, and was born in the dew of the Verdant Ring, where the code took root in my heart. My talents in wind reading and archery have earned me the title of \"The Piercing Wind.\" And from this day forth, my arrows are yours, Elder Sister.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10914120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/bdb9e55926a24264a4ae577fbef13d4d.png",
+    "imageHash": "bdb9e55926a24264a4ae577fbef13d4d",
+    "bannerImageHash": "ef20f5a3d3c9457689ceda619c6e662e",
+    "evolved": {
+      "text": "Activates in hand. Whenever you play a card, reduce the cost of this card by 1 until the end of the turn.\n\nFanfare: Select an enemy follower on the field and deal it 4 damage.\n\nLast Words: Summon a Hien, Redolent Revenant.",
+      "rawSkillText": "Activates in hand. Whenever you play a card, reduce the cost of this card by 1 until the end of the turn.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 4 damage.\n<hr><b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Hien, Redolent Revenant</color></i></b>.",
+      "flavourText": "All of us, even those who live in the darkness, must keep to the code. You instilled this in me from my youth. So wait for me in hell, Mother—I'll be sure to massage your shoulders when I arrive.\n\"Be bathed in clouds of sin and winds of punishment. Scatter the blossoms, Wiltpetal.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/dc69c03d60cb4fc8afda5dc2b02d0013.png",
+      "imageHash": "dc69c03d60cb4fc8afda5dc2b02d0013",
+      "bannerImageHash": "9a865cccec95421abc2086dcf7a65d4f"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   }
 ]

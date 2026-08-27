@@ -208,6 +208,46 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10971110,
+    "baseCardId": 10971110,
+    "name": "Bluerust Underling",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Rush"
+    ],
+    "text": "Fanfare: If there are no duplicates in your deck, select an enemy follower on the field and deal it 5 damage.\n\nRush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there are no duplicates in your deck, select an enemy follower on the field and deal it 5 damage.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "Become the heir to the ruler of the city. That was my ideal, my purpose. I must be wise, strategic, beloved—the perfect leader. But reality was cruel: The one blessed with those traits was not me, but my brother.\n—<i>The Fusillade: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/94b2a98e0f97494c8bd228df81e95019.png",
+    "imageHash": "94b2a98e0f97494c8bd228df81e95019",
+    "bannerImageHash": "0ef70a3e91b64068834f45935350ee0a",
+    "evolved": {
+      "text": "Fanfare: If there are no duplicates in your deck, select an enemy follower on the field and deal it 5 damage.\n\nRush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there are no duplicates in your deck, select an enemy follower on the field and deal it 5 damage.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "He held me in honest esteem, and usurped my ideals with pure intentions. Ah, but he would surely become the greatest ruler of all. Thinking that, I stepped out of the running.\n—<i>The Fusillade: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9bd3ac5cf2184d548a9dc7daf49407d8.png",
+      "imageHash": "9bd3ac5cf2184d548a9dc7daf49407d8",
+      "bannerImageHash": "ac51d8fd35ce414391909b5a8fb38e05"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90071120,
     "baseCardId": 90071120,
     "name": "Enhanced Puppet",
@@ -585,6 +625,36 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10972310,
+    "baseCardId": 10972310,
+    "name": "Disgraceful Banishment",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Select a card in your hand and discard it. Draw a card. If there are no duplicates in your deck, draw 3 instead.",
+    "rawSkillText": "Select a card in your hand and discard it. Draw a card. If there are no duplicates in your deck, draw 3 instead.",
+    "flavourText": "\"Well, brother, looks like you'll be the successor. No need for gratitude.\"\n\"Gratitude? You mean... You gave up for my sake?\"\n\"What's getting you so worked up? You wanted this, didn't you?\"\n\"...Get out of my sight. You're a stain upon our family.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/18acdfbe388a41d997c3b3eabfe63932.png",
+    "imageHash": "18acdfbe388a41d997c3b3eabfe63932",
+    "bannerImageHash": "598d72cc1a9d4b81bcd8f64c5b64f593",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1038,7 +1108,7 @@
     "text": "Fanfare: Select another allied card on the field. If you selected one, destroy it and deal 2 damage to a random enemy follower.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select another allied card on the field. If you selected one, destroy it and deal 2 damage to a random enemy follower.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
     "flavourText": "<i>The white queen looks down, with eyes of wrath</i> (no)\n<i>And orders us to keep to the chosen path</i> (no)\n<i>A colorless world of water chains my voice in place</i> (good)\n<i>So I'll never see the sky in all its colorful grace</i> (nope)",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1061,7 +1131,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10471120,
@@ -1431,6 +1501,55 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10974110,
+    "baseCardId": 10974110,
+    "name": "Cutthroat, Fluxblade Convict",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Cutthroat, Fluxblade Convict",
+      "Evolve"
+    ],
+    "text": "Bane\n\nEvolve: Banish all copies of Cutthroat, Fluxblade Convict from your deck. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
+    "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Banish all copies of <b><i><color=Keyword>Cutthroat, Fluxblade Convict</color></i></b> from your deck. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
+    "flavourText": "I'm sorry, brother. I should've done better. Even steel has a breaking point, not to mention your heart. You were always there for me; now it's my turn to be there for you. Let's go home and start over again, okay?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10974110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1c5d30e743594698874a5e922cf87267.png",
+    "imageHash": "1c5d30e743594698874a5e922cf87267",
+    "bannerImageHash": "7b65bfea59444c518b9e9a3313989b12",
+    "evolved": {
+      "text": "Bane\n\nEvolve: Banish all copies of Cutthroat, Fluxblade Convict from your deck. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
+      "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Banish all copies of <b><i><color=Keyword>Cutthroat, Fluxblade Convict</color></i></b> from your deck. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
+      "flavourText": "Listen to me, brother. That can't be how you really feel. Remember how you've always told me of your ideals? You were always mine. But it seems like the ruler of this prison has confused you. Don't worry, I'll free you from this curse soon.\n\"Pierce him through, Soulforge.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f3b5e86a14224f00b9992714d96c1a4e.png",
+      "imageHash": "f3b5e86a14224f00b9992714d96c1a4e",
+      "bannerImageHash": "a978d809ed0f4d33ac9e96ed4ce47a97"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/99bb8a5212734fad8b2508f604ce45b9.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a3b1033d99b548b0a2506b23156929d0.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90074140,
     "baseCardId": 90074140,
     "name": "Imari's Little Buddies",
@@ -1532,7 +1651,7 @@
     "text": "Select an allied card on the field and destroy it. Summon a White Psalm, New Revelation.",
     "rawSkillText": "Select an allied card on the field and destroy it. Summon a <b><i><color=Keyword>White Psalm, New Revelation</color></i></b>.",
     "flavourText": "So, the Trial of Destruction was overcome. Now the Trial of Melody is at hand. The second Omen wields the power of melodious destruction.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1552,7 +1671,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10671310,
@@ -1674,7 +1793,7 @@
     "text": "Fanfare: Select another allied card on the field. If you selected one, destroy it and draw 2 cards.\n\nLast Words: Draw a card.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select another allied card on the field. If you selected one, destroy it and draw 2 cards.\n<hr><b><color=Keyword>Last Words</color></b>: Draw a card.",
     "flavourText": "<i>You tore it down and taught me</i>\n<i>That the sky was brilliant blue</i> (keep)\n<i>You soar above it all, only to you I'll be true</i> (awful)\n<i>My songs, I give in prayer</i> (keep, shows faith in Shenna)\n<i>My thoughts for you are purest white</i> (keep, next line)",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1685,7 +1804,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10071110,
@@ -1899,7 +2018,7 @@
     "text": "Ward\nCan't be destroyed by abilities.\n\nSuper-Evolve: Deal X damage to the enemy leader. X is the number of other allied cards on the field. Destroy all other allied cards on the field.",
     "rawSkillText": "<b><color=Keyword>Ward</color></b>\nCan't be destroyed by abilities.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Deal X damage to the enemy leader. X is the number of other allied cards on the field. Destroy all other allied cards on the field.</sev>",
     "flavourText": "<i>I was born alone, floating in a dark endless space\nA colorless world of water that chained my voice in place\nBut you tore it down and taught me\nThat the sky was brilliant blue\nMy songs, I give to prayer—my life I give to you</i>",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1917,7 +2036,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10471110,
@@ -2357,6 +2476,48 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 90074150,
+    "baseCardId": 90074150,
+    "name": "Warden of the Trigger",
+    "class": "Portalcraft",
+    "setId": 90000,
+    "set": "90000",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 3,
+    "attack": 3,
+    "defense": 3,
+    "traits": [
+      "Artifact"
+    ],
+    "keywords": [
+      "Last Words",
+      "Ward"
+    ],
+    "text": "Ward\nLast Words: Restore 2 defense to your leader.",
+    "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: Restore 2 defense to your leader.",
+    "flavourText": "As the curse of punishment was dispelled, the wardens of the prison ceased to operate. At least, they should have. Yet wardens continued to swarm the cells and impede the escape. In the younger brother's eyes, perhaps this was a reflection of his older brother's ambitions.",
+    "rotation": false,
+    "token": true,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/02490e4a3b234d0a854ee6feba2bbd1f.png",
+    "imageHash": "02490e4a3b234d0a854ee6feba2bbd1f",
+    "bannerImageHash": "b76020ffe20549ca87043ff50d579271",
+    "evolved": {
+      "text": "Ward\nLast Words: Restore 2 defense to your leader.",
+      "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: Restore 2 defense to your leader.",
+      "flavourText": "What drove the wardens was not ambition, but a small yet resolute scrap of obsession. His older brother's ideals had long been burnt away. All that remained was an unending fixation that the convict could never understand.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/be355b632a7b40548a1710dee13e3f1d.png",
+      "imageHash": "be355b632a7b40548a1710dee13e3f1d",
+      "bannerImageHash": "80e6c432d2e34edc831245cddc4524e9"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10171310,
     "baseCardId": 10171310,
     "name": "Puppet Shield",
@@ -2688,7 +2849,7 @@
     "text": "Fanfare: Give this follower +X/+X. X is the number of other allied cards on the field. Destroy all other allied cards on the field.\n\nWard",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give this follower +X/+X. X is the number of other allied cards on the field. Destroy all other allied cards on the field.\n<hr><b><color=Keyword>Ward</color></b>",
     "flavourText": "<i>I was born alone, floating in a dark endless space</i> (keep)\n<i>In motionless gravity that kept me in place</i> (trash)\n<i>A false double helix, made from parts foraged</i> (bad)\n<i>They cut and burn me in a quest for knowledge</i> (NO)",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2706,7 +2867,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10374120,
@@ -2730,7 +2891,7 @@
     "text": "Fanfare: Add a Melodious Monody to your hand.\n\nCan't be destroyed by abilities.\n\nEvolve: Summon a White Psalm, New Revelation.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Melodious Monody</color></i></b> to your hand.\n<hr>Can't be destroyed by abilities.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>White Psalm, New Revelation</color></i></b>.</ev>",
     "flavourText": "You've waited for me, longed for me. You yearn to see me sing and dance on that stage! So tear it all down! Shred every atom in the universe that isn't mine! Hehe—let's continue this fun trial for the world!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2758,7 +2919,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10571110,
@@ -3019,6 +3180,89 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10971120,
+    "baseCardId": 10971120,
+    "name": "Twindrone Engineer",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 4,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Analyzing Artifact",
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Summon an Analyzing Artifact.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon an <b><i><color=Keyword>Analyzing Artifact</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+    "flavourText": "\"Woo! I've finally completed them—autonomous flying battle drones! They're safe and stable, and they can attack from afar. The past decade of development has been completely worth it. Now I won't have to go to the frontlines. Time to slack off!\"\n—An exhausted but happy engineer",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90071130
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cce7e41870b54a4fa47a60dcb8e96d0d.png",
+    "imageHash": "cce7e41870b54a4fa47a60dcb8e96d0d",
+    "bannerImageHash": "406b9333b596443a9a4fd439d239eb07",
+    "evolved": {
+      "text": "Fanfare: Summon an Analyzing Artifact.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon an <b><i><color=Keyword>Analyzing Artifact</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+      "flavourText": "\"Don! Ron! It's dangerous over there!\"\n\"Huh? Why are you following us?\"\n\"Better question, why are you acting like our mother?\"\n—The twin drones and the engineer that's following them",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e7ffcd1fb4734827b3c07c4e63f1b8b0.png",
+      "imageHash": "e7ffcd1fb4734827b3c07c4e63f1b8b0",
+      "bannerImageHash": "76987671dd464986ad1ce234c688b72e"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10972110,
+    "baseCardId": 10972110,
+    "name": "Ironwork Bodyguard",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 4,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Ward"
+    ],
+    "text": "Fanfare: If there are no duplicates in your deck, select an enemy follower on the field, deal it 4 damage, and restore 4 defense to your leader.\n\nWard",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there are no duplicates in your deck, select an enemy follower on the field, deal it 4 damage, and restore 4 defense to your leader.\n<hr><b><color=Keyword>Ward</color></b>",
+    "flavourText": "\"Why would I want to be the ruler? I'm not interested in power or any of that mess.\"\n...Don't. I gave up only because you were a far better candidate. That position you scoffed at, do you know how much I'd give to have it?\n—<i>The Fusillade: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ad77cd00bae64616bc4f4cfd68b83528.png",
+    "imageHash": "ad77cd00bae64616bc4f4cfd68b83528",
+    "bannerImageHash": "914751963bff413dbc843e5c41ce54ea",
+    "evolved": {
+      "text": "Fanfare: If there are no duplicates in your deck, select an enemy follower on the field, deal it 4 damage, and restore 4 defense to your leader.\n\nWard",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there are no duplicates in your deck, select an enemy follower on the field, deal it 4 damage, and restore 4 defense to your leader.\n<hr><b><color=Keyword>Ward</color></b>",
+      "flavourText": "In the end, I rose to power. Not out of suitability, but pity. I still strove to pursue my ideals and become the perfect leader—only to be faced with disgruntled citizens and a lack of resources. Ah... if only <i>I</i> had been blessed instead.\n—<i>The Fusillade: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/39b38b44c7864143bd2423f3248c2510.png",
+      "imageHash": "39b38b44c7864143bd2423f3248c2510",
+      "bannerImageHash": "008133f4e051433283957873d8caf281"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10071310,
     "baseCardId": 10071310,
     "name": "Bullet from Beyond",
@@ -3084,7 +3328,7 @@
     "text": "Select an enemy follower on the field and destroy it. Add 2 copies of Puppet to your hand.",
     "rawSkillText": "Select an enemy follower on the field and destroy it. Add 2 copies of <b><i><color=Keyword>Puppet</color></i></b> to your hand.",
     "flavourText": "You have three choices: stabbing, slicing, or strangulation. You should be thanking me—death by wire is too good for a fool who mocks a puppeteer.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3097,6 +3341,36 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 10973310,
+    "baseCardId": 10973310,
+    "name": "Soulforge",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
+    "rawSkillText": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
+    "flavourText": "\"Come to your senses, brother. I've already slain the ruler of this prison.\"\n\"Usurping again? Don't you ever get tired?\"\n\"It's not like you to be a pawn. Aren't you supposed to be a leader?\"\n\"...Silence. That's enough from you, scum!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2f1c143b11514b87b5518018be4ee27d.png",
+    "imageHash": "2f1c143b11514b87b5518018be4ee27d",
+    "bannerImageHash": "c05d7e994a5c4c2c8a9c110f6fd5827c",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3393,7 +3667,7 @@
     "text": "Fanfare: Select a card in your hand and discard it. Draw 3 cards.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a card in your hand and discard it. Draw 3 cards.",
     "flavourText": "Allow me to explain! To a scientist, research is much like a treasure hunt! Theories are our maps, and we use them to search for that elusive treasure we call success!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3411,7 +3685,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10472110,
@@ -3736,6 +4010,46 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10973110,
+    "baseCardId": 10973110,
+    "name": "Steelforged Right Hand",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Storm"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, give this follower Storm.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, give this follower <b><color=Keyword>Storm</color></b>.",
+    "flavourText": "Uprisings erupted across the city, and he was behind them all. I suppose that's fitting—he did disdain rulers. But when I set my mind on fighting to the bitter end, I received a letter from him.\n—<i>The Fusillade: Memories of an Enforcer</i>, Part 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/39dbc98c626a4adb89eedb5153c02226.png",
+    "imageHash": "39dbc98c626a4adb89eedb5153c02226",
+    "bannerImageHash": "654b54d5363e423a8f599f4fad7dc121",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, give this follower Storm.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, give this follower <b><color=Keyword>Storm</color></b>.",
+      "flavourText": "I could've accepted any threats or declarations of war, but how dare he ask me to run away with him? Was the city not enough? Must he take even my pride? That bastard. Whatever talents he may have been born with, he is still nothing more than scum!\n—<i>The Fusillade: Memories of an Enforcer</i>, Part 6",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5b1847b73e364c70ba882817b3ae01ad.png",
+      "imageHash": "5b1847b73e364c70ba882817b3ae01ad",
+      "bannerImageHash": "131716c085e8432689476ba05b48e000"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4138,7 +4452,7 @@
     "text": "Fanfare: Destroy X random enemy followers. X is the number of other allied cards on the field. Destroy all other allied cards on the field.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Destroy X random enemy followers. X is the number of other allied cards on the field. Destroy all other allied cards on the field.",
     "flavourText": "<i>The performance ends, the world is at your feet</i> (no)\n<i>But if I must paint the world in black for us to meet</i> (good)\n<i>Then, Lishenna, I'll do it so that we can be together</i> (good)\n<i>Lishenna is forever</i> (good)\n(title idea: <i>Blue Light</i>)",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4156,7 +4470,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10671110,
@@ -4290,6 +4604,50 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10972120,
+    "baseCardId": 10972120,
+    "name": "Blade Puppeteer",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 6,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Enhanced Puppet",
+      "Fanfare",
+      "Puppet"
+    ],
+    "text": "Fanfare: Summon an Enhanced Puppet and Puppet.\n\nWhenever an allied Puppetry follower enters the field, deal 1 damage to the enemy leader.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon an <b><i><color=Keyword>Enhanced Puppet</color></i></b> and <b><i><color=Keyword>Puppet</color></i></b>.\n<hr>Whenever an allied Puppetry follower enters the field, deal 1 damage to the enemy leader.",
+    "flavourText": "Both knives and killing intent mean nothing if they're aimed haphazardly. I get around it by controlling mine with strings. After all, pros should always be responsible for the knives they throw.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90071120,
+      90071110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7369222045be4636a908d8752bf562bd.png",
+    "imageHash": "7369222045be4636a908d8752bf562bd",
+    "bannerImageHash": "aea4dd0e7d0e4bd0a9192338aa940149",
+    "evolved": {
+      "text": "Fanfare: Summon an Enhanced Puppet and Puppet.\n\nWhenever an allied Puppetry follower enters the field, deal 1 damage to the enemy leader.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon an <b><i><color=Keyword>Enhanced Puppet</color></i></b> and <b><i><color=Keyword>Puppet</color></i></b>.\n<hr>Whenever an allied Puppetry follower enters the field, deal 1 damage to the enemy leader.",
+      "flavourText": "My dear client, pulling strings is much more difficult than it looks. A job isn't done until your blades return to your hand, after all. So tell me now—was it wise to cut the strings on a knife you threw so soon?",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6f7bf26a8fdf4524a4fc556209f17153.png",
+      "imageHash": "6f7bf26a8fdf4524a4fc556209f17153",
+      "bannerImageHash": "8e70f19bdccf4efdbbcb267f78c7a32e"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10273310,
     "baseCardId": 10273310,
     "name": "Synchronous Hearts",
@@ -4396,6 +4754,41 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10971310,
+    "baseCardId": 10971310,
+    "name": "Dimensional Selection",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 6,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Mode",
+      "Mystic Artifact"
+    ],
+    "text": "Select a Mode to activate.\n1. Deal 5 damage to all enemy followers.\n2. Summon 2 copies of Mystic Artifact.",
+    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Deal 5 damage to all enemy followers.</ridx>\n<ridx=1>2. Summon 2 copies of <b><i><color=Keyword>Mystic Artifact</color></i></b>.</ridx>",
+    "flavourText": "\"A preview is always helpful when deciding your destination.\"\n—A prudent traveler",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90071150
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d372b817de1b4d049d6e95355f1c7a78.png",
+    "imageHash": "d372b817de1b4d049d6e95355f1c7a78",
+    "bannerImageHash": "41129a2151f14e2094e9ee9ba683a2e8",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10371120,
     "baseCardId": 10371120,
     "name": "Supersonic Fighter",
@@ -4416,7 +4809,7 @@
     "text": "Fanfare: Summon an Ominous Artifact γ.\n\nEvolve: Select an allied Artifact follower on the field and give it +3/+3.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon an <b><i><color=Keyword>Ominous Artifact γ</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an allied Artifact follower on the field and give it +3/+3.</ev>",
     "flavourText": "The song of destruction crescendos into a melody of explosive ruin. A terrible new verse descends upon the machine, for she has quieted the song once before. But another challenger emerges—silently, she observes the machine's retreat from the fray.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -4436,7 +4829,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10472120,
@@ -4649,6 +5042,55 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10974120,
+    "baseCardId": 10974120,
+    "name": "Aizeden, Killshot Revenant",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 5,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Super-Evolve",
+      "Warden of the Trigger"
+    ],
+    "text": "Fanfare: Summon a Warden of the Trigger.\n\nWhenever an allied Artifact follower enters the field, destroy a random enemy follower.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Warden of the Trigger</color></i></b>.\n<hr>Whenever an allied Artifact follower enters the field, destroy a random enemy follower.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+    "flavourText": "Don't pretend you understand me. Usurpation was all you were ever good for. Is it fun to take and belittle everything I've ever valued? I never wanted you, not even once. I'll deny your blade, even if it costs me my life.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90074150
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0307a360b64c43a38f6892f6b2d1035f.png",
+    "imageHash": "0307a360b64c43a38f6892f6b2d1035f",
+    "bannerImageHash": "2e9e56a0d6c348e8a8be88e5b022f72a",
+    "evolved": {
+      "text": "Fanfare: Summon a Warden of the Trigger.\n\nWhenever an allied Artifact follower enters the field, destroy a random enemy follower.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Warden of the Trigger</color></i></b>.\n<hr>Whenever an allied Artifact follower enters the field, destroy a random enemy follower.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+      "flavourText": "Becoming a ruler... Ha, I really overestimated myself. But I do have just one ideal left—to kill you with my own hands. That's the only reason why I'm here. That's the only reason that's keeping me going. I'll bury you—here and now!\n\"Perforate, Yearnguard.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b6bb34887fb74ec1848e018e8af30c8d.png",
+      "imageHash": "b6bb34887fb74ec1848e018e8af30c8d",
+      "bannerImageHash": "20b79df8dee94c18b385ad10c695be2a"
+    },
+    "styles": [
+      {
+        "name": "Kyrzael, Killshot Enforcer",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85f3dc7a715341b0bc1f24d010aa3254.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/108a6b82303549c3a4d667a06cdfea73.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

@@ -71,6 +71,50 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10941110,
+    "baseCardId": 10941110,
+    "name": "Ripper-Clawed Thief",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Last Words",
+      "Ripper-Clawed Thief",
+      "Storm"
+    ],
+    "text": "Fanfare: If an allied follower attacked a leader on your last turn, give this follower Storm.\n\nLast Words: Add a Ripper-Clawed Thief to your hand and remove Last Words from it.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If an allied follower attacked a leader on your last turn, give this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ripper-Clawed Thief</color></i></b> to your hand and remove <b><color=Keyword>Last Words</color></b> from it.",
+    "flavourText": "\"Let's fly!\" My world was the skies and the girl who led me to soar beyond them. We were rising flames under a shrinking canopy, whose blazing dawn was the abyss that consumed our naivete. And the fate of the masses was to be pierced by that shackled girl.\n—<i>Fields of Fasting: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10941110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/74114ca506d4459c8dbda8bd37a03c88.png",
+    "imageHash": "74114ca506d4459c8dbda8bd37a03c88",
+    "bannerImageHash": "6cc908067c3a40618fa47dca24d4f9d8",
+    "evolved": {
+      "text": "Fanfare: If an allied follower attacked a leader on your last turn, give this follower Storm.\n\nLast Words: Add a Ripper-Clawed Thief to your hand and remove Last Words from it.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If an allied follower attacked a leader on your last turn, give this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Ripper-Clawed Thief</color></i></b> to your hand and remove <b><color=Keyword>Last Words</color></b> from it.",
+      "flavourText": "I was the brains and she the brawn, but I regarded myself to be a part of her. We'd ambush prey, fly through the alleys, and reunite to huddle together in the cold. And in our little corner of the ruins, our shackles would rattle as we enjoy our delicious, sinful spoils.\n—<i>Fields of Fasting: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/10a95262bf4c4db68ab2deca277a98b9.png",
+      "imageHash": "10a95262bf4c4db68ab2deca277a98b9",
+      "bannerImageHash": "fc05a8a660d441cabfa2d9a3b63097bb"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90041110,
     "baseCardId": 90041110,
     "name": "Fire Drake Whelp",
@@ -160,7 +204,7 @@
     "text": "Select an allied follower on the field and deal it 1 damage. Deal 3 damage to a random enemy follower. If you're in Overflow, draw a Dragoncraft follower.",
     "rawSkillText": "Select an allied follower on the field and deal it 1 damage. Deal 3 damage to a random enemy follower. If you're in <b><color=Keyword>Overflow</color></b>, draw a Dragoncraft follower.",
     "flavourText": "So, the Trial of Disdain has been overcome. Now the Trial of Ardor is at hand. The fifth Omen wields the power of ardent disdain.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -171,7 +215,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10642310,
@@ -241,6 +285,41 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10941310,
+    "baseCardId": 10941310,
+    "name": "Drake Whelp's Tantrum",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Fire Drake Whelp"
+    ],
+    "text": "Summon a Fire Drake Whelp.\nEnhance (3): Deal 3 damage to a random enemy follower.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Fire Drake Whelp</color></i></b>.\n<b><color=Keyword>Enhance</color> (3)</b>: Deal 3 damage to a random enemy follower.",
+    "flavourText": "If you take the tantrums of whelps lightly, you'll get burned, so it's best to handle them while you still can.\n—<i>Close Shaves at a Dragon Stable</i>, Handling Whelps",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90041110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/618c21b9d869432d95b83f3203afb225.png",
+    "imageHash": "618c21b9d869432d95b83f3203afb225",
+    "bannerImageHash": "0ac80e6b388040419a20170d09cae797",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -513,7 +592,7 @@
     "text": "During your turn, whenever this follower takes damage but isn't destroyed, draw a Dragoncraft follower.",
     "rawSkillText": "During your turn, whenever this follower takes damage but isn't destroyed, draw a Dragoncraft follower.",
     "flavourText": "<b>\"You're in pain. Please, let me ease your suffering.\"</b>\nHis talons pierced the girl's skin, but she simply smiled as her toxic blood began to corrode his claws. \n<b>\"I see now. Pain gives you strength. I leave unkilling in your hands, Krulle.\"</b>",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -540,7 +619,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10441120,
@@ -926,6 +1005,46 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10942110,
+    "baseCardId": 10942110,
+    "name": "High-Spirited Marauder",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 1,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Storm",
+      "Strike"
+    ],
+    "text": "Storm\nStrike: If an allied follower attacked a leader on your last turn, give this follower +1/+0 until the end of the turn.",
+    "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<b><color=Keyword>Strike</color></b>: If an allied follower attacked a leader on your last turn, give this follower +1/+0 until the end of the turn.",
+    "flavourText": "That girl was already perfect. Her emptiness was proof she was complete. But she was sensitive and shy, so she pretended she was broken to find friends. My sin was falling for her outstretched hand.\n—<i>Fields of Fasting: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/647dbda5bc034cc792e5c1282fb9e772.png",
+    "imageHash": "647dbda5bc034cc792e5c1282fb9e772",
+    "bannerImageHash": "85775de3204948a091b30dff2e87c80d",
+    "evolved": {
+      "text": "Storm\nStrike: If an allied follower attacked a leader on your last turn, give this follower +1/+0 until the end of the turn.",
+      "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<b><color=Keyword>Strike</color></b>: If an allied follower attacked a leader on your last turn, give this follower +1/+0 until the end of the turn.",
+      "flavourText": "In breaking and taking did the girl find a group. But that same group became a burden. As we walked down the corridor, she matched my stride. In the setting sun, her shadow sidled next to mine, and the hand that once guided me was nowhere to be found.\n—<i>Fields of Fasting: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/23ade69444104d00affdfeefd616493c.png",
+      "imageHash": "23ade69444104d00affdfeefd616493c",
+      "bannerImageHash": "e835f41e014e468d806c43b9df0da078"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90041130,
     "baseCardId": 90041130,
     "name": "Majestic Megalorca",
@@ -1108,6 +1227,36 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10943310,
+    "baseCardId": 10943310,
+    "name": "Artiglio",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Deal 3 damage split between all enemy followers. If an allied follower attacked a leader on your last turn, deal 6 damage instead.",
+    "rawSkillText": "Deal 3 damage split between all enemy followers. If an allied follower attacked a leader on your last turn, deal 6 damage instead.",
+    "flavourText": "\"You could have flown better alone. I dragged you down.\"\n\"What are you on about? I alone decide what burdens me.\"\n\"It was your decision that caused this. Your stupidity is unforgivable.\"\n\"...Alright. If you want to be pierced so bad, I'll fulfill your wish.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4d78b393df7e430ab6b2fd142532cf1b.png",
+    "imageHash": "4d78b393df7e430ab6b2fd142532cf1b",
+    "bannerImageHash": "85e14329afa6484fb2c3e110236d579d",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90044330,
     "baseCardId": 90044330,
     "name": "Depths of the Eld Blades",
@@ -1159,7 +1308,7 @@
     "text": "Countdown (4)\n\nEngage (1): Deal 1 damage to all followers.",
     "rawSkillText": "<b><color=Keyword>Countdown</color> (4)</b>\n<hr><b><color=Keyword>Engage</color> (1)</b>: Deal 1 damage to all followers.",
     "flavourText": "\"Everyone I try to save, I crush. Even my sighs melt their skin.\" As the dragon lamented, the Trial of Disdain descended. It bested him, and he understood—the weak could be made to evolve. He could erase their weakness.\n<b>\"With this armor, I can save them all.\"</b>",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1170,7 +1319,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10142120,
@@ -1316,7 +1465,7 @@
     "text": "Fanfare: Summon a Majestic Megalorca. If you're in Overflow, summon 2 instead.\n\nWhenever an allied Marine follower enters the field, give it Ward.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Majestic Megalorca</color></i></b>. If you're in <b><color=Keyword>Overflow</color></b>, summon 2 instead.\n<hr>Whenever an allied Marine follower enters the field, give it <b><color=Keyword>Ward</color></b>.",
     "flavourText": "His father returned alive from a doomed voyage, and told him tales of ancient and beautiful ruins that lay in the dark depths below. Dreaming of the day when he sees them with his own eyes, the boy and his friend Shachi set sail for adventure.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1336,7 +1485,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10441110,
@@ -1631,7 +1780,7 @@
     "text": "Deal 5 damage to all followers with the highest defense. If you're in Overflow, deal 3 damage to all leaders with the highest defense.",
     "rawSkillText": "Deal 5 damage to all followers with the highest defense. If you're in <b><color=Keyword>Overflow</color></b>, deal 3 damage to all leaders with the highest defense.",
     "flavourText": "Lightning can strike even the noblest of mountains.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1647,7 +1796,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10541310,
@@ -1711,6 +1860,36 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10942310,
+    "baseCardId": 10942310,
+    "name": "Parting Jaws",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Select 2 cards in your hand and discard them. Deal 3 damage to a random enemy follower and the enemy leader.",
+    "rawSkillText": "Select 2 cards in your hand and discard them. Deal 3 damage to a random enemy follower and the enemy leader.",
+    "flavourText": "\"Should we turn left here?\"\n\"You should, Maria. I'll go right.\"\n\"Aren't you the guide?\"\n\"That ends today.\"\n\"What... do you mean? We've got a good thing going—\"\n\"We need to split up. So go. Run, Antemaria!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/80b7729215434d9aa503e69481838ff4.png",
+    "imageHash": "80b7729215434d9aa503e69481838ff4",
+    "bannerImageHash": "95e30222501f47c69dc4416f7f0dfe4d",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2413,7 +2592,7 @@
     "text": "Rush\nWard\nAt the end of your turn, fully restore the defense of this follower and restore the same amount to your leader.",
     "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Ward</color></b>\nAt the end of your turn, fully restore the defense of this follower and restore the same amount to your leader.",
     "flavourText": "<b>\"A test of truth. May I observe your power?\"</b>\nThe girl's eye could expose hearts and banish mortals to other worlds. She looked upon the black dragon, and saw that his kindness was no lie.\n<b>\"For your honesty, I trust you with truth, Velharia.\"</b>",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2431,7 +2610,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10344120,
@@ -2454,7 +2633,7 @@
     "text": "Fanfare: Gain Crest: Galmieux, Ardor Manifest.\nEnhance (7): Give this follower Storm.\n\nOnce on each of your turns, when this follower takes damage but isn't destroyed, deal 3 damage to a random enemy follower.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Gain <b><i>Crest: Galmieux, Ardor Manifest</i></b>.\n<b><color=Keyword>Enhance</color> (7)</b>: Give this follower <b><color=Keyword>Storm</color></b>.\n<hr>Once on each of your turns, when this follower takes damage but isn't destroyed, deal 3 damage to a random enemy follower.",
     "flavourText": "You stand before me—I'm not looking at a dumb beast, but an equal. The world is beneath both of us, and when it rebels I'll put it down with my flames. Oh! Let us continue to put the world through its trial!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2498,7 +2677,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10442110,
@@ -2669,6 +2848,90 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10941120,
+    "baseCardId": 10941120,
+    "name": "Cave Dragon",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 5,
+    "attack": 5,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Ambush",
+      "Fanfare",
+      "Overflow"
+    ],
+    "text": "Fanfare: If you're in Overflow, evolve this follower.\n\nAmbush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you're in <b><color=Keyword>Overflow</color></b>, evolve this follower.\n<hr><b><color=Keyword>Ambush</color></b>",
+    "flavourText": "Did you know? After spending their entire lives in darkness, adult cave dragons in the wild will emerge from their caves and instinctively head towards the brightest object they see.\n—A bar discussion on the behavior of cave dragons",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/23353f7343c54652a57240fe05b8a7df.png",
+    "imageHash": "23353f7343c54652a57240fe05b8a7df",
+    "bannerImageHash": "12ab18a6473741a0b03aaa292707dea0",
+    "evolved": {
+      "text": "Fanfare: If you're in Overflow, evolve this follower.\n\nAmbush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you're in <b><color=Keyword>Overflow</color></b>, evolve this follower.\n<hr><b><color=Keyword>Ambush</color></b>",
+      "flavourText": "In contrast, cave dragons born outside of their pitch black habitats are said to do the opposite, delving into caves upon maturity. I guess it doesn't matter if you're a dragon or human—the grass always seems greener on the other side.\n—A bar discussion on the life cycle of cave dragons",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1d6875b21b0545f5b1f2a3f7f2e7fe90.png",
+      "imageHash": "1d6875b21b0545f5b1f2a3f7f2e7fe90",
+      "bannerImageHash": "242352f9724a406987185b9306f49d01"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10943110,
+    "baseCardId": 10943110,
+    "name": "Barren-Earth Tyrant",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "High-Spirited Marauder"
+    ],
+    "text": "Fanfare: Do this 1 time: \"Deal 4 damage to a random enemy follower.\" If an allied follower attacked a leader on your last turn, do it 2 times instead.\n\nEvolve: Summon a High-Spirited Marauder.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 1 time: \"Deal 4 damage to a random enemy follower.\" If an allied follower attacked a leader on your last turn, do it 2 times instead.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>High-Spirited Marauder</color></i></b>.</ev>",
+    "flavourText": "\"I've found our next target—a scheming lowlife who can do nothing but deceive and leech from others. It will be a bit of a gamble, so we'll need to catch them off guard. We can do anything as long as we're together? ...If you say so, Maria.\"\n—<i>Fields of Fasting: Memories of an Enforcer</i>, Part 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10942110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9519bc1d91b3464fa6b3de3e232d1b95.png",
+    "imageHash": "9519bc1d91b3464fa6b3de3e232d1b95",
+    "bannerImageHash": "79b6e8174d0d429fb46c1540063449d9",
+    "evolved": {
+      "text": "Fanfare: Do this 1 time: \"Deal 4 damage to a random enemy follower.\" If an allied follower attacked a leader on your last turn, do it 2 times instead.\n\nEvolve: Summon a High-Spirited Marauder.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 1 time: \"Deal 4 damage to a random enemy follower.\" If an allied follower attacked a leader on your last turn, do it 2 times instead.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>High-Spirited Marauder</color></i></b>.</ev>",
+      "flavourText": "The attack failed, just as planned. Now all that's left is for you to lose everything. Good bye, Maria. Shed all your burdens, including me. Free yourself from your shackles and soar as high as you could've without us.\n—<i>Fields of Fasting: Memories of an Enforcer</i>, Part 6",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cf468df1b21d4adea99f81158c0da076.png",
+      "imageHash": "cf468df1b21d4adea99f81158c0da076",
+      "bannerImageHash": "9f08925e9cf64ea8b1f2eb08fb2afdc2"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2932,7 +3195,7 @@
     "text": "Fanfare: Destroy all damaged enemy followers.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Destroy all damaged enemy followers.",
     "flavourText": "The rending claws of disdain are reforged into burning fangs of ardor. Feral flames gnash at the Whitefrost, who extinguished them once before. But another challenger emerges—one who sees her comrade turn fire into ice, and aspires to that power.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2950,7 +3213,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10343110,
@@ -2971,7 +3234,7 @@
     "text": "Fanfare: Deal 3 damage to all followers.\n\nAt the end of your turn, if this follower's defense is 3 or less, give all Dragoncraft followers in your hand +1/+1.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 3 damage to all followers.\n<hr>At the end of your turn, if this follower's defense is 3 or less, give all Dragoncraft followers in your hand +1/+1.",
     "flavourText": "<b>\"It appears my efforts are not needed here.\"</b>\nMost of the temple's inhabitants were already dead. The object of their worship was a little girl, and their intense adoration of her had been their demise.\n<b>\"You're frail, Himeka, but I trust you with repose.\"</b>",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2989,7 +3252,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10541120,
@@ -3540,6 +3803,96 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10944110,
+    "baseCardId": 10944110,
+    "name": "Antemaria, Piercing Convict",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 6,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Rush",
+      "Storm",
+      "Ward"
+    ],
+    "text": "Fanfare: If an allied follower attacked a leader on your last turn, give this follower Storm.\n\nRush\nIgnores Ward.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If an allied follower attacked a leader on your last turn, give this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Rush</color></b>\nIgnores <b><color=Keyword>Ward</color></b>.",
+    "flavourText": "Why are we taking things? What's in my way? Don't know and don't care. All I have to do is crush and pierce; you're in charge of the thinking. Your sights have always been set on the skies, after all.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0821c43aa8f24ad9960012d7a094d777.png",
+    "imageHash": "0821c43aa8f24ad9960012d7a094d777",
+    "bannerImageHash": "05f33bec0a434cad9d14c108c09a3670",
+    "evolved": {
+      "text": "Fanfare: If an allied follower attacked a leader on your last turn, give this follower Storm.\n\nRush\nIgnores Ward.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If an allied follower attacked a leader on your last turn, give this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Rush</color></b>\nIgnores <b><color=Keyword>Ward</color></b>.",
+      "flavourText": "You and I are two halves of a whole—jaws that were meant to swallow the world whole. But you thought that was a burden to me, and tried to take it from me. Who are you to speak for me? Even apart, we're one and the same, and I'll never let go.\n\"Dig into her, Artiglio!\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/de30272cfcab4bf695e53e39e428b979.png",
+      "imageHash": "de30272cfcab4bf695e53e39e428b979",
+      "bannerImageHash": "992169063f0e47a1b3b97e7f1295dee2"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10944120,
+    "baseCardId": 10944120,
+    "name": "Normagdala, Ravening Revenant",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 5,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "Mode",
+      "Ward"
+    ],
+    "text": "Fanfare: Select a Mode to activate.\n1. Draw a card. Restore 3 defense to your leader.\n2. Give all enemy followers on the field -0/-4.\n\nWard\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Draw a card. Restore 3 defense to your leader.</ridx>\n<ridx=1>2. Give all enemy followers on the field -0/-4.</ridx>\n<hr><b><color=Keyword>Ward</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+    "flavourText": "We must go our separate ways. This is our punishment for the thoughtless actions of that girl who encumbered herself with friends. But don't worry, I'll shatter your shackles. I'll incinerate all the chaff weighing down your wings so that you can finally soar.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6c63b812d51f4f2c82747f5eed7e11e3.png",
+    "imageHash": "6c63b812d51f4f2c82747f5eed7e11e3",
+    "bannerImageHash": "ed90c6f3950948e5897f190382ee0de2",
+    "evolved": {
+      "text": "Fanfare: Select a Mode to activate.\n1. Draw a card. Restore 3 defense to your leader.\n2. Give all enemy followers on the field -0/-4.\n\nWard\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Draw a card. Restore 3 defense to your leader.</ridx>\n<ridx=1>2. Give all enemy followers on the field -0/-4.</ridx>\n<hr><b><color=Keyword>Ward</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+      "flavourText": "You know what you did was wrong, so I'll take everything from you with fire and fang. You'll have nothing but your foolish flames, just like that fateful day. And once all your burdens have been consumed in a blaze of shame, where will your gaze fall?\n\"Burn it all down, Scorno.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/648713b4d7b046e799e12233da6f9235.png",
+      "imageHash": "648713b4d7b046e799e12233da6f9235",
+      "bannerImageHash": "bbb54383d0384f1fa93855c7b12bc084"
+    },
+    "styles": [
+      {
+        "name": "Normagdala, Ravening Nostalgia",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8650ebe4786c453ea6833fdd1d6236c8.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/004efbd2969d440788bd5ff4a8579dd7.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10643310,
     "baseCardId": 10643310,
     "name": "Beheading Eld Blades",
@@ -3957,6 +4310,46 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10942120,
+    "baseCardId": 10942120,
+    "name": "Dragonfolk Butler",
+    "class": "Dragoncraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 8,
+    "attack": 6,
+    "defense": 9,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Restore 3 defense to your leader. Recover 3 play points.\n\nEvolve: Select another allied follower on the field and give it +3/+3.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Restore 3 defense to your leader. Recover 3 play points.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select another allied follower on the field and give it +3/+3.</ev>",
+    "flavourText": "Maintaining proper mien is part of the dragonfolk butler's duties. His scales always ripple with etiquette. His claws carry a sense of grace. His flames brew the finest tea. Most importantly, he never lets slip his aging.\n\"...Milady, why are you searching for bifocals while humming?\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b124fe9131c247c4ac1719ae22d6a971.png",
+    "imageHash": "b124fe9131c247c4ac1719ae22d6a971",
+    "bannerImageHash": "36abf032d72845ca883d21cb0248301d",
+    "evolved": {
+      "text": "Fanfare: Restore 3 defense to your leader. Recover 3 play points.\n\nEvolve: Select another allied follower on the field and give it +3/+3.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Restore 3 defense to your leader. Recover 3 play points.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select another allied follower on the field and give it +3/+3.</ev>",
+      "flavourText": "Capturing proper attention is part of the dragonfolk butler's duties. His scales are always polished. His gaze is filled with wisdom. His claws have a delicate touch. Most importantly, he has classy bifocals bestowed by his keen master.\n\"It is a butler's duty to captivate the master he serves.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d4e6bb118cd644dc911fc0332bef0428.png",
+      "imageHash": "d4e6bb118cd644dc911fc0332bef0428",
+      "bannerImageHash": "13624b0fe49e44e89c05b14b3ccc74d2"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10143140,
     "baseCardId": 10143140,
     "name": "Twilight Dragon",
@@ -4017,7 +4410,7 @@
     "text": "Fanfare: Do this 3 times: \"Deal 2 damage to all followers.\"\n\nWard\nDuring your turn, whenever this follower takes damage but isn't destroyed, deal 1 damage to the enemy leader.\n\nSuper-Evolve: Fully restore the defense of this follower. Do this 3 times: \"Deal 2 damage to all followers.\"",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 3 times: \"Deal 2 damage to all followers.\"\n<hr><b><color=Keyword>Ward</color></b>\nDuring your turn, whenever this follower takes damage but isn't destroyed, deal 1 damage to the enemy leader.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Fully restore the defense of this follower. Do this 3 times: \"Deal 2 damage to all followers.\"</sev>",
     "flavourText": "The world was pitifully frail. Any life he touched would crumble away. Thus the black dragon took it upon himself to personally administer the trials. His heart aches with each life he takes, but he will deliver salvation till all the weak are dust.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4048,7 +4441,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10744110,

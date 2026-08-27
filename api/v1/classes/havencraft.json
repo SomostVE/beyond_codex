@@ -187,6 +187,38 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10962310,
+    "baseCardId": 10962310,
+    "name": "Vow of Devotion",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Mode"
+    ],
+    "text": "Select a Mode to activate. If there's an allied card on the field with a base cost of 6 or more, activate all of them instead.\n1. Deal 3 damage to a random enemy follower.\n2. Restore 2 defense to your leader.",
+    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate. If there's an allied card on the field with a base cost of 6 or more, activate all of them instead.\n<ridx=0>1. Deal 3 damage to a random enemy follower.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>",
+    "flavourText": "The day you became the boss was the day I became your consigliere. I pledged my life to you. I swore to be your wings. And how did you repay me? All of it was cast away like rubbish at your very whims. To hell with my oath. My wings will strike only where <i>I</i> deem fit!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ca18facb981447e693e74863207675e2.png",
+    "imageHash": "ca18facb981447e693e74863207675e2",
+    "bannerImageHash": "fa4f9f1f0597479fa7af83abbe680972",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90064320,
     "baseCardId": 90064320,
     "name": "Depths of the Eld Tome",
@@ -522,7 +554,7 @@
     "text": "Fanfare: Gain Crest: Devotee of Repose.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Gain <b><i>Crest: Devotee of Repose</i></b>.",
     "flavourText": "Let's be kind to each other.\nIf everyone were kinder, the world would be a better place!\n—A temple neophyte",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -540,7 +572,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10361120,
@@ -561,7 +593,7 @@
     "text": "Ward\nWhenever this follower is given + attack or defense on the field, restore 1 defense to your leader.",
     "rawSkillText": "<b><color=Keyword>Ward</color></b>\nWhenever this follower is given + attack or defense on the field, restore 1 defense to your leader.",
     "flavourText": "Dreams of repose give way to the despair of harsh reality. A barrage of spears mercilessly assaults the knight, who has withstood them once before. But another challenger emerges—she follows in the knight's footsteps, and vows to return to the frontlines.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -584,7 +616,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10461120,
@@ -707,6 +739,45 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10961110,
+    "baseCardId": 10961110,
+    "name": "Follower of the Tenets",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Ward"
+    ],
+    "text": "Ward\nDuring your turn, when your leader's defense is restored, evolve this follower.",
+    "rawSkillText": "<b><color=Keyword>Ward</color></b>\nDuring your turn, when your leader's defense is restored, evolve this follower.",
+    "flavourText": "Though I had nothing, I still sought a place to belong. But trust had no place in the slums—not when a stale piece of bread held more value than human life. Yet it was in those filthy alleyways that I met Ral, who had ran away from home.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a68ea2243b7d4faeafa899462dd82e33.png",
+    "imageHash": "a68ea2243b7d4faeafa899462dd82e33",
+    "bannerImageHash": "60063889c24c4eac926508c5017df42c",
+    "evolved": {
+      "text": "Ward\nDuring your turn, when your leader's defense is restored, evolve this follower.",
+      "rawSkillText": "<b><color=Keyword>Ward</color></b>\nDuring your turn, when your leader's defense is restored, evolve this follower.",
+      "flavourText": "He was massively asocial, hopelessly stubborn, and suspicious to a fault. And unlike me, he had everything he wished for. His very presence commanded subordination, but I wasn't jealous—I was charmed.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7ef2556f448944e4a1cd13ff09b4e6c5.png",
+      "imageHash": "7ef2556f448944e4a1cd13ff09b4e6c5",
+      "bannerImageHash": "4fc343580c984336b82b7aab22b50d4e"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1063,6 +1134,43 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10961210,
+    "baseCardId": 10961210,
+    "name": "Roaring Basilica",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Amulet",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Countdown",
+      "Engage",
+      "Holyflame Tiger",
+      "Last Words"
+    ],
+    "text": "Countdown (3)\nLast Words: Summon a Holyflame Tiger. Deal 4 damage to a random enemy follower.\n\nEngage (3): Advance this amulet's count by 3.",
+    "rawSkillText": "<b><color=Keyword>Countdown</color> (3)</b>\n<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Holyflame Tiger</color></i></b>. Deal 4 damage to a random enemy follower.\n<hr><b><color=Keyword>Engage</color> (3)</b>: Advance this amulet's count by 3.",
+    "flavourText": "Disguise yourselves as lions and roar at the heathens.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/519c56e0336c406abea028a9e6727120.png",
+    "imageHash": "519c56e0336c406abea028a9e6727120",
+    "bannerImageHash": "3cea42f0c87044d88de2dd0701855ac2",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10161110,
     "baseCardId": 10161110,
     "name": "Angelic Prism Priestess",
@@ -1255,7 +1363,7 @@
     "text": "Fanfare: Gain Crest: Supplicant of Repose.\n\nWard",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Gain <b><i>Crest: Supplicant of Repose</i></b>.\n<hr><b><color=Keyword>Ward</color></b>",
     "flavourText": "Let's be kind to each other.\nIf everyone were kinder, the world would be a better place!\n—Himeka",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1273,7 +1381,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10461110,
@@ -1448,6 +1556,87 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10962110,
+    "baseCardId": 10962110,
+    "name": "Agent of the Testaments",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 1,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Ambush",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Give this follower Ambush until the end of your opponent's turn.\n\nAt the end of your turn, restore 1 defense to your leader.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give this follower <b><color=Keyword>Ambush</color></b> until the end of your opponent's turn.\n<hr>At the end of your turn, restore 1 defense to your leader.",
+    "flavourText": "The other family members shunned Ral for his talent. But even if no one could understand him, I would be his wings. The joy of knowing that I and I alone had his trust was reward enough.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f83c5c29fbac4c28bc23c2a60b3a9ec3.png",
+    "imageHash": "f83c5c29fbac4c28bc23c2a60b3a9ec3",
+    "bannerImageHash": "5b3ddb90a3324119a62eaa8f69a9736e",
+    "evolved": {
+      "text": "Fanfare: Give this follower Ambush until the end of your opponent's turn.\n\nAt the end of your turn, restore 1 defense to your leader.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give this follower <b><color=Keyword>Ambush</color></b> until the end of your opponent's turn.\n<hr>At the end of your turn, restore 1 defense to your leader.",
+      "flavourText": "I joined the faction opposing Ral to tie up any loose ends behind the scenes. \"I may be involved in things that you'll find suspicious, but know that I am doing it for your sake.\" Hearing that, Ral accepted my actions.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f2d5eb6305b24c9dbd41b5f7ab304735.png",
+      "imageHash": "f2d5eb6305b24c9dbd41b5f7ab304735",
+      "bannerImageHash": "9dd16d5a92bf4785ba25da2b5b4a00d4"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10962120,
+    "baseCardId": 10962120,
+    "name": "Miraculous Al-mi'raj",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 2,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Storm"
+    ],
+    "text": "Storm",
+    "rawSkillText": "<b><color=Keyword>Storm</color></b>",
+    "flavourText": "B-be it heavenly guidance... or wicked rumors... none can escape these... adorable ears of justice! That's right, I'm the magic... magical... I-I can't do this, Rabby!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10962120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a655304a428649bdba751c9b70992c66.png",
+    "imageHash": "a655304a428649bdba751c9b70992c66",
+    "bannerImageHash": "c36cad6c73554d18b68c9396c38ed30c",
+    "evolved": {
+      "text": "Storm",
+      "rawSkillText": "<b><color=Keyword>Storm</color></b>",
+      "flavourText": "I feel everyone staring, but this is no time to be embarrassed. Let's do this, Rabby! With the power of miracles, courage, and lightning-quick feet, we'll kick the darkness to the curb! That's right, I'm the magical girl they call the Miraculous Al-mi'raj!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9df75755a3954276b8ad79ba3c21cec2.png",
+      "imageHash": "9df75755a3954276b8ad79ba3c21cec2",
+      "bannerImageHash": "f753f476a092431186674659220bd71d"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90061110,
     "baseCardId": 90061110,
     "name": "Holy Falcon",
@@ -1618,7 +1807,7 @@
     "text": "Countdown (4)\nLast Words: Restore 2 defense to your leader. Give your leader Barrier.\n\nEngage: Advance this amulet's count by X. X is the number of crests you have.",
     "rawSkillText": "<b><color=Keyword>Countdown</color> (4)</b>\n<b><color=Keyword>Last Words</color></b>: Restore 2 defense to your leader. Give your leader <b><color=Keyword>Barrier</color></b>.\n<hr><b><color=Keyword>Engage</color></b>: Advance this amulet's count by X. X is the number of crests you have.",
     "flavourText": "\"My eyes have been opened. Why did I ever revere slumber?\" More than half of the sleepers at the temple awaken and arise. \"We worship but one, and it is no longer Repose—it is Our Lady Himeka!\" The new heretics go to baptize themselves in the river's raging waters.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1634,7 +1823,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10362220,
@@ -1659,7 +1848,7 @@
     "text": "Countdown (3)\nLast Words: Summon a Holy Falcon and Holyflame Tiger.\n\nEngage (1): Advance this amulet's count by 1.",
     "rawSkillText": "<b><color=Keyword>Countdown</color> (3)</b>\n<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Holy Falcon</color></i></b> and <b><i><color=Keyword>Holyflame Tiger</color></i></b>.\n<hr><b><color=Keyword>Engage</color> (1)</b>: Advance this amulet's count by 1.",
     "flavourText": "Prayer, at its core, stems from the baseless desire that something should come of nothing.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1673,7 +1862,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10463210,
@@ -1957,7 +2146,7 @@
     "text": "Fanfare: Add a Torrent of Despair to your hand.\n\nEvolve: Gain Crest: Marwynn, Despair Manifest.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Torrent of Despair</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Marwynn, Despair Manifest</i></b>.</ev>",
     "flavourText": "Open your eyes if the light does not reach them. The truest self is where impotence, frailty, and idiocy dwell. It cannot be found in the realm of dreams. Dispel the fleeting illusion, and observe reality. For this is the trial that I continue to present the world.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1982,7 +2171,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10462110,
@@ -2333,7 +2522,7 @@
     "text": "Deal 3 damage to all enemy followers.\nEnhance (8): Draw 3 cards. Restore 3 defense to your leader.",
     "rawSkillText": "Deal 3 damage to all enemy followers.\n<b><color=Keyword>Enhance</color> (8)</b>: Draw 3 cards. Restore 3 defense to your leader.",
     "flavourText": "The nun shuts her eyes and shines a blinding light to guide the masses.\n\"The existence of god is irrefutable. You need not see him to know he watches you.\"",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2344,7 +2533,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10061210,
@@ -2404,7 +2593,7 @@
     "text": "Countdown (4)\nLast Words: Deal 4 damage split between all enemies. Restore 4 defense to your leader.\n\nEngage: Advance this amulet's count by X. X is the number of crests you have.",
     "rawSkillText": "<b><color=Keyword>Countdown</color> (4)</b>\n<b><color=Keyword>Last Words</color></b>: Deal 4 damage split between all enemies. Restore 4 defense to your leader.\n<hr><b><color=Keyword>Engage</color></b>: Advance this amulet's count by X. X is the number of crests you have.",
     "flavourText": "So, the Trial of Repose has been overcome. Now the Trial of Despair is at hand. The fourth Omen wields the power of reposed despair.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2420,7 +2609,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10462210,
@@ -2674,7 +2863,7 @@
     "text": "Fanfare: Select an enemy follower on the field and destroy it.\n\nEvolve: Gain Crest: Congregant of Repose.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Congregant of Repose</i></b>.</ev>",
     "flavourText": "Let's be kind to each other.\nIf everyone were kinder, the world would be a better place!\n—The teachings of Lady Himeka",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2692,7 +2881,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10562120,
@@ -3063,7 +3252,7 @@
     "text": "Fanfare: Gain Crest: Himeka, Heir to Repose.\n\nSuper-Evolve: Set the attack of all enemy followers on the field to 4.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Gain <b><i>Crest: Himeka, Heir to Repose</i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Set the attack of all enemy followers on the field to 4.</sev>",
     "flavourText": "The kinder people are to me, the faster they die. Why? Maybe the world is too cruel for them to keep living. But that's okay. I know you'll save us, Lord Marwynn! I believe in you—I mean, everyone else still does!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3088,7 +3277,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10662120,
@@ -3301,6 +3490,136 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10961120,
+    "baseCardId": 10961120,
+    "name": "Peryton",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 6,
+    "attack": 3,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Peryton",
+      "Rush"
+    ],
+    "text": "Fanfare: Summon 2 copies of Peryton.\n\nRush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Peryton</color></i></b>.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "\"Speak of the devil, and he shall appear.\" Thus went a certain shrine maiden's prophecy. \"So speak not of the winged stag while anywhere the sun touches, lest it appears and takes the dark companion always by your side.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10961120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b31aca7572c3468da8b8c9fed1ef40d1.png",
+    "imageHash": "b31aca7572c3468da8b8c9fed1ef40d1",
+    "bannerImageHash": "9a25be7fa85e45d08bbeb7906e9a3c25",
+    "evolved": {
+      "text": "Fanfare: Summon 2 copies of Peryton.\n\nRush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Peryton</color></i></b>.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "\"The winged stag craves the shadows of men for it lacks one of its own.\" The shrine maiden's prophecy once described this creature thus. But, strangely, neither trace nor shadow can be found of her writings now.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e01a58d1f5764f7793bd526c45df0c05.png",
+      "imageHash": "e01a58d1f5764f7793bd526c45df0c05",
+      "bannerImageHash": "4e4522228c374536ae4610f7359a1493"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10964110,
+    "baseCardId": 10964110,
+    "name": "Erralde, Signet Convict",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and destroy it.\n\nEvolve: Gain Crest: Erralde, Signet Convict.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Erralde, Signet Convict</i></b>.</ev>",
+    "flavourText": "I welcome our reunion. After all, my wings, this is farewell. Be it our vow that day, or my memories of you, let us end everything, once and for all. With my own two hands, Omerio, I will erase the pitiful adoration that troubles me so.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2de936b590674bb880441ba7748ed520.png",
+    "imageHash": "2de936b590674bb880441ba7748ed520",
+    "bannerImageHash": "215a503da38d45999bd6466060a6eea2",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and destroy it.\n\nEvolve: Gain Crest: Erralde, Signet Convict.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Erralde, Signet Convict</i></b>.</ev>",
+      "flavourText": "I loathe to admit it, but I've always averted my eyes. I've hidden from the radiance that is your faith and the darkness that is my craving of it. And when I was forced to face them, my envy drove me to pass judgment on the source of my turmoil... you, my one and only.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4a21239bf0684be98ef592f422dafcb5.png",
+      "imageHash": "4a21239bf0684be98ef592f422dafcb5",
+      "bannerImageHash": "8c7388c65fc84c8aba598dce6eadcb24"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10964120,
+    "baseCardId": 10964120,
+    "name": "Omerio, Winged Revenant",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 3,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Holy Falcon"
+    ],
+    "text": "Whenever an allied amulet is destroyed, activate an ability in sequence from the following.\n1. Deal 3 damage to 2 random enemy followers.\n2. Restore 2 defense to your leader.\n3. Summon a Holy Falcon.\n\nEvolve: Destroy all allied amulets.",
+    "rawSkillText": "Whenever an allied amulet is destroyed, activate an ability in sequence from the following.\n<ridx=0>1. Deal 3 damage to 2 random enemy followers.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>\n<ridx=2>3. Summon a <b><i><color=Keyword>Holy Falcon</color></i></b>.</ridx>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Destroy all allied amulets.</ev>",
+    "flavourText": "What would it take for you to admit that you were wrong? That <i>you</i> betrayed <i>me?</i> It was all your fault from the very start. Ral... No. Erralde. Even if you couldn't trust anyone else... why couldn't you have trusted me?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f0842ad44d184d75a682576a19624401.png",
+    "imageHash": "f0842ad44d184d75a682576a19624401",
+    "bannerImageHash": "2a444776c8be4e0eb7238b296ba83d54",
+    "evolved": {
+      "text": "Whenever an allied amulet is destroyed, activate an ability in sequence from the following.\n1. Deal 3 damage to 2 random enemy followers.\n2. Restore 2 defense to your leader.\n3. Summon a Holy Falcon.\n\nEvolve: Destroy all allied amulets.",
+      "rawSkillText": "Whenever an allied amulet is destroyed, activate an ability in sequence from the following.\n<ridx=0>1. Deal 3 damage to 2 random enemy followers.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>\n<ridx=2>3. Summon a <b><i><color=Keyword>Holy Falcon</color></i></b>.</ridx>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Destroy all allied amulets.</ev>",
+      "flavourText": "I swore to become the wings on your back. I devoted my entire being to you. You were my everything... And what did you do? You ravaged my purpose, my reason for living! Now face the consequences of your arrogance!\n\"Rend the source, Libertas!\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e2b14c80910d43a1bde14de91b5ae7fa.png",
+      "imageHash": "e2b14c80910d43a1bde14de91b5ae7fa",
+      "bannerImageHash": "e91da256a1174ecb8fc080d061262364"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "If an allied amulet is destroyed after my Omerio, Winged Revenant's third ability has been activated, will Omerio's first ability activate?",
+        "answer": "Yes, it will."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90061130,
     "baseCardId": 90061130,
     "name": "Regal Falcon",
@@ -3403,6 +3722,39 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10963210,
+    "baseCardId": 10963210,
+    "name": "Juratio",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Amulet",
+    "rarity": "Gold",
+    "cost": 6,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Engage",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Destroy all followers.\n\nEngage (1): Destroy this card. Draw a card. Restore 1 defense to your leader.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Destroy all followers.\n<hr><b><color=Keyword>Engage</color> (1)</b>: Destroy this card. Draw a card. Restore 1 defense to your leader.",
+    "flavourText": "Even if you bore no ill will, you are no longer necessary to me. You who spoke of unconditional loyalty. You who had everything I desired. You could never understand my hatred. 'Til death do us part, was it? Then death it shall be.\n\"Forge the oath, Juratio.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e417c229f9e447378ad27046e7e521d5.png",
+    "imageHash": "e417c229f9e447378ad27046e7e521d5",
+    "bannerImageHash": "5ea4a9817f5f4622a7ec639c8eb0fbca",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3767,6 +4119,47 @@
       }
     ],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10963110,
+    "baseCardId": 10963110,
+    "name": "Executor of the Vow",
+    "class": "Havencraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 7,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Super-Evolve",
+      "Ward"
+    ],
+    "text": "Fanfare: Restore 2 defense to your leader.\n\nWard\nDuring your turn, whenever your leader's defense is restored, destroy a random enemy follower.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Restore 2 defense to your leader.\n<hr><b><color=Keyword>Ward</color></b>\nDuring your turn, whenever your leader's defense is restored, destroy a random enemy follower.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+    "flavourText": "A member of the faction asked me if I had any interest in becoming the boss myself. It was nonsense, but before I knew it, that very nonsense was proposed to the former boss.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/09b550b8923b419993d1b516b48dbed6.png",
+    "imageHash": "09b550b8923b419993d1b516b48dbed6",
+    "bannerImageHash": "8126a1c0cbb64d54a905e07e5021ec65",
+    "evolved": {
+      "text": "Fanfare: Restore 2 defense to your leader.\n\nWard\nDuring your turn, whenever your leader's defense is restored, destroy a random enemy follower.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Restore 2 defense to your leader.\n<hr><b><color=Keyword>Ward</color></b>\nDuring your turn, whenever your leader's defense is restored, destroy a random enemy follower.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+      "flavourText": "Ral knows where my loyalty lies. He must. But why then would he not listen to my words?\n...Ah, I see. From the very start, he never...\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 6",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e0bac92c86764f66bc37d96db5e15c28.png",
+      "imageHash": "e0bac92c86764f66bc37d96db5e15c28",
+      "bannerImageHash": "5e5e5a93481845f3a809eb92a021d860"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

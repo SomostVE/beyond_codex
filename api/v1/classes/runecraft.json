@@ -328,8 +328,8 @@
     "keywords": [
       "Crystalspawn"
     ],
-    "text": "Select an allied Crystalspawn on the field and destroy it. Draw 2 Runecraft followers.",
-    "rawSkillText": "Select an allied <b><i><color=Keyword>Crystalspawn</color></i></b> on the field and destroy it. Draw 2 Runecraft followers.",
+    "text": "Select an allied Crystalspawn on the field and destroy it. Draw 2 cards.",
+    "rawSkillText": "Select an allied <b><i><color=Keyword>Crystalspawn</color></i></b> on the field and destroy it. Draw 2 cards.",
     "flavourText": "She zips home with a spell of fleetness. City lights become streaks in her wake; signs of civilization drop below the horizon like fallen stars. Just as she inserts her key into the house's lock, a knife is plunged into a girl's gut—and twisted.\n\"Mom! Sorry I'm late!\"",
     "rotation": true,
     "token": false,
@@ -344,7 +344,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10831310,
@@ -376,6 +376,47 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10931310,
+    "baseCardId": 10931310,
+    "name": "Miscalculated Experiment",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Truth Summons"
+    ],
+    "text": "Add 3 copies of Truth Summons to your hand.",
+    "rawSkillText": "Add 3 copies of <b><i><color=Keyword>Truth Summons</color></i></b> to your hand.",
+    "flavourText": "It is important to note that miscalculations are a natural part of experimentation. Remember to maintain composure—not all reactions require equal counteraction. \n—<i>Principles of Potion Experimentation</i>",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10031320,
+      90031110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/914cee10a96c4b1fb6a2d6fb07b66727.png",
+    "imageHash": "914cee10a96c4b1fb6a2d6fb07b66727",
+    "bannerImageHash": "671f12d8599e4f199fca463bc4c9d243",
+    "evolved": null,
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/aa6a2505278e4956ac1ffc2306d02061.png",
+        "evolvedImage": null
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -862,7 +903,7 @@
     "text": "Fanfare: If this card's cost isn't 2, restore 3 defense to your leader.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If this card's cost isn't 2, restore 3 defense to your leader.",
     "flavourText": "Behold the child born of our combined wisdom!\nOur mutual hatred is a thing of the past.\nThe wait is over. Our dreams have come to fruition!\nSo, our glorious sect and all other members—to veritas!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -880,7 +921,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10334110,
@@ -903,7 +944,7 @@
     "text": "Fanfare: Draw a card.\n\nEvolve: Select an enemy follower on the field and banish it.\nSuper-Evolve: Banish all enemy copies of it from the field.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Draw a card.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an enemy follower on the field and banish it.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Banish all enemy copies of it from the field.</sev>",
     "flavourText": "They have one desire: enlightenment. In search of veritas, they created her. \"Enlighten us with your lapis eye,\" they pleaded. \"Vijñana, I see it, even the undertones. So, is this what you truly wish for?\"",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -921,7 +962,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10731120,
@@ -1092,6 +1133,53 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10931110,
+    "baseCardId": 10931110,
+    "name": "Obsessed Test Subject",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Obsessed Test Subject",
+      "Rush"
+    ],
+    "text": "When this follower enters the field, if at least 5 other allied copies of Obsessed Test Subject have entered the field this match, give it +3/+3.\n\nRush",
+    "rawSkillText": "When this follower enters the field, if at least 5 other allied copies of <b><i><color=Keyword>Obsessed Test Subject</color></i></b> have entered the field this match, give it +3/+3.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "As orphans, the first and last gifts we exchanged were the names we decided for each other: Sephie for the otherworldly older sister, and Phylene for the clumsy younger one. And they became the most valuable things we had.\n—<i>Cleansing Grounds: Memories of an Enforcer</i>, Part 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10931110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3225773938fc4e9fb58184645346aacd.png",
+    "imageHash": "3225773938fc4e9fb58184645346aacd",
+    "bannerImageHash": "e7ca4a1c77204217b5142ec92c006d1a",
+    "evolved": {
+      "text": "When this follower enters the field, if at least 5 other allied copies of Obsessed Test Subject have entered the field this match, give it +3/+3.\n\nRush",
+      "rawSkillText": "When this follower enters the field, if at least 5 other allied copies of <b><i><color=Keyword>Obsessed Test Subject</color></i></b> have entered the field this match, give it +3/+3.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "\"Sephie is lazy\"? In what way? Spell it out for me. You dimwits treated my sister like a failure because you couldn't comprehend her extraordinary intelligence. That's why, even though we both dreamed of being doctors, only I succeeded.\n—<i>Cleansing Grounds: Memories of an Enforcer</i>, Part 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7d6c6abed5304d149c18d2c89907a166.png",
+      "imageHash": "7d6c6abed5304d149c18d2c89907a166",
+      "bannerImageHash": "15d1dc65cf7f44d283bdcb6395807826"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "If four allied Obsessed Test Subjects have already entered the field, and I play a Sephie, Maven Convict, what will the attack and defense of the Obsessed Test Subjects summoned by Sephie's Fanfare ability be?",
+        "answer": "The first copy will be 2/2 and the second copy will be 5/5."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90031130,
     "baseCardId": 90031130,
     "name": "Paper Shikigami",
@@ -1253,7 +1341,7 @@
     "text": "Select a follower in your hand and increase its cost by 1. Destroy a random enemy follower.",
     "rawSkillText": "Select a follower in your hand and increase its cost by 1. Destroy a random enemy follower.",
     "flavourText": "So, the Trial of Truth has been overcome. Now, the Trial of Elimination is at hand. The ninth Omen wields the power of truthful elimination.\nThe Omens persist. The trials continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1270,7 +1358,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10433310,
@@ -1598,7 +1686,7 @@
     "text": "Fanfare: If this card's cost isn't 3, summon 2 exact copies of it.\n\nRush\n\nSuper-Evolve: Summon an exact copy of this card.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If this card's cost isn't 3, summon 2 exact copies of it.\n<hr><b><color=Keyword>Rush</color></b>\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Summon an exact copy of this card.</sev>",
     "flavourText": "The golden age begins with her lapis eye!\nShe shall liberate us from blind ignorance soon.\nBanish preconceptions from your minds, my brethren.\nAhh, am I to witness veritas at long last?",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1616,7 +1704,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10431110,
@@ -1987,6 +2075,45 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10932120,
+    "baseCardId": 10932120,
+    "name": "Noble Philosopher",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 2,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Fanfare"
+    ],
+    "text": "Fanfare: Return your hand to deck. Draw X cards. X is the number of cards you returned.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Return your hand to deck. Draw X cards. X is the number of cards you returned.",
+    "flavourText": "When you're lost on a trip, you read a map. When you're lost in your magic studies, you read a grimoire. But what would you read when you're lost in life? If you find yourself wondering, ask the well-read and noble philosopher. They'll certainly have the answer.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/56e6b66e014f42888db8c4ad491e76c2.png",
+    "imageHash": "56e6b66e014f42888db8c4ad491e76c2",
+    "bannerImageHash": "ef8100e0b5c149dfaa7857307f625499",
+    "evolved": {
+      "text": "Fanfare: Return your hand to deck. Draw X cards. X is the number of cards you returned.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Return your hand to deck. Draw X cards. X is the number of cards you returned.",
+      "flavourText": "Good news for all you little lambs feeling worn out by life! What fills an empty heart? That's right! Philosophy. Worrying about an uncertain future is a form of philosophy in itself, but it's perfectly fine to open a philosophy book and borrow some wisdom from those who came before us.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b74bf54f88b24935a7a5e8adab2fcbd9.png",
+      "imageHash": "b74bf54f88b24935a7a5e8adab2fcbd9",
+      "bannerImageHash": "a1c5617294724cbab16d5424fc0bb50b"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90031120,
     "baseCardId": 90031120,
     "name": "Guardian Golem",
@@ -2292,6 +2419,40 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10932310,
+    "baseCardId": 10932310,
+    "name": "Humane Love",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Obsessed Test Subject"
+    ],
+    "text": "Summon an Obsessed Test Subject and give it +1/+0. Add an Obsessed Test Subject to your hand and give it +1/+0.",
+    "rawSkillText": "Summon an <b><i><color=Keyword>Obsessed Test Subject</color></i></b> and give it +1/+0. Add an <b><i><color=Keyword>Obsessed Test Subject</color></i></b> to your hand and give it +1/+0.",
+    "flavourText": "\"You'd still save me despite all the horrible things I've said?\"\n\"It's only human for an older sister to save her beloved younger one.\"\n\"Sephie... Please forgive me.\"\n\"Worry not, sister. Mistakes are a natural byproduct of experimentation.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10931110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/768270a7058145969181c2d3fcd3e5c0.png",
+    "imageHash": "768270a7058145969181c2d3fcd3e5c0",
+    "bannerImageHash": "c88dc3d4177449068b5a34787effc389",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10332210,
     "baseCardId": 10332210,
     "name": "Institute of Truth",
@@ -2311,7 +2472,7 @@
     "text": "Countdown (5)\nWhenever you play a follower whose cost has been changed, draw a card and advance this amulet's count by 1.\n\nEngage: Select a follower in your hand, increase its cost by 1, and give it +1/+1.",
     "rawSkillText": "<b><color=Keyword>Countdown</color> (5)</b>\nWhenever you play a follower whose cost has been changed, draw a card and advance this amulet's count by 1.\n<hr><b><color=Keyword>Engage</color></b>: Select a follower in your hand, increase its cost by 1, and give it +1/+1.",
     "flavourText": "Have you heard the rumors circulating the facilities? Strange things have been happening recently. Do you think it could be...\nWill we really reach enlightenment?\n—Redacted records",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2335,7 +2496,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10032110,
@@ -2524,7 +2685,7 @@
     "text": "Fanfare: Summon a Paper Shikigami.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Paper Shikigami</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
     "flavourText": "The blades of truth transform into blades of elimination. The founder, who withstood their slashes, confronts them once more... but a new power banishes him from this world. In his absence, others rise to resist, believing in the great founder's return.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2544,7 +2705,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10434120,
@@ -2716,6 +2877,52 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10932110,
+    "baseCardId": 10932110,
+    "name": "Enamored Researcher",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 4,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Enhance",
+      "Evolve",
+      "Fanfare",
+      "Obsessed Test Subject",
+      "Ward"
+    ],
+    "text": "Fanfare: Summon 2 copies of Obsessed Test Subject.\nEnhance (8): Summon 3 copies instead and give them Ward.\n\nEvolve: Select an allied Obsessed Test Subject on the field and give it Bane.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<b><color=Keyword>Enhance</color> (8)</b>: Summon 3 copies instead and give them <b><color=Keyword>Ward</color></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an allied <b><i><color=Keyword>Obsessed Test Subject</color></i></b> on the field and give it <b><color=Keyword>Bane</color></b>.</ev>",
+    "flavourText": "The name my sister gave me became well-known as that of a master surgeon. But in the course of studying rare diseases, I contracted an incurable illness. My fate was sealed. If there was anyone who could save me, it would have to be...\n—<i>Cleansing Grounds: Memories of an Enforcer</i>, Part 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10931110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cf9a221e4bc346df9677944f0b1efc7e.png",
+    "imageHash": "cf9a221e4bc346df9677944f0b1efc7e",
+    "bannerImageHash": "3310e7a9472c43f99d8b505309e53159",
+    "evolved": {
+      "text": "Fanfare: Summon 2 copies of Obsessed Test Subject.\nEnhance (8): Summon 3 copies instead and give them Ward.\n\nEvolve: Select an allied Obsessed Test Subject on the field and give it Bane.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<b><color=Keyword>Enhance</color> (8)</b>: Summon 3 copies instead and give them <b><color=Keyword>Ward</color></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an allied <b><i><color=Keyword>Obsessed Test Subject</color></i></b> on the field and give it <b><color=Keyword>Bane</color></b>.</ev>",
+      "flavourText": "I called my sister's name—the precious treasure that bound us—from my sickbed. \"You're my big sister, so save me.\" I was always clumsy with my words. And yet, she agreed. She entered the world of medicine for me.\n—<i>Cleansing Grounds: Memories of an Enforcer</i>, Part 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7ab959a3b4f14c7ba91191dcbfd24379.png",
+      "imageHash": "7ab959a3b4f14c7ba91191dcbfd24379",
+      "bannerImageHash": "25f711119c804ab88eedcd9842117c36"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90034110,
     "baseCardId": 90034110,
     "name": "Celestial Shikigami",
@@ -2838,7 +3045,7 @@
     "text": "Gain Crest: Crystal Gazing.",
     "rawSkillText": "Gain <b><i>Crest: Crystal Gazing</i></b>.",
     "flavourText": "The future is already in the palm of my hand.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2849,7 +3056,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10332310,
@@ -2871,7 +3078,7 @@
     "text": "Summon a Guardian Golem and Clay Golem.",
     "rawSkillText": "Summon a <b><i><color=Keyword>Guardian Golem</color></i></b> and <b><i><color=Keyword>Clay Golem</color></i></b>.",
     "flavourText": "A hex that reduces all to dust and a spell that conjures life from nothingness... I wonder what will happen if I combine the two?\n—A sorcerer and future author of <i>Basic Golemology</i>",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2885,7 +3092,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10432310,
@@ -3258,7 +3465,7 @@
     "text": "Fanfare: Deal 3 damage to all other followers. If this card's cost isn't 5, draw 2 cards.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 3 damage to all other followers. If this card's cost isn't 5, draw 2 cards.",
     "flavourText": "Indeed, this couldn't be done by our sect alone:\nThat lapis eye which beholds truth...\nShe will soon master its abilities.\nAdditional time and patience is all that's required.\nEverything else has served their purpose.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3276,7 +3483,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10432120,
@@ -3451,6 +3658,51 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10933110,
+    "baseCardId": 10933110,
+    "name": "Ecstatic Scholar",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 2,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Drain",
+      "Fanfare",
+      "Fuse",
+      "Obsessed Test Subject",
+      "Super-Evolve"
+    ],
+    "text": "Fuse: Cards\n\nFanfare: Draw 2 cards. Summon an Obsessed Test Subject.\n\nSuper-Evolve: If you've Fused to this card, select an allied Obsessed Test Subject on the field and give it Drain.",
+    "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Cards\n<hr><b><color=Keyword>Fanfare</color></b>: Draw 2 cards. Summon an <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, select an allied <b><i><color=Keyword>Obsessed Test Subject</color></i></b> on the field and give it <b><color=Keyword>Drain</color></b>.</sev>",
+    "flavourText": "Word of some truly heinous experiments reached my ears. Stranger still is they seemed to be related to the illness I suffer from. Could it be... No. Impossible. My heart raced as I stole a glance at my sister's research materials.\n—<i>Cleansing Grounds: Memories of an Enforcer</i>, Part 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10931110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a650870cee384d96bda254299ea08c0d.png",
+    "imageHash": "a650870cee384d96bda254299ea08c0d",
+    "bannerImageHash": "230c85f9f9ce405d9d951de3aae42c36",
+    "evolved": {
+      "text": "Fuse: Cards\n\nFanfare: Draw 2 cards. Summon an Obsessed Test Subject.\n\nSuper-Evolve: If you've Fused to this card, select an allied Obsessed Test Subject on the field and give it Drain.",
+      "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Cards\n<hr><b><color=Keyword>Fanfare</color></b>: Draw 2 cards. Summon an <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, select an allied <b><i><color=Keyword>Obsessed Test Subject</color></i></b> on the field and give it <b><color=Keyword>Drain</color></b>.</sev>",
+      "flavourText": "Secretions were extracted from the suffering of countless lives and administered to a nameless test subject. This experiment...\n\"Dear sister, have you discovered something interesting in your chart?\"\n—<i>Cleansing Grounds: Memories of an Enforcer</i>, Part 6",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/875f6f31b1964111879f1bbe83574a0f.png",
+      "imageHash": "875f6f31b1964111879f1bbe83574a0f",
+      "bannerImageHash": "16e89b6e7a094cf2acf4e4bbf22ad232"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10832320,
     "baseCardId": 10832320,
     "name": "Earth-Shattering Bolt",
@@ -3483,6 +3735,40 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10933310,
+    "baseCardId": 10933310,
+    "name": "Obsidian Raven",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Obsessed Test Subject"
+    ],
+    "text": "Summon an Obsessed Test Subject. Do this 2 times: \"Deal 7 damage to a random enemy follower.\"",
+    "rawSkillText": "Summon an <b><i><color=Keyword>Obsessed Test Subject</color></i></b>. Do this 2 times: \"Deal 7 damage to a random enemy follower.\"",
+    "flavourText": "\"Under the guise of treatment, you used me as a guinea pig for your twisted experiments.\"\n\"Delirium is a known and temporary side effect. It will pass.\"\n\"Enough. How dare you turn me into a monster like you.\"\n\"Shh, I'll fix you—one brain cell at a time. Dissect her, Obsidian Raven.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10931110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/abac49d0625b44878a3f281804145ea3.png",
+    "imageHash": "abac49d0625b44878a3f281804145ea3",
+    "bannerImageHash": "37cd9eecba58456ab8dc00091eb09da3",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4034,10 +4320,106 @@
         "name": "Isabelle, Truth-Seeking Mage",
         "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8df8700a375340989eee6182dea247d5.png",
         "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a28047560e9442718bb23c324eed64d7.png"
+      },
+      {
+        "name": "Ginger, Idyllic Word",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/abedbcb76b9f4fe18c0e96c2795b5815.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/90cd5b6655fa4fd08d12d211e7b4b69d.png"
       }
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 10931120,
+    "baseCardId": 10931120,
+    "name": "Key Spirit",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 7,
+    "attack": 4,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "On Spellboost"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and deal it 7 damage. Deal 4 damage to the enemy leader.\n\nEvolve: Select a card in your hand with On Spellboost and spellboost it 4 times.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 7 damage. Deal 4 damage to the enemy leader.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select a card in your hand with <b><color=Keyword>On Spellboost</color></b> and spellboost it 4 times.</ev>",
+    "flavourText": "A group of fae adventurers were exploring the ruins of an ancient civilization when they stumbled upon a powerful barrier. Seeing it, one of them—an expert in magical artifacts—burst with excitement.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1df208133b5940218c83ee9a40dc208b.png",
+    "imageHash": "1df208133b5940218c83ee9a40dc208b",
+    "bannerImageHash": "6377cf360a4a458db1a134b3193bb18b",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and deal it 7 damage. Deal 4 damage to the enemy leader.\n\nEvolve: Select a card in your hand with On Spellboost and spellboost it 4 times.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 7 damage. Deal 4 damage to the enemy leader.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select a card in your hand with <b><color=Keyword>On Spellboost</color></b> and spellboost it 4 times.</ev>",
+      "flavourText": "Finally, it's my time to shine! This'll be a piece of cake! Easy-peasy! A walk in the park! Ta-da, a magic key that can open any lock... Huh? What do you mean barriers don't have keyholes?!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cac968434fde47a6b231aff028be0f70.png",
+      "imageHash": "cac968434fde47a6b231aff028be0f70",
+      "bannerImageHash": "36ff97d76c2e4e43a3378f0feb5d6191"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10934110,
+    "baseCardId": 10934110,
+    "name": "Sephie, Maven Convict",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 7,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Fuse",
+      "Obsessed Test Subject",
+      "Super-Evolve"
+    ],
+    "text": "Fuse: Cards\nWhenever you Fuse to this card, spend 2 play points to summon an Obsessed Test Subject.\n\nFanfare: Summon 2 copies of Obsessed Test Subject.\n\nSuper-Evolve: Gain Crest: Sephie, Maven Convict.",
+    "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Cards\nWhenever you <b><color=Keyword>Fuse</color></b> to this card, spend 2 play points to summon an <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<hr><b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Sephie, Maven Convict</i></b>.</sev>",
+    "flavourText": "As your older sister, and as a human, I've healed you from head to toe. Ignore the stains on your hands—we'll continue to experiment until we remedy that as well. For now, just wear some gloves like I do, and we'll be two sisters, perfectly matched.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10931110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0bfea84cc88341c88d13f4b9eb5b19f9.png",
+    "imageHash": "0bfea84cc88341c88d13f4b9eb5b19f9",
+    "bannerImageHash": "454954e69cb14cb099136c4d5b95d8ac",
+    "evolved": {
+      "text": "Fuse: Cards\nWhenever you Fuse to this card, spend 2 play points to summon an Obsessed Test Subject.\n\nFanfare: Summon 2 copies of Obsessed Test Subject.\n\nSuper-Evolve: Gain Crest: Sephie, Maven Convict.",
+      "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Cards\nWhenever you <b><color=Keyword>Fuse</color></b> to this card, spend 2 play points to summon an <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<hr><b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Obsessed Test Subject</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Sephie, Maven Convict</i></b>.</sev>",
+      "flavourText": "I see. So not knowing the names of one's relatives is also considered inhuman. Interesting. Now let us test the next hypothesis. In this experiment, I will remove your hippocampus and erase some of your memories. Next, I'll look up your name and record it in your chart.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/882586d3f5ce4a69b4ce9fdfdf156cf3.png",
+      "imageHash": "882586d3f5ce4a69b4ce9fdfdf156cf3",
+      "bannerImageHash": "806cb3a480f84210addf4df46c777fc3"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a56df81bf901483fa1fbddaa9e48162f.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/330d4e4b448a438e94ef3d245c6eab1e.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4290,7 +4672,7 @@
     "text": "Fanfare: Reduce the cost of all followers in your deck by 3. Transform a random spell in your hand into an Ersatz Elimination. It costs 0 until the end of the turn.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Reduce the cost of all followers in your deck by 3. Transform a random spell in your hand into an <b><i><color=Keyword>Ersatz Elimination</color></i></b>. It costs 0 until the end of the turn.",
     "flavourText": "Leather conceals and cloth disguises. Likewise, words obfuscate. A single lie begets endless delusion. So decorate thy depths with deceit, until thou knowest not truth from deception. And then... the trial of the world shall continue.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -4310,7 +4692,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10032120,
@@ -4452,6 +4834,48 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10934120,
+    "baseCardId": 10934120,
+    "name": "Phylene, Cleansing Revenant",
+    "class": "Runecraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 10,
+    "attack": 4,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Aura",
+      "Bane",
+      "On Spellboost",
+      "Ward"
+    ],
+    "text": "On Spellboost: Reduce the cost of this card by 1.\n\nBane\nWard\nAura",
+    "rawSkillText": "<b><color=Keyword>On Spellboost</color></b>: Reduce the cost of this card by 1.\n<hr><b><color=Keyword>Bane</color></b>\n<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Aura</color></b>",
+    "flavourText": "Don't point those cruel, brutal, vicious, defiled hands at me. My hands exist to save others—that's how I lived my life. So if I'd known that the hand you held out would one day be stained with blood, I wouldn't have taken it. I'd never have clung to it.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/51bfe425608d44f5b1f407835c9921d2.png",
+    "imageHash": "51bfe425608d44f5b1f407835c9921d2",
+    "bannerImageHash": "bce1d57c35964810888b151caa2f7574",
+    "evolved": {
+      "text": "On Spellboost: Reduce the cost of this card by 1.\n\nBane\nWard\nAura",
+      "rawSkillText": "<b><color=Keyword>On Spellboost</color></b>: Reduce the cost of this card by 1.\n<hr><b><color=Keyword>Bane</color></b>\n<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Aura</color></b>",
+      "flavourText": "I believed that the gifts we shared would bind our hearts together, but it seems I was the only one who treasured them. Still, I don't regret giving you a name. Thanks to that day, I'll know what to engrave on your gravestone.\n\"Plague Gate: Rupturing Incision. Excise and suture, Ivory Swan.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3ce42d1067fd45f2a492585367a63936.png",
+      "imageHash": "3ce42d1067fd45f2a492585367a63936",
+      "bannerImageHash": "f211004e17074f9092f50944ea8d6989"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
