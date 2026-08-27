@@ -244,7 +244,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -654,7 +654,7 @@
     "evolved": null,
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1131,7 +1131,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10471120,
@@ -1546,7 +1546,7 @@
       }
     ],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1671,7 +1671,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10671310,
@@ -1804,7 +1804,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10071110,
@@ -2036,7 +2036,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10471110,
@@ -2514,7 +2514,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2867,7 +2867,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10374120,
@@ -2919,7 +2919,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10571110,
@@ -3219,7 +3219,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3259,7 +3259,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3341,7 +3341,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10973310,
@@ -3370,7 +3370,7 @@
     "evolved": null,
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3685,7 +3685,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10472110,
@@ -4049,7 +4049,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4470,7 +4470,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10671110,
@@ -4644,7 +4644,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4785,7 +4785,7 @@
     "evolved": null,
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4829,7 +4829,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10472120,
@@ -5090,7 +5090,7 @@
       }
     ],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {

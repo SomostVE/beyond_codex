@@ -564,7 +564,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10401120,
@@ -909,7 +909,7 @@
     "evolved": null,
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1150,7 +1150,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10304120,
@@ -1200,7 +1200,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10402110,
@@ -1498,7 +1498,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10602210,
@@ -1613,7 +1613,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10304110,
@@ -1656,7 +1656,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10403110,
@@ -1842,7 +1842,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10701310,
@@ -2105,7 +2105,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2447,7 +2447,7 @@
         "answer": "Yes. The second portion of Jailor of Antiquity's Fanfare ability will activate even if you are unable to select an enemy follower for the first."
       }
     ],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2702,7 +2702,7 @@
     },
     "styles": [],
     "questions": [],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2779,7 +2779,7 @@
         "answer": "The abilities will activate in the following order:\n\n1. Your Azvaldt will be destroyed by its ability.\n2. Your Zerael will be invoked.\n3. Your Azvaldt's Last Words ability will activate."
       }
     ],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2957,7 +2957,7 @@
         "answer": "Its base cost will be 1."
       }
     ],
-    "newlyAdded": true,
+    "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
   {
