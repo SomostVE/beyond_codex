@@ -15,31 +15,46 @@ const CLASS_DIR = path.join(API_DIR, "classes");
 const BEYOND_DECKS_DIR = process.argv[2] ? path.resolve(process.argv[2]) : null;
 
 const CLASS_NAMES = ["Neutral", "Forestcraft", "Swordcraft", "Runecraft", "Dragoncraft", "Abysscraft", "Havencraft", "Portalcraft"];
-const CLASS_FILES = Object.fromEntries(CLASS_NAMES.map(name => [name, `classes/${name.toLowerCase().replace(/craft$/, "craft")}.json`]));
+const CLASS_FILES = Object.fromEntries(CLASS_NAMES.map(name => [name, `classes/${name.toLowerCase()}.json`]));
 
-function git(args, cwd) {
-  return execFileSync("git", ["-C", cwd, ...args], { encoding: "utf8", maxBuffer: 64 * 1024 * 1024 });
+function git(args, cwd, { quiet = false } = {}) {
+  try {
+    return execFileSync("git", ["-C", cwd, ...args], {
+      encoding: "utf8",
+      maxBuffer: 64 * 1024 * 1024,
+      stdio: quiet ? ["ignore", "pipe", "ignore"] : ["ignore", "pipe", "inherit"]
+    });
+  } catch {
+    return "";
+  }
 }
 
 function commitsFor(repoDir, filePath) {
+  return git(["log", "--all", "--format=%H", "--", filePath], repoDir, { quiet: true })
+    .split(/\r?\n/)
+    .map(value => value.trim())
+    .filter(Boolean);
+}
+
+function cardsAt(repoDir, sha, filePath) {
+  const raw = git(["show", `${sha}:${filePath}`], repoDir, { quiet: true });
+  if (!raw) return [];
   try {
-    return git(["log", "--all", "--format=%H", "--", filePath], repoDir)
-      .split(/\r?\n/)
-      .map(value => value.trim())
-      .filter(Boolean);
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter(item => item && typeof item === "object" && Number.isFinite(Number(item.id)) && typeof item.name === "string");
   } catch {
     return [];
   }
 }
 
-function cardsAt(repoDir, sha, filePath) {
-  try {
-    const raw = git(["show", `${sha}:${filePath}`], repoDir);
-    const parsed = JSON.parse(raw);
-    return Array.isArray(parsed) ? parsed : [];
-  } catch {
-    return [];
-  }
+function historicalCardJsonPaths(repoDir) {
+  const paths = git(["log", "--all", "--name-only", "--pretty=format:"], repoDir, { quiet: true })
+    .split(/\r?\n/)
+    .map(value => value.trim())
+    .filter(Boolean)
+    .filter(value => /card/i.test(value) && /\.json$/i.test(value));
+  return [...new Set(paths)].sort();
 }
 
 function sanitizeCard(card) {
@@ -70,15 +85,21 @@ function summary(card, origin) {
 
 function collectMissingFromHistory({ repoDir, filePath, currentIds, recovered, originPrefix }) {
   const commits = commitsFor(repoDir, filePath);
-  console.log(`${originPrefix}: scanning ${commits.length} historical snapshots of ${filePath}`);
+  let validSnapshots = 0;
   for (const sha of commits) {
-    for (const rawCard of cardsAt(repoDir, sha, filePath)) {
-      const id = Number(rawCard?.id);
-      if (!Number.isFinite(id) || currentIds.has(id) || recovered.has(id)) continue;
-      const card = sanitizeCard(rawCard);
-      recovered.set(id, { card, origin: `${originPrefix}:${sha.slice(0, 12)}` });
+    const snapshot = cardsAt(repoDir, sha, filePath);
+    if (!snapshot.length) continue;
+    validSnapshots += 1;
+    for (const rawCard of snapshot) {
+      const id = Number(rawCard.id);
+      if (currentIds.has(id) || recovered.has(id)) continue;
+      recovered.set(id, {
+        card: sanitizeCard(rawCard),
+        origin: `${originPrefix}:${filePath}:${sha.slice(0, 12)}`
+      });
     }
   }
+  if (validSnapshots) console.log(`${originPrefix}: ${filePath} -> ${validSnapshots} valid card snapshots`);
 }
 
 async function writeJson(file, value) {
@@ -101,18 +122,20 @@ collectMissingFromHistory({
 });
 
 if (BEYOND_DECKS_DIR) {
-  collectMissingFromHistory({
-    repoDir: BEYOND_DECKS_DIR,
-    filePath: "data/official/cards.json",
-    currentIds,
-    recovered,
-    originPrefix: "beyond_decks"
-  });
+  const paths = historicalCardJsonPaths(BEYOND_DECKS_DIR);
+  console.log(`Beyond Decks historical card JSON candidates: ${paths.length}`);
+  for (const filePath of paths) {
+    collectMissingFromHistory({
+      repoDir: BEYOND_DECKS_DIR,
+      filePath,
+      currentIds,
+      recovered,
+      originPrefix: "beyond_decks"
+    });
+  }
 }
 
-const recoveredRows = [...recovered.values()]
-  .sort((a, b) => Number(a.card.id) - Number(b.card.id));
-
+const recoveredRows = [...recovered.values()].sort((a, b) => Number(a.card.id) - Number(b.card.id));
 console.log(`Historical cards missing from current Codex: ${recoveredRows.length}`);
 for (const { card, origin } of recoveredRows) {
   console.log(`RESTORE|${card.id}|${card.class}|${card.set}|${card.name}|${origin}`);
@@ -134,7 +157,7 @@ for (const { card } of recoveredRows) {
   if (card.setId != null && card.set) metadata.sets[String(card.setId)] ??= card.set;
 }
 
-const deckSelectableCount = cards.filter(card => !card.token && Number(card.setId) !== 90000 && Number(card.maxCopies ?? 3) > 0).length;
+const deckSelectableCount = cards.filter(card => !card.token && Number(card.setId) !== 90000 && card.set !== "Token" && Number(card.maxCopies ?? 3) > 0).length;
 
 const changelog = {
   schemaVersion: 1,
