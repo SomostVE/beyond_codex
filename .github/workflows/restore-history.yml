@@ -1,0 +1,44 @@
+name: Restore lost historical cards
+
+on:
+  push:
+    branches: [fix/restore-lost-cards-history]
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: fix/restore-lost-cards-history
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+
+      - name: Clone Beyond Decks history
+        run: git clone --no-tags https://github.com/SomostVE/beyond_decks.git /tmp/beyond_decks
+
+      - name: Restore historical cards missing from Codex
+        run: node scripts/restore-historical-cards.mjs /tmp/beyond_decks
+
+      - name: Validate restored snapshot
+        run: npm run validate
+
+      - name: Commit restored API data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add api/v1
+          if git diff --cached --quiet -- api/v1; then
+            echo "No historical cards need restoration."
+            exit 0
+          fi
+          git commit -m "fix: restore cards lost from historical snapshots"
+          git push origin HEAD:fix/restore-lost-cards-history
