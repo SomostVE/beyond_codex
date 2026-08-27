@@ -17,6 +17,7 @@ if (metadata.count !== cards.length || manifest.counts?.cards !== cards.length) 
 if (!metadata.generatedAt || metadata.generatedAt !== manifest.generatedAt || metadata.generatedAt !== changelog.generatedAt) {
   throw new Error("Generated timestamps disagree between API files");
 }
+if (changelog.policy !== "append-or-replace-never-delete") throw new Error("Beyond Codex must use the append-or-replace-never-delete update policy");
 
 const ids = new Set();
 const expectedClasses = ["Neutral", "Forestcraft", "Swordcraft", "Runecraft", "Dragoncraft", "Abysscraft", "Havencraft", "Portalcraft"];
@@ -59,11 +60,26 @@ for (const className of expectedClasses) {
   if (new Set(subsetIds).size !== subsetIds.length) throw new Error(`${className}: class subset contains duplicate IDs`);
 }
 
-if (!changelog.counts || !Array.isArray(changelog.added) || !Array.isArray(changelog.modified) || !Array.isArray(changelog.removed)) {
+if (!changelog.counts || !Array.isArray(changelog.added) || !Array.isArray(changelog.modified) || !Array.isArray(changelog.removed) || !Array.isArray(changelog.retainedMissingFromSource)) {
   throw new Error("changelog.json structure is invalid");
 }
-if (Number(changelog.counts.added) !== changelog.added.length || Number(changelog.counts.modified) !== changelog.modified.length || Number(changelog.counts.removed) !== changelog.removed.length) {
+if (Number(changelog.counts.added) !== changelog.added.length || Number(changelog.counts.modified) !== changelog.modified.length || Number(changelog.counts.removed) !== changelog.removed.length || Number(changelog.counts.retainedMissingFromSource) !== changelog.retainedMissingFromSource.length) {
   throw new Error("Changelog counts disagree with changelog arrays");
+}
+if (changelog.removed.length !== 0 || Number(changelog.counts.removed) !== 0) {
+  throw new Error("Append-only policy violation: a Codex update must never remove cards");
+}
+for (const retained of changelog.retainedMissingFromSource) {
+  if (!ids.has(Number(retained.id))) throw new Error(`Retained source-missing card ${retained.id} is absent from cards.json`);
+}
+
+const sourceCount = Number(metadata.sourceCount ?? manifest.counts?.sourceCards ?? cards.length);
+const retainedCount = Number(changelog.counts.retainedMissingFromSource ?? 0);
+if (sourceCount + retainedCount !== cards.length) {
+  throw new Error(`Append-only source accounting mismatch: ${sourceCount} source + ${retainedCount} retained != ${cards.length} cards`);
+}
+if (Number(manifest.counts?.sourceCards ?? sourceCount) !== sourceCount || Number(manifest.counts?.retainedMissingFromSource ?? retainedCount) !== retainedCount) {
+  throw new Error("Manifest append-only counts disagree with metadata/changelog");
 }
 
 const deckSelectable = cards.filter(card => !card.token && Number(card.setId) !== 90000 && Number(card.maxCopies ?? 3) > 0).length;
@@ -74,4 +90,4 @@ if (manifest.counts?.tokensOrGenerated !== cards.length - deckSelectable) {
   throw new Error("Token/generated count mismatch");
 }
 
-console.log(`Beyond Codex validation OK: ${cards.length} cards · ${deckSelectable} deck-selectable · ${cards.length - deckSelectable} tokens/generated`);
+console.log(`Beyond Codex validation OK: ${cards.length} cards · ${sourceCount} current-source · ${retainedCount} retained · ${deckSelectable} deck-selectable · ${cards.length - deckSelectable} tokens/generated`);
