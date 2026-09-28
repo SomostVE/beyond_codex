@@ -8236,10 +8236,16 @@
     "imageHash": "3ababb8027c84f3aa4f48e73466a4baa",
     "bannerImageHash": "9b53191be6b94e0a830f5f62585cf725",
     "evolved": null,
-    "styles": [],
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85bd47324bbd404b894f03511c7f118b.png",
+        "evolvedImage": null
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10022110,
@@ -31898,10 +31904,16 @@
       "imageHash": "f55dbd045b77437e90f0217239ecc322",
       "bannerImageHash": "7e6f5e150449449ebf86c7c56ae3ff43"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Yearnguard",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0bfcda7c2e034dbcbeda0d392706778d.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/c2b056ae7a9643c1bc47be65c27638d2.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90072130,

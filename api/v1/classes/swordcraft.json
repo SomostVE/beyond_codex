@@ -646,10 +646,16 @@
     "imageHash": "3ababb8027c84f3aa4f48e73466a4baa",
     "bannerImageHash": "9b53191be6b94e0a830f5f62585cf725",
     "evolved": null,
-    "styles": [],
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85bd47324bbd404b894f03511c7f118b.png",
+        "evolvedImage": null
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10022110,
