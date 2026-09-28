@@ -1,58 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T10:59:39.593Z",
-  "previousGeneratedAt": "2026-09-21T10:00:27.392Z",
+  "generatedAt": "2026-09-28T19:38:23.763Z",
+  "previousGeneratedAt": "2026-09-28T10:59:39.593Z",
   "baselineAvailable": true,
   "policy": "append-or-replace-never-delete",
   "counts": {
     "added": 0,
-    "modified": 2,
+    "modified": 0,
     "removed": 0,
     "retainedMissingFromSource": 0
   },
   "added": [],
-  "modified": [
-    {
-      "id": 90021210,
-      "name": "Dread Pirate's Flag",
-      "class": "Swordcraft",
-      "set": "90000",
-      "rarity": "Bronze",
-      "changes": [
-        {
-          "field": "styles",
-          "before": [],
-          "after": [
-            {
-              "name": "",
-              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85bd47324bbd404b894f03511c7f118b.png",
-              "evolvedImage": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 90071140,
-      "name": "Ancient Artifact",
-      "class": "Portalcraft",
-      "set": "90000",
-      "rarity": "Bronze",
-      "changes": [
-        {
-          "field": "styles",
-          "before": [],
-          "after": [
-            {
-              "name": "Yearnguard",
-              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0bfcda7c2e034dbcbeda0d392706778d.png",
-              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/c2b056ae7a9643c1bc47be65c27638d2.png"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "modified": [],
   "removed": [],
   "retainedMissingFromSource": []
 }
