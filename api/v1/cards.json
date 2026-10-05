@@ -8835,7 +8835,7 @@
     "rarity": "Bronze",
     "cost": 2,
     "attack": 2,
-    "defense": 1,
+    "defense": 2,
     "traits": [],
     "keywords": [
       "Dread Pirate's Flag",
@@ -8853,21 +8853,21 @@
       90021210,
       90021330
     ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9d0e50471c1a4f17a9287aedf8672c0f.png",
-    "imageHash": "9d0e50471c1a4f17a9287aedf8672c0f",
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f92d5a4ca0e140e68cd715be8ae8db96.png",
+    "imageHash": "f92d5a4ca0e140e68cd715be8ae8db96",
     "bannerImageHash": "4378902e14ee43de881adc6f87d071c0",
     "evolved": {
       "text": "Fanfare: Summon a Dread Pirate's Flag.\n\nEvolve: Add a Gilded Boots to your hand.",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.</ev>",
       "flavourText": "What officials? What nobles? They are nothing but villains who steal freedom from innocent people. In liberating others, I became wanted as a pirate. And though my ship grows smaller with each free man that joins me, I don't regret a thing.\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 2",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e2707bf1cae24690b99f20244b0141ad.png",
-      "imageHash": "e2707bf1cae24690b99f20244b0141ad",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a0b296a3c401480e8a60437eaa01a447.png",
+      "imageHash": "a0b296a3c401480e8a60437eaa01a447",
       "bannerImageHash": "dfb0baade0784f3399806a8b9dcc52e7"
     },
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90022110,
@@ -10041,8 +10041,8 @@
     "type": "Follower",
     "rarity": "Silver",
     "cost": 3,
-    "attack": 3,
-    "defense": 1,
+    "attack": 4,
+    "defense": 2,
     "traits": [],
     "keywords": [
       "Dread Pirate's Flag",
@@ -10060,21 +10060,21 @@
       90021210,
       90021320
     ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85bab94a6b3b4710820c9a015624a590.png",
-    "imageHash": "85bab94a6b3b4710820c9a015624a590",
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/55894f550dbc4a89a40fc553c3d5c757.png",
+    "imageHash": "55894f550dbc4a89a40fc553c3d5c757",
     "bannerImageHash": "136bd73c56044a3da9afa0572528dc11",
     "evolved": {
       "text": "Fanfare: Summon a Dread Pirate's Flag. Add a Gilded Goblet to your hand.\n\nRush",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> to your hand.\n<hr><b><color=Keyword>Rush</color></b>",
       "flavourText": "My freedom granted me true happiness. I knew then that I had to share this gift with my daughter. \n\"Live free, Barbaros. For both of us!\"\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 4",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/839e9fda1b0a4b5a80bdc4205b6037bf.png",
-      "imageHash": "839e9fda1b0a4b5a80bdc4205b6037bf",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b7121dc96f4145f4bbb60b1358089bdd.png",
+      "imageHash": "b7121dc96f4145f4bbb60b1358089bdd",
       "bannerImageHash": "23b1d55120174cd9b5b3773e1e3b3fc3"
     },
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90021130,
@@ -11775,6 +11775,53 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10423110,
+    "baseCardId": 10423110,
+    "name": "Golden Knight, True King's Blade",
+    "class": "Swordcraft",
+    "setId": 10004,
+    "set": "Skybound Dragons",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 6,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Fanfare",
+      "Mode"
+    ],
+    "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (8): Activate all of them instead.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (8)</b>: Activate all of them instead.",
+    "flavourText": "I have pledged my unyielding loyalty to His Majesty, and yet, why does he keep me in the dark? Why does he treat me as nothing more than a mere pawn? Did I do something wrong?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d102345dc38a48828e1774a56efee228.png",
+    "imageHash": "d102345dc38a48828e1774a56efee228",
+    "bannerImageHash": "ee5cf722ffcb488e9e51d27c4312a567",
+    "evolved": {
+      "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (8): Activate all of them instead.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (8)</b>: Activate all of them instead.",
+      "flavourText": "I wish for the kingdom to prosper, but not in the way the True King decrees. His methodology has made me take stock of myself. I won't lose my station as the Golden Knight ever again.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3b23ece538064303926ac8ae1a83ca52.png",
+      "imageHash": "3b23ece538064303926ac8ae1a83ca52",
+      "bannerImageHash": "e5330df4af60431280bfaf6daa0c6b02"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d3fcda4e15fe40f68f689a6a0b3bc1f9.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/71b0e3317dc04fe9b0fedd0e4d9c66f9.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
     "id": 10521110,
     "baseCardId": 10521110,
     "name": "Altruistic Aristocrat",
@@ -11948,53 +11995,6 @@
         "answer": "Yes, it will."
       }
     ],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
-    "id": 10423110,
-    "baseCardId": 10423110,
-    "name": "Golden Knight, True King's Blade",
-    "class": "Swordcraft",
-    "setId": 10004,
-    "set": "Skybound Dragons",
-    "type": "Follower",
-    "rarity": "Gold",
-    "cost": 7,
-    "attack": 6,
-    "defense": 6,
-    "traits": [],
-    "keywords": [
-      "Enhance",
-      "Fanfare",
-      "Mode"
-    ],
-    "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (9): Activate all of them instead.",
-    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (9)</b>: Activate all of them instead.",
-    "flavourText": "I have pledged my unyielding loyalty to His Majesty, and yet, why does he keep me in the dark? Why does he treat me as nothing more than a mere pawn? Did I do something wrong?",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8b44a488ca684f538b8216f09b060bca.png",
-    "imageHash": "8b44a488ca684f538b8216f09b060bca",
-    "bannerImageHash": "ee5cf722ffcb488e9e51d27c4312a567",
-    "evolved": {
-      "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (9): Activate all of them instead.",
-      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (9)</b>: Activate all of them instead.",
-      "flavourText": "I wish for the kingdom to prosper, but not in the way the True King decrees. His methodology has made me take stock of myself. I won't lose my station as the Golden Knight ever again.",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ca4a40e9e5e544359cd34a7c66a676c7.png",
-      "imageHash": "ca4a40e9e5e544359cd34a7c66a676c7",
-      "bannerImageHash": "e5330df4af60431280bfaf6daa0c6b02"
-    },
-    "styles": [
-      {
-        "name": "",
-        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/782d628705f04362b98ab3b0b59b5abe.png",
-        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/f1783077292447689b2630eda59e7537.png"
-      }
-    ],
-    "questions": [],
     "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },
@@ -14915,45 +14915,6 @@
     "modifiedInLatestUpdate": false
   },
   {
-    "id": 10633310,
-    "baseCardId": 10633310,
-    "name": "Bewitching Eld Crystals",
-    "class": "Runecraft",
-    "setId": 10006,
-    "set": "Apocalypse Pact",
-    "type": "Spell",
-    "rarity": "Gold",
-    "cost": 3,
-    "attack": 0,
-    "defense": 0,
-    "traits": [
-      "Encroacher"
-    ],
-    "keywords": [
-      "Crystalspawn",
-      "Enhance",
-      "Mode",
-      "Storm"
-    ],
-    "text": "Select a Mode to activate.\n1. Summon a Crystalspawn and give it +1/+0 and Storm.\n2. Summon 2 copies of Crystalspawn and give them +1/+0.\nEnhance (5): Activate all of them instead.",
-    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Summon a <b><i><color=Keyword>Crystalspawn</color></i></b> and give it +1/+0 and <b><color=Keyword>Storm</color></b>.</ridx>\n<ridx=1>2. Summon 2 copies of <b><i><color=Keyword>Crystalspawn</color></i></b> and give them +1/+0.</ridx>\n<b><color=Keyword>Enhance</color> (5)</b>: Activate all of them instead.",
-    "flavourText": "Today, this town will lose seven souls. Two to old age, three to accidents, one to murder... And one to the Eld Crystals, her heart reaved to ruin. Not that she understands that yet, though. No one will so much as notice.",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [
-      10631110
-    ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/764f44953fb84b098358c88c2d8ac048.png",
-    "imageHash": "764f44953fb84b098358c88c2d8ac048",
-    "bannerImageHash": "041c006e58f84f548c5e27b0c9e069f6",
-    "evolved": null,
-    "styles": [],
-    "questions": [],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
     "id": 10833310,
     "baseCardId": 10833310,
     "name": "Amethyst's Naptime",
@@ -15692,6 +15653,45 @@
     "questions": [],
     "newlyAdded": false,
     "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10633310,
+    "baseCardId": 10633310,
+    "name": "Bewitching Eld Crystals",
+    "class": "Runecraft",
+    "setId": 10006,
+    "set": "Apocalypse Pact",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 0,
+    "defense": 0,
+    "traits": [
+      "Encroacher"
+    ],
+    "keywords": [
+      "Crystalspawn",
+      "Enhance",
+      "Mode",
+      "Storm"
+    ],
+    "text": "Select a Mode to activate.\n1. Summon a Crystalspawn and give it +1/+0 and Storm.\n2. Summon 2 copies of Crystalspawn and give them +1/+0.\nEnhance (6): Activate all of them instead.",
+    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Summon a <b><i><color=Keyword>Crystalspawn</color></i></b> and give it +1/+0 and <b><color=Keyword>Storm</color></b>.</ridx>\n<ridx=1>2. Summon 2 copies of <b><i><color=Keyword>Crystalspawn</color></i></b> and give them +1/+0.</ridx>\n<b><color=Keyword>Enhance</color> (6)</b>: Activate all of them instead.",
+    "flavourText": "Today, this town will lose seven souls. Two to old age, three to accidents, one to murder... And one to the Eld Crystals, her heart reaved to ruin. Not that she understands that yet, though. No one will so much as notice.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10631110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/96fb69d318204d569e4aae67eaadffca.png",
+    "imageHash": "96fb69d318204d569e4aae67eaadffca",
+    "bannerImageHash": "041c006e58f84f548c5e27b0c9e069f6",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10731310,
@@ -21383,10 +21383,16 @@
       "imageHash": "de30272cfcab4bf695e53e39e428b979",
       "bannerImageHash": "992169063f0e47a1b3b97e7f1295dee2"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Antemaria, Piercing Nostalgia",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/03e03118c4d147afa50f505e971e349e.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/c24eaa933db54acd9a9a8d7be58370c3.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10944120,
@@ -30558,10 +30564,16 @@
       "imageHash": "4a21239bf0684be98ef592f422dafcb5",
       "bannerImageHash": "8c7388c65fc84c8aba598dce6eadcb24"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c3885814215a40499d892e8fc5ec1d02.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/585a9845ac554155a97bc0bbf77cbb21.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10964120,
@@ -30743,10 +30755,16 @@
     "imageHash": "e417c229f9e447378ad27046e7e521d5",
     "bannerImageHash": "5ea4a9817f5f4622a7ec639c8eb0fbca",
     "evolved": null,
-    "styles": [],
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cc4d22a909b84270ba58a0d94aae77d1.png",
+        "evolvedImage": null
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10162130,
@@ -31789,6 +31807,52 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10974110,
+    "baseCardId": 10974110,
+    "name": "Cutthroat, Fluxblade Convict",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Evolve"
+    ],
+    "text": "Bane\n\nEvolve: Draw a Portalcraft follower with Bane. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
+    "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Draw a Portalcraft follower with <b><color=Keyword>Bane</color></b>. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
+    "flavourText": "I'm sorry, brother. I should've done better. Even steel has a breaking point, not to mention your heart. You were always there for me; now it's my turn to be there for you. Let's go home and start over again, okay?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/77e3f230aece42d5be6e0f085dc18c65.png",
+    "imageHash": "77e3f230aece42d5be6e0f085dc18c65",
+    "bannerImageHash": "7b65bfea59444c518b9e9a3313989b12",
+    "evolved": {
+      "text": "Bane\n\nEvolve: Draw a Portalcraft follower with Bane. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
+      "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Draw a Portalcraft follower with <b><color=Keyword>Bane</color></b>. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
+      "flavourText": "Listen to me, brother. That can't be how you really feel. Remember how you've always told me of your ideals? You were always mine. But it seems like the ruler of this prison has confused you. Don't worry, I'll free you from this curse soon.\n\"Pierce him through, Soulforge.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/acdd52388ca44d1aae52af8d2e61d597.png",
+      "imageHash": "acdd52388ca44d1aae52af8d2e61d597",
+      "bannerImageHash": "a978d809ed0f4d33ac9e96ed4ce47a97"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/bab4ee2e5d474bdba96f0e2f71c926b4.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/9b64ee65e4484d978f98b4a918a5e1e3.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
     "id": 90071120,
     "baseCardId": 90071120,
     "name": "Enhanced Puppet",
@@ -31863,10 +31927,16 @@
       "imageHash": "0eb9452888874c428bab62f6c7fa1014",
       "bannerImageHash": "20871d31da2b4aadb6eb7cc4039580be"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Eudie's Analyzing Artifact",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1826571306994fef94e1ed9e731002c2.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/4c620c54fbb64fe99ef695593ed8e5e2.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90071140,
@@ -32187,9 +32257,11 @@
     "attack": 0,
     "defense": 0,
     "traits": [],
-    "keywords": [],
-    "text": "Select a card in your hand and discard it. Draw a card. If there are no duplicates in your deck, draw 3 instead.",
-    "rawSkillText": "Select a card in your hand and discard it. Draw a card. If there are no duplicates in your deck, draw 3 instead.",
+    "keywords": [
+      "Bane"
+    ],
+    "text": "Select a card in your hand and discard it. Draw a Portalcraft follower with Bane. Then, if there are no duplicates in your deck, draw 2 cards.",
+    "rawSkillText": "Select a card in your hand and discard it. Draw a Portalcraft follower with <b><color=Keyword>Bane</color></b>. Then, if there are no duplicates in your deck, draw 2 cards.",
     "flavourText": "\"Well, brother, looks like you'll be the successor. No need for gratitude.\"\n\"Gratitude? You mean... You gave up for my sake?\"\n\"What's getting you so worked up? You wanted this, didn't you?\"\n\"...Get out of my sight. You're a stain upon our family.\"",
     "rotation": true,
     "token": false,
@@ -32202,7 +32274,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90074310,
@@ -33041,55 +33113,6 @@
         "name": "Eudie, Carefree Memories",
         "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/60bd8e242b944d14a00f2f68f034d011.png",
         "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/8ef4f16fe0b243ecbf1146c8ebdfaf2b.png"
-      }
-    ],
-    "questions": [],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
-    "id": 10974110,
-    "baseCardId": 10974110,
-    "name": "Cutthroat, Fluxblade Convict",
-    "class": "Portalcraft",
-    "setId": 10009,
-    "set": "Revenants of Azvaldt",
-    "type": "Follower",
-    "rarity": "Legendary",
-    "cost": 2,
-    "attack": 2,
-    "defense": 2,
-    "traits": [],
-    "keywords": [
-      "Bane",
-      "Cutthroat, Fluxblade Convict",
-      "Evolve"
-    ],
-    "text": "Bane\n\nEvolve: Banish all copies of Cutthroat, Fluxblade Convict from your deck. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
-    "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Banish all copies of <b><i><color=Keyword>Cutthroat, Fluxblade Convict</color></i></b> from your deck. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
-    "flavourText": "I'm sorry, brother. I should've done better. Even steel has a breaking point, not to mention your heart. You were always there for me; now it's my turn to be there for you. Let's go home and start over again, okay?",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [
-      10974110
-    ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1c5d30e743594698874a5e922cf87267.png",
-    "imageHash": "1c5d30e743594698874a5e922cf87267",
-    "bannerImageHash": "7b65bfea59444c518b9e9a3313989b12",
-    "evolved": {
-      "text": "Bane\n\nEvolve: Banish all copies of Cutthroat, Fluxblade Convict from your deck. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
-      "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Banish all copies of <b><i><color=Keyword>Cutthroat, Fluxblade Convict</color></i></b> from your deck. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
-      "flavourText": "Listen to me, brother. That can't be how you really feel. Remember how you've always told me of your ideals? You were always mine. But it seems like the ruler of this prison has confused you. Don't worry, I'll free you from this curse soon.\n\"Pierce him through, Soulforge.\"",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f3b5e86a14224f00b9992714d96c1a4e.png",
-      "imageHash": "f3b5e86a14224f00b9992714d96c1a4e",
-      "bannerImageHash": "a978d809ed0f4d33ac9e96ed4ce47a97"
-    },
-    "styles": [
-      {
-        "name": "",
-        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/99bb8a5212734fad8b2508f604ce45b9.png",
-        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a3b1033d99b548b0a2506b23156929d0.png"
       }
     ],
     "questions": [],
@@ -34253,6 +34276,36 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10973310,
+    "baseCardId": 10973310,
+    "name": "Soulforge",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
+    "rawSkillText": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
+    "flavourText": "\"Come to your senses, brother. I've already slain the ruler of this prison.\"\n\"Usurping again? Don't you ever get tired?\"\n\"It's not like you to be a pawn. Aren't you supposed to be a leader?\"\n\"...Silence. That's enough from you, scum!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f4dd984661344080bf27d990193e588a.png",
+    "imageHash": "f4dd984661344080bf27d990193e588a",
+    "bannerImageHash": "c05d7e994a5c4c2c8a9c110f6fd5827c",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
     "id": 90074210,
     "baseCardId": 90074210,
     "name": "White Psalm, New Revelation",
@@ -34884,36 +34937,6 @@
     "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ab33b89ff0314240a9a80513c93d561d.png",
     "imageHash": "ab33b89ff0314240a9a80513c93d561d",
     "bannerImageHash": "e789ecd5b8cc46b099c2c57a7763cc76",
-    "evolved": null,
-    "styles": [],
-    "questions": [],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
-    "id": 10973310,
-    "baseCardId": 10973310,
-    "name": "Soulforge",
-    "class": "Portalcraft",
-    "setId": 10009,
-    "set": "Revenants of Azvaldt",
-    "type": "Spell",
-    "rarity": "Gold",
-    "cost": 4,
-    "attack": 0,
-    "defense": 0,
-    "traits": [],
-    "keywords": [],
-    "text": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
-    "rawSkillText": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
-    "flavourText": "\"Come to your senses, brother. I've already slain the ruler of this prison.\"\n\"Usurping again? Don't you ever get tired?\"\n\"It's not like you to be a pawn. Aren't you supposed to be a leader?\"\n\"...Silence. That's enough from you, scum!\"",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2f1c143b11514b87b5518018be4ee27d.png",
-    "imageHash": "2f1c143b11514b87b5518018be4ee27d",
-    "bannerImageHash": "c05d7e994a5c4c2c8a9c110f6fd5827c",
     "evolved": null,
     "styles": [],
     "questions": [],

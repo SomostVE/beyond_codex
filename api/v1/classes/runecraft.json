@@ -2348,45 +2348,6 @@
     "modifiedInLatestUpdate": false
   },
   {
-    "id": 10633310,
-    "baseCardId": 10633310,
-    "name": "Bewitching Eld Crystals",
-    "class": "Runecraft",
-    "setId": 10006,
-    "set": "Apocalypse Pact",
-    "type": "Spell",
-    "rarity": "Gold",
-    "cost": 3,
-    "attack": 0,
-    "defense": 0,
-    "traits": [
-      "Encroacher"
-    ],
-    "keywords": [
-      "Crystalspawn",
-      "Enhance",
-      "Mode",
-      "Storm"
-    ],
-    "text": "Select a Mode to activate.\n1. Summon a Crystalspawn and give it +1/+0 and Storm.\n2. Summon 2 copies of Crystalspawn and give them +1/+0.\nEnhance (5): Activate all of them instead.",
-    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Summon a <b><i><color=Keyword>Crystalspawn</color></i></b> and give it +1/+0 and <b><color=Keyword>Storm</color></b>.</ridx>\n<ridx=1>2. Summon 2 copies of <b><i><color=Keyword>Crystalspawn</color></i></b> and give them +1/+0.</ridx>\n<b><color=Keyword>Enhance</color> (5)</b>: Activate all of them instead.",
-    "flavourText": "Today, this town will lose seven souls. Two to old age, three to accidents, one to murder... And one to the Eld Crystals, her heart reaved to ruin. Not that she understands that yet, though. No one will so much as notice.",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [
-      10631110
-    ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/764f44953fb84b098358c88c2d8ac048.png",
-    "imageHash": "764f44953fb84b098358c88c2d8ac048",
-    "bannerImageHash": "041c006e58f84f548c5e27b0c9e069f6",
-    "evolved": null,
-    "styles": [],
-    "questions": [],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
     "id": 10833310,
     "baseCardId": 10833310,
     "name": "Amethyst's Naptime",
@@ -3125,6 +3086,45 @@
     "questions": [],
     "newlyAdded": false,
     "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 10633310,
+    "baseCardId": 10633310,
+    "name": "Bewitching Eld Crystals",
+    "class": "Runecraft",
+    "setId": 10006,
+    "set": "Apocalypse Pact",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 0,
+    "defense": 0,
+    "traits": [
+      "Encroacher"
+    ],
+    "keywords": [
+      "Crystalspawn",
+      "Enhance",
+      "Mode",
+      "Storm"
+    ],
+    "text": "Select a Mode to activate.\n1. Summon a Crystalspawn and give it +1/+0 and Storm.\n2. Summon 2 copies of Crystalspawn and give them +1/+0.\nEnhance (6): Activate all of them instead.",
+    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Summon a <b><i><color=Keyword>Crystalspawn</color></i></b> and give it +1/+0 and <b><color=Keyword>Storm</color></b>.</ridx>\n<ridx=1>2. Summon 2 copies of <b><i><color=Keyword>Crystalspawn</color></i></b> and give them +1/+0.</ridx>\n<b><color=Keyword>Enhance</color> (6)</b>: Activate all of them instead.",
+    "flavourText": "Today, this town will lose seven souls. Two to old age, three to accidents, one to murder... And one to the Eld Crystals, her heart reaved to ruin. Not that she understands that yet, though. No one will so much as notice.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      10631110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/96fb69d318204d569e4aae67eaadffca.png",
+    "imageHash": "96fb69d318204d569e4aae67eaadffca",
+    "bannerImageHash": "041c006e58f84f548c5e27b0c9e069f6",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10731310,

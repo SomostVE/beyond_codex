@@ -3839,10 +3839,16 @@
       "imageHash": "de30272cfcab4bf695e53e39e428b979",
       "bannerImageHash": "992169063f0e47a1b3b97e7f1295dee2"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Antemaria, Piercing Nostalgia",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/03e03118c4d147afa50f505e971e349e.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/c24eaa933db54acd9a9a8d7be58370c3.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10944120,

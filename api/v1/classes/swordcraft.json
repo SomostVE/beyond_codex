@@ -1245,7 +1245,7 @@
     "rarity": "Bronze",
     "cost": 2,
     "attack": 2,
-    "defense": 1,
+    "defense": 2,
     "traits": [],
     "keywords": [
       "Dread Pirate's Flag",
@@ -1263,21 +1263,21 @@
       90021210,
       90021330
     ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9d0e50471c1a4f17a9287aedf8672c0f.png",
-    "imageHash": "9d0e50471c1a4f17a9287aedf8672c0f",
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f92d5a4ca0e140e68cd715be8ae8db96.png",
+    "imageHash": "f92d5a4ca0e140e68cd715be8ae8db96",
     "bannerImageHash": "4378902e14ee43de881adc6f87d071c0",
     "evolved": {
       "text": "Fanfare: Summon a Dread Pirate's Flag.\n\nEvolve: Add a Gilded Boots to your hand.",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Gilded Boots</color></i></b> to your hand.</ev>",
       "flavourText": "What officials? What nobles? They are nothing but villains who steal freedom from innocent people. In liberating others, I became wanted as a pirate. And though my ship grows smaller with each free man that joins me, I don't regret a thing.\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 2",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e2707bf1cae24690b99f20244b0141ad.png",
-      "imageHash": "e2707bf1cae24690b99f20244b0141ad",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a0b296a3c401480e8a60437eaa01a447.png",
+      "imageHash": "a0b296a3c401480e8a60437eaa01a447",
       "bannerImageHash": "dfb0baade0784f3399806a8b9dcc52e7"
     },
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90022110,
@@ -2451,8 +2451,8 @@
     "type": "Follower",
     "rarity": "Silver",
     "cost": 3,
-    "attack": 3,
-    "defense": 1,
+    "attack": 4,
+    "defense": 2,
     "traits": [],
     "keywords": [
       "Dread Pirate's Flag",
@@ -2470,21 +2470,21 @@
       90021210,
       90021320
     ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85bab94a6b3b4710820c9a015624a590.png",
-    "imageHash": "85bab94a6b3b4710820c9a015624a590",
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/55894f550dbc4a89a40fc553c3d5c757.png",
+    "imageHash": "55894f550dbc4a89a40fc553c3d5c757",
     "bannerImageHash": "136bd73c56044a3da9afa0572528dc11",
     "evolved": {
       "text": "Fanfare: Summon a Dread Pirate's Flag. Add a Gilded Goblet to your hand.\n\nRush",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Dread Pirate's Flag</color></i></b>. Add a <b><i><color=Keyword>Gilded Goblet</color></i></b> to your hand.\n<hr><b><color=Keyword>Rush</color></b>",
       "flavourText": "My freedom granted me true happiness. I knew then that I had to share this gift with my daughter. \n\"Live free, Barbaros. For both of us!\"\n—<i>Hall of Virtue: Memories of an Enforcer</i>, Part 4",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/839e9fda1b0a4b5a80bdc4205b6037bf.png",
-      "imageHash": "839e9fda1b0a4b5a80bdc4205b6037bf",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b7121dc96f4145f4bbb60b1358089bdd.png",
+      "imageHash": "b7121dc96f4145f4bbb60b1358089bdd",
       "bannerImageHash": "23b1d55120174cd9b5b3773e1e3b3fc3"
     },
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90021130,
@@ -4185,6 +4185,53 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10423110,
+    "baseCardId": 10423110,
+    "name": "Golden Knight, True King's Blade",
+    "class": "Swordcraft",
+    "setId": 10004,
+    "set": "Skybound Dragons",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 6,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Fanfare",
+      "Mode"
+    ],
+    "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (8): Activate all of them instead.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (8)</b>: Activate all of them instead.",
+    "flavourText": "I have pledged my unyielding loyalty to His Majesty, and yet, why does he keep me in the dark? Why does he treat me as nothing more than a mere pawn? Did I do something wrong?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d102345dc38a48828e1774a56efee228.png",
+    "imageHash": "d102345dc38a48828e1774a56efee228",
+    "bannerImageHash": "ee5cf722ffcb488e9e51d27c4312a567",
+    "evolved": {
+      "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (8): Activate all of them instead.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (8)</b>: Activate all of them instead.",
+      "flavourText": "I wish for the kingdom to prosper, but not in the way the True King decrees. His methodology has made me take stock of myself. I won't lose my station as the Golden Knight ever again.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3b23ece538064303926ac8ae1a83ca52.png",
+      "imageHash": "3b23ece538064303926ac8ae1a83ca52",
+      "bannerImageHash": "e5330df4af60431280bfaf6daa0c6b02"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d3fcda4e15fe40f68f689a6a0b3bc1f9.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/71b0e3317dc04fe9b0fedd0e4d9c66f9.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
     "id": 10521110,
     "baseCardId": 10521110,
     "name": "Altruistic Aristocrat",
@@ -4358,53 +4405,6 @@
         "answer": "Yes, it will."
       }
     ],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
-    "id": 10423110,
-    "baseCardId": 10423110,
-    "name": "Golden Knight, True King's Blade",
-    "class": "Swordcraft",
-    "setId": 10004,
-    "set": "Skybound Dragons",
-    "type": "Follower",
-    "rarity": "Gold",
-    "cost": 7,
-    "attack": 6,
-    "defense": 6,
-    "traits": [],
-    "keywords": [
-      "Enhance",
-      "Fanfare",
-      "Mode"
-    ],
-    "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (9): Activate all of them instead.",
-    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (9)</b>: Activate all of them instead.",
-    "flavourText": "I have pledged my unyielding loyalty to His Majesty, and yet, why does he keep me in the dark? Why does he treat me as nothing more than a mere pawn? Did I do something wrong?",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8b44a488ca684f538b8216f09b060bca.png",
-    "imageHash": "8b44a488ca684f538b8216f09b060bca",
-    "bannerImageHash": "ee5cf722ffcb488e9e51d27c4312a567",
-    "evolved": {
-      "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (9): Activate all of them instead.",
-      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (9)</b>: Activate all of them instead.",
-      "flavourText": "I wish for the kingdom to prosper, but not in the way the True King decrees. His methodology has made me take stock of myself. I won't lose my station as the Golden Knight ever again.",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ca4a40e9e5e544359cd34a7c66a676c7.png",
-      "imageHash": "ca4a40e9e5e544359cd34a7c66a676c7",
-      "bannerImageHash": "e5330df4af60431280bfaf6daa0c6b02"
-    },
-    "styles": [
-      {
-        "name": "",
-        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/782d628705f04362b98ab3b0b59b5abe.png",
-        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/f1783077292447689b2630eda59e7537.png"
-      }
-    ],
-    "questions": [],
     "newlyAdded": false,
     "modifiedInLatestUpdate": false
   },

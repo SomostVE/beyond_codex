@@ -3567,10 +3567,16 @@
       "imageHash": "4a21239bf0684be98ef592f422dafcb5",
       "bannerImageHash": "8c7388c65fc84c8aba598dce6eadcb24"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c3885814215a40499d892e8fc5ec1d02.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/585a9845ac554155a97bc0bbf77cbb21.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10964120,
@@ -3752,10 +3758,16 @@
     "imageHash": "e417c229f9e447378ad27046e7e521d5",
     "bannerImageHash": "5ea4a9817f5f4622a7ec639c8eb0fbca",
     "evolved": null,
-    "styles": [],
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/cc4d22a909b84270ba58a0d94aae77d1.png",
+        "evolvedImage": null
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10162130,

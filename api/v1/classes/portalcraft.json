@@ -248,6 +248,52 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10974110,
+    "baseCardId": 10974110,
+    "name": "Cutthroat, Fluxblade Convict",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Evolve"
+    ],
+    "text": "Bane\n\nEvolve: Draw a Portalcraft follower with Bane. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
+    "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Draw a Portalcraft follower with <b><color=Keyword>Bane</color></b>. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
+    "flavourText": "I'm sorry, brother. I should've done better. Even steel has a breaking point, not to mention your heart. You were always there for me; now it's my turn to be there for you. Let's go home and start over again, okay?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/77e3f230aece42d5be6e0f085dc18c65.png",
+    "imageHash": "77e3f230aece42d5be6e0f085dc18c65",
+    "bannerImageHash": "7b65bfea59444c518b9e9a3313989b12",
+    "evolved": {
+      "text": "Bane\n\nEvolve: Draw a Portalcraft follower with Bane. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
+      "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Draw a Portalcraft follower with <b><color=Keyword>Bane</color></b>. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
+      "flavourText": "Listen to me, brother. That can't be how you really feel. Remember how you've always told me of your ideals? You were always mine. But it seems like the ruler of this prison has confused you. Don't worry, I'll free you from this curse soon.\n\"Pierce him through, Soulforge.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/acdd52388ca44d1aae52af8d2e61d597.png",
+      "imageHash": "acdd52388ca44d1aae52af8d2e61d597",
+      "bannerImageHash": "a978d809ed0f4d33ac9e96ed4ce47a97"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/bab4ee2e5d474bdba96f0e2f71c926b4.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/9b64ee65e4484d978f98b4a918a5e1e3.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
     "id": 90071120,
     "baseCardId": 90071120,
     "name": "Enhanced Puppet",
@@ -322,10 +368,16 @@
       "imageHash": "0eb9452888874c428bab62f6c7fa1014",
       "bannerImageHash": "20871d31da2b4aadb6eb7cc4039580be"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Eudie's Analyzing Artifact",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1826571306994fef94e1ed9e731002c2.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/4c620c54fbb64fe99ef695593ed8e5e2.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90071140,
@@ -646,9 +698,11 @@
     "attack": 0,
     "defense": 0,
     "traits": [],
-    "keywords": [],
-    "text": "Select a card in your hand and discard it. Draw a card. If there are no duplicates in your deck, draw 3 instead.",
-    "rawSkillText": "Select a card in your hand and discard it. Draw a card. If there are no duplicates in your deck, draw 3 instead.",
+    "keywords": [
+      "Bane"
+    ],
+    "text": "Select a card in your hand and discard it. Draw a Portalcraft follower with Bane. Then, if there are no duplicates in your deck, draw 2 cards.",
+    "rawSkillText": "Select a card in your hand and discard it. Draw a Portalcraft follower with <b><color=Keyword>Bane</color></b>. Then, if there are no duplicates in your deck, draw 2 cards.",
     "flavourText": "\"Well, brother, looks like you'll be the successor. No need for gratitude.\"\n\"Gratitude? You mean... You gave up for my sake?\"\n\"What's getting you so worked up? You wanted this, didn't you?\"\n\"...Get out of my sight. You're a stain upon our family.\"",
     "rotation": true,
     "token": false,
@@ -661,7 +715,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 90074310,
@@ -1500,55 +1554,6 @@
         "name": "Eudie, Carefree Memories",
         "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/60bd8e242b944d14a00f2f68f034d011.png",
         "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/8ef4f16fe0b243ecbf1146c8ebdfaf2b.png"
-      }
-    ],
-    "questions": [],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
-    "id": 10974110,
-    "baseCardId": 10974110,
-    "name": "Cutthroat, Fluxblade Convict",
-    "class": "Portalcraft",
-    "setId": 10009,
-    "set": "Revenants of Azvaldt",
-    "type": "Follower",
-    "rarity": "Legendary",
-    "cost": 2,
-    "attack": 2,
-    "defense": 2,
-    "traits": [],
-    "keywords": [
-      "Bane",
-      "Cutthroat, Fluxblade Convict",
-      "Evolve"
-    ],
-    "text": "Bane\n\nEvolve: Banish all copies of Cutthroat, Fluxblade Convict from your deck. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
-    "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Banish all copies of <b><i><color=Keyword>Cutthroat, Fluxblade Convict</color></i></b> from your deck. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
-    "flavourText": "I'm sorry, brother. I should've done better. Even steel has a breaking point, not to mention your heart. You were always there for me; now it's my turn to be there for you. Let's go home and start over again, okay?",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [
-      10974110
-    ],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1c5d30e743594698874a5e922cf87267.png",
-    "imageHash": "1c5d30e743594698874a5e922cf87267",
-    "bannerImageHash": "7b65bfea59444c518b9e9a3313989b12",
-    "evolved": {
-      "text": "Bane\n\nEvolve: Banish all copies of Cutthroat, Fluxblade Convict from your deck. Then, if there are no duplicates in your deck, gain Crest: Cutthroat, Fluxblade Convict.",
-      "rawSkillText": "<b><color=Keyword>Bane</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Banish all copies of <b><i><color=Keyword>Cutthroat, Fluxblade Convict</color></i></b> from your deck. Then, if there are no duplicates in your deck, gain <b><i>Crest: Cutthroat, Fluxblade Convict</i></b>.</ev>",
-      "flavourText": "Listen to me, brother. That can't be how you really feel. Remember how you've always told me of your ideals? You were always mine. But it seems like the ruler of this prison has confused you. Don't worry, I'll free you from this curse soon.\n\"Pierce him through, Soulforge.\"",
-      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f3b5e86a14224f00b9992714d96c1a4e.png",
-      "imageHash": "f3b5e86a14224f00b9992714d96c1a4e",
-      "bannerImageHash": "a978d809ed0f4d33ac9e96ed4ce47a97"
-    },
-    "styles": [
-      {
-        "name": "",
-        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/99bb8a5212734fad8b2508f604ce45b9.png",
-        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a3b1033d99b548b0a2506b23156929d0.png"
       }
     ],
     "questions": [],
@@ -2712,6 +2717,36 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 10973310,
+    "baseCardId": 10973310,
+    "name": "Soulforge",
+    "class": "Portalcraft",
+    "setId": 10009,
+    "set": "Revenants of Azvaldt",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
+    "rawSkillText": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
+    "flavourText": "\"Come to your senses, brother. I've already slain the ruler of this prison.\"\n\"Usurping again? Don't you ever get tired?\"\n\"It's not like you to be a pawn. Aren't you supposed to be a leader?\"\n\"...Silence. That's enough from you, scum!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f4dd984661344080bf27d990193e588a.png",
+    "imageHash": "f4dd984661344080bf27d990193e588a",
+    "bannerImageHash": "c05d7e994a5c4c2c8a9c110f6fd5827c",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
     "id": 90074210,
     "baseCardId": 90074210,
     "name": "White Psalm, New Revelation",
@@ -3343,36 +3378,6 @@
     "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ab33b89ff0314240a9a80513c93d561d.png",
     "imageHash": "ab33b89ff0314240a9a80513c93d561d",
     "bannerImageHash": "e789ecd5b8cc46b099c2c57a7763cc76",
-    "evolved": null,
-    "styles": [],
-    "questions": [],
-    "newlyAdded": false,
-    "modifiedInLatestUpdate": false
-  },
-  {
-    "id": 10973310,
-    "baseCardId": 10973310,
-    "name": "Soulforge",
-    "class": "Portalcraft",
-    "setId": 10009,
-    "set": "Revenants of Azvaldt",
-    "type": "Spell",
-    "rarity": "Gold",
-    "cost": 4,
-    "attack": 0,
-    "defense": 0,
-    "traits": [],
-    "keywords": [],
-    "text": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
-    "rawSkillText": "Select an enemy follower on the field and destroy it. If there are no duplicates in your deck, destroy all enemy followers instead.",
-    "flavourText": "\"Come to your senses, brother. I've already slain the ruler of this prison.\"\n\"Usurping again? Don't you ever get tired?\"\n\"It's not like you to be a pawn. Aren't you supposed to be a leader?\"\n\"...Silence. That's enough from you, scum!\"",
-    "rotation": true,
-    "token": false,
-    "maxCopies": 3,
-    "relatedCards": [],
-    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2f1c143b11514b87b5518018be4ee27d.png",
-    "imageHash": "2f1c143b11514b87b5518018be4ee27d",
-    "bannerImageHash": "c05d7e994a5c4c2c8a9c110f6fd5827c",
     "evolved": null,
     "styles": [],
     "questions": [],
