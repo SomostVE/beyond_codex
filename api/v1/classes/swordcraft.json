@@ -1277,7 +1277,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 90022110,
@@ -1832,10 +1832,16 @@
       "imageHash": "3d3a166f377b4dc9bfc9051da405cf7f",
       "bannerImageHash": "a1d6542c33e643119b5d93c6c8c696f0"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Carefree Caramelos",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7f06f838c52441c6a1f7a1c4bd141e8b.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/22f5101f806744679329827faffc0ec0.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10123120,
@@ -2484,7 +2490,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 90021130,
@@ -4229,7 +4235,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": true
+    "modifiedInLatestUpdate": false
   },
   {
     "id": 10521110,
