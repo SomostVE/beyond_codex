@@ -1,38 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T12:06:48.935Z",
-  "previousGeneratedAt": "2026-10-05T11:35:19.155Z",
+  "generatedAt": "2026-10-19T09:59:36.890Z",
+  "previousGeneratedAt": "2026-10-12T12:06:48.935Z",
   "baselineAvailable": true,
   "policy": "append-or-replace-never-delete",
   "counts": {
     "added": 0,
-    "modified": 1,
+    "modified": 0,
     "removed": 0,
     "retainedMissingFromSource": 0
   },
   "added": [],
-  "modified": [
-    {
-      "id": 10121140,
-      "name": "Hound of War",
-      "class": "Swordcraft",
-      "set": "Legends Rise",
-      "rarity": "Bronze",
-      "changes": [
-        {
-          "field": "styles",
-          "before": [],
-          "after": [
-            {
-              "name": "Carefree Caramelos",
-              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7f06f838c52441c6a1f7a1c4bd141e8b.png",
-              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/22f5101f806744679329827faffc0ec0.png"
-            }
-          ]
-        }
-      ]
-    }
-  ],
+  "modified": [],
   "removed": [],
   "retainedMissingFromSource": []
 }
