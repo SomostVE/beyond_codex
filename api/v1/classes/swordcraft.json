@@ -385,6 +385,43 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11023310,
+    "baseCardId": 11023310,
+    "name": "No Life's Cross-Examination",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Engage",
+      "Guileless Newsie"
+    ],
+    "text": "Summon a Divine Evidence. If you've Engaged a Clue amulet this turn, summon a Guileless Newsie.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>. If you've <b><color=Keyword>Engage</color><color=Keyword>d</color></b> a Clue amulet this turn, summon a <b><i><color=Keyword>Guileless Newsie</color></i></b>.",
+    "flavourText": "Name: No Life\nCrime: Infringing upon divine authority\nDamages: Attempted assassination of a deity\nSentence: Indefinite extradimensional confinement",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210,
+      11021110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f2839f73e98f41af91f14f8cc2e1bc49.png",
+    "imageHash": "f2839f73e98f41af91f14f8cc2e1bc49",
+    "bannerImageHash": "08a3beade20a4ccc8f2af15c77a1d7dd",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90021310,
     "baseCardId": 90021310,
     "name": "Gilded Blade",
@@ -1033,7 +1070,7 @@
     "text": "Enhance (5): Give this follower Storm.",
     "rawSkillText": "<b><color=Keyword>Enhance</color> (5)</b>: Give this follower <b><color=Keyword>Storm</color></b>.",
     "flavourText": "I'm gonna prove to you that the path I'm on now is the right one. I didn't put in all this hard work for nothing! It was to surpass Feather one day! If anyone else but me knocks him out, I'll destroy 'em! ",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1051,7 +1088,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10621110,
@@ -1277,6 +1314,51 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11021110,
+    "baseCardId": 11021110,
+    "name": "Guileless Newsie",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Engage",
+      "Enhance",
+      "Last Words",
+      "Rush"
+    ],
+    "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nEnhance (4): Summon an exact copy of this card.\n\nRush\nLast Words: Summon a Divine Evidence.",
+    "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Enhance</color> (4)</b>: Summon an exact copy of this card.\n<hr><b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.",
+    "flavourText": "It's quite the extraordinary case: The goddess vanished without a trace from within her locked temple. With no witnesses and no body, only those detectives with divine powers can hope to solve this mystery. Alas, I doubt they'll be enough on their own.\n—No Life's case report, page 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/65fb5d26b5294b16a4665864b97f79f1.png",
+    "imageHash": "65fb5d26b5294b16a4665864b97f79f1",
+    "bannerImageHash": "93cbe45d88ab40f1b51334ff7ce93125",
+    "evolved": {
+      "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nEnhance (4): Summon an exact copy of this card.\n\nRush\nLast Words: Summon a Divine Evidence.",
+      "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Enhance</color> (4)</b>: Summon an exact copy of this card.\n<hr><b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.",
+      "flavourText": "They'll need an assistant. Someone who, even without divine powers of their own, wields a pair of sharp eyes and a keen mind. Someone... like you!\n—No Life's case report, page 2",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4797de8c339a4523bbcf0446505b9a25.png",
+      "imageHash": "4797de8c339a4523bbcf0446505b9a25",
+      "bannerImageHash": "c9b11802a1244f55b3aaad1b8a802ccb"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1660,6 +1742,38 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11022310,
+    "baseCardId": 11022310,
+    "name": "Dichotomous Forensics",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Engage"
+    ],
+    "text": "Select an enemy follower on the field and deal it 5 damage. If you've Engaged a Clue amulet this turn, deal 10 damage instead.",
+    "rawSkillText": "Select an enemy follower on the field and deal it 5 damage. If you've <b><color=Keyword>Engage</color><color=Keyword>d</color></b> a Clue amulet this turn, deal 10 damage instead.",
+    "flavourText": "The Ritual of Rebirth is the only occasion when the goddess manifests, making it a perfect opportunity for an attempt on her life. But how did the angels know the exact time and date?\n—No Life's case report, page 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0a775ff0e78344dfb4e126fd6a6c3e1a.png",
+    "imageHash": "0a775ff0e78344dfb4e126fd6a6c3e1a",
+    "bannerImageHash": "6cbb8d35032a4ca8a534e37526d32f9a",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2085,7 +2199,7 @@
     "text": "Ward\n\nEvolve: Summon a Mordred, Illusory Lion.",
     "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>Mordred, Illusory Lion</color></i></b>.</ev>",
     "flavourText": "I've grown much stronger, but I'm fearful... Fearful of this very power that I wield. If I can't control it, I'll end up hurting the ones I want to protect the most. ",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2112,7 +2226,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10421130,
@@ -2135,7 +2249,7 @@
     "text": "Storm\n\nEvolve: Summon an Arthur, Staunch Dragon.",
     "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon an <b><i><color=Keyword>Arthur, Staunch Dragon</color></i></b>.</ev>",
     "flavourText": "Arthur is kind and strong, but that fills me with a certain dread. What if his kindness leads to irreparable consequences? Should worse come to worst, I'll do what I must.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2156,7 +2270,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10422120,
@@ -2175,7 +2289,7 @@
     "text": "",
     "rawSkillText": "",
     "flavourText": "I just wanna fight someone strong enough to make me feel alive! We can form a bond and understand each other better if we talk it over with our fists! So let's do this! Your fists will speak straight to my heart!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2193,7 +2307,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10521120,
@@ -2490,6 +2604,98 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11022110,
+    "baseCardId": 11022110,
+    "name": "Cheeky Architect",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 1,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Engage",
+      "Evolve",
+      "Fanfare",
+      "Guileless Newsie"
+    ],
+    "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nFanfare: Select an enemy follower on the field and deal it X damage. X is this follower's attack. Summon a Divine Evidence.\n\nEvolve: Summon a Guileless Newsie.",
+    "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it X damage. X is this follower's attack. Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>Guileless Newsie</color></i></b>.</ev>",
+    "flavourText": "The laws of this world dictate that whoever manages to slay the goddess will become her successor. Ergo... all three angels share a compelling motive!\n—No Life's case report, page 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210,
+      11021110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f0db1cdf260347a4a57a3cced2435c9e.png",
+    "imageHash": "f0db1cdf260347a4a57a3cced2435c9e",
+    "bannerImageHash": "8c7da3796bd045df9439990fa506c3c0",
+    "evolved": {
+      "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nFanfare: Select an enemy follower on the field and deal it X damage. X is this follower's attack. Summon a Divine Evidence.\n\nEvolve: Summon a Guileless Newsie.",
+      "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it X damage. X is this follower's attack. Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>Guileless Newsie</color></i></b>.</ev>",
+      "flavourText": "How are we certain that the goddess has died when there is no body, you ask? It's quite elementary. The Sacred Flame in the temple, magically bound to her life itself, has gone out.\n—No Life's case report, page 4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/fe3d605e5b334f9689e921de2b05582d.png",
+      "imageHash": "fe3d605e5b334f9689e921de2b05582d",
+      "bannerImageHash": "64ada8ae8caf4eb58ca5e8af885d944f"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11024120,
+    "baseCardId": 11024120,
+    "name": "Almaelys, Affluent Strategist",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 3,
+    "attack": 2,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "Glittering Gold",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Add a Glittering Gold to your hand.\n\nEvolve: Gain Crest: Almaelys, Affluent Strategist.\nSuper-Evolve: Delay the count of your Crest: Almaelys, Affluent Strategist by 2.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Glittering Gold</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Almaelys, Affluent Strategist</i></b>.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Delay the count of your <b><i>Crest: Almaelys, Affluent Strategist</i></b> by 2.</sev>",
+    "flavourText": "A sturdy foundation is built on wealth, and all strategies stem from supplies. Wealth is a sword, a steed, a bedrock. Above all else, wealth is power. That is why our victory is guaranteed—for we are the wealthier nation by far.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021350,
+      90021310,
+      90021320
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9d981fac068849f99dbe46f2fc40fcaf.png",
+    "imageHash": "9d981fac068849f99dbe46f2fc40fcaf",
+    "bannerImageHash": "4aa9583d9cd8463d8196c266af7d10c5",
+    "evolved": {
+      "text": "Fanfare: Add a Glittering Gold to your hand.\n\nEvolve: Gain Crest: Almaelys, Affluent Strategist.\nSuper-Evolve: Delay the count of your Crest: Almaelys, Affluent Strategist by 2.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Glittering Gold</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Almaelys, Affluent Strategist</i></b>.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Delay the count of your <b><i>Crest: Almaelys, Affluent Strategist</i></b> by 2.</sev>",
+      "flavourText": "Is this attire due to my personal taste, you ask? Don't be ridiculous. Its only purpose is to appeal to investors so that I may provide our troops with the finest equipment possible, as is my duty. The fact that it also boosts morale at no cost or effort is just a bonus.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7bc6fb1d0f3140ae8b573821e0576711.png",
+      "imageHash": "7bc6fb1d0f3140ae8b573821e0576711",
+      "bannerImageHash": "e41808a085314fd3b18ccd6797c2be05"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2865,7 +3071,7 @@
     "text": "Ambush\nBane",
     "rawSkillText": "<b><color=Keyword>Ambush</color></b>\n<b><color=Keyword>Bane</color></b>",
     "flavourText": "Muscles are like flowers. They're both cute, aren't they? And you... Your muscles are practically dying to bloom! Hey, why don't you let me teach you some proper weight training?",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2883,7 +3089,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10424110,
@@ -2909,7 +3115,7 @@
     "text": "Fanfare: Summon a Zeta & Bea, Crimson and Blue.\nEnhance (6): Give it Bane and this follower Storm.\n\nRush",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Zeta & Bea, Crimson and Blue</color></i></b>.\n<b><color=Keyword>Enhance</color> (6)</b>: Give it <b><color=Keyword>Bane</color></b> and this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Rush</color></b>",
     "flavourText": "The bit about seal weapons resonating with each other must've been true after all. Not to mention watching you in action gets me all the more pumped up, Bea! It always has!\n—Zeta",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -2929,7 +3135,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10424120,
@@ -2952,7 +3158,7 @@
     "text": "Fanfare: Skybound Art - Evolve all unevolved allied followers on the field. Super Skybound Art - Super-evolve them instead.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Skybound Art</color></b> - Evolve all unevolved allied followers on the field. <b><color=Keyword>Super Skybound Art</color></b> - Super-evolve them instead.",
     "flavourText": "Feels like the Eternals have mellowed a bit lately, but—surprise, surprise—they still won't listen to a word I say. Can't even wrangle them up for a casual get-together. Sigh, it's rough being the boss.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2970,7 +3176,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10523110,
@@ -3844,6 +4050,48 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11021120,
+    "baseCardId": 11021120,
+    "name": "Bejeweled Lady",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 5,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Gilded Necklace"
+    ],
+    "text": "Fanfare: Add a Gilded Necklace to your hand.\n\nOnce on each of your turns, when you play a spell, deal 2 damage to all enemies.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand.\n<hr>Once on each of your turns, when you play a spell, deal 2 damage to all enemies.",
+    "flavourText": "\"Gems th-this valuable are wasted on someone like me...\"\nJewels will radiate beauty regardless of who wears them, but not everyone can claim to be deserving of their gleam.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021340
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4ba746f8c9d44e0d96dafa5dd9f91a9f.png",
+    "imageHash": "4ba746f8c9d44e0d96dafa5dd9f91a9f",
+    "bannerImageHash": "32d5545cc337464aa50b799d7f189615",
+    "evolved": {
+      "text": "Fanfare: Add a Gilded Necklace to your hand.\n\nOnce on each of your turns, when you play a spell, deal 2 damage to all enemies.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Gilded Necklace</color></i></b> to your hand.\n<hr>Once on each of your turns, when you play a spell, deal 2 damage to all enemies.",
+      "flavourText": "\"But... I swear I'll become a proper lady befitting of them!\"\nThe more a gem is polished, the brighter its luster. In the same way, with enough determination, anyone can be polished to a shine.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2102f7b3fd1b4dc9af4e90d213961a96.png",
+      "imageHash": "2102f7b3fd1b4dc9af4e90d213961a96",
+      "bannerImageHash": "b995ec92c9cb42f28f08a8270257df90"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10423310,
     "baseCardId": 10423310,
     "name": "Knightly Ardor",
@@ -3863,7 +4111,7 @@
     "text": "Select a Mode to activate.\n1. Give the leftmost allied Swordcraft follower on the field \"Can attack 2 times per turn.\"\n2. Give all allied Swordcraft followers on the field +1/+1 and Barrier.\n3. Recover 2 play points and 1 evolution point.\n4. Restore 6 defense to your leader.",
     "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Give the leftmost allied Swordcraft follower on the field \"Can attack 2 times per turn.\"</ridx>\n<ridx=1>2. Give all allied Swordcraft followers on the field +1/+1 and <b><color=Keyword>Barrier</color></b>.</ridx>\n<ridx=2>3. Recover 2 play points and 1 evolution point.</ridx>\n<ridx=3>4. Restore 6 defense to your leader.</ridx>",
     "flavourText": "Only those noble in both spirit and strength may be called a knight. Yet, the meaning of these traits is decided in one's heart alone. This is also true of these four—but they share an ironclad dedication to the ideals they believe in.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3874,7 +4122,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10621310,
@@ -4170,7 +4418,7 @@
     "text": "Fanfare: Deal 3 damage to all enemy followers.\n\nIntimidate",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 3 damage to all enemy followers.\n<hr><b><color=Keyword>Intimidate</color></b>",
     "flavourText": "Though I sought idealism, the path I chose to attain it was corrupt. Rather than heed the words of my trusted brothers and vassals—or anyone for that matter—I followed my own egotism and foolishly imperiled my kingdom. Never again shall I be courted by sin.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4188,7 +4436,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10423110,
@@ -4211,7 +4459,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Super-evolve this follower.\n2. Deal 4 damage to all enemy followers.\n3. Restore 4 defense to your leader.\nEnhance (8): Activate all of them instead.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Super-evolve this follower.</ridx>\n<ridx=1>2. Deal 4 damage to all enemy followers.</ridx>\n<ridx=2>3. Restore 4 defense to your leader.</ridx>\n<b><color=Keyword>Enhance</color> (8)</b>: Activate all of them instead.",
     "flavourText": "I have pledged my unyielding loyalty to His Majesty, and yet, why does he keep me in the dark? Why does he treat me as nothing more than a mere pawn? Did I do something wrong?",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4235,7 +4483,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10521110,
@@ -4361,6 +4609,52 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11023110,
+    "baseCardId": 11023110,
+    "name": "Placid Dilettante",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 6,
+    "attack": 5,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Engage",
+      "Evolve",
+      "Fanfare",
+      "Guileless Newsie"
+    ],
+    "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nFanfare: Summon 2 copies of Guileless Newsie and set their attack and defense to X/Y. X and Y are this follower's attack and defense.\n\nEvolve: Give all other allied followers on the field Bane.",
+    "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Guileless Newsie</color></i></b> and set their attack and defense to X/Y. X and Y are this follower's attack and defense.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Give all other allied followers on the field <b><color=Keyword>Bane</color></b>.</ev>",
+    "flavourText": "Who am I and myself? That has nothing to do with the case at hand, but we'll satisfy your curiosity nonetheless. Together, we are the fourth cast member of this mystery—the fourth detective <i>and</i> the fourth calamity.\n—No Life's case report, page 6",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      11021110,
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/67ff0869d5af4a3ab8601851af474752.png",
+    "imageHash": "67ff0869d5af4a3ab8601851af474752",
+    "bannerImageHash": "d0b24f63cf8143f584f908e71d77ac8c",
+    "evolved": {
+      "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nFanfare: Summon 2 copies of Guileless Newsie and set their attack and defense to X/Y. X and Y are this follower's attack and defense.\n\nEvolve: Give all other allied followers on the field Bane.",
+      "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Guileless Newsie</color></i></b> and set their attack and defense to X/Y. X and Y are this follower's attack and defense.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Give all other allied followers on the field <b><color=Keyword>Bane</color></b>.</ev>",
+      "flavourText": "Oh, are you suspecting me and myself? Then you should also add the goddess to your list of suspects. We've heard that the effort of maintaining this utopia weighed heavily on her mind. Isn't it possible that she sought out death as a path to freedom?\n—No Life's case report, page 7",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1e8700dbea8f4d799e05f0407ceb672e.png",
+      "imageHash": "1e8700dbea8f4d799e05f0407ceb672e",
+      "bannerImageHash": "a240d57d2dfa40298a48edfa9c3620c2"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4603,6 +4897,47 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11022120,
+    "baseCardId": 11022120,
+    "name": "Errant Knight",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 7,
+    "attack": 8,
+    "defense": 8,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Super-Evolve",
+      "Ward"
+    ],
+    "text": "Fanfare: If there's an allied amulet on the field, select an enemy follower on the field and banish it.\n\nWard\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there's an allied amulet on the field, select an enemy follower on the field and banish it.\n<hr><b><color=Keyword>Ward</color></b>\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+    "flavourText": "The knight arrived from nowhere one day, as frivolous as he was skillful. Those of the kingdom were impressed by his abilities, and he was soon assigned to guard their princess. But he had a secret—he was an assassin hired by her political enemies.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5c77558cc8184a97a9604d5a0f3df083.png",
+    "imageHash": "5c77558cc8184a97a9604d5a0f3df083",
+    "bannerImageHash": "4bf95ff703fa4aa1869271ce0dedc3e7",
+    "evolved": {
+      "text": "Fanfare: If there's an allied amulet on the field, select an enemy follower on the field and banish it.\n\nWard\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there's an allied amulet on the field, select an enemy follower on the field and banish it.\n<hr><b><color=Keyword>Ward</color></b>\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+      "flavourText": "I did want to finish the job. I consider myself a professional, after all. But how could I have known that the princess would steal my heart before I could pierce hers? So <i>sorry</i>, but I'm her personal knight now—and if you want to drag her into your filthy politics, you'll have to go through me.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/fa11134ca3d5437b8b81f5e8b4b6de46.png",
+      "imageHash": "fa11134ca3d5437b8b81f5e8b4b6de46",
+      "bannerImageHash": "c465a3b7362a423783a52dddb09ed9c6"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10123310,
     "baseCardId": 10123310,
     "name": "Ravening Tentacles",
@@ -4632,6 +4967,41 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11021310,
+    "baseCardId": 11021310,
+    "name": "Onward, Charge!",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 7,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Barrier",
+      "Steelclad Knight"
+    ],
+    "text": "Summon 2 copies of Steelclad Knight, evolve them, and give them Barrier.",
+    "rawSkillText": "Summon 2 copies of <b><i><color=Keyword>Steelclad Knight</color></i></b>, evolve them, and give them <b><color=Keyword>Barrier</color></b>.",
+    "flavourText": "Morale is rallied by a knight's battle cry. Death is beckoned by a banner's fall.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90021120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ca1fe14f888b450881a7f96f54682897.png",
+    "imageHash": "ca1fe14f888b450881a7f96f54682897",
+    "bannerImageHash": "e1224670be4040489bfd91f5d29f4395",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4898,6 +5268,57 @@
       }
     ],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11024110,
+    "baseCardId": 11024110,
+    "name": "No Life, Dichotomous Detective",
+    "class": "Swordcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 5,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Drain",
+      "Engage",
+      "Fanfare",
+      "Rush",
+      "Storm",
+      "Ward"
+    ],
+    "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nFanfare: Summon an exact copy of this card. If this follower's attack is lower than its defense, give the exact copy Bane and this follower Drain. If this follower's attack is higher than its defense, give the exact copy Ward and this follower Storm.\n\nRush",
+    "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Fanfare</color></b>: Summon an exact copy of this card. If this follower's attack is lower than its defense, give the exact copy <b><color=Keyword>Bane</color></b> and this follower <b><color=Keyword>Drain</color></b>. If this follower's attack is higher than its defense, give the exact copy <b><color=Keyword>Ward</color></b> and this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "They call us No Life, the Dichotomous Detective... just kidding! Myself and I once attempted to kill the goddess, and our crimes were brought to justice by our own hands. So... what method did our culprit use to succeed where we failed?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c50b0b2ad16043f58e51e69e4db3264c.png",
+    "imageHash": "c50b0b2ad16043f58e51e69e4db3264c",
+    "bannerImageHash": "666be23b0dd649cbaf0c57490679767e",
+    "evolved": {
+      "text": "Activates in hand. Whenever you Engage a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n\nFanfare: Summon an exact copy of this card. If this follower's attack is lower than its defense, give the exact copy Bane and this follower Drain. If this follower's attack is higher than its defense, give the exact copy Ward and this follower Storm.\n\nRush",
+      "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> a Clue amulet, swap this follower's attack and defense and give it +1/+0.\n<hr><b><color=Keyword>Fanfare</color></b>: Summon an exact copy of this card. If this follower's attack is lower than its defense, give the exact copy <b><color=Keyword>Bane</color></b> and this follower <b><color=Keyword>Drain</color></b>. If this follower's attack is higher than its defense, give the exact copy <b><color=Keyword>Ward</color></b> and this follower <b><color=Keyword>Storm</color></b>.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "All myself and I can do is collect the evidence. You're responsible for piecing it together. This case was designed for you, after all, and it exists because of you. Now, our dear last detective, please begin your investigation!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1b3e06754f1a40c88ee78350646e357b.png",
+      "imageHash": "1b3e06754f1a40c88ee78350646e357b",
+      "bannerImageHash": "9c6955502c8e44cca07b7253f19275e1"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/30fbe72a47814b45aaea0a0ace41cd7a.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/511213695c324e799ff93e4df137da7d.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

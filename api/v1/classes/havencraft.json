@@ -19,7 +19,7 @@
     "text": "Engage (2): Destroy this card. Select an allied follower on the field and transform it into an Awed and Inspired. Draw a card.",
     "rawSkillText": "<b><color=Keyword>Engage</color> (2)</b>: Destroy this card. Select an allied follower on the field and transform it into an <b><i><color=Keyword>Awed and Inspired</color></i></b>. Draw a card.",
     "flavourText": "\"Tyre, are you well-prepared?\"\n\"Tyre, take the rear!\"\n\"Quite late, aren't we, Tyre?\"\n—Vira's voice, tantalizing Tyre's eardrums",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -32,7 +32,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10463110,
@@ -54,7 +54,7 @@
     "text": "Whenever you Engage an amulet, restore 1 defense to your leader.\n\nEvolve: Select an enemy follower on the field and deal it 3 damage.",
     "rawSkillText": "Whenever you <b><color=Keyword>Engage</color></b> an amulet, restore 1 defense to your leader.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an enemy follower on the field and deal it 3 damage.</ev>",
     "flavourText": "My legs aren't that thick! They just look bigger next to other Erunes' toothpicks! Mine're the perfect size. Plus, I'm a doctor, so you know I'm right!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -72,7 +72,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10561120,
@@ -637,7 +637,7 @@
     "text": "At the end of your turn, if this follower is evolved, deal 2 damage to all followers.\n\nEvolve: Give this follower \"Can't attack followers or leaders\" until the end of the turn.",
     "rawSkillText": "At the end of your turn, if this follower is evolved, deal 2 damage to all followers.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Give this follower \"Can't attack followers or leaders\" until the end of the turn.</ev>",
     "flavourText": "It's nice that everyone at the abbey is willin' to forgive all my screwups, but that made me realize just how useless I can be. Time to get back on the straight 'n narrow!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -660,7 +660,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10762110,
@@ -759,7 +759,7 @@
     ],
     "text": "Ward\nDuring your turn, when your leader's defense is restored, evolve this follower.",
     "rawSkillText": "<b><color=Keyword>Ward</color></b>\nDuring your turn, when your leader's defense is restored, evolve this follower.",
-    "flavourText": "Though I had nothing, I still sought a place to belong. But trust had no place in the slums—not when a stale piece of bread held more value than human life. Yet it was in those filthy alleyways that I met Ral, who had ran away from home.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 1",
+    "flavourText": "Though I had nothing, I still sought a place to belong. But trust had no place in the slums—not when a stale piece of bread held more value than human life. Yet it was in those filthy alleyways that I met Alde, who had ran away from home.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 1",
     "rotation": true,
     "token": false,
     "maxCopies": 3,
@@ -778,6 +778,87 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11061110,
+    "baseCardId": 11061110,
+    "name": "Desolationist Refiner",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 3,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Last Words"
+    ],
+    "text": "Last Words: Add 2 copies of Divine Evidence to your hand.",
+    "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+    "flavourText": "The first case the Hymnodic Detective took on was that of the calamity who plunged the world into famine: Lapinette, the most irredeemable rabbit breeder history had ever known.\n—Noeinhowell's case files, page 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/88d60473222b473fb6a898e86ab8782b.png",
+    "imageHash": "88d60473222b473fb6a898e86ab8782b",
+    "bannerImageHash": "4cc76e188c8e4a9896339045d4502456",
+    "evolved": {
+      "text": "Last Words: Add 2 copies of Divine Evidence to your hand.",
+      "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+      "flavourText": "PLUSHIE-LIKE RABBITS SIGHTED! NEW SPECIES?\nA rare species of rabbit has been discovered, although the jury's still out on whether or not they're alive. Initial sightings indicate that they can reproduce asexually by expelling what appears to be cotton from their bodies.\n—A Nacreheim tabloid",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/606f6fd9252f4daa84f666e358890ae6.png",
+      "imageHash": "606f6fd9252f4daa84f666e358890ae6",
+      "bannerImageHash": "03166eec10fa4fc5a5db5e26d7fed9c9"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 90061140,
+    "baseCardId": 90061140,
+    "name": "Bunnies of Desolation",
+    "class": "Havencraft",
+    "setId": 90000,
+    "set": "90000",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Last Words"
+    ],
+    "text": "When this follower enters the field, banish a random card with the lowest cost from your hand and evolve this follower.\n\nLast Words: Deal 2 damage to the enemy leader.",
+    "rawSkillText": "When this follower enters the field, banish a random card with the lowest cost from your hand and evolve this follower.\n<hr><b><color=Keyword>Last Words</color></b>: Deal 2 damage to the enemy leader.",
+    "flavourText": "The bunnies of cotton and thread feast without the urge to eat. They birth their meaningless spawn without the drive to reproduce.\nCarry on, O worthless rabbits. Carry on.",
+    "rotation": false,
+    "token": true,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c1a7a7839ecc415d9cd09220a709b4a3.png",
+    "imageHash": "c1a7a7839ecc415d9cd09220a709b4a3",
+    "bannerImageHash": "1bb1e2c35dc6404dbb119c45ab1df995",
+    "evolved": {
+      "text": "When this follower enters the field, banish a random card with the lowest cost from your hand and evolve this follower.\n\nLast Words: Deal 2 damage to the enemy leader.",
+      "rawSkillText": "When this follower enters the field, banish a random card with the lowest cost from your hand and evolve this follower.\n<hr><b><color=Keyword>Last Words</color></b>: Deal 2 damage to the enemy leader.",
+      "flavourText": "The bunnies of thread and cotton were never approved by the goddess. Their endless propagation will never fulfill any purpose.\nCarry on, O useless rabbits. Carry on.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e5f493c20cdb40b7b8879cfd338168bd.png",
+      "imageHash": "e5f493c20cdb40b7b8879cfd338168bd",
+      "bannerImageHash": "b4d97676b35347198a1c5ea1f092eb4a"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1404,7 +1485,7 @@
     "text": "Storm\nWhenever you Engage an amulet, give this follower Drain.",
     "rawSkillText": "<b><color=Keyword>Storm</color></b>\nWhenever you <b><color=Keyword>Engage</color></b> an amulet, give this follower <b><color=Keyword>Drain</color></b>.",
     "flavourText": "\"Morning, sunshine! Bet you're feeling pretty confused without your memories right about now. First things first—your name is Troue. And I'm you from the past. Though you probably don't remember writing this, huh?\"",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1422,7 +1503,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10464110,
@@ -1443,7 +1524,7 @@
     "text": "Ward\nCan't attack followers or leaders.\nAt the end of your turn, if you've unlocked super-evolution, evolve a random unevolved allied follower on the field that didn't attack this turn.",
     "rawSkillText": "<b><color=Keyword>Ward</color></b>\nCan't attack followers or leaders.\nAt the end of your turn, if you've unlocked super-evolution, evolve a random unevolved allied follower on the field that didn't attack this turn.",
     "flavourText": "Blessing.\n(From the very moment the Omnipotent created the world, we of the Six Dragons have been present for its upkeep. As Galleon the Gold, I bestow my blessings upon all who dwell in these upheaved lands.)",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1472,7 +1553,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10561110,
@@ -1574,7 +1655,7 @@
     ],
     "text": "Fanfare: Give this follower Ambush until the end of your opponent's turn.\n\nAt the end of your turn, restore 1 defense to your leader.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give this follower <b><color=Keyword>Ambush</color></b> until the end of your opponent's turn.\n<hr>At the end of your turn, restore 1 defense to your leader.",
-    "flavourText": "The other family members shunned Ral for his talent. But even if no one could understand him, I would be his wings. The joy of knowing that I and I alone had his trust was reward enough.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 3",
+    "flavourText": "The other family members shunned Alde for his talent. But even if no one could understand him, I would be his wings. The joy of knowing that I and I alone had his trust was reward enough.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 3",
     "rotation": true,
     "token": false,
     "maxCopies": 3,
@@ -1585,7 +1666,7 @@
     "evolved": {
       "text": "Fanfare: Give this follower Ambush until the end of your opponent's turn.\n\nAt the end of your turn, restore 1 defense to your leader.",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give this follower <b><color=Keyword>Ambush</color></b> until the end of your opponent's turn.\n<hr>At the end of your turn, restore 1 defense to your leader.",
-      "flavourText": "I joined the faction opposing Ral to tie up any loose ends behind the scenes. \"I may be involved in things that you'll find suspicious, but know that I am doing it for your sake.\" Hearing that, Ral accepted my actions.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 4",
+      "flavourText": "I joined the faction opposing Alde to tie up any loose ends behind the scenes. \"I may be involved in things that you'll find suspicious, but know that I am doing it for your sake.\" Hearing that, Alde accepted my actions.\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 4",
       "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f2d5eb6305b24c9dbd41b5f7ab304735.png",
       "imageHash": "f2d5eb6305b24c9dbd41b5f7ab304735",
       "bannerImageHash": "9dd16d5a92bf4785ba25da2b5b4a00d4"
@@ -1593,7 +1674,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10962120,
@@ -1634,6 +1715,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11062110,
+    "baseCardId": 11062110,
+    "name": "Desolationist Tamer",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Bunnies of Desolation",
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Add a Bunnies of Desolation to your hand.\n\nEvolve: Recover 1 play point.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Bunnies of Desolation</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Recover 1 play point.</ev>",
+    "flavourText": "As one of the angels, Lapinette had been granted divine power and was commanded to help mankind to thrive and propagate. To that end, she determined that the best course of action was to transform them all into rabbits.\n—Noeinhowell's case files, page 2",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061140
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0a26e627bc454dc4bc1480bb05493b1f.png",
+    "imageHash": "0a26e627bc454dc4bc1480bb05493b1f",
+    "bannerImageHash": "d2f1d8a7ed9a4732af68816a98d01c36",
+    "evolved": {
+      "text": "Fanfare: Add a Bunnies of Desolation to your hand.\n\nEvolve: Recover 1 play point.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Bunnies of Desolation</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Recover 1 play point.</ev>",
+      "flavourText": "NEW RABBIT SPECIES IS REPRODUCTIVE MIRACLE!\nAccording to reports, the newly discovered species breeds at an exponential rate. Each individual can produce eight offspring from its cotton, so a single rabbit will become 64 in two days, 512 in three, and by...\n—<i>The Nacreheim Times</i>, page 3",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9a77e78a4fe640fe91b51b6f9ccf1bc7.png",
+      "imageHash": "9a77e78a4fe640fe91b51b6f9ccf1bc7",
+      "bannerImageHash": "3be4f1269d134990bc1c4144a46e2663"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1746,6 +1870,74 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11061310,
+    "baseCardId": 11061310,
+    "name": "Solitary Cultivation",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Barrier"
+    ],
+    "text": "Select an allied follower on the field and give it +2/+2 and Barrier.",
+    "rawSkillText": "Select an allied follower on the field and give it +2/+2 and <b><color=Keyword>Barrier</color></b>.",
+    "flavourText": "If you can sit on a rock for three years, you can do just about anything.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/17a57c87961141a683508ffea7113185.png",
+    "imageHash": "17a57c87961141a683508ffea7113185",
+    "bannerImageHash": "5759233a5c444dfbbe949728c351d527",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11063310,
+    "baseCardId": 11063310,
+    "name": "Fruitless Testimony",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Bunnies of Desolation",
+      "Mode"
+    ],
+    "text": "Select a Mode to activate.\n1. Deal 4 damage to a random enemy follower. Gain Crest: Fruitless Testimony.\n2. Summon a Bunnies of Desolation.",
+    "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Deal 4 damage to a random enemy follower. Gain <b><i>Crest: Fruitless Testimony</i></b>.</ridx>\n<ridx=1>2. Summon a <b><i><color=Keyword>Bunnies of Desolation</color></i></b>.</ridx>",
+    "flavourText": "\"Why did you transform people into rabbits, devastating the land and causing a famine?\"\n\"I told you already, I'm just doing what the goddess said! Not that I'd expect a lame detective to understand.\"\n\"The ramblings of a foolish rabbit. Whatever will it take to get through to you?\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061140,
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e824c843682d4810926a7b6006351fd6.png",
+    "imageHash": "e824c843682d4810926a7b6006351fd6",
+    "bannerImageHash": "57c534248cc04df6a1057794c78e3240",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1884,7 +2076,7 @@
     "text": "Engage: Destroy this card. Select a Mode to activate.\n1. Destroy a random enemy follower.\n2. Draw 2 cards.",
     "rawSkillText": "<b><color=Keyword>Engage</color></b>: Destroy this card. Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Destroy a random enemy follower.</ridx>\n<ridx=1>2. Draw 2 cards.</ridx>",
     "flavourText": "It's my duty as a lithomancer to polish this gem. Its destiny is to shine.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1895,7 +2087,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10563210,
@@ -2194,7 +2386,7 @@
     "text": "Enhance (6): Give this follower +0/+10.\n\nWard\n\nEvolve: Select a damaged enemy follower on the field and destroy it.",
     "rawSkillText": "<b><color=Keyword>Enhance</color> (6)</b>: Give this follower +0/+10.\n<hr><b><color=Keyword>Ward</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select a damaged enemy follower on the field and destroy it.</ev>",
     "flavourText": "I thought that sacrificing myself for my town and for my home was what a priestess like me should do. But, through meeting everyone on this adventure, I learned something important: I am the only one that decides my fate!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2212,7 +2404,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10462120,
@@ -2235,7 +2427,7 @@
     "text": "Fanfare: Summon a random Havencraft follower that costs 2 or less from your deck.\n\nSuper-Evolve: Give all other allied followers on the field Barrier.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a random Havencraft follower that costs 2 or less from your deck.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give all other allied followers on the field <b><color=Keyword>Barrier</color></b>.</sev>",
     "flavourText": "I want to help everyone, mortal or primal, to embrace their pain and learn what they can from it. That is my wish, or rather my mission, as a priestess who treads the path of Zeyen.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2253,7 +2445,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10564110,
@@ -2432,6 +2624,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11062120,
+    "baseCardId": 11062120,
+    "name": "Winged Accordionist",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 4,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "Holy Falcon"
+    ],
+    "text": "Fanfare: Summon a Holy Falcon.\n\nEvolve: Give all other allied followers on the field +1/+1.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Holy Falcon</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Give all other allied followers on the field +1/+1.</ev>",
+    "flavourText": "They filed noise complaints about my music, so I'm banned from practicing on the ground. But I won't give up. If the townspeople can't appreciate my music, maybe the birds will!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4ad3f0e87a56400ab379247ad3eb0646.png",
+    "imageHash": "4ad3f0e87a56400ab379247ad3eb0646",
+    "bannerImageHash": "1661207b03c44a6fa055048fe7e76941",
+    "evolved": {
+      "text": "Fanfare: Summon a Holy Falcon.\n\nEvolve: Give all other allied followers on the field +1/+1.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Holy Falcon</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Give all other allied followers on the field +1/+1.</ev>",
+      "flavourText": "\"How was it? Did you enjoy my concert?\"\n<i>Squawks of pain and suffering.</i>\n\"I'm so glad you loved it! Here's an encore!\"\n—Winged accordionist to a flock of poor birds",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/318ab2f45a0a409da757a985b87efb28.png",
+      "imageHash": "318ab2f45a0a409da757a985b87efb28",
+      "bannerImageHash": "266d4dd0edbc4934b3f74b51d0f5a5d5"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2630,7 +2865,7 @@
     "text": "Activates in hand. Whenever you Engage an amulet, reduce the cost of this card by 1.\n\nEngage: Destroy this card. Select an unevolved allied follower on the field and evolve it.",
     "rawSkillText": "Activates in hand. Whenever you <b><color=Keyword>Engage</color></b> an amulet, reduce the cost of this card by 1.\n<hr><b><color=Keyword>Engage</color></b>: Destroy this card. Select an unevolved allied follower on the field and evolve it.",
     "flavourText": "I'm certain that the Grandcypher will carry you to the sky's edge. As the ship-building primal beast, I give you my personal guarantee.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2641,7 +2876,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10663210,
@@ -3107,6 +3342,41 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11062310,
+    "baseCardId": 11062310,
+    "name": "Destructive Propagation",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 5,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Bunnies of Desolation",
+      "Enhance"
+    ],
+    "text": "Summon 2 copies of Bunnies of Desolation.\nEnhance (8): Summon 4 instead.",
+    "rawSkillText": "Summon 2 copies of <b><i><color=Keyword>Bunnies of Desolation</color></i></b>.\n<b><color=Keyword>Enhance</color> (8)</b>: Summon 4 instead.",
+    "flavourText": "Granted the miraculous power of transmutation by the goddess herself, Lapinette set her sights on transforming all human beings into rabbits. And as the bunnies propagated endlessly, they devoured everything in their path.\n—Noeinhowell's case files, page 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061140
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a09993cd67d4414fbdd54dcc22057248.png",
+    "imageHash": "a09993cd67d4414fbdd54dcc22057248",
+    "bannerImageHash": "c7faf58391a24cff8ab36a318e6cc9a8",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -3597,7 +3867,7 @@
     ],
     "text": "Whenever an allied amulet is destroyed, activate an ability in sequence from the following.\n1. Deal 3 damage to 2 random enemy followers.\n2. Restore 2 defense to your leader.\n3. Summon a Holy Falcon.\n\nEvolve: Destroy all allied amulets.",
     "rawSkillText": "Whenever an allied amulet is destroyed, activate an ability in sequence from the following.\n<ridx=0>1. Deal 3 damage to 2 random enemy followers.</ridx>\n<ridx=1>2. Restore 2 defense to your leader.</ridx>\n<ridx=2>3. Summon a <b><i><color=Keyword>Holy Falcon</color></i></b>.</ridx>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Destroy all allied amulets.</ev>",
-    "flavourText": "What would it take for you to admit that you were wrong? That <i>you</i> betrayed <i>me?</i> It was all your fault from the very start. Ral... No. Erralde. Even if you couldn't trust anyone else... why couldn't you have trusted me?",
+    "flavourText": "What would it take for you to admit that you were wrong? That <i>you</i> betrayed <i>me?</i> It was all your fault from the very start. Alde... No. Erralde. Even if you couldn't trust anyone else... why couldn't you have trusted me?",
     "rotation": true,
     "token": false,
     "maxCopies": 3,
@@ -3623,6 +3893,102 @@
       }
     ],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11064110,
+    "baseCardId": 11064110,
+    "name": "Lapinette, Calamity of Desolation",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Bunnies of Desolation",
+      "Evolve",
+      "Fanfare",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and banish it. Summon a Bunnies of Desolation.\n\nEvolve: Gain Crest: Lapinette, Calamity of Desolation.\nSuper-Evolve: Delay the count of your Crest: Lapinette, Calamity of Desolation by 1.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and banish it. Summon a <b><i><color=Keyword>Bunnies of Desolation</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Lapinette, Calamity of Desolation</i></b>.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Delay the count of your <b><i>Crest: Lapinette, Calamity of Desolation</i></b> by 1.</sev>",
+    "flavourText": "Name: Lapinette\nCrime: Loss of moral compass\nDamages: Devastation of nature, rendering a third of all land barren\nSentence: Indefinite subspace confinement",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061140
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5df7702a5e054f9b99442be0da1acaed.png",
+    "imageHash": "5df7702a5e054f9b99442be0da1acaed",
+    "bannerImageHash": "abe91fd7b6c74e27b2463c249d2c8f11",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and banish it. Summon a Bunnies of Desolation.\n\nEvolve: Gain Crest: Lapinette, Calamity of Desolation.\nSuper-Evolve: Delay the count of your Crest: Lapinette, Calamity of Desolation by 1.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and banish it. Summon a <b><i><color=Keyword>Bunnies of Desolation</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Lapinette, Calamity of Desolation</i></b>.</ev>\n<sev><b><color=Keyword>Super-Evolve</color></b>: Delay the count of your <b><i>Crest: Lapinette, Calamity of Desolation</i></b> by 1.</sev>",
+      "flavourText": "What? The goddess is dead? What are you even talking about, you dumb detective? Like I'd believe you when you don't even know who did it. Why don't you sing less and investigate more? And while you're at it, can you stop talking in sevens?",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0bf0845f5a42471cb2772ea0864c0508.png",
+      "imageHash": "0bf0845f5a42471cb2772ea0864c0508",
+      "bannerImageHash": "8d4ef35887e241e0b7ef0df0a2a7ba61"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/258416e309484b0b923948b2984bce95.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/3848932d6f274421a21934b62ef277b6.png"
+      },
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a68fb280d9514e9f83bf5ac6be6d3571.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/afb147d54a0c4f18bdf344469b2c8153.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11064120,
+    "baseCardId": 11064120,
+    "name": "Parareligious Idol",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 0,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Aura",
+      "Evolve",
+      "Intimidate"
+    ],
+    "text": "Intimidate\nAura\nCan't attack followers or leaders.\nDuring your turn, whenever an enemy follower is banished from the field, summon an exact copy of it.\n\nEvolve: Select an enemy follower on the field and banish it.",
+    "rawSkillText": "<b><color=Keyword>Intimidate</color></b>\n<b><color=Keyword>Aura</color></b>\nCan't attack followers or leaders.\nDuring your turn, whenever an enemy follower is banished from the field, summon an exact copy of it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an enemy follower on the field and banish it.</ev>",
+    "flavourText": "It was a mere statue. Though it could bestow no wings, it lightened the pilgrims' hearts. Though it could not move, it freed the pilgrims' souls. Their faith in it was strong, for the statue gave them just as much of a response as everything else they had ever believed in.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/04e216acfd9246b2aa8996736aa94809.png",
+    "imageHash": "04e216acfd9246b2aa8996736aa94809",
+    "bannerImageHash": "88fdfc4575044933a066704deb5e549c",
+    "evolved": {
+      "text": "Intimidate\nAura\nCan't attack followers or leaders.\nDuring your turn, whenever an enemy follower is banished from the field, summon an exact copy of it.\n\nEvolve: Select an enemy follower on the field and banish it.",
+      "rawSkillText": "<b><color=Keyword>Intimidate</color></b>\n<b><color=Keyword>Aura</color></b>\nCan't attack followers or leaders.\nDuring your turn, whenever an enemy follower is banished from the field, summon an exact copy of it.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an enemy follower on the field and banish it.</ev>",
+      "flavourText": "Venerated by the people, the statue was showered with prayers. But the statue did not respond, for it was not alive. It did not devour human sacrifices, nor did it give birth to offspring. From the very beginning, it had only ever been a mere statue.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/90644097952140cc9c5a4641fa6dbc48.png",
+      "imageHash": "90644097952140cc9c5a4641fa6dbc48",
+      "bannerImageHash": "8bc2ab58320443b68c251df4bb2a85e2"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4164,7 +4530,7 @@
     "evolved": {
       "text": "Fanfare: Restore 2 defense to your leader.\n\nWard\nDuring your turn, whenever your leader's defense is restored, destroy a random enemy follower.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Restore 2 defense to your leader.\n<hr><b><color=Keyword>Ward</color></b>\nDuring your turn, whenever your leader's defense is restored, destroy a random enemy follower.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
-      "flavourText": "Ral knows where my loyalty lies. He must. But why then would he not listen to my words?\n...Ah, I see. From the very start, he never...\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 6",
+      "flavourText": "Alde knows where my loyalty lies. He must. But why then would he not listen to my words?\n...Ah, I see. From the very start, he never...\n—<i>Seraphic Gallows: Memories of an Enforcer</i>, Part 6",
       "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e0bac92c86764f66bc37d96db5e15c28.png",
       "imageHash": "e0bac92c86764f66bc37d96db5e15c28",
       "bannerImageHash": "5e5e5a93481845f3a809eb92a021d860"
@@ -4172,6 +4538,47 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 11061120,
+    "baseCardId": 11061120,
+    "name": "Combative Monk",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 7,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Barrier",
+      "Rush",
+      "Strike"
+    ],
+    "text": "Rush\nCan attack 2 times per turn.\nStrike: Give this follower +2/+2 and Barrier.",
+    "rawSkillText": "<b><color=Keyword>Rush</color></b>\nCan attack 2 times per turn.\n<b><color=Keyword>Strike</color></b>: Give this follower +2/+2 and <b><color=Keyword>Barrier</color></b>.",
+    "flavourText": "Monks are prohibited from killing? That's unreasonable and unfair! What point is there in dedicating our lives to training if we can't taste the fruit of our labors? Ah, just thinking about it is stressing me out!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/87aaa1f78c204a0282f215dfd02efdd7.png",
+    "imageHash": "87aaa1f78c204a0282f215dfd02efdd7",
+    "bannerImageHash": "171513f9bd0f41649a4d2a5ffe48d733",
+    "evolved": {
+      "text": "Rush\nCan attack 2 times per turn.\nStrike: Give this follower +2/+2 and Barrier.",
+      "rawSkillText": "<b><color=Keyword>Rush</color></b>\nCan attack 2 times per turn.\n<b><color=Keyword>Strike</color></b>: Give this follower +2/+2 and <b><color=Keyword>Barrier</color></b>.",
+      "flavourText": "Through training, my mind and flesh have been steeled, and I have learned restraint. So there's no need to fear for your life, sir bandit. I won't kill you... I just need an outlet for my frustrations. Stress-Releasing Punch!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5edc723b860e4cc19470ab090344197a.png",
+      "imageHash": "5edc723b860e4cc19470ab090344197a",
+      "bannerImageHash": "4320ed450c5f4d4bb3f5c3183ea4b8e3"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4288,7 +4695,7 @@
     "text": "Fanfare: Select 2 enemy followers on the field and banish them. Super Skybound Art - Super-evolve this follower.\n\nWard\nCan't take more than 3 damage at a time.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 enemy followers on the field and banish them. <b><color=Keyword>Super Skybound Art</color></b> - Super-evolve this follower.\n<hr><b><color=Keyword>Ward</color></b>\nCan't take more than 3 damage at a time.",
     "flavourText": "I feared so much... I shut all others out. Even Katalina... But that ends today. Luminiera, I surrender myself unto you!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4306,7 +4713,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10562110,
@@ -4479,6 +4886,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11063110,
+    "baseCardId": 11063110,
+    "name": "Desolationist Rehabilitator",
+    "class": "Havencraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 8,
+    "attack": 3,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Bunnies of Desolation",
+      "Fanfare",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and banish it. Summon 2 copies of Bunnies of Desolation.\n\nSuper-Evolve: Draw 2 cards. Restore 2 defense to your leader.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and banish it. Summon 2 copies of <b><i><color=Keyword>Bunnies of Desolation</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Draw 2 cards. Restore 2 defense to your leader.</sev>",
+    "flavourText": "The bunnification phenomenon stumped everyone—apart from Noeinhowell. With her songs, she was able to track down the culprit and capture Lapinette, who was completely oblivious to what she'd done wrong.\n—Noeinhowell's case files, page 4",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90061140
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2ae50afdb4cc47ec867a744f9478b7d2.png",
+    "imageHash": "2ae50afdb4cc47ec867a744f9478b7d2",
+    "bannerImageHash": "dec39deacc3941b2b333c743251960b5",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and banish it. Summon 2 copies of Bunnies of Desolation.\n\nSuper-Evolve: Draw 2 cards. Restore 2 defense to your leader.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and banish it. Summon 2 copies of <b><i><color=Keyword>Bunnies of Desolation</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Draw 2 cards. Restore 2 defense to your leader.</sev>",
+      "flavourText": "FIVE MORE CITIES IN RUINS! EXTERMINATION EFFORTS FAIL\nMore major cities have been overrun as the rabbits continue to leave desolation in their wake. Reports of deaths due to starvation have continued to rise, although in all cases no bodies remain to be found.\n—<i>The Nacreheim Times</i>, front page",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ec3ce08ffe644caaad4a6f9122d754fd.png",
+      "imageHash": "ec3ce08ffe644caaad4a6f9122d754fd",
+      "bannerImageHash": "534c440e745f4a93bab305970abb741a"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

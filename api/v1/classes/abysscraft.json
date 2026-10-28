@@ -491,6 +491,104 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11051310,
+    "baseCardId": 11051310,
+    "name": "Runaway Souls",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Ghost"
+    ],
+    "text": "Add a Ghost to your hand.",
+    "rawSkillText": "Add a <b><i><color=Keyword>Ghost</color></i></b> to your hand.",
+    "flavourText": "Charon?! Um, no, I can explain! We're just, uh, having a little difference of opinion right now! I definitely wasn't taking a nap, and I definitely didn't take my eyes off them, okay?! I mean, how was I supposed to know souls would be so energetic, anyway? They're dead!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90051130
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/95da99ad0def4873b396d43215f07cb3.png",
+    "imageHash": "95da99ad0def4873b396d43215f07cb3",
+    "bannerImageHash": "5e8e5620b24348658ed0f3120e2a2b8a",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11052310,
+    "baseCardId": 11052310,
+    "name": "Last Will and Testament",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence"
+    ],
+    "text": "Summon a Divine Evidence. Add a Divine Evidence to your hand.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>. Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+    "flavourText": "They called him Nocturne, the Postmortem Detective. The goddess had granted him the miraculous ability to hear the voices of the suffering, allowing him to read the lingering thoughts of the dead, and listen to their last words.\n—The Nocturne Dossier, file 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/149f39136f10425e8259af429f5efacb.png",
+    "imageHash": "149f39136f10425e8259af429f5efacb",
+    "bannerImageHash": "0925bef449764abc8882d8c3347ac53b",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11053310,
+    "baseCardId": 11053310,
+    "name": "Nocturne's Interrogation",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Deal X damage to all enemy followers. X is the number of clues you have. Banish all allied Clue amulets from the field.",
+    "rawSkillText": "Deal X damage to all enemy followers. X is the number of clues you have. Banish all allied Clue amulets from the field.",
+    "flavourText": "Only the goddess knew when she would perform the Ritual of Rebirth. Does that suggest she informed the angels of when it would be?\n—The Nocturne Dossier, file 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4ccc1232e5ca4528a530e6d0b4483fa6.png",
+    "imageHash": "4ccc1232e5ca4528a530e6d0b4483fa6",
+    "bannerImageHash": "1a866f9446aa42f2891823d9acf42dbe",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90054330,
     "baseCardId": 90054330,
     "name": "Depths of the Eld Sight",
@@ -849,7 +947,7 @@
     "text": "Enhance (4): Evolve this follower and give it +1/+1.\n\nRush",
     "rawSkillText": "<b><color=Keyword>Enhance</color> (4)</b>: Evolve this follower and give it +1/+1.\n<hr><b><color=Keyword>Rush</color></b>",
     "flavourText": "Ever since that huge masked dude saved my hide with his big ol' scythe, I've been obsessed with its power. I'm definitely gonna make a weapon that rivals it one day!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -867,7 +965,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10551110,
@@ -1168,6 +1266,101 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11051110,
+    "baseCardId": 11051110,
+    "name": "Diligent Undertaker",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Last Words"
+    ],
+    "text": "Last Words: Summon a Divine Evidence. Add a Divine Evidence to your hand.",
+    "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>. Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+    "flavourText": "In all his life, Dr. Nocturne had but one regret. It started with an accident at a biological research facility that had landed two grievously wounded patients in his care. One was Nocturne's friend, whom he had studied alongside. And Nocturne failed to save him.\n—The Nocturne Dossier, file 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/96c1ce8bb92c4514823d98877a4b8220.png",
+    "imageHash": "96c1ce8bb92c4514823d98877a4b8220",
+    "bannerImageHash": "ed0848721a344cfc8f5a1bd66c5e94b7",
+    "evolved": {
+      "text": "Last Words: Summon a Divine Evidence. Add a Divine Evidence to your hand.",
+      "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>. Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+      "flavourText": "We only had enough blood for one transfusion, and my friend knew it. He refused my treatment so that the other victim would live.\n\"I'm... a doctor too... if only in name. And a doctor... prioritizes the patient...\"\n\"I... I understand. If that is what you wish.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/e3366f395bc54db3ac3f75c32149c321.png",
+      "imageHash": "e3366f395bc54db3ac3f75c32149c321",
+      "bannerImageHash": "2e61d4f31df348afa03aa59a7f941468"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11054120,
+    "baseCardId": 11054120,
+    "name": "Gremory, Doom Dispeller",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 2,
+    "attack": 1,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Last Words",
+      "Necromancy",
+      "Ward"
+    ],
+    "text": "Ward\nLast Words: Necromancy (2) - Draw a card.\n\nEvolve: Gain Crest: Gremory, Doom Dispeller.",
+    "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: <b><color=Keyword>Necromancy</color> (2)</b> - Draw a card.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Gremory, Doom Dispeller</i></b>.</ev>",
+    "flavourText": "Drawing a specific card from a deck is already difficult enough. To defy fate by altering one's intended doom is an impossibility. But when one is desperate, one seeks help from even devils and demons.\n\"You called for me, right? I've had my eye on you!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5a6cf98ef7fa496bba7dc7f4e7ed0d0b.png",
+    "imageHash": "5a6cf98ef7fa496bba7dc7f4e7ed0d0b",
+    "bannerImageHash": "35403aa301af45adb26f2a444ff6a41a",
+    "evolved": {
+      "text": "Ward\nLast Words: Necromancy (2) - Draw a card.\n\nEvolve: Gain Crest: Gremory, Doom Dispeller.",
+      "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: <b><color=Keyword>Necromancy</color> (2)</b> - Draw a card.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Gain <b><i>Crest: Gremory, Doom Dispeller</i></b>.</ev>",
+      "flavourText": "If you've found the future you desire, all that's left is to seize it. Take the devil's gentle hand in yours, and draw your card.\n\"I've seen your whooole future! It's bright, and happy, and there's no doom at all! And I'm going to put it right here for you, in the palm of your hand!\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3d274f8019bd4577818d06ca73d71a8c.png",
+      "imageHash": "3d274f8019bd4577818d06ca73d71a8c",
+      "bannerImageHash": "2a7ec3542701460297d29e8cf5c603d4"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2ce607ab51c243cbb22f476e1f0e7415.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/d0707492cf22466e8f89be7ea62951c6.png"
+      }
+    ],
+    "questions": [
+      {
+        "question": "If my Gremory, Doom Dispeller is destroyed when I have 1 shadow, will its Necromancy (2) ability activate?",
+        "answer": "Yes. You gain another shadow when Gremory is destroyed, giving you the 2 shadows required to activate Necromancy (2)."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90054130,
     "baseCardId": 90054130,
     "name": "One-Tailed Fox",
@@ -1408,7 +1601,7 @@
     "text": "Deal 2 damage to your leader. Gain Crest: Valiant Edge.",
     "rawSkillText": "Deal 2 damage to your leader. Gain <b><i>Crest: Valiant Edge</i></b>.",
     "flavourText": "Mandau was supposed to stay the worst afflictions of my sickness, yet I can feel the accursed magic coursing within... Dammit! I mustn't allow myself to be swallowed up by its dark maw... For everyone's sake!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1419,7 +1612,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10551310,
@@ -1975,7 +2168,7 @@
     "text": "Fanfare: If there's an evolved allied follower on the field, evolve this follower.\n\nAura",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If there's an evolved allied follower on the field, evolve this follower.\n<hr><b><color=Keyword>Aura</color></b>",
     "flavourText": "The skies are so vast that any encounters are nothing short of a miracle, even with us primals living so long! Thanks to all those chance meetings, my circle of friends has really blown up! It's super, duper cool!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1993,7 +2186,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10452130,
@@ -2015,7 +2208,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Give this follower and another random allied follower on the field +1/+1.\n2. Deal 3 damage to a random enemy follower.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Give this follower and another random allied follower on the field +1/+1.</ridx>\n<ridx=1>2. Deal 3 damage to a random enemy follower.</ridx>",
     "flavourText": "There will always be a divide between mortals and primals. However, from time to time, a <i>melody</i> cuts through the chaos and crosses that divide. A <i>resonance.</i> That is why a little uproar doesn't faze me.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2033,7 +2226,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10552110,
@@ -2896,6 +3089,45 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11051120,
+    "baseCardId": 11051120,
+    "name": "Vengeful Capra",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 4,
+    "attack": 7,
+    "defense": 7,
+    "traits": [],
+    "keywords": [
+      "Last Words"
+    ],
+    "text": "Last Words: Deal 2 damage to your leader.",
+    "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Deal 2 damage to your leader.",
+    "flavourText": "Purified by water bathed in moonbeams. Shackled by an anklet engraved with blessings. The people told the goat that it was chosen. It only realized their sweet lies were hollow once it found itself with a demon as its new master.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/34dee245f2b64cf2b92bef67db9c4e84.png",
+    "imageHash": "34dee245f2b64cf2b92bef67db9c4e84",
+    "bannerImageHash": "dd6bc9fbed824f2ab77378108584214a",
+    "evolved": {
+      "text": "Last Words: Deal 2 damage to your leader.",
+      "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Deal 2 damage to your leader.",
+      "flavourText": "With the sacrifice made, the people had escaped the demon's wrath. But although it had shown them mercy, would the goat they had sacrificed do the same?",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/19a3ad473f504fadb58c64c925970680.png",
+      "imageHash": "19a3ad473f504fadb58c64c925970680",
+      "bannerImageHash": "fbfe5293dcaa443e9f8a6a0e1ef1e853"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10351310,
     "baseCardId": 10351310,
     "name": "March of the Brutes",
@@ -3397,6 +3629,52 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11052110,
+    "baseCardId": 11052110,
+    "name": "Solemn Gravekeeper",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 5,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Evolve",
+      "Fanfare",
+      "Rotting Zombie",
+      "Rush"
+    ],
+    "text": "Fanfare: Summon a Rotting Zombie.\n\nDuring your turn, whenever an allied card is banished from the field, give a random allied Departed follower on the field +2/+2 and Rush.\n\nEvolve: Summon a Divine Evidence.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Rotting Zombie</color></i></b>.\n<hr>During your turn, whenever an allied card is banished from the field, give a random allied Departed follower on the field +2/+2 and <b><color=Keyword>Rush</color></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.</ev>",
+    "flavourText": "After the accident, tragedy struck. People were dying left and right, and humanity was veering toward extinction. Unable to stand by, the goddess granted them a miracle. And thus, Nocturne became the first detective.\n—The Nocturne Dossier, file 2",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90051140,
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/60b6511817e640cd92418fd6797d9629.png",
+    "imageHash": "60b6511817e640cd92418fd6797d9629",
+    "bannerImageHash": "f538c770382d4603b6e5054e5d5c0200",
+    "evolved": {
+      "text": "Fanfare: Summon a Rotting Zombie.\n\nDuring your turn, whenever an allied card is banished from the field, give a random allied Departed follower on the field +2/+2 and Rush.\n\nEvolve: Summon a Divine Evidence.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Rotting Zombie</color></i></b>.\n<hr>During your turn, whenever an allied card is banished from the field, give a random allied Departed follower on the field +2/+2 and <b><color=Keyword>Rush</color></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.</ev>",
+      "flavourText": "It was a true miracle. At last, I could know if I'd made the right choice. I listened for his voice, for the words I'd always wanted to hear. Hatred, forgiveness—I would accept either. But... there was only silence.\n\"Why? Why can't I hear you?\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b2a1fe35df0a425aabeace29cbf2a062.png",
+      "imageHash": "b2a1fe35df0a425aabeace29cbf2a062",
+      "bannerImageHash": "ae25ba4090b140cb96a9beefdacd7f84"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10453310,
     "baseCardId": 10453310,
     "name": "Corruption",
@@ -3415,7 +3693,7 @@
     "text": "Give all followers on the field -2/-2. Give yourself and your opponent Crest: Corruption. Super Skybound Art - Destroy your Crest: Corruption.",
     "rawSkillText": "Give all followers on the field -2/-2. Give yourself and your opponent <b><i>Crest: Corruption</i></b>. <b><color=Keyword>Super Skybound Art</color></b> - Destroy your <b><i>Crest: Corruption</i></b>.",
     "flavourText": "All extros are the same! They have to learn the hard way that there's a time and place for their stupid sunshine and rainbows! Curse them! Curse them all!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3426,7 +3704,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10051110,
@@ -3571,7 +3849,7 @@
     "text": "Intimidate\nLast Words: Summon a Vaseraga, Unyielding Scythe. Deal 2 damage to your leader.",
     "rawSkillText": "<b><color=Keyword>Intimidate</color></b>\n<b><color=Keyword>Last Words</color></b>: Summon a <b><i><color=Keyword>Vaseraga, Unyielding Scythe</color></i></b>. Deal 2 damage to your leader.",
     "flavourText": "I'm all better now. Sorry for causing you all worry, but this body is specially augmented, and it's ready for the next battle.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3591,7 +3869,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10452110,
@@ -3612,7 +3890,7 @@
     "text": "Rush\nAt the end of your turn, deal 4 damage to a random enemy follower, then deal 2 damage to a random enemy follower.",
     "rawSkillText": "<b><color=Keyword>Rush</color></b>\nAt the end of your turn, deal 4 damage to a random enemy follower, then deal 2 damage to a random enemy follower.",
     "flavourText": "Indeed, I have fancied myself a god of war and have fought countless battles as such. But what lies at the end of battle for a primal who knows no end? I have grown tired of the monotony and yearn to know more of these skies.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3630,7 +3908,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10453110,
@@ -3652,7 +3930,7 @@
     "text": "Fanfare: Evolve all unevolved allied followers on the field. Deal 2 damage to your leader.\n\nDrain",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Evolve all unevolved allied followers on the field. Deal 2 damage to your leader.\n<hr><b><color=Keyword>Drain</color></b>",
     "flavourText": "I have always been running. I ran from my old, death-choked village. From the wary eyes of outsiders and the avaricious hands of captors. All of it was in the name of vengeance. Or maybe... it was just so I could live another day.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3670,7 +3948,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10752120,
@@ -3892,6 +4170,61 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11054110,
+    "baseCardId": 11054110,
+    "name": "Nocturne, Postmortem Detective",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Evolve",
+      "Fanfare",
+      "Ghost",
+      "Last Will and Testament",
+      "Skeleton",
+      "Ward"
+    ],
+    "text": "Fanfare: Summon a Ghost and give it Bane.\n\nDuring your turn, whenever an allied card is banished from the field, summon a Skeleton and give it +2/+4 and Ward.\n\nEvolve: Add a Last Will and Testament to your hand.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Ghost</color></i></b> and give it <b><color=Keyword>Bane</color></b>.\n<hr>During your turn, whenever an allied card is banished from the field, summon a <b><i><color=Keyword>Skeleton</color></i></b> and give it +2/+4 and <b><color=Keyword>Ward</color></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Last Will and Testament</color></i></b> to your hand.</ev>",
+    "flavourText": "I may be a doctor, but even I cannot restore the dead to life. I can, however, treat their resentment. That is why I lend an ear to their voices—so that this world may be freed from regret. Now come, death. Speak, and I shall listen.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90051130,
+      90051110,
+      11052310,
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5211f3fb3e454501b8f3d27432e11d4f.png",
+    "imageHash": "5211f3fb3e454501b8f3d27432e11d4f",
+    "bannerImageHash": "673308e190cb4904ab6abc778d751480",
+    "evolved": {
+      "text": "Fanfare: Summon a Ghost and give it Bane.\n\nDuring your turn, whenever an allied card is banished from the field, summon a Skeleton and give it +2/+4 and Ward.\n\nEvolve: Add a Last Will and Testament to your hand.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Ghost</color></i></b> and give it <b><color=Keyword>Bane</color></b>.\n<hr>During your turn, whenever an allied card is banished from the field, summon a <b><i><color=Keyword>Skeleton</color></i></b> and give it +2/+4 and <b><color=Keyword>Ward</color></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Add a <b><i><color=Keyword>Last Will and Testament</color></i></b> to your hand.</ev>",
+      "flavourText": "It was his dying wish that I save others. But who was he? I can't remember his voice. Until it is clear to me, I'll continue to shine a light upon the boundary of life and death, even if I must cooperate with evil. Now, it is time I treat this mystery. The one behind Nacreheim's deicide is...",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/538a62f478524ccc9860f76183c42afa.png",
+      "imageHash": "538a62f478524ccc9860f76183c42afa",
+      "bannerImageHash": "19ae090c9edc4e18a6e034f21192466c"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "If I play a Divine Evidence when I have Nocturne, Postmortem Detective and another Divine Evidence on the field, will Nocturne's \"whenever an allied card is banished from the field\" ability activate?",
+        "answer": "Yes, it will."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10154120,
     "baseCardId": 10154120,
     "name": "Medusa, Venomfang Royalty",
@@ -4004,7 +4337,7 @@
     "text": "Fanfare: Necromancy (6) - Reanimate (2), Reanimate (1), and evolve them.\n\nAt the end of your turn, give all enemy followers on the field -2/-2.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Necromancy</color> (6)</b> - <b><color=Keyword>Reanimate</color> (2)</b>, <b><color=Keyword>Reanimate</color> (1)</b>, and evolve them.\n<hr>At the end of your turn, give all enemy followers on the field -2/-2.",
     "flavourText": "I am the darkness that casts a shadow over all things in the world. The master of death, demise, despair, and all else under darkness's domain—Fediel the Black of the Six Dragons!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4033,7 +4366,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10454120,
@@ -4056,7 +4389,7 @@
     "text": "Fanfare: Deal 10 damage to all other followers. Super Skybound Art - Gain Crest: Belial, Archangel of Cunning.\n\nSuper-Evolve: Advance the count of your Crest: Belial, Archangel of Cunning by 1.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 10 damage to all other followers. <b><color=Keyword>Super Skybound Art</color></b> - Gain <b><i>Crest: Belial, Archangel of Cunning</i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Advance the count of your <b><i>Crest: Belial, Archangel of Cunning</i></b> by 1.</sev>",
     "flavourText": "It could end the world! Doesn't that make you want to sink to your knees and pay your respects? Plus the avenging angel look is really fetching on you. Shall we go at it? I think you'll train up nicely.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4085,7 +4418,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10554110,
@@ -4256,6 +4589,91 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11052120,
+    "baseCardId": 11052120,
+    "name": "Restive Centaur",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 7,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Necromancy",
+      "Rush",
+      "Strike"
+    ],
+    "text": "Rush\nStrike: Necromancy (4) - Deal 4 damage to all enemy followers.",
+    "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Strike</color></b>: <b><color=Keyword>Necromancy</color> (4)</b> - Deal 4 damage to all enemy followers.",
+    "flavourText": "She was a horse-like demon of unknown origin, galloping amok across blood-drenched battlefields. Spurred only by her unbridled instincts, none could tame her, and she made sure she always came out ahead.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9a0dd65f739e4bda8f8ae3857f3e0519.png",
+    "imageHash": "9a0dd65f739e4bda8f8ae3857f3e0519",
+    "bannerImageHash": "ce0e7253063c4744a1ac7c165178b272",
+    "evolved": {
+      "text": "Rush\nStrike: Necromancy (4) - Deal 4 damage to all enemy followers.",
+      "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Strike</color></b>: <b><color=Keyword>Necromancy</color> (4)</b> - Deal 4 damage to all enemy followers.",
+      "flavourText": "Nobody tells me what to do. I only listen to the instincts that all humans and horses share—the ones that tell you to survive at all costs. So see ya, morons! The winner's the one who runs to fight another day!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/49179454451c48c78cefddb0e196dd78.png",
+      "imageHash": "49179454451c48c78cefddb0e196dd78",
+      "bannerImageHash": "7220e6a48ec346bb9049360a591b0d7f"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11053110,
+    "baseCardId": 11053110,
+    "name": "Attending Amanuensis",
+    "class": "Abysscraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 7,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Fanfare",
+      "Ghost",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Summon a Ghost and give it Bane.\n\nDuring your turn, whenever an allied card is banished from the field, restore 2 defense to your leader.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Ghost</color></i></b> and give it <b><color=Keyword>Bane</color></b>.\n<hr>During your turn, whenever an allied card is banished from the field, restore 2 defense to your leader.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+    "flavourText": "The only souls he could hear were those with powerful regrets. Resentment echoed in his ears against his will. Silence greeted him when he sought his friend's voice. And the miracle too great for a mortal man began to gnaw at his heart.\n—The Nocturne Dossier, file 4",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90051130
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/34098d4bbe9c47d2939f544d6d0ec804.png",
+    "imageHash": "34098d4bbe9c47d2939f544d6d0ec804",
+    "bannerImageHash": "30041c3dcefb436f97c3c124a3bcda81",
+    "evolved": {
+      "text": "Fanfare: Summon a Ghost and give it Bane.\n\nDuring your turn, whenever an allied card is banished from the field, restore 2 defense to your leader.\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Ghost</color></i></b> and give it <b><color=Keyword>Bane</color></b>.\n<hr>During your turn, whenever an allied card is banished from the field, restore 2 defense to your leader.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+      "flavourText": "\"Doctor, it's an emergency!\" <i>I don't need your forgiveness. \"It hurts, it hurts!\"</i>\n\"Another case came in.\" <i>It doesn't matter if you hate me. \"Hate. Hate!\"</i> \nAll I want is to hear your voice, one more time. To hear you...\n\"You... Who were 'you,' again?\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5d4582f4fef241cbb7b97fad07d6bf74.png",
+      "imageHash": "5d4582f4fef241cbb7b97fad07d6bf74",
+      "bannerImageHash": "f63ca6a1f7fe4574bdd2aa638123e84e"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

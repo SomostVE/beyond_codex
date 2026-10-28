@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T10:13:37.739Z",
+  "generatedAt": "2026-10-28T10:15:33.417Z",
   "source": "https://shadowverse-wb.com/web/CardList/cardList",
   "imageBase": "https://shadowverse-wb.com/uploads/card_image/eng/card/",
-  "count": 904,
-  "sourceCount": 904,
-  "deckSelectableCount": 811,
+  "count": 982,
+  "sourceCount": 982,
+  "deckSelectableCount": 887,
   "classes": [
     "Neutral",
     "Forestcraft",
@@ -26,7 +26,8 @@
     "10006": "Apocalypse Pact",
     "10007": "Anathema's Gambit",
     "10008": "Chronicle of Destiny",
-    "10009": "Revenants of Azvaldt"
+    "10009": "Revenants of Azvaldt",
+    "10010": "Deicide in Nacreheim"
   },
   "traits": {
     "0": "-",
@@ -44,7 +45,8 @@
     "17": "Marine",
     "18": "Loot",
     "19": "Encroacher",
-    "20": "Anathema"
+    "20": "Anathema",
+    "21": "Clue"
   },
   "keywords": {
     "0": "",
@@ -84,14 +86,15 @@
     "39": "Faith",
     "40": "Mjerrabaine Deck",
     "41": "Skybound Art",
-    "42": "Super Skybound Art"
+    "42": "Super Skybound Art",
+    "44": "Clue"
   },
   "skillReplaceTextNames": {
     "12": "Spellboost"
   },
   "update": {
-    "added": 0,
-    "modified": 0,
+    "added": 78,
+    "modified": 79,
     "removed": 0,
     "retainedMissingFromSource": 0
   }

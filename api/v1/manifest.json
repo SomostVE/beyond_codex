@@ -1,14 +1,14 @@
 {
   "project": "Beyond Codex",
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T10:13:37.739Z",
+  "generatedAt": "2026-10-28T10:15:33.417Z",
   "source": "https://shadowverse-wb.com/web/CardList/cardList",
   "counts": {
-    "cards": 904,
-    "sourceCards": 904,
+    "cards": 982,
+    "sourceCards": 982,
     "retainedMissingFromSource": 0,
-    "deckSelectable": 811,
-    "tokensOrGenerated": 93
+    "deckSelectable": 887,
+    "tokensOrGenerated": 95
   },
   "endpoints": {
     "cards": "cards.json",

@@ -259,6 +259,89 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11003210,
+    "baseCardId": 11003210,
+    "name": "Nacreheim, Utopian World",
+    "class": "Neutral",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Amulet",
+    "rarity": "Gold",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [
+      "Clue"
+    ],
+    "keywords": [
+      "Clue",
+      "Engage"
+    ],
+    "text": "Clue\nWhen this card is banished from the field, restore 2 defense to your leader.\n\nEngage (1): Draw a card. Consume a clue.",
+    "rawSkillText": "<b><color=Keyword>Clue</color></b>\nWhen this card is banished from the field, restore 2 defense to your leader.\n<hr><b><color=Keyword>Engage</color> (1)</b>: Draw a card. Consume a clue.",
+    "flavourText": "An impossible tragedy has befallen this idyllic world—a deicide, allegedly committed by one of three angels in order to succeed the goddess. In hopes of solving this mystery, three miraculous detectives have joined unwilling hands with three irredeemable criminals, but the truth that awaits them will shatter the foundations of their so-called utopia.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4925ace73b51480cbbb181ce1d9248bb.png",
+    "imageHash": "4925ace73b51480cbbb181ce1d9248bb",
+    "bannerImageHash": "4a647142567f474dbf7b2a8a58906f93",
+    "evolved": null,
+    "styles": [],
+    "questions": [
+      {
+        "question": "If I have Nacreheim, Utopian World on the field when I play a Divine Evidence, will its \"When this card is banished from the field\" ability activate?",
+        "answer": "Yes, it will."
+      },
+      {
+        "question": "If I engage Nacreheim, Utopian World when it has 1 clue, will its \"When this card is banished from the field\" ability activate?",
+        "answer": "No. When it drops to 0 clues, it will be destroyed, not banished."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 90001210,
+    "baseCardId": 90001210,
+    "name": "Divine Evidence",
+    "class": "Neutral",
+    "setId": 90000,
+    "set": "90000",
+    "type": "Amulet",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [
+      "Clue"
+    ],
+    "keywords": [
+      "Clue",
+      "Engage"
+    ],
+    "text": "Clue\n\nEngage (1): Draw a card. Consume a clue.",
+    "rawSkillText": "<b><color=Keyword>Clue</color></b>\n<hr><b><color=Keyword>Engage</color> (1)</b>: Draw a card. Consume a clue.",
+    "flavourText": "It is generally thought a god's flesh disappears when their soul perishes. However, it appears that tissue removed from the body—such as blood or the heart—can remain as evidence.\n—No Life's case report, appendix",
+    "rotation": false,
+    "token": true,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ecfb64ddf27a4fafb0075fc35bab6a6b.png",
+    "imageHash": "ecfb64ddf27a4fafb0075fc35bab6a6b",
+    "bannerImageHash": "fe933a5634dd45d3a55a3fbdb01f0888",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10001110,
     "baseCardId": 10001110,
     "name": "Indomitable Fighter",
@@ -585,7 +668,7 @@
     "text": "Fanfare: If you've unlocked super-evolution, evolve this follower.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you've unlocked super-evolution, evolve this follower.",
     "flavourText": "The name's Vyrn! I'm a skyfarer out there in the big blue yonder! If you ever need help, I'll come flyin', but you'd better have an apple ready for me afterwards!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -603,7 +686,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10403120,
@@ -625,7 +708,7 @@
     "text": "Enhance (8): Draw a follower that costs 7 or more. Recover 7 play points.\n\nBarrier",
     "rawSkillText": "<b><color=Keyword>Enhance</color> (8)</b>: Draw a follower that costs 7 or more. Recover 7 play points.\n<hr><b><color=Keyword>Barrier</color></b>",
     "flavourText": "My world started out pitch-black. It was through meeting so many people on our adventures that it's completely brightened up. And you were always there at the center of it!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -649,7 +732,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10601110,
@@ -806,6 +889,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11001110,
+    "baseCardId": 11001110,
+    "name": "Exias, Angel of Love",
+    "class": "Neutral",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fanfare",
+      "Rush"
+    ],
+    "text": "Fanfare: Add a Divine Evidence to your hand.\n\nRush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "Yes. I killed the goddess. She gave her very own heart to me, and thus I am her successor. And as Nacreheim's next deity, I will create a true utopia where evil can never ever hold good in contempt again.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/bb847ee28726427db46ae3361387b65a.png",
+    "imageHash": "bb847ee28726427db46ae3361387b65a",
+    "bannerImageHash": "25dca53af89f4445a024a3537c678b7d",
+    "evolved": {
+      "text": "Fanfare: Add a Divine Evidence to your hand.\n\nRush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "As proof, Exias presented the detectives with the goddess's heart. They accepted it as evidence, and noted her down as the first suspect.\n—The Nacreheim case files",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f76a0fe28f55492180bc18854e90d473.png",
+      "imageHash": "f76a0fe28f55492180bc18854e90d473",
+      "bannerImageHash": "665c85109d644cb59cfb909e2e4a1f13"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1221,7 +1347,7 @@
     "text": "Aura\nAt the end of your turn, restore 1 defense to all allies.",
     "rawSkillText": "<b><color=Keyword>Aura</color></b>\nAt the end of your turn, restore 1 defense to all allies.",
     "flavourText": "Arbitration is the act of standing between, in the recesses. I mediate the stars and the sky, the realm and its people. That is what you asked of me, Cosmos. And yet, if you no longer wish for it to be so...",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1239,7 +1365,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10702110,
@@ -1319,7 +1445,7 @@
     "evolved": {
       "text": "Fanfare: Select a card in your hand and discard it. Deal 2 damage to all enemy followers.",
       "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a card in your hand and discard it. Deal 2 damage to all enemy followers.",
-      "flavourText": "Nectar... Nectar. Nectar. Nectar! Nectar! NectarNectarnectarnectarNectarNectarNectar! Nectar! Nectar. Nectar...\n―<i>Historia Illamrita</i>, Degradation Day broadcast",
+      "flavourText": "Amrita... Amrita. Amrita. Amrita! Amrita! AmritaAmritamritamritaamritaAmritaAmrita! Amrita! Amrita. Amrita... Illamrita...\n―<i>Historia Illamrita</i>, Degradation Day broadcast",
       "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6f85aed4cec540269cd10f7d8eb391f1.png",
       "imageHash": "6f85aed4cec540269cd10f7d8eb391f1",
       "bannerImageHash": "88eee069992646cb9b0839e678fd13fa"
@@ -1327,7 +1453,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10704120,
@@ -1366,6 +1492,49 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11002110,
+    "baseCardId": 11002110,
+    "name": "Dynames, Angel of Piety",
+    "class": "Neutral",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and deal it 2 damage. Add a Divine Evidence to your hand.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 2 damage. Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+    "flavourText": "Yes. I killed the goddess. I mixed this fast-acting poison into her wine, and thus I am her successor. As Nacreheim's next god, I shall create a true utopia, where at last those who abuse their power over others shall receive no mercy.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/8edb6d1230e04eacbdaa334018bb0e75.png",
+    "imageHash": "8edb6d1230e04eacbdaa334018bb0e75",
+    "bannerImageHash": "c3e82310ddbc4ec9932043c30dc26fc0",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and deal it 2 damage. Add a Divine Evidence to your hand.\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 2 damage. Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+      "flavourText": "As proof, Dynames presented the detectives with the poison the goddess drank. They accepted it as evidence, and noted him down as the second suspect.\n—The Nacreheim case files",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7350a6dd51754b10a828824fa164e1c9.png",
+      "imageHash": "7350a6dd51754b10a828824fa164e1c9",
+      "bannerImageHash": "996ff76f5e4c492f96d5419ab9ff9e47"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1679,7 +1848,7 @@
     "text": "Fanfare: Select a Mode to activate. Skybound Art - Evolve this follower.\n1. Deal 5 damage to a random enemy follower.\n2. Draw 2 followers.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate. <b><color=Keyword>Skybound Art</color></b> - Evolve this follower.\n<ridx=0>1. Deal 5 damage to a random enemy follower.</ridx>\n<ridx=1>2. Draw 2 followers.</ridx>",
     "flavourText": "These young skyfarers set out on a voyage of discovery to find their missing father. With wills of iron, they stand resolute in the face of danger, heeding their father's letter to seek Estalucia—their promised land.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1697,7 +1866,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10502120,
@@ -1927,7 +2096,7 @@
     "text": "Fanfare: Skybound Art - Deal 5 damage to 2 random enemy followers.\n\nWard\nCan't take more than 3 damage at a time.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Skybound Art</color></b> - Deal 5 damage to 2 random enemy followers.\n<hr><b><color=Keyword>Ward</color></b>\nCan't take more than 3 damage at a time.",
     "flavourText": "I promise on this blue blade, I'll protect everything dear to me—to the very end!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1945,7 +2114,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10502110,
@@ -2109,6 +2278,49 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11003110,
+    "baseCardId": 11003110,
+    "name": "Kyrios, Angel of Aspiration",
+    "class": "Neutral",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 5,
+    "attack": 2,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fanfare",
+      "Ward"
+    ],
+    "text": "Fanfare: Deal 2 damage to all enemy followers. Add 2 copies of Divine Evidence to your hand.\n\nWard",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 2 damage to all enemy followers. Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr><b><color=Keyword>Ward</color></b>",
+    "flavourText": "I confess. I killed the goddess. Here is her will as proof—she penned it after I commanded her to take her own life. As her successor, I shall serve Nacreheim dutifully. And I swear that I shall create a true utopia, one where lost lambs are all guided to their rightful place in heaven.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/85dcfbc2d2d049e2a48739e0b75ee2be.png",
+    "imageHash": "85dcfbc2d2d049e2a48739e0b75ee2be",
+    "bannerImageHash": "a78b9147e1b144748b9fc065dc9e45c8",
+    "evolved": {
+      "text": "Fanfare: Deal 2 damage to all enemy followers. Add 2 copies of Divine Evidence to your hand.\n\nWard",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal 2 damage to all enemy followers. Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr><b><color=Keyword>Ward</color></b>",
+      "flavourText": "As proof, Kyrios presented the detectives with a copy of the goddess's will. They accepted it as evidence, and noted her down as the third suspect.\n—The Nacreheim case files",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/91b45aedd6a9431388c0d0ce72ae04a7.png",
+      "imageHash": "91b45aedd6a9431388c0d0ce72ae04a7",
+      "bannerImageHash": "86f2e5fb1b4e47edb22a99d526c14b08"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90004130,
     "baseCardId": 90004130,
     "name": "Demon of Purgatory",
@@ -2269,7 +2481,7 @@
     "text": "Activates in deck. At the start of your turn, if allied followers have evolved at least 6 times this match, Invoke this card.\n\nWhen this card is Invoked, gain Crest: Sandalphon, Primarch Successor and return this card to hand.\nFanfare: Super Skybound Art - Do this 5 times: \"Deal 2 damage to a random enemy.\"",
     "rawSkillText": "Activates in deck. At the start of your turn, if allied followers have evolved at least 6 times this match, <b><color=Keyword>Invoke</color></b> this card.\n<hr>When this card is <b><color=Keyword>Invoke</color><color=Keyword>d</color></b>, gain <b><i>Crest: Sandalphon, Primarch Successor</i></b> and return this card to hand.\n<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Super Skybound Art</color></b> - Do this 5 times: \"Deal 2 damage to a random enemy.\"",
     "flavourText": "These pure white wings don't belong on my back. I promised Lucifer I would bury you and protect the skies. I'm only here to fulfill his last request. I swear by these six wings... This farce ends here.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2308,7 +2520,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10603110,
@@ -2487,6 +2699,41 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11002210,
+    "baseCardId": 11002210,
+    "name": "Scene of Deicide",
+    "class": "Neutral",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Amulet",
+    "rarity": "Silver",
+    "cost": 6,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Countdown",
+      "Divine Evidence"
+    ],
+    "text": "Countdown (3)\nAt the end of your turn, banish a random enemy follower from the field and summon an enemy Divine Evidence.",
+    "rawSkillText": "<b><color=Keyword>Countdown</color> (3)</b>\nAt the end of your turn, banish a random enemy follower from the field and summon an enemy <b><i><color=Keyword>Divine Evidence</color></i></b>.",
+    "flavourText": "The facts as known: The goddess was within her temple, performing the Ritual of Rebirth. The temple was sealed off, inaccessible to human and angel alike. The details of the ritual, as well as its purpose, are unclear. The only certainty was that during it, the goddess was murdered.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5c27573f8652412faf27cba80c2a452b.png",
+    "imageHash": "5c27573f8652412faf27cba80c2a452b",
+    "bannerImageHash": "819471c9f89b4fcf8f448a01be7b2700",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2958,6 +3205,51 @@
       }
     ],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11004110,
+    "baseCardId": 11004110,
+    "name": "Rezeal, Goddess of Nacreheim",
+    "class": "Neutral",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 9,
+    "defense": 9,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Select an enemy follower on the field and deal it 9 damage.\n\nSuper-Evolve: Gain Crest: Rezeal, Goddess of Nacreheim.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 9 damage.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Rezeal, Goddess of Nacreheim</i></b>.</sev>",
+    "flavourText": "Test not the works of this tale. Doubt not its miracle. Hide thy name within it, and immortal shall be thy soul—extinguishable solely by the Ritual of Rebirth. And thusly, we begin with a prayer.\n—Introduction to an ancient legend",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6703495ad67e4d9fbb5c3d184013ba34.png",
+    "imageHash": "6703495ad67e4d9fbb5c3d184013ba34",
+    "bannerImageHash": "5c3f38861a2f4014bdbd9d22231b20bc",
+    "evolved": {
+      "text": "Fanfare: Select an enemy follower on the field and deal it 9 damage.\n\nSuper-Evolve: Gain Crest: Rezeal, Goddess of Nacreheim.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 9 damage.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Rezeal, Goddess of Nacreheim</i></b>.</sev>",
+      "flavourText": "By one becoming two shalt thou achieve immortality. By death three times over shalt thou return to one. By procedure alone the Ritual of Rebirth cannot conclude. By returning to one through the course of it can thy soul reascend.\n—Introduction to an ancient legend",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/c45e866ae6ab4bf3acc5fdf25bce4100.png",
+      "imageHash": "c45e866ae6ab4bf3acc5fdf25bce4100",
+      "bannerImageHash": "76e7e7e6aefa4ac7bdb53e3fb2d50c93"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "",
+        "answer": ""
+      }
+    ],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

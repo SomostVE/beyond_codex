@@ -718,6 +718,82 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11071310,
+    "baseCardId": 11071310,
+    "name": "Incohesive Construction",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Bane",
+      "Enhanced Puppet",
+      "Ward"
+    ],
+    "text": "Add an Enhanced Puppet to your hand and give it Bane or Ward at random.",
+    "rawSkillText": "Add an <b><i><color=Keyword>Enhanced Puppet</color></i></b> to your hand and give it <b><color=Keyword>Bane</color></b> or <b><color=Keyword>Ward</color></b> at random.",
+    "flavourText": "It doesn't work? Well, good. If you got it to work while it looks like <i>that</i>, people would be too scared to use it!\n—A certain old lab director",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90071120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0824fdcfea92452c8a3b71fe175a2c27.png",
+    "imageHash": "0824fdcfea92452c8a3b71fe175a2c27",
+    "bannerImageHash": "fb1380399856458da4c71cfab8ed1819",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11073310,
+    "baseCardId": 11073310,
+    "name": "Calamity in Custody",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 1,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fuse"
+    ],
+    "text": "Fuse: Amulets\nWhenever you Fuse to this card, summon a Divine Evidence.\n\nRestore 2 defense to your leader. Consume 2 clues to destroy a random enemy follower with the highest attack.",
+    "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Amulets\nWhenever you <b><color=Keyword>Fuse</color></b> to this card, summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr>Restore 2 defense to your leader. Consume 2 clues to destroy a random enemy follower with the highest attack.",
+    "flavourText": "\"Spare a model prisoner a smoke, Detective?\"\n\"I'd have considered it, if it was your dying wish.\"\n\"Aw, you could've just said no. I'm to be incarcerated for eternity, aren't I?\"\n\"Yes. All the lives you've toyed with disqualifies you from the privilege of death.\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d322ccdb087f477f8aba5b79f433a55c.png",
+    "imageHash": "d322ccdb087f477f8aba5b79f433a55c",
+    "bannerImageHash": "d41d4386f5314feeac9442337c3acc8e",
+    "evolved": null,
+    "styles": [],
+    "questions": [
+      {
+        "question": "If I play Calamity in Custody when I have 1 clue, will its \"Consume 2 clues\" ability activate?",
+        "answer": "No. However, it will still restore 2 defense to your leader."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90074310,
     "baseCardId": 90074310,
     "name": "Melodious Monody",
@@ -1213,7 +1289,7 @@
     "text": "Fanfare: Increase the Skybound Art gauges of all cards in your hand by 1.\n\nRush",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Increase the Skybound Art gauges of all cards in your hand by 1.\n<hr><b><color=Keyword>Rush</color></b>",
     "flavourText": "Yo, I'm Tsubasa, leader of the Red Wings. I don't take orders from nobody, senior or not. I stick to my guns, 'cuz that's just the kinda life a baller like me lives.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1231,7 +1307,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10471130,
@@ -1253,7 +1329,7 @@
     "text": "Last Words: Add a Striker Artifact to your hand.",
     "rawSkillText": "<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Striker Artifact</color></i></b> to your hand.",
     "flavourText": "Okay, dire times call for a plea to the moon. I pray to the Almighty and the Benevolent—\nO divine moon, protect me from harm!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -1277,7 +1353,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10572120,
@@ -1558,6 +1634,49 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11071110,
+    "baseCardId": 11071110,
+    "name": "Extinctionist Majordomo",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Last Words",
+      "Ward"
+    ],
+    "text": "Ward\nLast Words: Add 2 copies of Divine Evidence to your hand.",
+    "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+    "flavourText": "Nocturne's first case was to catch a serial killer. <i>The</i> serial killer. A man named Lineage, who had carved a bloody trail through the world's population like never before seen.\n—Nocturne's case files, page 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/fef4c5680ba44445ba2c69dbe40f4fe3.png",
+    "imageHash": "fef4c5680ba44445ba2c69dbe40f4fe3",
+    "bannerImageHash": "b33af53f96a74da8ace7a1ea406b4dc2",
+    "evolved": {
+      "text": "Ward\nLast Words: Add 2 copies of Divine Evidence to your hand.",
+      "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Last Words</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+      "flavourText": "HAPPY FAMILY DIES MYSTERIOUSLY: INHERITANCE DISPUTE? SURVIVOR INTERVIEW\nSchool, work, home, and on the street. A father and his three children dead, all at once. The surviving wife appeared to be in a state of shock when we...\n—A Nacreheim tabloid",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/549ac73cb4e84115b1ee31e64fc07acf.png",
+      "imageHash": "549ac73cb4e84115b1ee31e64fc07acf",
+      "bannerImageHash": "2917afd4c57c46a884639754c626810e"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2070,7 +2189,7 @@
     "text": "Fanfare: If you've unlocked super-evolution, give this follower Barrier.\n\nStorm",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you've unlocked super-evolution, give this follower <b><color=Keyword>Barrier</color></b>.\n<hr><b><color=Keyword>Storm</color></b>",
     "flavourText": "I used to hurt everyone I met, kinda like a knife with no handle. Tsubasa and Teach finally smacked sense into me, but fate laughed and threw me into the supermax for a crime I didn't commit. How's that for heavy BS?",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2088,7 +2207,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10574110,
@@ -2215,6 +2334,101 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11072110,
+    "baseCardId": 11072110,
+    "name": "Extinctionist Socialite",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 1,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Evolve",
+      "Fanfare",
+      "Fuse"
+    ],
+    "text": "Fanfare: Add 2 copies of Divine Evidence to your hand.\n\nWhenever you Fuse an amulet, deal 1 damage to all enemy followers.\n\nEvolve: Draw a card with Fuse.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr>Whenever you <b><color=Keyword>Fuse</color></b> an amulet, deal 1 damage to all enemy followers.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Draw a card with <b><color=Keyword>Fuse</color></b>.</ev>",
+    "flavourText": "The deaths were inexplicable and seemingly random. The only connection was that the victims of each instance were related by blood. As they continued, many began to wonder if the goddess had finally abandoned humanity.\n—Nocturne's case files, page 2",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/2e5e9ed669ca41cb96ce4a09c457c06b.png",
+    "imageHash": "2e5e9ed669ca41cb96ce4a09c457c06b",
+    "bannerImageHash": "98b26f90b0ae4b58a2f3e0aeef6cc82f",
+    "evolved": {
+      "text": "Fanfare: Add 2 copies of Divine Evidence to your hand.\n\nWhenever you Fuse an amulet, deal 1 damage to all enemy followers.\n\nEvolve: Draw a card with Fuse.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr>Whenever you <b><color=Keyword>Fuse</color></b> an amulet, deal 1 damage to all enemy followers.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Draw a card with <b><color=Keyword>Fuse</color></b>.</ev>",
+      "flavourText": "WEDDING TRAGEDY AS MYSTERY DEATHS CONTINUE\nThe confirmed death toll has now surpassed a thousand after all members of a family suddenly passed away while attending a wedding ceremony. Reports indicate that relatives not in attendance have also...\n—<i>The Nacreheim Times</i>, page 3",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a7f9121f1c0343eb94bdc63853f830d5.png",
+      "imageHash": "a7f9121f1c0343eb94bdc63853f830d5",
+      "bannerImageHash": "2fea0eefc25d4c258b53d2be23b041be"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d49c0b4e8dfd4558a0bcea001a2cffc4.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/656fef4b39f74d04b4925ce8216e5be3.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11074120,
+    "baseCardId": 11074120,
+    "name": "Dimensional Wanderer",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 3,
+    "attack": 2,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Fuse",
+      "Last Words",
+      "Rush",
+      "Storm",
+      "Super-Evolve"
+    ],
+    "text": "Whenever you Fuse, give this follower Rush.\nLast Words: Gain Crest: Dimensional Wanderer.\n\nSuper-Evolve: Give this follower Storm.",
+    "rawSkillText": "Whenever you <b><color=Keyword>Fuse</color></b>, give this follower <b><color=Keyword>Rush</color></b>.\n<b><color=Keyword>Last Words</color></b>: Gain <b><i>Crest: Dimensional Wanderer</i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give this follower <b><color=Keyword>Storm</color></b>.</sev>",
+    "flavourText": "■〇▼×※. ⇔＼, ФψД〒, @@◆⌒★→←...\n...Hmm? Wait, you use human language here?! Yikes, close one! I almost drove you insane by accident! My bad! Sorry, I only dropped in here out of the dimensional abyss yesterday!",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      11074120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3998e0bc296e41a3bf3e9d243331b09b.png",
+    "imageHash": "3998e0bc296e41a3bf3e9d243331b09b",
+    "bannerImageHash": "9c0a57ee261b401faabc9305bbcc88fb",
+    "evolved": {
+      "text": "Whenever you Fuse, give this follower Rush.\nLast Words: Gain Crest: Dimensional Wanderer.\n\nSuper-Evolve: Give this follower Storm.",
+      "rawSkillText": "Whenever you <b><color=Keyword>Fuse</color></b>, give this follower <b><color=Keyword>Rush</color></b>.\n<b><color=Keyword>Last Words</color></b>: Gain <b><i>Crest: Dimensional Wanderer</i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give this follower <b><color=Keyword>Storm</color></b>.</sev>",
+      "flavourText": "I've got a set of rules I follow: no regrets, no turning back, and always keep on moving forward. It lands me in big trouble sometimes—terminus beast dens, mixed causality fields, logic cradles, that kind of thing. But as long as I've got my trusty blade and bike, it'll all work out in the end!",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/5964ac4f93b64d5aa56649c88d2f44a3.png",
+      "imageHash": "5964ac4f93b64d5aa56649c88d2f44a3",
+      "bannerImageHash": "b0b59ad8ac9a401286784f18242ad474"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2579,7 +2793,7 @@
     "text": "Do this 6 times: \"Deal 1 damage to a random enemy follower.\"",
     "rawSkillText": "Do this 6 times: \"Deal 1 damage to a random enemy follower.\"",
     "flavourText": "There's only one thing I know that's strong enough to crack open my head, and it's this spear right here!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2590,7 +2804,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10673310,
@@ -3719,7 +3933,7 @@
     "text": "Fanfare: Skybound Art - Select another unevolved allied follower on the field and evolve it and this follower.\n\nClash: Deal 3 damage to the opposing follower.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Skybound Art</color></b> - Select another unevolved allied follower on the field and evolve it and this follower.\n<hr><b><color=Keyword>Clash</color></b>: Deal 3 damage to the opposing follower.",
     "flavourText": "I'm going to make you talk. By brute force if need be. You'll be fine. I won't kill you until you tell me what I need to know. Until you fess up.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3737,7 +3951,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10473110,
@@ -3760,7 +3974,7 @@
     "text": "Fanfare: Select an Artifact follower in your hand and deal X damage to all enemy followers. X is the selected follower's attack.\n\nLast Words: Add a Fortifier Artifact to your hand.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an Artifact follower in your hand and deal X damage to all enemy followers. X is the selected follower's attack.\n<hr><b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Fortifier Artifact</color></i></b> to your hand.",
     "flavourText": "Central Axis only see zeroes and ones. But the power of skydwellers is in their ability to see the limitless possibilities in between. I strongly believe that is the key to victory.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -3789,7 +4003,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10474110,
@@ -3811,7 +4025,7 @@
     "text": "Fanfare: Do this 6 times: \"Deal 1 damage to a random enemy follower.\" Give all followers in your opponent's hand +1/+0. Skybound Art - Gain Crest: Lu Woh, Light Personified.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 6 times: \"Deal 1 damage to a random enemy follower.\" Give all followers in your opponent's hand +1/+0. <b><color=Keyword>Skybound Art</color></b> - Gain <b><i>Crest: Lu Woh, Light Personified</i></b>.",
     "flavourText": "The Omnipotent erred in the creation of the Sky Realm. I, Lu Woh the White of the Six Dragons, will mend the faults of this world and bring dawn's light to every corner. You may join my struggle if you wish, children of man.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3840,7 +4054,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10571120,
@@ -4227,6 +4441,41 @@
       }
     ],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11072310,
+    "baseCardId": 11072310,
+    "name": "Hand of Extinction",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 5,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fuse"
+    ],
+    "text": "Fuse: Amulets\nWhenever you Fuse to this card, summon a Divine Evidence.\n\nDeal 4 damage to all enemy followers. If you've Fused to this card, deal 8 damage instead.",
+    "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Amulets\nWhenever you <b><color=Keyword>Fuse</color></b> to this card, summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr>Deal 4 damage to all enemy followers. If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, deal 8 damage instead.",
+    "flavourText": "By modifying his own body, the criminal Lineage developed an abominable ability: sanguicide—the power to kill all those of a victim's bloodline through the use of cursed bacteria.\n—Nocturne's case files, page 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/17d1469c00174e77a4ba6bee5d463cb1.png",
+    "imageHash": "17d1469c00174e77a4ba6bee5d463cb1",
+    "bannerImageHash": "740f9be5fb4c4c19ac76029fbfa4de4c",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4659,6 +4908,95 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11071120,
+    "baseCardId": 11071120,
+    "name": "Otherworldly Intruder",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 6,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Aura",
+      "Storm"
+    ],
+    "text": "Storm\nAura",
+    "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<b><color=Keyword>Aura</color></b>",
+    "flavourText": "Whatever it was, it was creepy, and like no animal I'd ever seen before. I didn't want to get close—it was too scary. But then it came for me. I tried my best to get away. I really did.\n—Thoughts of a scared stray child",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1418f4fbe61e4970bad167ab1a55c7e8.png",
+    "imageHash": "1418f4fbe61e4970bad167ab1a55c7e8",
+    "bannerImageHash": "9c3849c27de74bc597ef055430be5a07",
+    "evolved": {
+      "text": "Storm\nAura",
+      "rawSkillText": "<b><color=Keyword>Storm</color></b>\n<b><color=Keyword>Aura</color></b>",
+      "flavourText": "<i>Squish. Squish. Squish. Squelch. Drip. Drip.</i>\nAll it took was a few gentle touches to crush it, which made me happy. How relieving. As it turned out, the creatures of this dimension were very soft.\n—Thoughts of a relieved \"stray child\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/27bf60ad37024ece801d1b8a3086226d.png",
+      "imageHash": "27bf60ad37024ece801d1b8a3086226d",
+      "bannerImageHash": "fad8aed04bcd4871a3dbe3448576815a"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11072120,
+    "baseCardId": 11072120,
+    "name": "Bestial Beamcannoneer",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 6,
+    "attack": 6,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Ancient Artifact",
+      "Fanfare",
+      "Rush",
+      "Striker Artifact"
+    ],
+    "text": "Fanfare: Summon a Striker Artifact and Ancient Artifact.\n\nRush",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Striker Artifact</color></i></b> and <b><i><color=Keyword>Ancient Artifact</color></i></b>.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "Like cats, weapons development advances through the ages at its own pace. From cannons to guns, each milestone marks new ground being broken.\n\"My pawprint beamcannon is the newest innovation in pawprint weaponry. It's gonna solve all your problems. Here, I'll give you a de-meow-nstration!\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90072110,
+      90071140,
+      90073110,
+      90073120,
+      90073130,
+      90074110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f3a58f47f1564df9a4d1878fb0b38912.png",
+    "imageHash": "f3a58f47f1564df9a4d1878fb0b38912",
+    "bannerImageHash": "b1aa2cc0ea6f4b4fa9d9d859c18ac569",
+    "evolved": {
+      "text": "Fanfare: Summon a Striker Artifact and Ancient Artifact.\n\nRush",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Striker Artifact</color></i></b> and <b><i><color=Keyword>Ancient Artifact</color></i></b>.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "\"You hear about the new invention? How are we supposed to compete with that?\"\n\"I did. The worst part is that I didn't think of it first! The way it explodes out the back when you fire it...\"\n\"...is so freakin' cool!\"\n—Chat between a beastfolk gunsmith and cannonsmith",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/43e03f1e44a747f7a3f7e5d4253a10af.png",
+      "imageHash": "43e03f1e44a747f7a3f7e5d4253a10af",
+      "bannerImageHash": "0e9bab6a2dec44ebb4f487f3d46f1d91"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10273310,
     "baseCardId": 10273310,
     "name": "Synchronous Hearts",
@@ -4713,7 +5051,7 @@
     "text": "Deal 3 damage to all enemies. Super Skybound Art - Deal 6 damage instead.",
     "rawSkillText": "Deal 3 damage to all enemies. <b><color=Keyword>Super Skybound Art</color></b> - Deal 6 damage instead.",
     "flavourText": "The planes of the living and the dead... Sky Realm, Astral Realm, and the Crimson Horizon... I don't care if it's pointless—I want to learn everything I can about this world.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4724,7 +5062,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10672310,
@@ -4862,7 +5200,7 @@
     "text": "Fanfare: Select a Mode to activate.\n1. Do this 3 times: \"Deal 4 damage to a random enemy follower.\"\n2. Deal 4 damage to the enemy leader.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select a <b><color=Keyword>Mode</color></b> to activate.\n<ridx=0>1. Do this 3 times: \"Deal 4 damage to a random enemy follower.\"</ridx>\n<ridx=1>2. Deal 4 damage to the enemy leader.</ridx>",
     "flavourText": "Finished crying? No one's going to die on my watch, you hear me? Welcome to boot camp hell!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4880,7 +5218,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10674110,
@@ -5300,6 +5638,50 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11073110,
+    "baseCardId": 11073110,
+    "name": "Extinctionist Dandy",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 8,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fanfare",
+      "Fuse",
+      "Ward"
+    ],
+    "text": "Fanfare: Add 2 copies of Divine Evidence to your hand.\n\nWhenever you Fuse an amulet, destroy a random enemy follower and restore 2 defense to your leader.\nWard",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr>Whenever you <b><color=Keyword>Fuse</color></b> an amulet, destroy a random enemy follower and restore 2 defense to your leader.\n<b><color=Keyword>Ward</color></b>",
+    "flavourText": "By questioning the departed souls of his victims, Nocturne was able to put a stop to Lineage's killings. Then, the detective asked the criminal to make use of his detestable knowledge for the sake of the truth.\n—Nocturne's case files, page 4",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ccded874192b49d3a6e0ebdef31b5fde.png",
+    "imageHash": "ccded874192b49d3a6e0ebdef31b5fde",
+    "bannerImageHash": "b87f52b42cb84747bd459ceaa94335ea",
+    "evolved": {
+      "text": "Fanfare: Add 2 copies of Divine Evidence to your hand.\n\nWhenever you Fuse an amulet, destroy a random enemy follower and restore 2 defense to your leader.\nWard",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.\n<hr>Whenever you <b><color=Keyword>Fuse</color></b> an amulet, destroy a random enemy follower and restore 2 defense to your leader.\n<b><color=Keyword>Ward</color></b>",
+      "flavourText": "DEATH TOLL HALTED, WIDESPREAD LOOTING & RIOTS\nGovernment authorities declared a moratorium on the death toll, citing public safety concerns. Readers, this is clearly a conspiracy. It's you and me next, dead before we can blink!\n—<i>The Nacreheim Times</i>, front page",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/1eff0d0e70bb4ab3a99f1e4639c1feca.png",
+      "imageHash": "1eff0d0e70bb4ab3a99f1e4639c1feca",
+      "bannerImageHash": "352261fac790403ba885e5ed6abd8c41"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10173130,
     "baseCardId": 10173130,
     "name": "Liam, Crazed Creator",
@@ -5363,7 +5745,7 @@
     "text": "Fanfare: Select 2 enemy followers on the field, remove all abilities from them, and deal them 9 damage. Give the enemy leader \"Takes 1 more damage.\"",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 enemy followers on the field, remove all abilities from them, and deal them 9 damage. Give the enemy leader \"Takes 1 more damage.\"",
     "flavourText": "I'll gladly use your idiotic plan, as it appears that destroying the so-called Omnipotent is really all you want. When it's done, I will reign supreme. All power will revert to me. All worlds will rest in the palm of my hand.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -5405,6 +5787,60 @@
       }
     ],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": true
+  },
+  {
+    "id": 11074110,
+    "baseCardId": 11074110,
+    "name": "Lineage, Calamity of Extinction",
+    "class": "Portalcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 9,
+    "attack": 7,
+    "defense": 7,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fanfare",
+      "Fuse"
+    ],
+    "text": "Fuse: Amulets\nWhenever you Fuse to this card, summon a Divine Evidence.\n\nFanfare: Select an enemy follower on the field and destroy all enemy copies of it. If you've Fused to this card, halve the enemy leader's max defense.",
+    "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Amulets\nWhenever you <b><color=Keyword>Fuse</color></b> to this card, summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy all enemy copies of it. If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, halve the enemy leader's max defense.",
+    "flavourText": "Name: Lineage\nCrime: Attempted extinction\nDamages: Mass murder at an unprecedented scale and speed, resulting in the deaths of a third of humanity\nSentence: Indefinite subspace confinement",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/884e03b0534c4117b01b778a0197fa58.png",
+    "imageHash": "884e03b0534c4117b01b778a0197fa58",
+    "bannerImageHash": "d38089e5bafc47ccac706f60e014119e",
+    "evolved": {
+      "text": "Fuse: Amulets\nWhenever you Fuse to this card, summon a Divine Evidence.\n\nFanfare: Select an enemy follower on the field and destroy all enemy copies of it. If you've Fused to this card, halve the enemy leader's max defense.",
+      "rawSkillText": "<b><color=Keyword>Fuse</color></b>: Amulets\nWhenever you <b><color=Keyword>Fuse</color></b> to this card, summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and destroy all enemy copies of it. If you've <b><color=Keyword>Fuse</color><color=Keyword>d</color></b> to this card, halve the enemy leader's max defense.",
+      "flavourText": "Well, I'll be. How very sly of you, to keep something as exciting as a mysterious deicide all to yourself. If I promise not to get in the way, you'll let me investigate with you, won't you? After all, my good doctor, we share the same illness. We're both fascinated with people.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/9055b41a818b45cc9df864a278923017.png",
+      "imageHash": "9055b41a818b45cc9df864a278923017",
+      "bannerImageHash": "b474b25986264ea18f057bfd4845c971"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/767466cdc1c04cfb8a9d8b0d33d93718.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/c403ebffb1544f9d91fc75324be9bda0.png"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Does Lineage, Calamity of Extinction's Fanfare ability destroy the selected follower as well?",
+        "answer": "Yes, it does."
+      }
+    ],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

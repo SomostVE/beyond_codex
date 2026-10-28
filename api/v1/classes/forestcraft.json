@@ -291,6 +291,45 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11012110,
+    "baseCardId": 11012110,
+    "name": "Inquiring Mischief",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Rush"
+    ],
+    "text": "When this follower enters the field, if there are at least 2 other 1-base-cost allied cards on the field, give it +2/+1.\n\nRush",
+    "rawSkillText": "When this follower enters the field, if there are at least 2 other 1-base-cost allied cards on the field, give it +2/+1.\n<hr><b><color=Keyword>Rush</color></b>",
+    "flavourText": "Long ago, night was stolen from the sky itself. Plants withered and animals starved. Unable to bear such a tragic sight, the goddess bestowed a miracle upon a girl who lived deep in the forest. Thus, Nosche became the second detective.\n—The Nosche Dossier, file 2",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/73462350790f4cefa0be6398adaa4c5d.png",
+    "imageHash": "73462350790f4cefa0be6398adaa4c5d",
+    "bannerImageHash": "3d280488897746799c482fcdf404298f",
+    "evolved": {
+      "text": "When this follower enters the field, if there are at least 2 other 1-base-cost allied cards on the field, give it +2/+1.\n\nRush",
+      "rawSkillText": "When this follower enters the field, if there are at least 2 other 1-base-cost allied cards on the field, give it +2/+1.\n<hr><b><color=Keyword>Rush</color></b>",
+      "flavourText": "A mischief of mice siblings. The smallest yet cleverest operatives at the agency. Constantly discussing, sometimes bickering, they're adept at making shrewd decisions and finding the optimal solution.\n—Forestkind Detective Agency personnel list, notes on operatives 2–4",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ba1fed2d1edc47458a5d0d795f6ef38a.png",
+      "imageHash": "ba1fed2d1edc47458a5d0d795f6ef38a",
+      "bannerImageHash": "e8ae9c3f0341424ba3dcd61d62a402f6"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90011110,
     "baseCardId": 90011110,
     "name": "Fairy",
@@ -496,7 +535,7 @@
     "text": "Deal 2 damage to a random enemy follower. Combo (5) - Gain Crest: Starry Sky.",
     "rawSkillText": "Deal 2 damage to a random enemy follower. <b><color=Keyword>Combo</color> (5)</b> - Gain <b><i>Crest: Starry Sky</i></b>.",
     "flavourText": "Mm, this new outfit is just gorgeous! Nothing like a fab makeover to rekindle my smoldering passion. Now that I'm in the mood to play, hun, why don't you just come. Over. Here.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [
@@ -509,7 +548,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10711310,
@@ -1030,7 +1069,7 @@
     "text": "Enhance (8): Select a follower in your hand and summon it. Return this card to hand.",
     "rawSkillText": "<b><color=Keyword>Enhance</color> (8)</b>: Select a follower in your hand and summon it. Return this card to hand.",
     "flavourText": "OMG, let's freakin' go! You totally steamrolled those monsters, frfr! Absolute GOAT behavior imo!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1053,7 +1092,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10414110,
@@ -1076,7 +1115,7 @@
     "text": "Fanfare: Skybound Art - Recover 1 evolution point.\n\nRush",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Skybound Art</color></b> - Recover 1 evolution point.\n<hr><b><color=Keyword>Rush</color></b>",
     "flavourText": "Oho, perhaps you thought I was some mere airship cat? How foolish, for I am Ewiyar, wind personified and the Emerald of the Six Dragons! Now, I shall have you pamper me twice as much as you would have before!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1105,7 +1144,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10511110,
@@ -1486,6 +1525,49 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11011110,
+    "baseCardId": 11011110,
+    "name": "Debonair Dogsitter",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 2,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Summon a Divine Evidence.\n\nEvolve: If there are at least two 1-base-cost allied cards on the field, restore 2 defense to your leader.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: If there are at least two 1-base-cost allied cards on the field, restore 2 defense to your leader.</ev>",
+    "flavourText": "In her elven forest, Nosche was taught to coexist with the earth, to treat animals and nature like family. If she supported and loved them, they'd do the same in turn. Even as a young girl, Nosche never doubted this way of life.\n—The Nosche Dossier, file 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/7cbc3a91e7b741b583bc78f90d2899fc.png",
+    "imageHash": "7cbc3a91e7b741b583bc78f90d2899fc",
+    "bannerImageHash": "724e350565c245348b915d0fc77f6f97",
+    "evolved": {
+      "text": "Fanfare: Summon a Divine Evidence.\n\nEvolve: If there are at least two 1-base-cost allied cards on the field, restore 2 defense to your leader.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><ev><b><color=Keyword>Evolve</color></b>: If there are at least two 1-base-cost allied cards on the field, restore 2 defense to your leader.</ev>",
+      "flavourText": "The only other elf at the agency. Though some would say he should view plants and animals as lesser than himself, he does not. He respectfully works alongside them. If only all humans and elves had hearts like his.\n—Forestkind Detective Agency personnel list, notes on operative 0",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a2f0b72da6a84216846ee1697aca197c.png",
+      "imageHash": "a2f0b72da6a84216846ee1697aca197c",
+      "bannerImageHash": "b7667a332f6946db821ecce9a9011417"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90011120,
     "baseCardId": 90011120,
     "name": "Springbloom Fairy",
@@ -1607,7 +1689,7 @@
     "text": "Select an enemy follower on the field and deal it 4 damage. If there's an evolved allied follower on the field, draw a card.",
     "rawSkillText": "Select an enemy follower on the field and deal it 4 damage. If there's an evolved allied follower on the field, draw a card.",
     "flavourText": "Though I am able to wield this arcane bow much more skillfully than before, I still consider myself a novice. Now that the people of Cizierma have taken a new step forward, I too must grow as a guardian!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1618,7 +1700,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10413310,
@@ -1642,7 +1724,7 @@
     "text": "Select a Mode to activate. Super Skybound Art - Activate all of them instead.\n1. Draw a card. Restore 1 defense to your leader.\n2. Give all allied followers on the field +1/+0 and Rush.\n3. Give all allied followers on the field +0/+1 and Ward.",
     "rawSkillText": "Select a <b><color=Keyword>Mode</color></b> to activate. <b><color=Keyword>Super Skybound Art</color></b> - Activate all of them instead.\n<ridx=0>1. Draw a card. Restore 1 defense to your leader.</ridx>\n<ridx=1>2. Give all allied followers on the field +1/+0 and <b><color=Keyword>Rush</color></b>.</ridx>\n<ridx=2>3. Give all allied followers on the field +0/+1 and <b><color=Keyword>Ward</color></b>.</ridx>",
     "flavourText": "Hark, the cry of the golden beast; behold the radiance of the sacred blade. May the winds of victory blow in my favor as I end this conflict. I will cut out the rot in this world, and let eternal peace blossom in its place!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1653,7 +1735,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10511310,
@@ -1725,6 +1807,41 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11012310,
+    "baseCardId": 11012310,
+    "name": "Untamed Testimony",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence"
+    ],
+    "text": "Summon a Divine Evidence. Gain Crest: Untamed Testimony.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>. Gain <b><i>Crest: Untamed Testimony</i></b>.",
+    "flavourText": "\"The plants told me what really happened.\"\nMiraculously granted the divine ability to commune with all flora and fauna, Nosche quickly earned herself a nickname: the Theriophone Detective. \n—The Nosche Dossier, file 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210,
+      11012110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b0bf0b4c1aab42d1a4c562d78dc358a6.png",
+    "imageHash": "b0bf0b4c1aab42d1a4c562d78dc358a6",
+    "bannerImageHash": "90697d634a9849bb9e9720f5b8f6eef8",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2289,6 +2406,49 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11012120,
+    "baseCardId": 11012120,
+    "name": "Garden Elf",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 0,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Deepwood Bounty",
+      "Fairy"
+    ],
+    "text": "At the end of your turn, add a Deepwood Bounty and Fairy to your hand.",
+    "rawSkillText": "At the end of your turn, add a <b><i><color=Keyword>Deepwood Bounty</color></i></b> and <b><i><color=Keyword>Fairy</color></i></b> to your hand.",
+    "flavourText": "Deep in the forest, there is a lone elf who is said to have been cultivating flowers for eternity. For whenever her delight fades to ennui, and she thinks she's seen all the flowers the world has to offer, she meets another which becomes her new favorite.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90011310,
+      90011110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/25e98cd3b01e4d74a607f76888275642.png",
+    "imageHash": "25e98cd3b01e4d74a607f76888275642",
+    "bannerImageHash": "adc8d9100aac4f31973eb2ba03b4d50d",
+    "evolved": {
+      "text": "At the end of your turn, add a Deepwood Bounty and Fairy to your hand.",
+      "rawSkillText": "At the end of your turn, add a <b><i><color=Keyword>Deepwood Bounty</color></i></b> and <b><i><color=Keyword>Fairy</color></i></b> to your hand.",
+      "flavourText": "It all started with a chance visitor to the elf's garden. The visitor was captivated by the myriad petals she had never seen before. After that, the elf expanded her garden and invited more guests.\n\"Even a single blossom lights up faces far and wide. Flowers truly are a joy.\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ef3da4c276d24fd58cbd05ca0bed29fa.png",
+      "imageHash": "ef3da4c276d24fd58cbd05ca0bed29fa",
+      "bannerImageHash": "bc00cf5063eb4290865b9586c0731e5f"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90014110,
     "baseCardId": 90014110,
     "name": "Eve, Blade of Crystalia",
@@ -2467,6 +2627,76 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11011310,
+    "baseCardId": 11011310,
+    "name": "Natural Reincarnation",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Fairy"
+    ],
+    "text": "Summon a Fairy and evolve it.\nEnhance (6): Summon 3 instead.",
+    "rawSkillText": "Summon a <b><i><color=Keyword>Fairy</color></i></b> and evolve it.\n<b><color=Keyword>Enhance</color> (6)</b>: Summon 3 instead.",
+    "flavourText": "To revivify nature, man must first till the land, plant trees, and coax the flora to life. But an elf can conjure swaths of flourishing green with every step they take.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90011110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/954f2c6990f7494bb5cf3277ae63dd71.png",
+    "imageHash": "954f2c6990f7494bb5cf3277ae63dd71",
+    "bannerImageHash": "c3060cbc732b4881a305484256167471",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11013310,
+    "baseCardId": 11013310,
+    "name": "Nosche's Interrogation",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Inquiring Mischief",
+      "Storm"
+    ],
+    "text": "Deal 5 damage to a random enemy follower. Add an Inquiring Mischief to your hand and, if there are at least two 1-base-cost allied cards on the field, give it Storm.",
+    "rawSkillText": "Deal 5 damage to a random enemy follower. Add an <b><i><color=Keyword>Inquiring Mischief</color></i></b> to your hand and, if there are at least two 1-base-cost allied cards on the field, give it <b><color=Keyword>Storm</color></b>.",
+    "flavourText": "During the ritual, the temple doors were locked shut. No one—person, angel, animal, or otherwise—would've been able to enter or exit at the time of the crime. Nosche had a locked-room mystery on her hands...\n—The Nosche Dossier, file 5",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      11012110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/768f5aca24aa499284d4f0e3420af92d.png",
+    "imageHash": "768f5aca24aa499284d4f0e3420af92d",
+    "bannerImageHash": "43b8e2bb9b504880ace1409d5119e2c3",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2855,7 +3085,7 @@
     "text": "At the end of your turn, evolve this follower.\n\nWhen this follower evolves, deal 1 damage to all enemy followers.",
     "rawSkillText": "At the end of your turn, evolve this follower.\n<hr><ev>When this follower evolves, deal 1 damage to all enemy followers.</ev>",
     "flavourText": "I'm made up of sugar and fruit and everything cute. If my sister-boo sees me when I'm not looking my super cutest, I just might cry!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2873,7 +3103,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10413110,
@@ -2896,7 +3126,7 @@
     "text": "Fanfare: Skybound Art - Evolve this follower. Super Skybound Art - Deal 3 damage to the enemy leader.\n\nWhen this follower evolves, do this 7 times: \"Deal 1 damage to a random enemy follower.\"",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Skybound Art</color></b> - Evolve this follower. <b><color=Keyword>Super Skybound Art</color></b> - Deal 3 damage to the enemy leader.\n<hr><ev>When this follower evolves, do this 7 times: \"Deal 1 damage to a random enemy follower.\"</ev>",
     "flavourText": "No one's gonna suffer alone on my watch! I'll help people with a smile and become their friend! But that last part never happens. Guess that's the price of being worshipped...",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2914,7 +3144,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10611110,
@@ -3047,6 +3277,58 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11013110,
+    "baseCardId": 11013110,
+    "name": "Sleuth's Best Friend",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 2,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Evolve",
+      "Fanfare",
+      "Inquiring Mischief",
+      "Storm"
+    ],
+    "text": "Fanfare: Summon a Divine Evidence.\n\nStorm\n\nEvolve: If there are at least two 1-base-cost allied cards on the field, summon an Inquiring Mischief.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><b><color=Keyword>Storm</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: If there are at least two 1-base-cost allied cards on the field, summon an <b><i><color=Keyword>Inquiring Mischief</color></i></b>.</ev>",
+    "flavourText": "Nosche's talks with them shattered her worldview. The \"family\" the elves spoke of? A convenient excuse. The \"love\" humans said they felt for their pets? Insulting. Nosche vowed that the flora and fauna would never be wronged again.\n—The Nosche Dossier, file 4",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210,
+      11012110
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/33a8162b8ac5401a838024f5e1d1c76c.png",
+    "imageHash": "33a8162b8ac5401a838024f5e1d1c76c",
+    "bannerImageHash": "e188c3bd49584e79986e6499f388c904",
+    "evolved": {
+      "text": "Fanfare: Summon a Divine Evidence.\n\nStorm\n\nEvolve: If there are at least two 1-base-cost allied cards on the field, summon an Inquiring Mischief.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Divine Evidence</color></i></b>.\n<hr><b><color=Keyword>Storm</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: If there are at least two 1-base-cost allied cards on the field, summon an <b><i><color=Keyword>Inquiring Mischief</color></i></b>.</ev>",
+      "flavourText": "The ace of the agency. Doggedly optimistic, he views even empty bowls as half full. Tends to dream out loud about tomorrow's lunch when we're working, but his words have kept me going countless times.\n—Forestkind Detective Agency personnel list, notes on operative 1",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/ad709c213c70461ea2ba828c3f8efd59.png",
+      "imageHash": "ad709c213c70461ea2ba828c3f8efd59",
+      "bannerImageHash": "d0649e9ea9684d20a7ed478befc2f0a7"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/41cd2ded59224fabb52aff8399d7fe22.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/765a5c19119e41d8b08902e0f48e8268.png"
+      }
+    ],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10812310,
     "baseCardId": 10812310,
     "name": "Peaceful Solitude",
@@ -3094,7 +3376,7 @@
     ],
     "text": "Activates in hand. At the end of your turn, Combo (3) - Reduce the cost of this card by 1.\n\nSelect an enemy follower on the field and destroy it. Draw a card.",
     "rawSkillText": "Activates in hand. At the end of your turn, <b><color=Keyword>Combo</color> (3)</b> - Reduce the cost of this card by 1.\n<hr>Select an enemy follower on the field and destroy it. Draw a card.",
-    "flavourText": "\"What a shot. You truly are your father's son. The Ring will be safe in your hands.\"\nOn our first assignment together, one of my wind arrows dispersed my mother's crimson incense. This misfire left her injured, but she laughed. I always thought she was just trying to make me feel better.",
+    "flavourText": "\"What a shot. You truly are your father's son. The Ring will be safe in your hands.\"\nOn our first assignment together, one of my wind arrows dispersed my mother's incense. This misfire left her injured, but she laughed. I always thought she was just trying to make me feel better.",
     "rotation": true,
     "token": false,
     "maxCopies": 3,
@@ -3213,7 +3495,7 @@
     "text": "Fanfare: Give all allied followers on the field Barrier.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Give all allied followers on the field <b><color=Keyword>Barrier</color></b>.",
     "flavourText": "May I have this dance, Captain? Here, take my hand. I'll lead, okay? O-oh, you don't have to squeeze my hand so tight... Ngh... Th-this is a little embarrassing...",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3231,7 +3513,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10414120,
@@ -3253,7 +3535,7 @@
     "text": "Fanfare: Do this 2 times: \"Deal 4 damage to a random enemy follower.\"\n\nSuper-Evolve: Gain Crest: Yuel & Societte, Dancing Duo.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 2 times: \"Deal 4 damage to a random enemy follower.\"\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Gain <b><i>Crest: Yuel & Societte, Dancing Duo</i></b>.</sev>",
     "flavourText": "The only thing on my mind is dancin' with ya, Societte! So let's whirl, twirl, and swirl!\n—Yuel",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3271,7 +3553,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10511120,
@@ -3810,6 +4092,52 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11014110,
+    "baseCardId": 11014110,
+    "name": "Nosche, Theriophone Detective",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 5,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Inquiring Mischief",
+      "Sleuth's Best Friend",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Summon a Sleuth's Best Friend and Inquiring Mischief.\n\nSuper-Evolve: Give all other allied followers on the field +2/+0.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Sleuth's Best Friend</color></i></b> and <b><i><color=Keyword>Inquiring Mischief</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give all other allied followers on the field +2/+0.</sev>",
+    "flavourText": "You talk of cherishing animals, of raising them. But that proves you think you're better than them. Can you really say you view them as equals or your responsibility when you won't even understand them? I thought not. Now, be quiet.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      11013110,
+      11012110,
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3e71e47db08e4e16ac7d9167bbb7fe06.png",
+    "imageHash": "3e71e47db08e4e16ac7d9167bbb7fe06",
+    "bannerImageHash": "9ef8ea5a846643a9a070037fbb0454a7",
+    "evolved": {
+      "text": "Fanfare: Summon a Sleuth's Best Friend and Inquiring Mischief.\n\nSuper-Evolve: Give all other allied followers on the field +2/+0.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon a <b><i><color=Keyword>Sleuth's Best Friend</color></i></b> and <b><i><color=Keyword>Inquiring Mischief</color></i></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give all other allied followers on the field +2/+0.</sev>",
+      "flavourText": "I don't care about saving the world. I'm just protecting the creatures at stake here. And they've already told me the truth. The culprit of the Deicide in Nacreheim case is... ",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/dcde998e1b234de893576cbe1cf3b2e9.png",
+      "imageHash": "dcde998e1b234de893576cbe1cf3b2e9",
+      "bannerImageHash": "6181dd8122694edcad0563690b93b5b4"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90014320,
     "baseCardId": 90014320,
     "name": "Annihilating Onslaught",
@@ -3987,7 +4315,7 @@
     "text": "Can attack 2 times per turn.\nStrike: Restore 3 defense to all allies.",
     "rawSkillText": "Can attack 2 times per turn.\n<b><color=Keyword>Strike</color></b>: Restore 3 defense to all allies.",
     "flavourText": "No one will forgive or love me? Then why should I live?\n—You",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4005,7 +4333,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10811110,
@@ -4135,6 +4463,50 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11011120,
+    "baseCardId": 11011120,
+    "name": "Wolf Pack Lackey",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 7,
+    "attack": 4,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare",
+      "Rush",
+      "Wolf Pack Lackey"
+    ],
+    "text": "Fanfare: Summon 2 copies of Wolf Pack Lackey.\n\nRush\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Wolf Pack Lackey</color></i></b>.\n<hr><b><color=Keyword>Rush</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+    "flavourText": "A lost traveler hears the rumble of countless paw pads against the forest floor, and a cold sweat runs down his face. He should've listened to the rumors. There really <i>is</i> a pack of ferocious wolves in the forest and now their ruthless tamer is gonna order them to—",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      11011120
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/90c34724838b42419b2b2c95756b5b98.png",
+    "imageHash": "90c34724838b42419b2b2c95756b5b98",
+    "bannerImageHash": "8aaec31ad6154d7e9977bde7ef5959dd",
+    "evolved": {
+      "text": "Fanfare: Summon 2 copies of Wolf Pack Lackey.\n\nRush\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Summon 2 copies of <b><i><color=Keyword>Wolf Pack Lackey</color></i></b>.\n<hr><b><color=Keyword>Rush</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
+      "flavourText": "Sorry, but my hands are tied. If I interrupt their playtime, they'll make me their chew toy. And I'd rather stick to my usual duties. Y'know, carrying stuff, lighting the way, finding food, acting as bait... Don't worry, I'll give you some salves for the bite marks once they're done.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/0144ccb6cfa24f368bf4158de30701e9.png",
+      "imageHash": "0144ccb6cfa24f368bf4158de30701e9",
+      "bannerImageHash": "ed975d1b47674ed3b87f22b528a1e295"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4421,6 +4793,61 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11014120,
+    "baseCardId": 11014120,
+    "name": "Heartening Hyphae",
+    "class": "Forestcraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 8,
+    "attack": 6,
+    "defense": 6,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Super-Evolve"
+    ],
+    "text": "Fanfare: Do this 2 times: \"Draw a card. Summon any Forestcraft followers drawn.\"\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 2 times: \"Draw a card. Summon any Forestcraft followers drawn.\"\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+    "flavourText": "I am the forest. Old and withered, I await death; instead, I am visited by a strange monster from down below. My branches and foliage quiver in fear as its claws wrap around a fallen leaf. But in an instant, new life surges through me like spring again. How exciting for <i>us!</i>",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/de4e9fc42e3c427c81cd9bcee4d30790.png",
+    "imageHash": "de4e9fc42e3c427c81cd9bcee4d30790",
+    "bannerImageHash": "f0be6e82547d465ab08d34fa29baa566",
+    "evolved": {
+      "text": "Fanfare: Do this 2 times: \"Draw a card. Summon any Forestcraft followers drawn.\"\n\nSuper-Evolve: Replicate the effects of this card's Fanfare ability.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 2 times: \"Draw a card. Summon any Forestcraft followers drawn.\"\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</sev>",
+      "flavourText": "We are the forest. Full of life once more, we sprawl out, attacking and transforming both self and nonself. Favor to fungi, we steal the forest's essence and seize control. Life goes on for us, but the forest dies. A calamity of erosion as the forest quietly offers itself up to us.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/56af7e3dad06404f9afc50f9bdddac01.png",
+      "imageHash": "56af7e3dad06404f9afc50f9bdddac01",
+      "bannerImageHash": "2a26a73347d44c2989853e14dfeae8e5"
+    },
+    "styles": [
+      {
+        "name": "",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/bb15b86071094bf6a350796051c7d11a.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/c330d508e35c4ce484f476fb273de7b8.png"
+      }
+    ],
+    "questions": [
+      {
+        "question": "I have 3 copies of Fairy on the field. If I play a Heartening Hyphae and draw 2 Forestcraft followers, will Heartening Hyphae summon both of them?",
+        "answer": "No. You will summon the first follower drawn, but the second will remain in your hand because your field will be full after summoning the first."
+      },
+      {
+        "question": "What happens if I super-evolve Heartening Hyphae when my hand is full?",
+        "answer": "The cards you draw will disappear, so you won't be able to summon any Forestcraft followers drawn."
+      }
+    ],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {

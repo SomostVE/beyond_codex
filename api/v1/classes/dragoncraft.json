@@ -115,6 +115,49 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11041110,
+    "baseCardId": 11041110,
+    "name": "Obliviationist Marauder",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 1,
+    "attack": 1,
+    "defense": 1,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Last Words",
+      "Rush"
+    ],
+    "text": "Rush\nLast Words: Add a Divine Evidence to your hand.",
+    "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+    "flavourText": "It was Nosche's first case as the Theriophone Detective. The culprit? The worst marauder in history and a supercriminal who once robbed the world of the night. Her name? Leizaut.\n—Nosche's case files, page 1",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/eda29d29025f4616bf26c9a028da6240.png",
+    "imageHash": "eda29d29025f4616bf26c9a028da6240",
+    "bannerImageHash": "d4c08570aeb749ec8c1ad6caba47d1fe",
+    "evolved": {
+      "text": "Rush\nLast Words: Add a Divine Evidence to your hand.",
+      "rawSkillText": "<b><color=Keyword>Rush</color></b>\n<b><color=Keyword>Last Words</color></b>: Add a <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+      "flavourText": "LIGHTNING GONE FOR GOOD, EXPERTS SAY\nWeather stations are reporting that lightning strikes haven't been observed for some time. With forest ecosystems already impacted, meteorologists warn that further...\n—A Nacreheim tabloid",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3465cac39dbe4aaaa86f87a3e7678fc6.png",
+      "imageHash": "3465cac39dbe4aaaa86f87a3e7678fc6",
+      "bannerImageHash": "f5b7820d875f435aa15985a38bfffcd7"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 90041110,
     "baseCardId": 90041110,
     "name": "Fire Drake Whelp",
@@ -638,7 +681,7 @@
     "text": "Activates in hand. Whenever a 3-base-cost allied follower super-evolves, set the cost of this card to 0 until the end of the turn.\n\nAt the end of your turn, give a random super-evolved allied follower on the field +1/+1.",
     "rawSkillText": "Activates in hand. Whenever a 3-base-cost allied follower super-evolves, set the cost of this card to 0 until the end of the turn.\n<hr>At the end of your turn, give a random super-evolved allied follower on the field +1/+1.",
     "flavourText": "Psh, you hitting on me? You men only want one thing, and it's disgusting. Shallow boys like you peace out when it counts, and I don't have time for—oh! There's Meg!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -656,7 +699,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10541110,
@@ -1145,7 +1188,7 @@
     "text": "Gain Crest: Crescent Tube Ride.",
     "rawSkillText": "Gain <b><i>Crest: Crescent Tube Ride</i></b>.",
     "flavourText": "Becomin' a pro surfer is, like, my one and only dream! But there's no way I'll go pro until I ride one of Leviathan's cascades without eating it!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1156,7 +1199,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10442310,
@@ -1175,7 +1218,7 @@
     "text": "Select an enemy follower on the field, deal it 3 damage, and give it \"Can't attack followers or leaders\" until the end of your opponent's turn.",
     "rawSkillText": "Select an enemy follower on the field, deal it 3 damage, and give it \"Can't attack followers or leaders\" until the end of your opponent's turn.",
     "flavourText": "It seems some poor souls have forgotten that love is what binds us all together. I'll remind you—with an reinvigorating kick of love to the face!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1186,7 +1229,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10543310,
@@ -1254,6 +1297,36 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11042310,
+    "baseCardId": 11042310,
+    "name": "Collection Manifest",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Silver",
+    "cost": 2,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [],
+    "text": "Deal 4 damage to a random enemy follower. If you have a Clue amulet in your hand, discard a random Clue amulet and draw a card with a base cost of 5 or more.",
+    "rawSkillText": "Deal 4 damage to a random enemy follower. If you have a Clue amulet in your hand, discard a random Clue amulet and draw a card with a base cost of 5 or more.",
+    "flavourText": "Once Leizaut had collected the very heavens, she became one with the sky. Nothing Nosche tried beneath it would escape Leizaut's gaze...\n—Nosche's case files, page 3",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3129108b760c48d8bff721119dad72dc.png",
+    "imageHash": "3129108b760c48d8bff721119dad72dc",
+    "bannerImageHash": "42d25571a0e3447cbe80feff2adc2e13",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1507,7 +1580,7 @@
     "text": "Ward\nAura",
     "rawSkillText": "<b><color=Keyword>Ward</color></b>\n<b><color=Keyword>Aura</color></b>",
     "flavourText": "Hey, ever hear of the legends about an endless ocean at the bottom of the sky? I'd give anything for a chance to swim in those waters.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1525,7 +1598,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10443110,
@@ -1548,7 +1621,7 @@
     "text": "Fanfare: Skybound Art - Super-evolve this follower.\n\nWhenever a 2-base-cost allied follower enters the field, give this follower Ward.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Skybound Art</color></b> - Super-evolve this follower.\n<hr>Whenever a 2-base-cost allied follower enters the field, give this follower <b><color=Keyword>Ward</color></b>.",
     "flavourText": "No, no, no! I'm gonna be late! Meg here! Just an ordinary girl you'll find anywhere! I'm heading to my dream vacation spot: the Auguste Isles! This is gonna be the best summer vacation ever! I'm gonna learn so much!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -1566,7 +1639,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10544120,
@@ -1649,6 +1722,86 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11041120,
+    "baseCardId": 11041120,
+    "name": "Freezing Icenewt",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Bronze",
+    "cost": 3,
+    "attack": 2,
+    "defense": 2,
+    "traits": [],
+    "keywords": [
+      "Enhance",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Do this 1 time: \"Deal 3 damage to a random enemy follower.\"\nEnhance (7): Do it 3 times instead. Give this follower +5/+5.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 1 time: \"Deal 3 damage to a random enemy follower.\"\n<b><color=Keyword>Enhance</color> (7)</b>: Do it 3 times instead. Give this follower +5/+5.",
+    "flavourText": "Undeterred by the firenewt's hostile stance, the subspecies maintains eye contact, smiles, and attempts to communicate with a cry. How gentlemanly and intelligent it is!\n—A novice biologist trembling with emotion",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/4c56f766130d41879ac4789673a5a709.png",
+    "imageHash": "4c56f766130d41879ac4789673a5a709",
+    "bannerImageHash": "1743917792314ccfb2a4ea4420b5e2c8",
+    "evolved": {
+      "text": "Fanfare: Do this 1 time: \"Deal 3 damage to a random enemy follower.\"\nEnhance (7): Do it 3 times instead. Give this follower +5/+5.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Do this 1 time: \"Deal 3 damage to a random enemy follower.\"\n<b><color=Keyword>Enhance</color> (7)</b>: Do it 3 times instead. Give this follower +5/+5.",
+      "flavourText": "Those condescending eyes. That cry dripping in arrogant surety. And above all, that cold, self-satisfied grin. It's no wonder the firenewt is furious.\n—A seasoned biologist with frostbite scars",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b58b01eb8ff3469b956a03baf02113f4.png",
+      "imageHash": "b58b01eb8ff3469b956a03baf02113f4",
+      "bannerImageHash": "8bc32ab12f374e208b4c6623f430cf38"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11042120,
+    "baseCardId": 11042120,
+    "name": "Dragonewt Scout",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 3,
+    "attack": 1,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Ambush",
+      "Strike"
+    ],
+    "text": "Ambush\nStrike: Evolve another random unevolved allied follower on the field.",
+    "rawSkillText": "<b><color=Keyword>Ambush</color></b>\n<b><color=Keyword>Strike</color></b>: Evolve another random unevolved allied follower on the field.",
+    "flavourText": "Humans take so much into account when scouting. But dragonewts only care about location. And even then, the kingdom's strategist noticed, they pay particular attention to terrain. Intrigued, he ordered his subordinates to discover the secret behind such an innovative scouting strategy.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/bb4ebd02c5ab4d96b9b22f9245e425bc.png",
+    "imageHash": "bb4ebd02c5ab4d96b9b22f9245e425bc",
+    "bannerImageHash": "ccac29f22e4444f5bac3c61d5d6ce89c",
+    "evolved": {
+      "text": "Ambush\nStrike: Evolve another random unevolved allied follower on the field.",
+      "rawSkillText": "<b><color=Keyword>Ambush</color></b>\n<b><color=Keyword>Strike</color></b>: Evolve another random unevolved allied follower on the field.",
+      "flavourText": "Now <i>this</i> is a property fit for a discerning dragon! The rocks here are firm yet gentle on the scales. You'll never sleep better! Plus, no prying eyes for miles and tons of storage for even the biggest hoard. An absolute five-star lair, if I say so myself!\n—A dragonewt \"scout\"",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/664478ec9ec54d5ea2054c13fca996fd.png",
+      "imageHash": "664478ec9ec54d5ea2054c13fca996fd",
+      "bannerImageHash": "572940002991421f96ace8cf4dd464ef"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -1890,6 +2043,75 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11041310,
+    "baseCardId": 11041310,
+    "name": "Dance of the Waterwyrm",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Bronze",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Overflow"
+    ],
+    "text": "Draw a card. Restore 1 defense to your leader. If you're in Overflow, gain 1 max play point.",
+    "rawSkillText": "Draw a card. Restore 1 defense to your leader. If you're in <b><color=Keyword>Overflow</color></b>, gain 1 max play point.",
+    "flavourText": "What is the rain if not a roaring applause from the dragons to mankind?",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/331b7d3179144f7e9aabc030a6b9da4c.png",
+    "imageHash": "331b7d3179144f7e9aabc030a6b9da4c",
+    "bannerImageHash": "5df7e1d26d2a4bbbbb3fa6d293684cb2",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11043310,
+    "baseCardId": 11043310,
+    "name": "Bird's-Eye View",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Spell",
+    "rarity": "Gold",
+    "cost": 3,
+    "attack": 0,
+    "defense": 0,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Inquiring Mischief",
+      "Mode"
+    ],
+    "text": "Select 2 Modes to activate.\n1. Summon an Inquiring Mischief.\n2. Give the 2 leftmost allied followers on the field +1/+0.\n3. Add 3 copies of Divine Evidence to your hand.\n4. Deal 4 damage to a random enemy follower.",
+    "rawSkillText": "Select 2 <b><color=Keyword>Mode</color><color=Keyword>s</color></b> to activate.\n<ridx=0>1. Summon an <b><i><color=Keyword>Inquiring Mischief</color></i></b>.</ridx>\n<ridx=1>2. Give the 2 leftmost allied followers on the field +1/+0.</ridx>\n<ridx=2>3. Add 3 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.</ridx>\n<ridx=3>4. Deal 4 damage to a random enemy follower.</ridx>",
+    "flavourText": "\"You can speak with plants and animals, right? That's, like, super-duper rare. You're totes going in my collection.\"\n\"Your voice is setting my teeth on edge. So just answer the question. How many helpless creatures' lives have you taken with your selfish collection?\"",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      11012110,
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/b2005ddbeef04b9a8b8b2c63aaa8d6a1.png",
+    "imageHash": "b2005ddbeef04b9a8b8b2c63aaa8d6a1",
+    "bannerImageHash": "a6d50257d13845b9990c34cec666130d",
+    "evolved": null,
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2262,6 +2484,46 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11043110,
+    "baseCardId": 11043110,
+    "name": "Obliviationist Mugger",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Gold",
+    "cost": 4,
+    "attack": 3,
+    "defense": 3,
+    "traits": [],
+    "keywords": [
+      "Evolve",
+      "Fanfare"
+    ],
+    "text": "Fanfare: If you have a Clue amulet in your hand, discard a random Clue amulet and gain 1 max play point.\n\nEvolve: Select an enemy follower on the field and deal it 3 damage.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you have a Clue amulet in your hand, discard a random Clue amulet and gain 1 max play point.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an enemy follower on the field and deal it 3 damage.</ev>",
+    "flavourText": "After further testimony from the birds and flowers on the extent of Leizaut's abilities, Nosche knew how to avoid her gaze. She had to burrow herself into a tunnel underground, as Leizaut can only see what goes on aboveground.\n—Nosche's case files, page 4",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/dce72428c19f459aa4f2ca62a9a5e144.png",
+    "imageHash": "dce72428c19f459aa4f2ca62a9a5e144",
+    "bannerImageHash": "c6314e7416de40b0ac8a2cf50062f2a3",
+    "evolved": {
+      "text": "Fanfare: If you have a Clue amulet in your hand, discard a random Clue amulet and gain 1 max play point.\n\nEvolve: Select an enemy follower on the field and deal it 3 damage.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you have a Clue amulet in your hand, discard a random Clue amulet and gain 1 max play point.\n<hr><ev><b><color=Keyword>Evolve</color></b>: Select an enemy follower on the field and deal it 3 damage.</ev>",
+      "flavourText": "WEATHER MODDING RAMPS UP AS NIGHT VANISHES\nAuthorities say production has begun on artificial twilight. It follows other recreations of lightning, rain, rainbows, and starlight. At this rate, our skies will soon be more machine than nature...\n―<i>The Nacreheim Times</i>, front page",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/a23384ee18c44068b500ee12f7816c17.png",
+      "imageHash": "a23384ee18c44068b500ee12f7816c17",
+      "bannerImageHash": "5f77232ebe314ff4b8b5d4dc560ed307"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -2698,7 +2960,7 @@
     "text": "Fanfare: If you have 10 max play points, evolve this follower.\n\nWhen this follower evolves, deal 3 damage to all enemy followers.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: If you have 10 max play points, evolve this follower.\n<hr><ev>When this follower evolves, deal 3 damage to all enemy followers.</ev>",
     "flavourText": "The \"Snow Queen\"? Are you referring to me? How rude. I do not enjoy being called that name. I am Izmir... That is the name I was destined to have.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2716,7 +2978,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10444120,
@@ -2739,7 +3001,7 @@
     "text": "Fanfare: Gain 1 max play point.\nEnhance (10): Give this follower Storm. Set your leader's max defense to 1. Give your leader \"Can't take more than 0 damage at a time\" until the end of your opponent's turn.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Gain 1 max play point.\n<b><color=Keyword>Enhance</color> (10)</b>: Give this follower <b><color=Keyword>Storm</color></b>. Set your leader's max defense to 1. Give your leader \"Can't take more than 0 damage at a time\" until the end of your opponent's turn.",
     "flavourText": "The expulsion and erasure of that which would alter the world's equilibrium—that's my mission. If you must define this existence of mine, it would be that of an ally of the world. And if you must call me by name, let it be the one bestowed upon me: Zooey.",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -2762,7 +3024,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10743110,
@@ -2996,7 +3258,7 @@
     "text": "Select an enemy card on the field, banish it, and add a copy of it to your hand.",
     "rawSkillText": "Select an enemy card on the field, banish it, and add a copy of it to your hand.",
     "flavourText": "I will bring all primal beasts into my being, until we are whole. That is my power. My mission. And when that mission is fulfilled, they shall have eternal peace. Prepare for expulsion, skydwellers, foul destroyers of equilibrium!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3007,7 +3269,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10041120,
@@ -3381,6 +3643,53 @@
     "modifiedInLatestUpdate": false
   },
   {
+    "id": 11044120,
+    "baseCardId": 11044120,
+    "name": "Jerva, Wyrm Unyielding",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 6,
+    "attack": 4,
+    "defense": 4,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Storm",
+      "Super-Evolve",
+      "Ward"
+    ],
+    "text": "Fanfare: Deal X damage split between all enemy followers. X is the enemy leader's max defense minus its defense.\n\nSuper-Evolve: Give this follower Storm and Ward.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal X damage split between all enemy followers. X is the enemy leader's max defense minus its defense.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give this follower <b><color=Keyword>Storm</color></b> and <b><color=Keyword>Ward</color></b>.</sev>",
+    "flavourText": "Pitiful creature, what throats will you rend when your jaws lack fangs? What foes will you crush when your hands lack claws? Sever your reasoning and unfetter your instincts. Then you will command fear with the might of a dragon.",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/3af6a5f29b264fa1bff92e2237005727.png",
+    "imageHash": "3af6a5f29b264fa1bff92e2237005727",
+    "bannerImageHash": "7bededda6a9944c481db865e7e8ec692",
+    "evolved": {
+      "text": "Fanfare: Deal X damage split between all enemy followers. X is the enemy leader's max defense minus its defense.\n\nSuper-Evolve: Give this follower Storm and Ward.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Deal X damage split between all enemy followers. X is the enemy leader's max defense minus its defense.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Give this follower <b><color=Keyword>Storm</color></b> and <b><color=Keyword>Ward</color></b>.</sev>",
+      "flavourText": "Shackles bring doubts. Tethers to the heart bring puerilities. So cast them aside, for fear should be given not felt. Roar in their faces like thunder and repel all like scales. Command fear—<i>that</i> is the wellspring of a dragon's might.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/82fbe48bcb22490f942f010f1d7facc2.png",
+      "imageHash": "82fbe48bcb22490f942f010f1d7facc2",
+      "bannerImageHash": "90596583ba8049b6a7f8db2d142e5234"
+    },
+    "styles": [],
+    "questions": [
+      {
+        "question": "If I play Jerva, Wyrm Unyielding when the enemy leader's max and current defense are both 20, will I deal 0 damage split between all enemy followers?",
+        "answer": "No. You won't deal any damage at all."
+      }
+    ],
+    "newlyAdded": true,
+    "modifiedInLatestUpdate": false
+  },
+  {
     "id": 10141310,
     "baseCardId": 10141310,
     "name": "Calamity Breath",
@@ -3601,7 +3910,7 @@
     "text": "Fanfare: Select an enemy follower on the field and deal it 8 damage.\n\nIntimidate\n\nEvolve: Replicate the effects of this card's Fanfare ability.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select an enemy follower on the field and deal it 8 damage.\n<hr><b><color=Keyword>Intimidate</color></b>\n<hr><ev><b><color=Keyword>Evolve</color></b>: Replicate the effects of this card's <b><color=Keyword>Fanfare</color></b> ability.</ev>",
     "flavourText": "I am Wilnas, the Vermillion of the Six Dragons, the personification of fire itself! Small and frail though mortals be, how earnestly they cling to life! That drive to triumph by any means is absolutely marvelous, I say!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -3630,7 +3939,7 @@
     ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10543110,
@@ -3896,6 +4205,48 @@
     ],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11042110,
+    "baseCardId": 11042110,
+    "name": "Obliviationist Smuggler",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Silver",
+    "cost": 7,
+    "attack": 5,
+    "defense": 5,
+    "traits": [],
+    "keywords": [
+      "Divine Evidence",
+      "Fanfare"
+    ],
+    "text": "Fanfare: Select 2 enemy followers on the field and destroy them. Add 2 copies of Divine Evidence to your hand.",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 enemy followers on the field and destroy them. Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+    "flavourText": "Leizaut is able to transform whatever she peels off with her fingertips into a sticker. She's stolen countless things from the sky: lightning, rain, rainbows, stars—even the darkness of twilight.\n—Nosche's case files, page 2",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [
+      90001210
+    ],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f910571533b44c04898622ae695adb21.png",
+    "imageHash": "f910571533b44c04898622ae695adb21",
+    "bannerImageHash": "51dc705ee05446cab5ce9e19c8864e9e",
+    "evolved": {
+      "text": "Fanfare: Select 2 enemy followers on the field and destroy them. Add 2 copies of Divine Evidence to your hand.",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Select 2 enemy followers on the field and destroy them. Add 2 copies of <b><i><color=Keyword>Divine Evidence</color></i></b> to your hand.",
+      "flavourText": "RECORD-BREAKING DROUGHT PERSISTS\nAs the current rain crisis carries on with no end in sight, Nacreheim continues to rely on magic to fuel the water cycle. But this stopgap may lead to severe water shortages in the future, experts warn...\n—<i>The Nacreheim Times</i>, page 3",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/94a299b14a4c41379f3296805c7ea410.png",
+      "imageHash": "94a299b14a4c41379f3296805c7ea410",
+      "bannerImageHash": "19a4042389ec46d78fcfbc5ea7bccc12"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   },
   {
@@ -4165,7 +4516,7 @@
     "text": "Fanfare: Super Skybound Art - Give this follower Storm.\n\nSuper-Evolve: Select 2 enemy followers on the field and destroy them.",
     "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: <b><color=Keyword>Super Skybound Art</color></b> - Give this follower <b><color=Keyword>Storm</color></b>.\n<hr><sev><b><color=Keyword>Super-Evolve</color></b>: Select 2 enemy followers on the field and destroy them.</sev>",
     "flavourText": "Stardust Town nice. Mugen like here. Yummy, warm, kind place. Everyone friends... Fun together! Nehan live together with Mugen! Mugen happy!",
-    "rotation": true,
+    "rotation": false,
     "token": false,
     "maxCopies": 3,
     "relatedCards": [],
@@ -4183,7 +4534,7 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10542110,
@@ -4677,6 +5028,46 @@
     "styles": [],
     "questions": [],
     "newlyAdded": false,
+    "modifiedInLatestUpdate": false
+  },
+  {
+    "id": 11044110,
+    "baseCardId": 11044110,
+    "name": "Leizaut, Calamity of Obliviation",
+    "class": "Dragoncraft",
+    "setId": 10010,
+    "set": "Deicide in Nacreheim",
+    "type": "Follower",
+    "rarity": "Legendary",
+    "cost": 10,
+    "attack": 8,
+    "defense": 10,
+    "traits": [],
+    "keywords": [
+      "Fanfare",
+      "Storm"
+    ],
+    "text": "Fanfare: Banish all cards with base costs of 4 or less from your deck. Discard all Clue amulets. Do this X times: \"Deal 8 damage to a random enemy follower.\" X is the number of cards you discarded.\n\nStorm",
+    "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Banish all cards with base costs of 4 or less from your deck. Discard all Clue amulets. Do this X times: \"Deal 8 damage to a random enemy follower.\" X is the number of cards you discarded.\n<hr><b><color=Keyword>Storm</color></b>",
+    "flavourText": "Name: Leizaut\nCrime: Consuming the night sky\nDamages: Destruction of one third of the day\nSentence: Indefinite subspace confinement",
+    "rotation": true,
+    "token": false,
+    "maxCopies": 3,
+    "relatedCards": [],
+    "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/f130bf54666442bcbd64dfdc34f57189.png",
+    "imageHash": "f130bf54666442bcbd64dfdc34f57189",
+    "bannerImageHash": "e11272d9241c4e009a8d91ff55b1fff2",
+    "evolved": {
+      "text": "Fanfare: Banish all cards with base costs of 4 or less from your deck. Discard all Clue amulets. Do this X times: \"Deal 8 damage to a random enemy follower.\" X is the number of cards you discarded.\n\nStorm",
+      "rawSkillText": "<b><color=Keyword>Fanfare</color></b>: Banish all cards with base costs of 4 or less from your deck. Discard all Clue amulets. Do this X times: \"Deal 8 damage to a random enemy follower.\" X is the number of cards you discarded.\n<hr><b><color=Keyword>Storm</color></b>",
+      "flavourText": "I just want, like, the <i>world</i>, y'know? I can't stand it when someone's got something I don't. It's just sooo unfair. Makes me wanna add it to my collection even more. So sure, I'll help you solve the case, detective. I know that if it's giving you trouble, it must be preeetty rare.",
+      "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/d1815c0b45ec4ff58a53eb2a7d677242.png",
+      "imageHash": "d1815c0b45ec4ff58a53eb2a7d677242",
+      "bannerImageHash": "58633601c78c4aa4a7f6933df455e486"
+    },
+    "styles": [],
+    "questions": [],
+    "newlyAdded": true,
     "modifiedInLatestUpdate": false
   }
 ]
