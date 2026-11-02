@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T10:15:33.417Z",
+  "generatedAt": "2026-11-02T12:33:44.288Z",
   "source": "https://shadowverse-wb.com/web/CardList/cardList",
   "imageBase": "https://shadowverse-wb.com/uploads/card_image/eng/card/",
   "count": 982,
@@ -93,8 +93,8 @@
     "12": "Spellboost"
   },
   "update": {
-    "added": 78,
-    "modified": 79,
+    "added": 0,
+    "modified": 0,
     "removed": 0,
     "retainedMissingFromSource": 0
   }
