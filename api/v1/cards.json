@@ -3111,7 +3111,13 @@
       "imageHash": "5bc35db9d298493a8892730c38fd5db0",
       "bannerImageHash": "3d573b87aae64ec6a8c4ed3104acdc23"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "Godzilla",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/dee16d352b6743fb97042b434025aed7.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a22a0eaaab504aecb5a6d195cf6489be.png"
+      }
+    ],
     "questions": [
       {
         "question": "If I select option 3 for Alabaster Bahamut's Fanfare ability, does it banish faiths?",
@@ -3119,7 +3125,7 @@
       }
     ],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10804120,
@@ -13707,10 +13713,16 @@
       "imageHash": "62565df46a3d4728be5be03e4f44cb28",
       "bannerImageHash": "4eb89ab472564ae2a1d2325568644ba7"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "King Ghidorah",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6392afbafd824c2a97c3b880e01e2b75.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/73c9acc8e0384b76bcae7aa686b44d86.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   },
   {
     "id": 10431120,

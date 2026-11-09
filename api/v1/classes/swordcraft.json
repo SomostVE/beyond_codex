@@ -5398,9 +5398,15 @@
       "imageHash": "62565df46a3d4728be5be03e4f44cb28",
       "bannerImageHash": "4eb89ab472564ae2a1d2325568644ba7"
     },
-    "styles": [],
+    "styles": [
+      {
+        "name": "King Ghidorah",
+        "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6392afbafd824c2a97c3b880e01e2b75.png",
+        "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/73c9acc8e0384b76bcae7aa686b44d86.png"
+      }
+    ],
     "questions": [],
     "newlyAdded": false,
-    "modifiedInLatestUpdate": false
+    "modifiedInLatestUpdate": true
   }
 ]

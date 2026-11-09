@@ -1,17 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T12:33:44.288Z",
-  "previousGeneratedAt": "2026-10-28T10:15:33.417Z",
+  "generatedAt": "2026-11-09T12:58:34.393Z",
+  "previousGeneratedAt": "2026-11-02T12:33:44.288Z",
   "baselineAvailable": true,
   "policy": "append-or-replace-never-delete",
   "counts": {
     "added": 0,
-    "modified": 0,
+    "modified": 2,
     "removed": 0,
     "retainedMissingFromSource": 0
   },
   "added": [],
-  "modified": [],
+  "modified": [
+    {
+      "id": 10804110,
+      "name": "Alabaster Bahamut",
+      "class": "Neutral",
+      "set": "Chronicle of Destiny",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "styles",
+          "before": [],
+          "after": [
+            {
+              "name": "Godzilla",
+              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/dee16d352b6743fb97042b434025aed7.png",
+              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/a22a0eaaab504aecb5a6d195cf6489be.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10924120,
+      "name": "Beltezore, Valorous Revenant",
+      "class": "Swordcraft",
+      "set": "Revenants of Azvaldt",
+      "rarity": "Legendary",
+      "changes": [
+        {
+          "field": "styles",
+          "before": [],
+          "after": [
+            {
+              "name": "King Ghidorah",
+              "image": "https://shadowverse-wb.com/uploads/card_image/eng/card/6392afbafd824c2a97c3b880e01e2b75.png",
+              "evolvedImage": "https://shadowverse-wb.com/uploads/card_image/eng/card/73c9acc8e0384b76bcae7aa686b44d86.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "removed": [],
   "retainedMissingFromSource": []
 }
